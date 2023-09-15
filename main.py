@@ -16,8 +16,8 @@ from datetime import datetime
 # The version that we are currently using is 8.11.0 on Java 1.8
 # We should note that this project was tested on Ubuntu 18.04
 
-# Please change the ip address (ours is 165.132.148.127)
-CONNECTION_STRING = "mongodb://biobank:biobank@165.132.148.127:27017/cellline"
+# Please change the ip address
+CONNECTION_STRING = ""
 client = MongoClient(CONNECTION_STRING)
 
 dbname = None
