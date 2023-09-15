@@ -1,0 +1,966 @@
+<pmc-articleset xmlns:ns0="http://www.w3.org/1999/xlink" xmlns:ns1="http://www.niso.org/schemas/ali/1.0/"><article dtd-version="1.3" xml:lang="en" article-type="research-article">
+  
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Sci Adv</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Sci Adv</journal-id>
+      <journal-id journal-id-type="publisher-id">sciadv</journal-id>
+      <journal-id journal-id-type="hwp">advances</journal-id>
+      <journal-title-group>
+        <journal-title>Science Advances</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2375-2548</issn>
+      <publisher>
+        <publisher-name>American Association for the Advancement of Science</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">36197978</article-id>
+      <article-id pub-id-type="pmc">9534498</article-id>
+      <article-id pub-id-type="publisher-id">abq2403</article-id>
+      <article-id pub-id-type="doi">10.1126/sciadv.abq2403</article-id>
+      <article-categories>
+        <subj-group subj-group-type="article-type">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="heading">
+          <subject>Biomedicine and Life Sciences</subject>
+        </subj-group>
+        <subj-group subj-group-type="legacy-article-type">
+          <subject>SciAdv r-articles</subject>
+        </subj-group>
+        <subj-group subj-group-type="field">
+          <subject>Cancer</subject>
+          <subject>Cell Biology</subject>
+        </subj-group>
+        <subj-group subj-group-type="overline">
+          <subject>Cancer</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>POU2AF2/C11orf53 functions as a coactivator of POU2F3 by maintaining chromatin accessibility and enhancer activity</article-title>
+        <alt-title alt-title-type="short">POU2AF2 functions as a coactivator in SCLC</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-4133-0634</contrib-id>
+          <name>
+            <surname>Szczepanski</surname>
+            <given-names>Aileen Patricia</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - original draft" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-original-draft/">Writing - original draft</role>
+          <xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="afn1" ref-type="author-notes">&#8224;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-8620-3479</contrib-id>
+          <name>
+            <surname>Tsuboyama</surname>
+            <given-names>Natsumi</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-conceptualization/">Conceptualization</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - original draft" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-original-draft/">Writing - original draft</role>
+          <xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="afn1" ref-type="author-notes">&#8224;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Watanabe</surname>
+            <given-names>Jun</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role>
+          <xref rid="aff3" ref-type="aff">
+<sup>3</sup>
+</xref>
+          <xref rid="aff4" ref-type="aff">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-9373-7831</contrib-id>
+          <name>
+            <surname>Hashizume</surname>
+            <given-names>Rintaro</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-resources/">Resources</role>
+          <xref rid="award1119810" ref-type="award" />
+          <xref rid="award1137384" ref-type="award" />
+          <xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff3" ref-type="aff">
+<sup>3</sup>
+</xref>
+          <xref rid="aff4" ref-type="aff">
+<sup>4</sup>
+</xref>
+          <xref rid="aff5" ref-type="aff">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-1089-2375</contrib-id>
+          <name>
+            <surname>Zhao</surname>
+            <given-names>Zibo</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-conceptualization/">Conceptualization</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-data-curation/">Data curation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-formal-analysis/">Formal analysis</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-resources/">Resources</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Software" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-software/">Software</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-validation/">Validation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Visualization" vocab-term-identifier="https://web.archive.org/web/20180313224017/http://dictionary.credit.niso.org/Contributor_Roles/Visualization">Visualization</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &amp; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &amp; editing</role>
+          <xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="cor1" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-0441-0747</contrib-id>
+          <name>
+            <surname>Wang</surname>
+            <given-names>Lu</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-conceptualization/">Conceptualization</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-data-curation/">Data curation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-formal-analysis/">Formal analysis</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-funding-acquisition/">Funding acquisition</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Project administration" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-project-administration/">Project administration</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-resources/">Resources</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Software" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-software/">Software</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-supervision/">Supervision</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-validation/">Validation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Visualization" vocab-term-identifier="https://web.archive.org/web/20180313224017/http://dictionary.credit.niso.org/Contributor_Roles/Visualization">Visualization</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - original draft" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-original-draft/">Writing - original draft</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &amp; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &amp; editing</role>
+          <xref rid="award1137385" ref-type="award" />
+          <xref rid="award1137386" ref-type="award" />
+          <xref rid="award1119703" ref-type="award" />
+          <xref rid="award1119705" ref-type="award" />
+          <xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="aff5" ref-type="aff">
+<sup>5</sup>
+</xref>
+          <xref rid="cor1" ref-type="corresp">*</xref>
+          <xref rid="afn2" ref-type="author-notes">&#8225;</xref>
+        </contrib>
+        <aff id="aff1"><label><sup>1</sup></label>Department of Biochemistry and Molecular Genetics, Feinberg School of Medicine, Northwestern University, Chicago, IL 60611, USA.</aff>
+        <aff id="aff2"><label><sup>2</sup></label>Simpson Querrey Center for Epigenetics, Feinberg School of Medicine, Northwestern University, Chicago, IL 60611, USA.</aff>
+        <aff id="aff3"><label><sup>3</sup></label>Department of Pediatrics, Northwestern University Feinberg School of Medicine, 303 East Superior St., Chicago, IL 60611, USA.</aff>
+        <aff id="aff4"><label><sup>4</sup></label>Division of Hematology, Oncology, Neuro-Oncology &amp; Stem Cell Transplantation, Ann &amp; Robert H. Lurie Children&#8217;s Hospital of Chicago, 225 East Chicago Avenue, Box 205, Chicago, IL 60611, USA.</aff>
+        <aff id="aff5"><label><sup>5</sup></label>Robert H. Lurie Comprehensive Cancer Center, Northwestern University Feinberg School of Medicine, Chicago, IL 60611, USA.</aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="cor1"><label>*</label>Corresponding author. Email <email ns0:href="zibo.zhao@northwestern.edu">zibo.zhao@northwestern.edu</email> (Z.Z.); <email ns0:href="lu.wang1@northwestern.edu">lu.wang1@northwestern.edu</email> (L.W.)</corresp>
+        <fn id="afn1" fn-type="equal">
+          <label>&#8224;</label>
+          <p>These authors contributed equally to this work.</p>
+        </fn>
+        <fn id="afn2">
+          <label>&#8225;</label>
+          <p>Lead contact.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <month>10</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date publication-format="electronic" date-type="pub">
+        <day>05</day>
+        <month>10</month>
+        <year>2022</year>
+      </pub-date>
+      <volume>8</volume>
+      <issue>40</issue>
+      <elocation-id>eabq2403</elocation-id>
+      <history>
+<date date-type="received"><day>27</day><month>3</month><year>2022</year></date>
+<date date-type="accepted"><day>18</day><month>8</month><year>2022</year></date>
+</history>
+      <permissions>
+        <copyright-statement>Copyright &#169; 2022 The Authors, some rights reserved; exclusive licensee American Association for the Advancement of Science. No claim to original U.S. Government Works. Distributed under a Creative Commons Attribution NonCommercial License 4.0 (CC BY-NC).</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <copyright-holder>The Authors</copyright-holder>
+        <license>
+          <ns1:license_ref specific-use="textmining" content-type="ccbynclicense" start_date="2022-10-05">https://creativecommons.org/licenses/by-nc/4.0/</ns1:license_ref>
+          <license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" ns0:href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial license</ext-link>, which permits use, distribution, and reproduction in any medium, so long as the resultant use is <bold>not</bold> for commercial advantage and provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <self-uri content-type="pdf" ns0:href="sciadv.abq2403.pdf" />
+      <abstract>
+        <p>Small cell lung cancer (SCLC), accounting for around 13% of all lung cancers, often results in rapid tumor growth, early metastasis, and acquired therapeutic resistance. The POU class 2 homeobox 3 (POU2F3) is a master regulator of tuft cell identity and defines the SCLC-P subtype that lacks the neuroendocrine markers. Here, we have identified a previously uncharacterized protein, C11orf53, which is coexpressed with POU2F3 in both SCLC cell lines and patient samples. Mechanistically, C11orf53 directly interacts with POU2F3 and is recruited to chromatin by POU2F3. Depletion of <italic toggle="yes">C11orf53</italic> reduced enhancer H3K27ac levels and chromatin accessibility, resulting in a reduction of POU2F3-dependent gene expression. On the basis of the molecular function of C11orf53, we renamed it as &#8220;POU Class 2 Homeobox Associating Factor 2&#8221; (POU2AF2). In summary, our study has identified a new coactivator of POU2F3 and sheds light on the therapeutic potential of targeting POU2AF2/POU2F3 heterodimer in human SCLC.</p>
+      </abstract>
+      <abstract abstract-type="teaser">
+        <p>C11orf53 is a new coactivator of POU2F3 that is critical for enhancer activity, chromatin accessibility, and SCLC cell viability.</p>
+      </abstract>
+      <funding-group>
+        <award-group id="award1119810">
+          <funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100000002</institution-id><institution>National Institutes of Health</institution></institution-wrap>
+</funding-source>
+          <award-id>R01NS126513</award-id>
+        </award-group>
+        <award-group id="award1137384">
+          <funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100000002</institution-id><institution>National Institutes of Health</institution></institution-wrap>
+</funding-source>
+          <award-id>R01NS126513</award-id>
+        </award-group>
+        <award-group id="award1137385">
+          <funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100000002</institution-id><institution>National Institutes of Health</institution></institution-wrap>
+</funding-source>
+          <award-id>R35GM146979</award-id>
+        </award-group>
+        <award-group id="award1137386">
+          <funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100000002</institution-id><institution>National Institutes of Health</institution></institution-wrap>
+</funding-source>
+          <award-id>RSG-22-039-01-DMC</award-id>
+        </award-group>
+        <award-group id="award1119703">
+          <funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100000048</institution-id><institution>American Cancer Society</institution></institution-wrap>
+</funding-source>
+          <award-id>RSG-22-039-01-DMC</award-id>
+        </award-group>
+        <award-group id="award1119705">
+          <funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100001831</institution-id><institution>Lynn Sage Cancer Research Foundation</institution></institution-wrap>
+</funding-source>
+        </award-group>
+      </funding-group>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>Copyeditor</meta-name>
+          <meta-value>Karla Pe&#241;amante</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="introduction" disp-level="1">
+      <title>INTRODUCTION</title>
+      <p>Lung cancer is one of the leading causes of cancer death worldwide (<xref rid="R1" ref-type="bibr"><italic toggle="yes">1</italic></xref>). Specifically, small cell lung cancer (SCLC) is a highly aggressive and lethal form of malignancy that develops within tissues of the lungs and is typically diagnosed at later stages when it has already metastasized (<xref rid="R2" ref-type="bibr"><italic toggle="yes">2</italic></xref>&#8211;<xref rid="R4" ref-type="bibr"><italic toggle="yes">4</italic></xref>). Although SCLC consists of approximately 13% of all lung cancer cases, it has one of the lowest 5-year survival rates and a very poor prognosis (<xref rid="R5" ref-type="bibr"><italic toggle="yes">5</italic></xref>).</p>
+      <p>Recent studies have made advancements in the classification of SCLC defined by relative expression of four major molecular subtypes of key lineage-specific transcription and cotranscription regulators: achaete-scute homolog 1 (ASCL1; SCLC-A), neurogenic differentiation factor 1 (NEUROD1; SCLC-N), yes-associated protein 1 (YAP1; SCLC-Y), and POU class 2 homeobox 3 (POU2F3; SCLC-P) (<xref rid="R6" ref-type="bibr"><italic toggle="yes">6</italic></xref>). Analysis of the morphological features have further indicated that SCLC can be classified into neuroendocrine (NE)&#8211;high (SCLC-A and SCLC-N) or NE-low (SCLC-Y and SCLC-P) subtypes on the basis of the expression pattern of different NE markers and the diversity in genetic alterations, growth properties, and immune infiltration (<xref rid="R7" ref-type="bibr"><italic toggle="yes">7</italic></xref>&#8211;<xref rid="R10" ref-type="bibr"><italic toggle="yes">10</italic></xref>).</p>
+      <p>Previously, we have identified an essential epigenetic coregulator and biomarker, additional sex combs-like protein 3 (ASXL3), which is associated with the SCLC-A molecular subtype. ASXL3 functions as a scaffold protein that links histone H2A deubiquitinase BAP1 and the bromodomain-containing protein BRD4 at active enhancer and drives lineage-specific transcriptional programming (<xref rid="R11" ref-type="bibr"><italic toggle="yes">11</italic></xref>). Therefore, our study suggested that it is necessary to globally identify and study these subtype-specific essential factors to gain a more in-depth understanding of underlying mechanisms regulating SCLC tumorigenesis that may potentially assist in treatment decisions for SCLC and create a much-needed individualized strategic approach.</p>
+      <p>For instance, the SCLC-P subtype, which is defined by the expression of a master transcription factor, POU2F3, is known to be a variant form of SCLC that lacks NE features (<xref rid="R12" ref-type="bibr"><italic toggle="yes">12</italic></xref>). However, identifying other contributing factors in the progression of SCLC-P, specifically a cofactor of POU2F3 function, has yet to be determined. Through our current dependency data analysis and subsequent biochemical and genetic studies, we have identified a previously uncharacterized gene, <italic toggle="yes">C11orf53</italic>, as a codependent gene of POU2F3. In these studies, we have comprehensively uncovered an essential role of C11orf53 as a coactivator of POU2F3 in regulatory gene expression to establish the cell identity of the SCLC-P subtype.</p>
+    </sec>
+    <sec sec-type="results" disp-level="1">
+      <title>RESULTS</title>
+      <sec disp-level="2">
+        <title>Landscape of SCLC subtype&#8211;specific dependency</title>
+        <p>Global gene expression profiling has been widely used to define molecular subtypes in human cancers (<xref rid="R13" ref-type="bibr"><italic toggle="yes">13</italic></xref>, <xref rid="R14" ref-type="bibr"><italic toggle="yes">14</italic></xref>), including lung cancer (<xref rid="R6" ref-type="bibr"><italic toggle="yes">6</italic></xref>). However, not all highly expressed genes are essential for tumor cell growth or cell viability. Therefore, to identify the functional subtype-specific dependent factor within the four SCLC molecular subtypes, we used Cancer Cell Line Encyclopedia (CCLE) SCLC cell lines (<xref rid="R15" ref-type="bibr"><italic toggle="yes">15</italic></xref>) encompassing all four subtypes (<xref rid="R6" ref-type="bibr"><italic toggle="yes">6</italic></xref>) defined previously and explored the genes that are most selectively essential to each subtype compared to the other classifications. Following the criteria for target gene effect score (&#8804;&#8722;0.5; median difference &lt;0.2 versus median value of the average of all other groups), we identified 48 genes for SCLC-A, 88 genes for SCLC-N, 66 genes for SCLC-P, and 177 genes for SCLC-Y subtypes defined as being selectively essential in each SCLC subtype (<xref rid="F1" ref-type="fig">Fig. 1A</xref> and table S1). The expression levels of these genes were compared with no global up- or down-regulation in each subgroup (fig. S1A). The essential genes in each subtype are enriched in distinct pathways (<xref rid="F1" ref-type="fig">Fig. 1B</xref>), suggesting that each subtype may depend on a unique set of signaling pathways for cell survivability and proliferation. Next, we highlighted the top genes that are essential or redundant in each subtype (<xref rid="F1" ref-type="fig">Fig. 1C</xref>), revealing the nonoverlapping essentiality profiles in these subtypes. The gene effect scores of the four markers&#8212;<italic toggle="yes">ASCL1</italic>, <italic toggle="yes">NEUROD1</italic>, <italic toggle="yes">POU2F3</italic>, and <italic toggle="yes">YAP1</italic>&#8212;showed the selective dependency (<xref rid="F1" ref-type="fig">Fig. 1D</xref>), which is consistent with previous studies for the function of each gene.</p>
+        <fig position="float" id="F1" fig-type="image" specific-use="distribute">
+          <label>Fig. 1.</label>
+          <caption>
+            <title>Landscape of SCLC subtype&#8211;specific dependency.</title>
+            <p>(<bold>A</bold>) Gene effect scores of all genes were retrieved from DepMap Public 21Q3 datasets for the following 17 SCLC cell lines: A-subtype, CORL47, DMS53, NCI-H1092, NCI-H209, and SHP77; N-subtype, CORL279, NCI-H1694, NCI-H446, and NCI-H82; P-subtype, CORL311, NCI-H1048, NCI-H211, and NCI-H526; Y-subtype, NCI-H1339, NCI-H2286, NCI-H841, and SW1271. A- and N-subtypes were classified as NE and P- and Y-subtypes were classified as non-NE groups. For each subtype, the median gene effect scores of each subtype were calculated, and the <italic toggle="yes">z</italic>-score heatmap showed genes selectively essential in each group with the criteria that target gene effect score is &#8804; &#8722;0.5 and the median difference is 0.2 less than the median value of the average of all other groups. (<bold>B</bold>) Metascape pathway analysis of the essential genes in each subtype as identified above. (<bold>C</bold>) Volcano plots of the gene essentiality in the four subtypes. <italic toggle="yes">X</italic> axis is the median difference between the indicated group and others, and <italic toggle="yes">y</italic> axis is negative log<sub>10</sub>
+<italic toggle="yes">P</italic> value calculated with <italic toggle="yes">t</italic> test for the means of two independent samples of scores. Highlighted genes have <italic toggle="yes">P</italic> &lt; 0.05 and median difference &gt; 0.4 for SCLC-A, SCLC-N, and SCLC-P; <italic toggle="yes">P</italic> &lt; 0.01, median difference &gt; 0.5 for SCLC-Y subtypes. (<bold>D</bold>) Box plots showed the ASCL1, NEUROD1, POU2F3, and YAP1 gene dependency in each subtype.</p>
+          </caption>
+          <graphic ns0:href="sciadv.abq2403-f1" position="float" />
+        </fig>
+      </sec>
+      <sec disp-level="2">
+        <title>Identification of C11orf53 as a new marker for SCLC-P subtype</title>
+        <p>Previous studies have identified that the transcription factor POU2F3 is a master regulator of a tuft cell&#8211;like variant of small cell lung cancer (<xref rid="R12" ref-type="bibr"><italic toggle="yes">12</italic></xref>). Therefore, POU2F3 has been widely used to define the SCLC-P subtype. On the basis of our dependency data analysis in <xref rid="F1" ref-type="fig">Fig. 1A</xref>, we noted that the gene dependency score related to a gene called chromosome 11 open reading frame 53 (<italic toggle="yes">C11orf53</italic>; fig. S2A) is selectively higher in rank (1 of 66) versus POU2F3 (2 of 66) in its significance to maintain the integrity of SCLC-P subtype (<xref rid="F2" ref-type="fig">Fig. 2A</xref>). <italic toggle="yes">C11orf53</italic> is an uncharacterized gene that is an evolutionarily conserved sequence from zebrafish to human (fig. S2, B and C) and is expressed at high levels in all four SCLC-P cell lines examined (fig. S2D).</p>
+        <fig position="float" id="F2" fig-type="image" specific-use="distribute">
+          <label>Fig. 2.</label>
+          <caption>
+            <title>Identification of C11orf53 as a new marker for SCLC-P subtype.</title>
+            <p>(<bold>A</bold>) Box plots showed the C11orf53 gene dependency in each subtype. (<bold>B</bold>) Codependency matrix showing the Pearson correlation coefficient values of the top 30 genes selectively essential in SCLC-P subtype. (<bold>C</bold>) The scatter plot shows the correlation between POU2F3 and C11orf53 mRNA levels in 110 patient samples (EGAS00001000925). RNA-seq, RNA-sequencing. (<bold>D</bold>) The protein levels of C11orf53 were determined by Western blot in four different SCLC cell lines. (<bold>E</bold>) Four different SCLC cell lines&#8212;NCI-H526 (SCLC-P), NCI-H211 (SCLC-P), NCI-H510 (non&#8211;SCLC-P), and NCI-H1963 (non&#8211;SCLC-P)&#8212;were transduced with either nontargeting CRISPR sgRNA or C11orf53-specific sgRNAs for 4 days. The cell viability was determined by cell counting assay, <italic toggle="yes">n</italic> = 3, two-tailed unpaired Student&#8217;s <italic toggle="yes">t</italic> test. **<italic toggle="yes">P</italic> &lt; 0.01; *<italic toggle="yes">P</italic> &lt; 0.05. (<bold>F</bold>) NCI-H526 and NCI-H211 cell lines were transduced with either nontargeting CRISPR sgRNA or C11orf53-specific sgRNAs for 4 days. The cell morphology was shown under bright field microscopy. (<bold>G</bold>) The protein levels of C11orf53, cyclin B1, cyclin E1, cyclin A2, cleaved PARP, cleaved caspase 3, and cleaved caspase 7 were determined by Western blot in NCI-H526 and NCI-H211 cell lines with C11orf53 CRISPR depletion. HSP90 was used as an internal control. A total of 1 &#215; 10<sup>6</sup> of NCI-H526 SCLC cells were transduced with either nontargeting sgRNAs or two distinct <italic toggle="yes">C11orf53</italic> sgRNAs that were then inoculated into the right flank of athymic nude mice, <italic toggle="yes">n</italic> = 8 per group. The tumor growth was measured using a calibrated caliper every 2 to 3 days. Weltch&#8217;s <italic toggle="yes">t</italic> test was used for statistical analysis (<bold>H</bold>). When each tumor reached 1 cm<sup>3</sup>, a mouse was euthanized and the survival probability was shown in (<bold>I</bold>). Log-rank test was performed.</p>
+          </caption>
+          <graphic ns0:href="sciadv.abq2403-f2" position="float" />
+        </fig>
+        <p>The <italic toggle="yes">C11orf53</italic> gene encodes for a 288&#8211;amino acid protein product without any known functional domain/motif or cellular localization signal. When analyzing the codependency scores of top genes that are selectively essential in SCLC-P subtype, POU2F3 and C11orf53 have an overall correlation coefficient of 0.812 in the SCLC-P subtype compared to 0.357 in all 17 SCLC cell lines (<xref rid="F2" ref-type="fig">Fig. 2B</xref>). This prompted us to investigate the functional relationship between C11orf53 and POU2F3 in P-subtype SCLC. In published SCLC patient samples (EGAS00001000925), we have detected a strongly positive correlation between the expression levels of POU2F3 and C11orf53 (<xref rid="F2" ref-type="fig">Fig. 2C</xref>). Therefore, this gene may function as a new biomarker for SCLC-P subtype cells.</p>
+        <p>To study the function of C11orf53 in SCLC cells, we generated our homemade polyclonal antibody for C11orf53 (fig. S2E) and detected the protein levels of C11orf53 in four different SCLC cell lines. As shown in <xref rid="F2" ref-type="fig">Fig. 2D</xref>, we have detected very high levels of C11orf53 protein in the NCI-H526 and NCI-H211 SCLC-P subtype cell lines. In contrast, there were no detectable signals from NCI-H510 nor NCI-H1963 non&#8211;SCLC-P subtype cell lines. Genetic depletion of <italic toggle="yes">C11orf53</italic> by two distinct CRISPR single guide RNAs (sgRNAs) in SCLC cells markedly reduced cell viability (<xref rid="F2" ref-type="fig">Fig. 2, E and F</xref>). To further determine how this gene contributes to cell viability, we examined the protein levels of several factors involved in both cell cycle regulatory checkpoints and apoptosis from two different SCLC-P cell lines. As shown in <xref rid="F2" ref-type="fig">Fig. 2G</xref>, in both SCLC-P cell lines, we found that genetic depletion of <italic toggle="yes">C11orf53</italic> via CRISPR knockout could induce cleavage of poly(adenosine diphosphate&#8211;ribose) polymerase (PARP), caspase 3, and caspase 7. In addition, loss of C11orf53 protein also induces a notable cell cycle arrest, as shown by fluorescence-activated cell sorting analysis in NCI-H526 cells (fig. S2F). In summary, our results suggest that the <italic toggle="yes">C11orf53</italic> gene is critical for the maintenance of SCLC-P cell viability. Consistent with the in vitro cell growth results, genetic depletion of <italic toggle="yes">C11orf53</italic> in the in vivo xenograft model significantly repressed tumor growth (<italic toggle="yes">P</italic> = 0.0033; <xref rid="F2" ref-type="fig">Fig. 2H</xref>) and delayed further progression of disease in mice (<italic toggle="yes">P</italic> = 0.0023; <xref rid="F2" ref-type="fig">Fig. 2I</xref>).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>C11orf53 regulates lineage-specific genes expression at super enhancers</title>
+        <p>To understand how C11orf53 globally affects gene expression in SCLC cells, we conducted RNA sequencing (RNA-seq) in the NCI-H526 cell line transduced with either nontargeting CRISPR sgRNA or two distinct C11orf53-specific sgRNAs. As shown in <xref rid="F3" ref-type="fig">Fig. 3A</xref>, we found a total of 3719 and 3259 genes that were significantly down- and up-regulated, respectively, upon genetic depletion of <italic toggle="yes">C11orf53</italic>. Moreover, gene set enrichment analysis (GSEA) pathway analysis had identified several key cellular growth biological processes, such as Myc and E2F signaling pathway&#8211;dependent gene signatures, which were markedly down-regulated upon genetic depletion of <italic toggle="yes">C11orf53</italic> (<xref rid="F3" ref-type="fig">Fig. 3B</xref>). To understand how this small protein regulates gene expression, we first sought to determine the cellular localization of C11orf53 by cell fractionation assay. Unexpectedly, we found that the C11orf53 protein could be detected in the cytosol, soluble nuclear, and chromatin (insoluble nuclear) fractions (<xref rid="F3" ref-type="fig">Fig. 3C</xref>), although it obviously has no nuclear localization signal. To further investigate how this protein regulates gene expression at the chromatin, we conducted chromatin immunoprecipitation sequencing (ChIP-seq) with two of our homemade polyclonal antibodies. On the basis of our ChIP-seq analysis, both of our antibodies showed a consistent performance and the peaks are highly correlated (fig. S3, A and B). In general, we have detected 8820 C11orf53-specific peaks in NCI-H526 cells (<xref rid="F3" ref-type="fig">Fig. 3D</xref>). We found that most of these peaks were localized at intergenic or intron regions, indicating that C11orf53 may regulate gene expression at distal enhancer elements. In addition, the motif analysis has identified POU2F3 motif being matched the top hit (<italic toggle="yes">P</italic> value, 1 &#215; 10<sup>&#8722;3053</sup>) at C11orf53 peaks (<xref rid="F3" ref-type="fig">Fig. 3E</xref>). This result implies that there might be a similar functionality or genetic interaction between POU2F3 and C11orf53 within SCLC-P subtype cells.</p>
+        <fig position="float" id="F3" fig-type="image" specific-use="distribute">
+          <label>Fig. 3.</label>
+          <caption>
+            <title>C11orf53 regulates lineage-specific gene expression at super enhancers.</title>
+            <p>(<bold>A</bold>) RNA-seq was conducted with NCI-H526 cell lines transduced with either nontargeting CRISPR sgRNA or C11orf53-specific sgRNAs for 4 days. The heatmap shows the differentially regulated genes, <italic toggle="yes">n</italic> = 2. (<bold>B</bold>) The GSEA plot shows the enrichment of E2F, G2M checkpoint, and MYC pathways genes enriched in the down-regulated genes with C11orf53 depletion. NES, normalized enrichment score; FDR, false discovery rate. (<bold>C</bold>) The protein levels of C11orf53 in cytosol, soluble nuclear fraction, and insoluble nuclear fraction was determined by Western blot. HSP90 was used as cytoplasmic protein control, and the histone H3 was used as nuclear insoluble protein control. (<bold>D</bold>) The pie plot shows the annotation and distribution of C11orf53 peaks at the genome. (<bold>E</bold>) Motif analysis shows the best-matched motifs occupied by C11orf53. (<bold>F</bold>) The total C11orf53 peaks were divided into four clusters based on k-means clustering. The histone marks were further centered on C11orf53 peaks in each cluster (left). RNA-seq was conducted with cells transduced with either nontargeting CRISPR sgRNA or C11orf53-specific sgRNAs. The log<sub>2</sub> fold-change (FC) heatmaps shows the expression change of nearest genes to C11orf53 peaks (middle), <italic toggle="yes">n</italic> = 2. RNA-seq was conducted with cells treated with either dimethyl sulfoxide (DMSO) or JQ1 (1 &#956;M). The log<sub>2</sub> fold-change heatmaps shows the expression change of nearest genes to C11ORF53 peaks (right), <italic toggle="yes">n</italic> = 2. (<bold>G</bold>) The Histone H3 lysine 27 acetylation (H3K27ac) signals from chromatin immunoprecipitation (ChIP) sequencing identifies putative super enhancers (SEs) in NCI-H526 cells. Hockey-stick plot representing the normalized rank and signals of H3K27ac. Representative SE-associated genes that are occupied by C11orf53 are labeled. TE, typical enhancers. (<bold>H</bold>) Representative tracks showing the enhancer binding of C11orf53, which contributes to activation of gene expression.</p>
+          </caption>
+          <graphic ns0:href="sciadv.abq2403-f3" position="float" />
+        </fig>
+        <p>To further characterize the function of C11orf53 at the genome-wide scale and understand how C11orf53 regulates gene expression at distal enhancers, we divided all C11orf53 peaks into four clusters based on k-means clustering. As shown in <xref rid="F3" ref-type="fig">Fig. 3F</xref>, we have detected a very significant overlap between enhancer marker H3K4me1 and C11orf53 peaks. Both of cluster 1 and 2 peaks are also enriched with active enhancer marker H3K27ac, suggesting that C11orf53 may function as a transcriptional activator at active enhancers. We further integrated our RNA-seq data with the ChIP-seq data and identified the expression change of the genes that are nearest to C11orf53 peaks (table S2). As shown in the middle panel of <xref rid="F3" ref-type="fig">Fig. 3F</xref> and fig. S3C, we found that genes nearest to cluster 1 peaks are markedly reduced upon <italic toggle="yes">C11orf53</italic> depletion, where very broad H3K4me1 peaks were detected. As shown in <xref rid="F3" ref-type="fig">Fig. 3G</xref>, most of the super enhancer (SE)&#8211;associated genes (table S3) are reduced after <italic toggle="yes">C11orf53</italic> depletion. In general, around 66% (71 of 108) SE-associated genes are occupied by C11orf53 (table S4), in which 73.2% (52 of 71) genes were down-regulated upon <italic toggle="yes">C11orf53</italic> depletion (fig. S3D). Pathway analysis with genes nearest to cluster 1 peaks show a significant enrichment in several neuronal function and differentiation pathways (fig. S3E). Next, to further confirm the role of C11orf53 involvement in regulating SE-associated genes, we determined the gene expression profiles within cells treated with either dimethyl sulfoxide or JQ1 (table S5). As shown in the right panel of <xref rid="F3" ref-type="fig">Fig. 3 (F and G)</xref> and fig. S3 (F to I), the JQ1 treatment has induced a very similar change in the gene expression profile as <italic toggle="yes">C11orf53</italic> depletion. The SCLC-P subtype cells are tuft cell&#8211;like variant of small cell lung cancer, which express tuft cell&#8211;like specific markers, such as <italic toggle="yes">SOX9</italic>, <italic toggle="yes">GFI1B</italic>, and <italic toggle="yes">PTGS1</italic>. Notably, these tuft cell&#8211;like specific genes were down-regulated after <italic toggle="yes">C11orf53</italic> depletion or JQ1 treatment (<xref rid="F3" ref-type="fig">Fig. 3H</xref> and fig. S3J).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Loss of C11orf53 reduces enhancer activity and chromatin accessibility</title>
+        <p>Because C11orf53 occupies active enhancers and is critical for maintenance in the expression levels of the enhancer-nearby genes, we asked whether loss of C11orf53 affects the protein levels of enhancer histone marks, such as H3K4me1 and H3K27ac. We conducted Western blot in cells transduced with either nontargeting CRISPR sgRNA or two distinct C11orf53 sgRNAs. As a result, we found that loss of <italic toggle="yes">C11orf53</italic> expression does not affect the bulk of histone modifications (<xref rid="F4" ref-type="fig">Fig. 4A</xref>). Next, we conducted ChIP-seq to determine whether there were locus-specific changes in active enhancer marks (H3K4me1/H3K27ac levels). As shown in <xref rid="F4" ref-type="fig">Fig. 4 (B and C)</xref>, <italic toggle="yes">C11orf53</italic> genetic depletion strongly reduced H3K27ac levels and a moderate reduction in H3K4me1 levels. Then, we centered the log<sub>2</sub> fold change of H3K4me1/H3K27ac levels at the previously defined four C11orf53-specific clusters in <xref rid="F3" ref-type="fig">Fig. 3F</xref>. As shown in <xref rid="F4" ref-type="fig">Fig. 4D</xref>, we have detected a very strong reduction of H3K27ac and H3K4me1 histone marks near C11orf53 peaks. Consistently, there is also a marked reduction of SE signals in C11orf53-depleted cells (<xref rid="F4" ref-type="fig">Fig. 4, E and F</xref>). Last, we conducted transposase-accessible chromatin with sequencing (ATAC-seq) experiments to determine whether the chromatin accessibility has been altered in C11orf53-depleted cells. As a result, we have detected a total of 55,111 ATAC-seq peaks with 7805 of those peaks being occupied by C11orf53 (<xref rid="F4" ref-type="fig">Fig. 4G</xref>). We further separated the total ATAC-seq peaks into two groups, depending on whether they were cobound with C11orf53 or not. As shown in <xref rid="F4" ref-type="fig">Fig. 4H</xref>, we found that group 1 peaks (ATAC-seq<sup>+</sup>/C11orf53<sup>+</sup>) were strongly reduced upon both sgRNA treatments [<xref rid="F4" ref-type="fig">Fig. 4, H (left) and I</xref>, and fig. S4, A and B], while group 2 peaks (ATAC-seq<sup>+</sup>/C11orf53<sup>&#8722;</sup>) were not significantly reduced upon <italic toggle="yes">C11orf53</italic> genetic depletion (<xref rid="F4" ref-type="fig">Fig. 4H</xref>, right, and fig. S4C). In summary, our results have shown a novel function of C11orf53 involved in chromatin accessibility and maintenance of enhancer-driven transcriptional program in SCLC-P subtype cells.</p>
+        <fig position="float" id="F4" fig-type="image" specific-use="distribute">
+          <label>Fig. 4.</label>
+          <caption>
+            <title>Loss of C11orf53 reduces enhancer activity and chromatin accessibility.</title>
+            <p>(<bold>A</bold>) NCI-H526 cell lines transduced with either nontargeting CRISPR sgRNA or C11orf53-specific sgRNAs for 4 days. The protein levels of C11orf53, H3K4me1, H3K4me3, H3K27me3, and H3K27ac levels were determined by Western blot. Total histone H3 was used as internal control. The average plot shows the total H3K27ac (<bold>B</bold>), and H3K4me1 (<bold>C</bold>) peaks in NCI-H526 cell lines transduced with either nontargeting CRISPR sgRNA or C11orf53-specific sgRNAs. Chromatin from <italic toggle="yes">Drosophila</italic> S2 cells (10%) was used as spike-in. IgG, immunoglubulin G. (<bold>D</bold>) The log<sub>2</sub> fold-change heatmap shows the loss of H3K4me1 and H3K27ac signal at C11ORF53 peaks after C11ORF53 depletion. (<bold>E</bold>) Histone H3K27ac signals from ChIP-seq identifies putative SEs in NCI-H526 cells transduced with either nontargeting CRISPR sgRNA (top) or two distinct C11orf53-specific sgRNAs (middle and bottom). Hockey-stick plot representing the normalized rank and signals of H3K27ac. Representative of top-ranked SE-associated genes from each group are labeled. aa, amino acids. (<bold>F</bold>) Representative track examples have shown the H3K27ac levels at SOX9, GFI1B, and PTGS1 gene loci in cells transduced with either CRISPR sgRNA or C11orf53-specific sgRNAs. (<bold>G</bold>) The Venn diagram shows the overlap between ATAC-seq peaks and C11orf53 peaks in NCI-H526 cells. (<bold>H</bold>) The average plot shows the ATAC-seq signal between cells transduced with either CRISPR sgRNA or C11orf53-specific sgRNAs. The group 1 peaks are ATAC-seq/C11orf53 common peaks. Group 2 peaks are ATAC-seq alone peaks. (<bold>I</bold>) Representative tracks showing ATAC-seq peaks at <italic toggle="yes">GFI1B</italic> gene loci in cells transduced with either CRISPR sgRNA or C11orf53-specific sgRNAs.</p>
+          </caption>
+          <graphic ns0:href="sciadv.abq2403-f4" position="float" />
+        </fig>
+      </sec>
+      <sec disp-level="2">
+        <title>C11orf53 is a coactivator of POU2F3 in SCLC cells</title>
+        <p>As an uncharacterized 288&#8211;amino acid protein, there is no obvious functional domain/motif within C11orf53. To study the underlying molecular basis of how C11orf53 is recruited to chromatin and regulates gene expression, we purified green fluorescent protein (GFP)&#8211;tagged proteins from SCLC cell line NCI-H526 that stably express either GFP or GFP-tagged C11orf53. By mass spectrometry analysis, we found POU2F3 as one of the top candidates that interacted with C11orf53 (<xref rid="F5" ref-type="fig">Fig. 5, A and B</xref>). We further performed IP experiments with whole-cell lysate from NCI-H526 cells (<xref rid="F5" ref-type="fig">Fig. 5, C and D</xref>) and NCI-H211 cells (fig. S5, A and B) to confirm the protein-protein interaction between the endogenous C11orf53 and POU2F3. To understand how C11orf53 interacts with POU2F3, we truncated POU2F3 into several different truncated fragments (<xref rid="F5" ref-type="fig">Fig. 5E</xref>) and purified each of these GFP-tagged fragments in human embryonic kidney (HEK) 293T cells cotransfected with Halo-tagged C11orf53 (<xref rid="F5" ref-type="fig">Fig. 5F</xref>). As shown in <xref rid="F5" ref-type="fig">Fig. 5G</xref>, we found that the POU domain within the POU2F3 protein is critical for the interaction with C11orf53. To determine a potential cofunction between C11orf53 and POU2F3, we conducted ChIP-seq to determine the chromatin occupancy of POU2F3 in NCI-H526 cells. As we expected, there is a significant overlap between POU2F3 and C11orf53 occupancy across the genome in both NCI-H526 [<xref rid="F5" ref-type="fig">Fig. 5, H (left) and I</xref>, and fig. S5F] and NCI-H211 (fig. S5, C to E and G) cells.</p>
+        <fig position="float" id="F5" fig-type="image" specific-use="distribute">
+          <label>Fig. 5.</label>
+          <caption>
+            <title>C11orf53 is a coactivator of POU2F3 in SCLC cells.</title>
+            <p>(<bold>A</bold>) The volcano plot shows the significant enriched protein during GFP-tagged C11orf53 purification from NCI-H526 cells, <italic toggle="yes">n</italic> = 3. Peptide numbers of POU2F3 and C11orf53 were shown (<bold>B</bold>). IP of endogenous POU2F3 from NCI-H526 cells followed by immunoblotting (IB) for POU2F3 and C11orf53 (<bold>C</bold>) and vice versa (<bold>D</bold>). (<bold>E</bold>) Schematic diagram depicting the domain organization of the human POU2F3 protein and the GFP-tagged fusion truncations. (<bold>F</bold>) Whole-cell lysates were used for Western blot with GFP antibodies in cells transfected with empty vector (GFP) or different POU2F3 fragments in (E). (<bold>G</bold>) IP with GFP antibodies followed by IB for Halo-tag in cells cotransfected with Halo-tagged C11orf53, and either empty vector (GFP) or POU2F3 fragments in (E). (<bold>H</bold>) The heatmaps show the co-occupancy of C11orf53 and POU2F3 in NCI-H526 SCLC cells. All rows are centered on C11orf53 four clusters as divided by k-means clustering (left). The log<sub>2</sub> fold-change heatmaps shows the expression change of nearest genes to C11orf53 peaks (middle) after POU2F3 depletion, <italic toggle="yes">n</italic> = 2 (right). (<bold>I</bold>) The representative tracks show the colocalization of POU2F3 and C11orf53 at <italic toggle="yes">SOX9</italic> and <italic toggle="yes">GFI1B</italic> gene loci. (<bold>J</bold>) The Venn diagram shows the overlap of targeted genes between POU2F3 and C11orf53. (<bold>K</bold>) HEK293T cells were transfected with GFP-tagged C11orf53 and/or POU2F3 in the presence of 3 &#215; PRE (POU2F3 Response Element) reporter plasmid. Luciferase assay was performed 48 hours after transfection, <italic toggle="yes">n</italic> = 3. (<bold>L</bold>) NCI-H526 and NCI-H211 cell lines were transduced with either nontargeting CRISPR sgRNA or POU2F3-specific sgRNAs for 4 days. The cell morphology was shown under bright field. (<bold>M</bold>) The protein levels of POU2F3, cleaved PARP, and cleaved caspase 3 were determined by Western blot. (<bold>N</bold>) Model of C11orf53 functions as coactivator of POU2F3 in SCLC cells.</p>
+          </caption>
+          <graphic ns0:href="sciadv.abq2403-f5" position="float" />
+        </fig>
+        <p>Because C11orf53 protein has no known DNA or histone binding domain, we hypothesized that it may be transported into the nuclei and recruited to chromatin by POU2F3. To test this hypothesis, we transfected HEK293T cells (which express neither POU2F3 nor C11orf53) with Halo-tag or Halo-tagged POU2F3 in the presence of GFP-tagged C11orf53. As shown in fig. S6 (A and B), the chromatin bound C11orf53 was markedly increased in the presence of POU2F3, as determined by Western blot and ChIP-seq results. To confirm this observation in SCLC cells, we depleted POU2F3 by CRISPR knockout in NCI-H526 cells for 2 days and determined the chromatin-bound C11orf53 levels. As shown in fig. S6 (C and D), genetic depletion of <italic toggle="yes">POU2F3</italic> could also reduce the chromatin-bound C11orf53, as determined by Western blot and ChIP&#8211;quantitative polymerase chain reaction (qPCR) results. These results imply that C11orf53 might function as a coactivator that is recruited to chromatin by POU2F3 (<xref rid="R16" ref-type="bibr"><italic toggle="yes">16</italic></xref>).</p>
+        <p>In NCI-H526 cells, <italic toggle="yes">POU2F3</italic> genetic depletion reduced the expression of group 1&#8211;clustered genes, which is similar compared to <italic toggle="yes">C11orf53</italic> genetic depletion (<xref rid="F5" ref-type="fig">Fig. 5H</xref>, right, and table S6). In total, there are 327 genes that are co&#8211;down-regulated by <italic toggle="yes">C11orf53</italic> or <italic toggle="yes">POU2F3</italic> genetic depletion (fold change &gt;2), in which we have identified numerous tuft cell lineage genes&#8212;which has been demonstrated to be targeted genes of POU2F3 (<xref rid="F5" ref-type="fig">Fig. 5J</xref> and fig. S6E). Because the chromatin binding motif between C11orf53 and POU2F3 is extremely similar, we have introduced a luciferase assay to further confirm the cofunction between these two factors. As shown in <xref rid="F5" ref-type="fig">Fig. 5K</xref>, we found that cotransfection of C11orf53 and POU2F3 has the strongest effect on inducing luciferase expression. Similar to <italic toggle="yes">C11orf53</italic> genetic depletion, a loss in the expression of <italic toggle="yes">POU2F3</italic> also markedly induces apoptosis and reduces cell viability in two different SCLC-P cell lines (<xref rid="F5" ref-type="fig">Fig. 5, L and M</xref>). In summary, our model has shown that this previous uncharacterized protein, C11orf53, functions as a coactivator of POU2F3 and maintains chromatin accessibility at POU2F3-targeted genes in SCLC cells (<xref rid="F5" ref-type="fig">Fig. 5N</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion" disp-level="1">
+      <title>DISCUSSION</title>
+      <p>The POU family proteins are a large class of DNA binding transcription factors that are divided into six classes, with POU2F3 belonging to the POU II class, which includes POU2F1 (Oct-1) and POU2F2 (Oct-2) (<xref rid="R17" ref-type="bibr"><italic toggle="yes">17</italic></xref>). As the only known binding partner of POU II class, POU2AF1 (POU Class 2 Homeobox Associating Factor 1) functions as coactivator of POU2F1, and to a lesser extent than POU2F1, as a coactivator of POU2F2 (<xref rid="R18" ref-type="bibr"><italic toggle="yes">18</italic></xref>&#8211;<xref rid="R21" ref-type="bibr"><italic toggle="yes">21</italic></xref>). Our current study has provided evidence for a previously uncharacterized protein, C11orf53, functioning as a coactivator of POU2F3 (also known as Oct-11). Therefore, we are defining this gene on the basis of its novel function and classifying it as the POU Class 2 Homeobox Associating Factor 2 (or <italic toggle="yes">POU2AF2</italic>). On the basis of our mass spectrometry analysis of purified C11orf53, we did not detect POU2F1 or POU2F2, which are both expressed in NCI-H526 cells based on our RNA-seq data. This result suggested that C11orf53 is quite a unique coactivator of POU2F3. It is known that POU2AF1 binds to POU2F1 and POU2F2 using its &#945;-helical segment, while C11orf53 does not display a similar structure (<xref rid="R22" ref-type="bibr"><italic toggle="yes">22</italic></xref>). Therefore, it would be interesting to determine the crystal structure of C11orf53 bounded to POU2F3 but also challenging because of the disordered nature of C11orf53 structure.</p>
+      <p>The function of POU2F3 in small cell lung cancer has been identified by genome-wide CRISPR screening in previous studies (<xref rid="R12" ref-type="bibr"><italic toggle="yes">12</italic></xref>). Therefore, it has been widely used as the biomarker that defines the SCLC-P subtype, which expresses markers of the chemosensory lineage instead of NE markers. Mechanistically, POU2F3 binds to distal enhancer elements and drives the expression of the lineage-specific genes. As a nonhistone/DNA binding coactivator, C11orf53 is recruited to chromatin by the DNA binding transcription factor, POU2F3, and maintains openness of the chromatin to regulate the expression of POU2F3-targeted genes. On the basis of our model (<xref rid="F5" ref-type="fig">Fig. 5N</xref>), C11orf53 may not function as a canonical pioneer factor that recruits transcription factor(s) to chromatin.</p>
+      <p>On the basis of our genome-wide RNA-seq analysis in <xref rid="F5" ref-type="fig">Fig. 5J</xref>, there are approximately 32% of C11orf53-targeted genes that are not affected upon <italic toggle="yes">POU2F3</italic> genetic depletion, which suggests that C11orf53 may have a POU2F3-independent function. On the basis of our cellular fractionation assay (<xref rid="F3" ref-type="fig">Fig. 3C</xref> and fig. S6C), a significant proportion of C11of53 proteins have been detected in the cytoplasm, while a vast majority of POU2F3 could only be detected in the nuclei. Therefore, future studies may be focused on the cytoplasmic function of C11orf53 in SCLC cells.</p>
+      <p>Dysregulation or mutations within enhancer binding factors have been identified as direct drivers for many types of cancers (<xref rid="R23" ref-type="bibr"><italic toggle="yes">23</italic></xref>, <xref rid="R24" ref-type="bibr"><italic toggle="yes">24</italic></xref>). Our current studies have shown a critical role of C11orf53 at SEs. Consequently, loss of C11orf53 leads to a loci-specific reduction of H3K27ac levels and gene expression, which is similar to the effects of JQ1 treatment. Our result is consistent with previous reports that SCLC cells are more sensitive to BET inhibitor treatment (<xref rid="R11" ref-type="bibr"><italic toggle="yes">11</italic></xref>, <xref rid="R25" ref-type="bibr"><italic toggle="yes">25</italic></xref>, <xref rid="R26" ref-type="bibr"><italic toggle="yes">26</italic></xref>).</p>
+      <p>In summary, our study sheds light on the potential impact of targeting C11orf53 or C11orf53/POU2F3 heterodimer for new therapeutic approaches against SCLC-P subtype because of its specificity and high dependency in this particular cancer type, which is in agreement with a recent work published by Vakoc&#8217;s group (<xref rid="R27" ref-type="bibr"><italic toggle="yes">27</italic></xref>).Therefore, establishing small-molecule inhibitors or peptide drugs that can disrupt C11orf53/POU2F3 interaction may specifically inhibit POU2F3-dependent transcriptional programming in SCLC cells and thus aid in the development of a more personalized approach to SCLC therapy.</p>
+    </sec>
+    <sec sec-type="materials|methods" disp-level="1">
+      <title>MATERIALS AND METHODS</title>
+      <sec disp-level="2">
+        <title>Antibodies and reagents</title>
+        <p>POU2F3 (no. 36135), H3K27ac (no. 8173S), H3K4me1 (no. 5326S), H3K4me3 (no. 9751), H3K27me3 (no. 9733), histone H3 (no. 4499S), cyclin B1 (no. 12231), cyclin E1 (no. 20808), cyclin A2 (no. 91500), cleaved PARP (no. 5625), cleaved caspase 3 (no. 9664), and cleaved caspase 7 (no. 8438) antibodies were purchased from Cell Signaling Technology. Tubulin antibody (E7) was purchased from Developmental Studies Hybridoma Bank. Heat shock protein 90 (HSP90) (sc-7947) and GFP (sc-9996) antibodies were purchased from Santa Cruz Biotechnology. Halo-tag (G9211) antibody was purchased from Promega. The C11orf53 antibody was produced in rabbit in house by using full-length C11orf53 recombinant protein as antigen.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Cell lines</title>
+        <p>HEK293T cells were obtained from American Type Culture Collection (ATCC) and then maintained with Dulbecco&#8217;s modified Eagle&#8217;s medium (Gibco, Gaithersburg, MD) containing 10% fetal bovine serum (FBS; Sigma-Aldrich). The SCLC cell lines NCI-H526, NCI-H211, NCI0H510, and NCI-H1963 were obtained from ATCC and were maintained with ATCC-formulated RPMI 1640 medium containing 10% FBS (Sigma-Aldrich). The <italic toggle="yes">Drosophila</italic> S2 cells were maintained in HyClone SFX-Insect Cell Culture Media containing 10% FBS (Sigma-Aldrich).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Mouse experiments</title>
+        <p>All mouse work was performed in accordance with protocols approved by The Center for Comparative Medicine of Northwestern University. Five- to 6-week-old athymic nude mice were used for xenograft experiments. The human NCI-H526 SCLC cell line was transduced with either nontargeting CRISPR sgRNA or two distinct C11orf53-specific CRISPR sgRNAs that we used for all the other biochemical studies, and further selected with puromycin (1 &#956;g/ml) for 48 hours. Then, we determined the cell viability by trypan blue staining, and injected 1 &#215; 10<sup>6</sup> of living cells from each group were inoculated into the right flank of nude mice, respectively. Tumor growth was monitored every 3 days for 2 weeks after inoculation.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Immunoprecipitation</title>
+        <p>The IP experiment was performed as previously described (<xref rid="R11" ref-type="bibr"><italic toggle="yes">11</italic></xref>). Briefly, the cells were lysed in the lysis buffer [50 mM tris (pH 8.0), 150 mM NaCl, 0.5% Triton X-100, 10% glycerol, protease inhibitors, and benzonase]. After centrifugation at maximum speed at 4&#176;C for 15 min, the supernatants (1-mg protein lysate for each sample) were collected and incubated with the primary antibody and immobilized Protein A/G (Santa Cruz Biotechnology) at 4&#176;C overnight with rotation. Then, the samples were washed with lysis buffer four times and boiled in 5&#215; SDS sample loading buffer.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>RNA interference, CRISPR-mediated knockouts, and real-time PCR</title>
+        <p>Designed sgRNAs were cloned into lentiCRISPR v2 (Addgene, 52961) vector. The lentiviral-mediated CRISPR-Cas9 knockout was described previously (<xref rid="R28" ref-type="bibr"><italic toggle="yes">28</italic></xref>). Oligo sequences used in this manuscript were as follows: sg<italic toggle="yes">NONT</italic> (GCTGAAAAAGGAAGGAGTTGA), sg<italic toggle="yes">C11orf53</italic>-1 (GTGACGTCTACACCTCCAGCG), sg<italic toggle="yes">C11orf53</italic>-2 (GAGAGGCAACTCGTGCTGGG), sg<italic toggle="yes">POU2F3</italic>-1 (GCCCACGCTTAGGGAGATGTG), and sg<italic toggle="yes">POU2F3</italic>-2 (GTCCTACCAAATACTTCACTG). Primer sequences for ChIP-qPCR used in this manuscript were as follows: <italic toggle="yes">SOX9</italic>-E1-F: 5&#8242;-CTTCCAACCCTACTCCAGGC-3&#8242;, <italic toggle="yes">SOX9</italic>-E1-R: 5&#8242;-TTGGGACAAGGGTAGGCTCT-3&#8242;; <italic toggle="yes">SOX9</italic>-E2-F: 5&#8242;-CTGGAAAGGGCTAGAGGCTG-3&#8242;, <italic toggle="yes">SOX9</italic>-E1-R: 5&#8242;-TCCCCTGCTAGTTTTATGGGC-3&#8242;; <italic toggle="yes">GFI1B</italic>-E1-F: 5&#8242;-ACCACTTTCACAAGCCCACT-3&#8242;, <italic toggle="yes">SOX9</italic>-E1-R: 5&#8242;-GGCCGCCTTCGGAGATTTTA-3&#8242;; <italic toggle="yes">GFI1B</italic>-E2-F: 5&#8242;-CGGGATTTCAGCCACTTCTG-3&#8242;, <italic toggle="yes">GFI1B</italic>-E2-R: 5&#8242;-CGCCAAACCTCAGTCGACAA-3&#8242;; and <italic toggle="yes">IRAG2</italic>-E1-F: 5&#8242;-GTATCCAAGACACCTGGTCCC-3&#8242;, <italic toggle="yes">IRAG2</italic>-E1-R: 5&#8242;-ACATGGCAAAACAAGTTGGCT-3&#8242;.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>RNA-seq and analysis</title>
+        <p>RNA-seq was conducted as previously described. Paramagnetic beads coupled with oligo (dT) are combined with total RNA to isolate polyadenylated [poly (A)<sup>+</sup>] transcripts based on NEBNext Poly(A) mRNA Magnetic Isolation Module manual. All remaining steps for library construction were used according to the manufacturer&#8217;s recommendations. Samples were pooled and sequenced on a HiSeq with a read length configuration of 150 paired-end (PE). Gene counts were computed by HTSeq and used as an input for edgeR 3.0.85257. Genes with Benjamini-Hochburg&#8211;adjusted <italic toggle="yes">P</italic> values less than 0.01 were considered to be differentially expressed (unless otherwise specified).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>ChIP-seq assay and analysis</title>
+        <p>ChIP-seq was performed as described previously (<xref rid="R11" ref-type="bibr"><italic toggle="yes">11</italic></xref>). For histone modifications, 10% of <italic toggle="yes">Drosophila</italic> chromatin was used as spike-in control. For ChIP-seq analysis, all the peaks were called with the MACS v2.1.0 software using default parameters and corresponding input samples. Metaplots and heatmaps were generated using the ngsplot database to display ChIP-seq signals. Peak annotation, motif analysis, and SE analysis were performed with HOMER and ChIPseeker. Pathway analysis was performed with Metascape and ChIPseeker.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>ATAC-seq and analysis</title>
+        <p>ATAC-seq was performed as described previously (<xref rid="R29" ref-type="bibr"><italic toggle="yes">29</italic></xref>). In brief, frozen cells were thawed and washed once with phosphate-buffered saline (PBS) and then resuspended in 500 &#956;l of cold ATAC lysis buffer. The cell number was assessed by Cellometer Auto 2000 (Nexcelom Bioscience). Nuclei (50 to 100K) were then centrifuged (prechilled) at 500<italic toggle="yes">g</italic> for 10 min. Supernatant was then removed, and the nuclei were resuspended in 50 &#956;l of tagmentated DNA by pipetting up and down six times. The reactions were incubated at 37&#176;C for 30 min in a thermomixer shaking at 1000 rpm and then cleaned up by the MinElute Reaction Cleanup Kit (Qiagen). Tagmentated DNA was amplified with barcode primers. Library quality and quantity were assessed with Qubit 2.0 DNA HS Assay (Thermo Fisher Scientific, Massachusetts, USA), Tapestation High Sensitivity D1000 Assay (Agilent Technologies, California, USA), and QuantStudio 5 System (Applied Biosystems, California, USA). Equimolar pooling of libraries was performed on the basis of quality control (QC) values and sequenced on an Illumina HiSeq (Illumina, California, USA) with a read-length configuration of 150 PE for 50M PE reads (25M in each direction) per sample. ATAC-seq reads are shifted +4 bp and &#8722;5 bp for positive and negative strands, respectively, using the alignmentSieve function from the deepTools package. ATAC-seq peaks are called with Macs v2.1.0. sgNONT ATAC-seq peaks were intersected with C11orf53 peaks using bedtools.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Mass spectrometry sample preparation and analysis</title>
+        <p>Mass spectrometry was performed as described previously. Protein pellet was denatured in 50 &#956;l of 8 M urea/0.4 M ammonium bicarbonate followed by reduction in 2 &#956;l of 100 mM dithiothreitol. The digests were acidified to 0.5% trifluoroacetic acid and the peptides were then desalted on C18 Sep-Paks (Waters). The pooled extracts were dried in a vacuum concentrator and resuspended in 30 &#956;l of 5% ACN/0.1% FA for liquid chromatography (LC) mass spectrometry analysis. Peptides were analyzed by LC&#8211;tandem mass spectrometry using a Dionex UltiMate 3000 Rapid Separation LC (RSLC) system and a linear ion trap-Orbitrap hybrid Elite mass spectrometer (Thermo Fisher Scientific, San Jose, CA).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Statistical analyses</title>
+        <p>For statistical analyses, GraphPad Prism 7, Microsoft Excel, and R were used. All data being reported that met the criteria to use the appropriate statistical tests involved a statistical analysis; for the normal distribution of data, the empirical rule was used to infer the distribution. For growth curves and time course, RNA-seq <italic toggle="yes">t</italic> tests were calculated between the area-under-the-curve values. Statistical tests used are reported in the figure legends.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We would like to thank B. Braschi and HUGO Gene Nomenclature Committee (HGNC) for working with us to rename C11orf53 gene as POU2AF2 officially. We would like to thank Y. Shi and C. Vakoc for critical discussion. We would like to thank F. Zhang for the gifts of the Px330 and lentiCRISPR v2 vectors.</p>
+      <sec>
+        <p><bold>Funding:</bold> L.W. was supported by NIH grant R35GM146979 and the Research Scholar Grant (RSG-22-039-01-DMC) from the American Cancer Society. L.W. was also supported by Lynn Sage Scholar Award. R.H. was supported by the U.S. National Institutes of Health (R01NS126513).</p>
+      </sec>
+      <sec>
+        <p><bold>Author contributions:</bold> L.W. and Z.Z. designed the study. A.P.S., N.T., and L.W. performed all the biochemistry and sequencing experiments. N.T. performed the animal experiments. Z.Z. performed the bioinformatics analysis. A.P.S., N.T., and L.W. wrote the manuscript. N.T., A.P.S., J.W., R.H., and L.W. revised the manuscript. All authors read and approved the final manuscript.</p>
+      </sec>
+      <sec>
+        <p><bold>Competing interests:</bold> The authors declare that they have no competing interests.</p>
+      </sec>
+      <sec>
+        <p><bold>Data and materials availability:</bold> NGS data generated for this study are available at the Gene Expression Omnibus (GEO) under accession number GSE197426. All data needed to evaluate the conclusions in the paper are present in the paper and/or the Supplementary Materials.</p>
+      </sec>
+    </ack>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary Materials</title>
+      <sec>
+        <title>This PDF file includes:</title>
+        <supplementary-material position="float" content-type="local-data">
+          <caption>
+            <p>Figs. S1 to S6</p>
+          </caption>
+          <media ns0:href="sciadv.abq2403_sm.pdf">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+      </sec>
+      <sec>
+        <title>Other Supplementary Material for this manuscript includes the following:</title>
+        <supplementary-material position="float" content-type="local-data">
+          <caption>
+            <p>Tables S1 to S6</p>
+          </caption>
+          <media ns0:href="sciadv.abq2403_tables_s1_to_s6.zip">
+            <caption>
+              <p>Click here for additional data file.</p>
+            </caption>
+          </media>
+        </supplementary-material>
+      </sec>
+    </sec>
+    <sec>
+      <p>
+<ext-link ns0:href="https://en.bio-protocol.org/cjrap.aspx?eid=10.1126/sciadv.abq2403" ext-link-type="uri">View/request a protocol for this paper from <italic toggle="yes">Bio-protocol</italic>.</ext-link>
+</p>
+    </sec>
+    <ref-list>
+      <title>REFERENCE AND NOTES</title>
+      <ref id="R1">
+        <label>1</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>H.</given-names>
+<surname>Sung</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Ferlay</surname></string-name>, <string-name><given-names>R. L.</given-names>
+<surname>Siegel</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Laversanne</surname></string-name>, <string-name><given-names>I.</given-names>
+<surname>Soerjomataram</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Jemal</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Bray</surname></string-name></person-group>, 
+<article-title>Global cancer statistics 2020: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries</article-title>. <source>Cancer J. Clin.</source>
+<volume>71</volume>, 
+<fpage>209</fpage>&#8211;<lpage>249</lpage> (<year>2021</year>).</mixed-citation>
+      </ref>
+      <ref id="R2">
+        <label>2</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>E. E.</given-names>
+<surname>Gardner</surname></string-name>, <string-name><given-names>B. H.</given-names>
+<surname>Lok</surname></string-name>, <string-name><given-names>V. E.</given-names>
+<surname>Schneeberger</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Desmeules</surname></string-name>, <string-name><given-names>L. A.</given-names>
+<surname>Miles</surname></string-name>, <string-name><given-names>P. K.</given-names>
+<surname>Arnold</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Ni</surname></string-name>, <string-name><given-names>I.</given-names>
+<surname>Khodos</surname></string-name>, <string-name><given-names>E.</given-names>
+<surname>de Stanchina</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Nguyen</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Sage</surname></string-name>, <string-name><given-names>J. E.</given-names>
+<surname>Campbell</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Ribich</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Rekhtman</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Dowlati</surname></string-name>, <string-name><given-names>P. P.</given-names>
+<surname>Massion</surname></string-name>, <string-name><given-names>C. M.</given-names>
+<surname>Rudin</surname></string-name>, <string-name><given-names>J. T.</given-names>
+<surname>Poirier</surname></string-name></person-group>, 
+<article-title>Chemosensitive relapse in small cell lung cancer proceeds through an EZH2-SLFN11 Axis</article-title>. <source>Cancer Cell</source>
+<volume>31</volume>, 
+<fpage>286</fpage>&#8211;<lpage>299</lpage> (<year>2017</year>).<pub-id pub-id-type="pmid">28196596</pub-id></mixed-citation>
+      </ref>
+      <ref id="R3">
+        <label>3</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>A. F.</given-names>
+<surname>Gazdar</surname></string-name>, <string-name><given-names>P. A.</given-names>
+<surname>Bunn</surname></string-name>, <string-name><given-names>J. D.</given-names>
+<surname>Minna</surname></string-name></person-group>, 
+<article-title>Small-cell lung cancer: What we know, what we need to know and the path forward</article-title>. <source>Nat. Rev. Cancer</source>
+<volume>17</volume>, 
+<fpage>725</fpage>&#8211;<lpage>737</lpage> (<year>2017</year>).<pub-id pub-id-type="pmid">29077690</pub-id></mixed-citation>
+      </ref>
+      <ref id="R4">
+        <label>4</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>C. M.</given-names>
+<surname>Rudin</surname></string-name>, <string-name><given-names>E.</given-names>
+<surname>Brambilla</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Faivre-Finn</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Sage</surname></string-name></person-group>, 
+<article-title>Small-cell lung cancer</article-title>. <source>Nat. Rev. Dis. Primers.</source>
+<volume>7</volume>, 
+<fpage>3</fpage> (<year>2021</year>).<pub-id pub-id-type="pmid">33446664</pub-id></mixed-citation>
+      </ref>
+      <ref id="R5">
+        <label>5</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>K. D.</given-names>
+<surname>Miller</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Nogueira</surname></string-name>, <string-name><given-names>A. B.</given-names>
+<surname>Mariotto</surname></string-name>, <string-name><given-names>J. H.</given-names>
+<surname>Rowland</surname></string-name>, <string-name><given-names>K. R.</given-names>
+<surname>Yabroff</surname></string-name>, <string-name><given-names>C. M.</given-names>
+<surname>Alfano</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Jemal</surname></string-name>, <string-name><given-names>J. L.</given-names>
+<surname>Kramer</surname></string-name>, <string-name><given-names>R. L.</given-names>
+<surname>Siegel</surname></string-name></person-group>, 
+<article-title>Cancer treatment and survivorship statistics, 2019</article-title>. <source>Cancer J. Clin.</source>
+<volume>69</volume>, 
+<fpage>363</fpage>&#8211;<lpage>385</lpage> (<year>2019</year>).</mixed-citation>
+      </ref>
+      <ref id="R6">
+        <label>6</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>C. M.</given-names>
+<surname>Rudin</surname></string-name>, <string-name><given-names>J. T.</given-names>
+<surname>Poirier</surname></string-name>, <string-name><given-names>L. A.</given-names>
+<surname>Byers</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Dive</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Dowlati</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>George</surname></string-name>, <string-name><given-names>J. V.</given-names>
+<surname>Heymach</surname></string-name>, <string-name><given-names>J. E.</given-names>
+<surname>Johnson</surname></string-name>, <string-name><given-names>J. M.</given-names>
+<surname>Lehman</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>MacPherson</surname></string-name>, <string-name><given-names>P. P.</given-names>
+<surname>Massion</surname></string-name>, <string-name><given-names>J. D.</given-names>
+<surname>Minna</surname></string-name>, <string-name><given-names>T. G.</given-names>
+<surname>Oliver</surname></string-name>, <string-name><given-names>V.</given-names>
+<surname>Quaranta</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Sage</surname></string-name>, <string-name><given-names>R. K.</given-names>
+<surname>Thomas</surname></string-name>, <string-name><given-names>C. R.</given-names>
+<surname>Vakoc</surname></string-name>, <string-name><given-names>A. F.</given-names>
+<surname>Gazdar</surname></string-name></person-group>, 
+<article-title>Author Correction: Molecular subtypes of small cell lung cancer: A synthesis of human and mouse model data</article-title>. <source>Nat. Rev. Cancer</source>
+<volume>19</volume>, 
+<fpage>415</fpage>&#8211;<lpage>415</lpage> (<year>2019</year>).<pub-id pub-id-type="pmid">31175338</pub-id></mixed-citation>
+      </ref>
+      <ref id="R7">
+        <label>7</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>W.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Girard</surname></string-name>, <string-name><given-names>Y.-A.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Haruki</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Papari-Zareei</surname></string-name>, <string-name><given-names>V.</given-names>
+<surname>Stastny</surname></string-name>, <string-name><given-names>H. K.</given-names>
+<surname>Ghayee</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Pacak</surname></string-name>, <string-name><given-names>T. G.</given-names>
+<surname>Oliver</surname></string-name>, <string-name><given-names>J. D.</given-names>
+<surname>Minna</surname></string-name>, <string-name><given-names>A. F.</given-names>
+<surname>Gazdar</surname></string-name></person-group>, 
+<article-title>Small cell lung cancer tumors and preclinical models display heterogeneity of neuroendocrine phenotypes</article-title>. <source>Transl. Lung Cancer Res.</source>
+<volume>7</volume>, 
+<fpage>32</fpage>&#8211;<lpage>49</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29535911</pub-id></mixed-citation>
+      </ref>
+      <ref id="R8">
+        <label>8</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>D.</given-names>
+<surname>Yang</surname></string-name>, <string-name><given-names>S. K.</given-names>
+<surname>Denny</surname></string-name>, <string-name><given-names>P. G.</given-names>
+<surname>Greenside</surname></string-name>, <string-name><given-names>A. C.</given-names>
+<surname>Chaikovsky</surname></string-name>, <string-name><given-names>J. J.</given-names>
+<surname>Brady</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Ouadah</surname></string-name>, <string-name><given-names>J. M.</given-names>
+<surname>Granja</surname></string-name>, <string-name><given-names>N. S.</given-names>
+<surname>Jahchan</surname></string-name>, <string-name><given-names>J. S.</given-names>
+<surname>Lim</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Kwok</surname></string-name>, <string-name><given-names>C. S.</given-names>
+<surname>Kong</surname></string-name>, <string-name><given-names>A. S.</given-names>
+<surname>Berghoff</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Schmitt</surname></string-name>, <string-name><given-names>H. C.</given-names>
+<surname>Reinhardt</surname></string-name>, <string-name><given-names>K. S.</given-names>
+<surname>Park</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Preusser</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Kundaje</surname></string-name>, <string-name><given-names>W. J.</given-names>
+<surname>Greenleaf</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Sage</surname></string-name>, <string-name><given-names>M. M.</given-names>
+<surname>Winslow</surname></string-name></person-group>, 
+<article-title>Intertumoral heterogeneity in SCLC is influenced by the cell type of origin</article-title>. <source>Cancer Discov.</source>
+<volume>8</volume>, 
+<fpage>1316</fpage>&#8211;<lpage>1331</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">30228179</pub-id></mixed-citation>
+      </ref>
+      <ref id="R9">
+        <label>9</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>A.</given-names>
+<surname>Schwendenwein</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Megyesfalvi</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Barany</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Valko</surname></string-name>, <string-name><given-names>E.</given-names>
+<surname>Bugyik</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Lang</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Ferencz</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Paku</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Lantos</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Fillinger</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Rezeli</surname></string-name>, <string-name><given-names>G.</given-names>
+<surname>Marko-Varga</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Bogos</surname></string-name>, <string-name><given-names>G.</given-names>
+<surname>Galffy</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Renyi-Vamos</surname></string-name>, <string-name><given-names>M. A.</given-names>
+<surname>Hoda</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Klepetko</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Hoetzenecker</surname></string-name>, <string-name><given-names>V.</given-names>
+<surname>Laszlo</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Dome</surname></string-name></person-group>, 
+<article-title>Molecular profiles of small cell lung cancer subtypes: Therapeutic implications</article-title>. <source>Mol. Ther. Oncolytics</source>
+<volume>20</volume>, 
+<fpage>470</fpage>&#8211;<lpage>483</lpage> (<year>2021</year>).<pub-id pub-id-type="pmid">33718595</pub-id></mixed-citation>
+      </ref>
+      <ref id="R10">
+        <label>10</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>C. M.</given-names>
+<surname>Bebber</surname></string-name>, <string-name><given-names>E. S.</given-names>
+<surname>Thomas</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Stroh</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Chen</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Androulidaki</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Schmitt</surname></string-name>, <string-name><given-names>M. N.</given-names>
+<surname>H&#246;hne</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>St&#252;ker</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>de P&#225;dua Alves</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Khonsari</surname></string-name>, <string-name><given-names>M. A.</given-names>
+<surname>Dammert</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Parmaksiz</surname></string-name>, <string-name><given-names>H. L.</given-names>
+<surname>Tumbrink</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Beleggia</surname></string-name>, <string-name><given-names>M. L.</given-names>
+<surname>Sos</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Riemer</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>George</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Brodesser</surname></string-name>, <string-name><given-names>R. K.</given-names>
+<surname>Thomas</surname></string-name>, <string-name><given-names>H. C.</given-names>
+<surname>Reinhardt</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>von Karstedt</surname></string-name></person-group>, 
+<article-title>Ferroptosis response segregates small cell lung cancer (SCLC) neuroendocrine subtypes</article-title>. <source>Nat. Commun.</source>
+<volume>12</volume>, 
+<fpage>2048</fpage> (<year>2021</year>).<pub-id pub-id-type="pmid">33824345</pub-id></mixed-citation>
+      </ref>
+      <ref id="R11">
+        <label>11</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>A. P.</given-names>
+<surname>Szczepanski</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Zhao</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Sosnowski</surname></string-name>, <string-name><given-names>Y. A.</given-names>
+<surname>Goo</surname></string-name>, <string-name><given-names>E. T.</given-names>
+<surname>Bartom</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Wang</surname></string-name></person-group>, 
+<article-title>ASXL3 bridges BRD4 to BAP1 complex and governs enhancer activity in small cell lung cancer</article-title>. <source>Genome Med.</source>
+<volume>12</volume>, 
+<fpage>63</fpage> (<year>2020</year>).<pub-id pub-id-type="pmid">32669118</pub-id></mixed-citation>
+      </ref>
+      <ref id="R12">
+        <label>12</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y. H.</given-names>
+<surname>Huang</surname></string-name>, <string-name><given-names>O.</given-names>
+<surname>Klingbeil</surname></string-name>, <string-name><given-names>X. Y.</given-names>
+<surname>He</surname></string-name>, <string-name><given-names>X. S.</given-names>
+<surname>Wu</surname></string-name>, <string-name><given-names>G.</given-names>
+<surname>Arun</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Lu</surname></string-name>, <string-name><given-names>T. D. D.</given-names>
+<surname>Somerville</surname></string-name>, <string-name><given-names>J. P.</given-names>
+<surname>Milazzo</surname></string-name>, <string-name><given-names>J. E.</given-names>
+<surname>Wilkinson</surname></string-name>, <string-name><given-names>O. E.</given-names>
+<surname>Demerdash</surname></string-name>, <string-name><given-names>D. L.</given-names>
+<surname>Spector</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Egeblad</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Shi</surname></string-name>, <string-name><given-names>C. R.</given-names>
+<surname>Vakoc</surname></string-name></person-group>, 
+<article-title>POU2F3 is a master regulator of a tuft cell-like variant of small cell lung cancer</article-title>. <source>Gene Dev.</source>
+<volume>32</volume>, 
+<fpage>915</fpage>&#8211;<lpage>928</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29945888</pub-id></mixed-citation>
+      </ref>
+      <ref id="R13">
+        <label>13</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>R.</given-names>
+<surname>Shai</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Shi</surname></string-name>, <string-name><given-names>T. J.</given-names>
+<surname>Kremen</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Horvath</surname></string-name>, <string-name><given-names>L. M.</given-names>
+<surname>Liau</surname></string-name>, <string-name><given-names>T. F.</given-names>
+<surname>Cloughesy</surname></string-name>, <string-name><given-names>P. S.</given-names>
+<surname>Mischel</surname></string-name>, <string-name><given-names>S. F.</given-names>
+<surname>Nelson</surname></string-name></person-group>, 
+<article-title>Gene expression profiling identifies molecular subtypes of gliomas (vol 22, pg 4918, 2003)</article-title>. <source>Oncogene</source>
+<volume>25</volume>, 
+<fpage>4256</fpage>&#8211;<lpage>4256</lpage> (<year>2006</year>).</mixed-citation>
+      </ref>
+      <ref id="R14">
+        <label>14</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>F.</given-names>
+<surname>Bertucci</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Finetti</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Rougemont</surname></string-name>, <string-name><given-names>E.</given-names>
+<surname>Charafe-Jauffret</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Cervera</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Tarpin</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Nguyen</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Xerri</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Houlgatte</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Jacquemier</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Viens</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Birnbaum</surname></string-name></person-group>, 
+<article-title>Gene expression profiling identifies molecular subtypes of inflammatory breast cancer</article-title>. <source>Cancer Res.</source>
+<volume>65</volume>, 
+<fpage>2170</fpage>&#8211;<lpage>2178</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">15781628</pub-id></mixed-citation>
+      </ref>
+      <ref id="R15">
+        <label>15</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>C.</given-names>
+<surname>Tlemsani</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Pongor</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Elloumi</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Girard</surname></string-name>, <string-name><given-names>K. E.</given-names>
+<surname>Huffman</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Roper</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Varma</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Luna</surname></string-name>, <string-name><given-names>V. N.</given-names>
+<surname>Rajapakse</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Sebastian</surname></string-name>, <string-name><given-names>K. W.</given-names>
+<surname>Kohn</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Krushkal</surname></string-name>, <string-name><given-names>M. I.</given-names>
+<surname>Aladjem</surname></string-name>, <string-name><given-names>B. A.</given-names>
+<surname>Teicher</surname></string-name>, <string-name><given-names>P. S.</given-names>
+<surname>Meltzer</surname></string-name>, <string-name><given-names>W. C.</given-names>
+<surname>Reinhold</surname></string-name>, <string-name><given-names>J. D.</given-names>
+<surname>Minna</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Thomas</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Pommier</surname></string-name></person-group>, 
+<article-title>SCLC-CellMiner: A resource for small cell lung cancer cell line genomics and pharmacology based on genomic signatures</article-title>. <source>Cell Rep.</source>
+<volume>33</volume>, 
+<fpage>108296</fpage> (<year>2020</year>).<pub-id pub-id-type="pmid">33086069</pub-id></mixed-citation>
+      </ref>
+      <ref id="R16">
+        <label>16</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>R.</given-names>
+<surname>Moritsugu</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Tamai</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Nakano</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Aizu</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Nakajima</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Yamazaki</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Sawamura</surname></string-name></person-group>, 
+<article-title>Functional analysis of the nuclear localization signal of the POU transcription factor Skn-1a in epidermal keratinocytes</article-title>. <source>Int. J. Mol. Med.</source>
+<volume>34</volume>, 
+<fpage>539</fpage>&#8211;<lpage>544</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24954220</pub-id></mixed-citation>
+      </ref>
+      <ref id="R17">
+        <label>17</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>A. K.</given-names>
+<surname>Ryan</surname></string-name>, <string-name><given-names>M. G.</given-names>
+<surname>Rosenfeld</surname></string-name></person-group>, 
+<article-title>POU domain family values: Flexibility, partnerships, and developmental codes</article-title>. <source>Gene Dev.</source>
+<volume>11</volume>, 
+<fpage>1207</fpage>&#8211;<lpage>1225</lpage> (<year>1997</year>).<pub-id pub-id-type="pmid">9171367</pub-id></mixed-citation>
+      </ref>
+      <ref id="R18">
+        <label>18</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>M.</given-names>
+<surname>Gstaiger</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Knoepfel</surname></string-name>, <string-name><given-names>O.</given-names>
+<surname>Georgiev</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Schaffner</surname></string-name>, <string-name><given-names>C. M.</given-names>
+<surname>Hovens</surname></string-name></person-group>, 
+<article-title>A B-cell coactivator of octamer-binding transcription factors</article-title>. <source>Nature</source>
+<volume>373</volume>, 
+<fpage>360</fpage>&#8211;<lpage>362</lpage> (<year>1995</year>).<pub-id pub-id-type="pmid">7779176</pub-id></mixed-citation>
+      </ref>
+      <ref id="R19">
+        <label>19</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>M.</given-names>
+<surname>Strubin</surname></string-name>, <string-name><given-names>J. W.</given-names>
+<surname>Newell</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Matthias</surname></string-name></person-group>, 
+<article-title>Obf-1, a novel B-cell-specific coactivator that stimulates immunoglobulin promoter activity through association with octamer-binding proteins</article-title>. <source>Cell</source>
+<volume>80</volume>, 
+<fpage>497</fpage>&#8211;<lpage>506</lpage> (<year>1995</year>).<pub-id pub-id-type="pmid">7859290</pub-id></mixed-citation>
+      </ref>
+      <ref id="R20">
+        <label>20</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>P.</given-names>
+<surname>Shore</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Dietrich</surname></string-name>, <string-name><given-names>L. M.</given-names>
+<surname>Corcoran</surname></string-name></person-group>, 
+<article-title>Oct-2 regulates CD36 gene expression via a consensus octamer, which excludes the co-activator OBF-1</article-title>. <source>Nucleic Acids Res.</source>
+<volume>30</volume>, 
+<fpage>1767</fpage>&#8211;<lpage>1773</lpage> (<year>2002</year>).<pub-id pub-id-type="pmid">11937630</pub-id></mixed-citation>
+      </ref>
+      <ref id="R21">
+        <label>21</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>A.</given-names>
+<surname>Shakya</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Goren</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Shalek</surname></string-name>, <string-name><given-names>C. N.</given-names>
+<surname>German</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Snook</surname></string-name>, <string-name><given-names>V. K.</given-names>
+<surname>Kuchroo</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Yosef</surname></string-name>, <string-name><given-names>R. C.</given-names>
+<surname>Chan</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Regev</surname></string-name>, <string-name><given-names>M. A.</given-names>
+<surname>Williams</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Tantin</surname></string-name></person-group>, 
+<article-title>Oct1 and OCA-B are selectively required for CD4 memory T cell function</article-title>. <source>J. Exp. Med.</source>
+<volume>212</volume>, 
+<fpage>2115</fpage>&#8211;<lpage>2131</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26481684</pub-id></mixed-citation>
+      </ref>
+      <ref id="R22">
+        <label>22</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>D.</given-names>
+<surname>Chasman</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Cepek</surname></string-name>, <string-name><given-names>P. A.</given-names>
+<surname>Sharp</surname></string-name>, <string-name><given-names>C. O.</given-names>
+<surname>Pabo</surname></string-name></person-group>, 
+<article-title>Crystal structure of an OCA-B peptide bound to an Oct-1 POU domain/octamer DNA complex: Specific recognition of a protein-DNA interface</article-title>. <source>Gene Dev.</source>
+<volume>13</volume>, 
+<fpage>2650</fpage>&#8211;<lpage>2657</lpage> (<year>1999</year>).<pub-id pub-id-type="pmid">10541551</pub-id></mixed-citation>
+      </ref>
+      <ref id="R23">
+        <label>23</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>C.</given-names>
+<surname>Plass</surname></string-name>, <string-name><given-names>S. M.</given-names>
+<surname>Pfister</surname></string-name>, <string-name><given-names>A. M.</given-names>
+<surname>Lindroth</surname></string-name>, <string-name><given-names>O.</given-names>
+<surname>Bogatyrova</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Claus</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Lichter</surname></string-name></person-group>, 
+<article-title>Mutations in regulators of the epigenome and their connections to global chromatin patterns in cancer</article-title>. <source>Nat. Rev. Genet.</source>
+<volume>14</volume>, 
+<fpage>765</fpage>&#8211;<lpage>780</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24105274</pub-id></mixed-citation>
+      </ref>
+      <ref id="R24">
+        <label>24</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>P.</given-names>
+<surname>Khan</surname></string-name>, <string-name><given-names>J. A.</given-names>
+<surname>Siddiqui</surname></string-name>, <string-name><given-names>S. K.</given-names>
+<surname>Maurya</surname></string-name>, <string-name><given-names>I.</given-names>
+<surname>Lakshmanan</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Jain</surname></string-name>, <string-name><given-names>A. K.</given-names>
+<surname>Ganti</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Salgia</surname></string-name>, <string-name><given-names>S. K.</given-names>
+<surname>Batra</surname></string-name>, <string-name><given-names>M. W.</given-names>
+<surname>Nasser</surname></string-name></person-group>, 
+<article-title>Epigenetic landscape of small cell lung cancer: Small image of a giant recalcitrant disease</article-title>. <source>Semin. Cancer Biol.</source>, 
+<fpage>57</fpage>&#8211;<lpage>76</lpage> (<year>2020</year>).</mixed-citation>
+      </ref>
+      <ref id="R25">
+        <label>25</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>R.</given-names>
+<surname>Lenhart</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Kirov</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Desilva</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Cao</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Lei</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Johnston</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Peterson</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Schweizer</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Purandare</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Ross-Macdonald</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Fairchild</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Wong</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Wee</surname></string-name></person-group>, 
+<article-title>Sensitivity of small cell lung cancer to BET inhibition is mediated by regulation of ASCL1 gene expression</article-title>. <source>Mol. Cancer Ther.</source>
+<volume>14</volume>, 
+<fpage>2167</fpage>&#8211;<lpage>2174</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26253517</pub-id></mixed-citation>
+      </ref>
+      <ref id="R26">
+        <label>26</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>L. T.</given-names>
+<surname>Lam</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Lin</surname></string-name>, <string-name><given-names>E. J.</given-names>
+<surname>Faivre</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Yang</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Huang</surname></string-name>, <string-name><given-names>D. M.</given-names>
+<surname>Wilcox</surname></string-name>, <string-name><given-names>R. J.</given-names>
+<surname>Bellin</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Jin</surname></string-name>, <string-name><given-names>S. K.</given-names>
+<surname>Tahir</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Mitten</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Magoc</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Bhathena</surname></string-name>, <string-name><given-names>W. M.</given-names>
+<surname>Kati</surname></string-name>, <string-name><given-names>D. H.</given-names>
+<surname>Albert</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Shen</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Uziel</surname></string-name></person-group>, 
+<article-title>Vulnerability of small-cell lung cancer to apoptosis induced by the combination of BET bromodomain proteins and BCL2 inhibitors</article-title>. <source>Mol. Cancer Ther.</source>
+<volume>16</volume>, 
+<fpage>1511</fpage>&#8211;<lpage>1520</lpage> (<year>2017</year>).<pub-id pub-id-type="pmid">28468776</pub-id></mixed-citation>
+      </ref>
+      <ref id="R27">
+        <label>27</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>X. S.</given-names>
+<surname>Wu</surname></string-name>, <string-name><given-names>X.-Y.</given-names>
+<surname>He</surname></string-name>, <string-name><given-names>J. J.</given-names>
+<surname>Ipsaro</surname></string-name>, <string-name><given-names>Y.-H.</given-names>
+<surname>Huang</surname></string-name>, <string-name><given-names>J. B.</given-names>
+<surname>Preall</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Ng</surname></string-name>, <string-name><given-names>Y. T.</given-names>
+<surname>Shue</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Sage</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Egebald</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Joshua-Tor</surname></string-name>, <string-name><given-names>C. R.</given-names>
+<surname>Vakoc</surname></string-name></person-group>, 
+<article-title>OCA-T1 and OCA-T2 are coactivators of POU2F3 in the tuft cell lineage</article-title>. <source>Nature</source>
+<volume>607</volume>, 
+<fpage>169</fpage>&#8211;<lpage>175</lpage> (<year>2022</year>).<pub-id pub-id-type="pmid">35576971</pub-id></mixed-citation>
+      </ref>
+      <ref id="R28">
+        <label>28</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>L.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Zhao</surname></string-name>, <string-name><given-names>P. A.</given-names>
+<surname>Ozark</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Fantini</surname></string-name>, <string-name><given-names>S. A.</given-names>
+<surname>Marshall</surname></string-name>, <string-name><given-names>E. J.</given-names>
+<surname>Rendleman</surname></string-name>, <string-name><given-names>K. A.</given-names>
+<surname>Cozzolino</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Louis</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>He</surname></string-name>, <string-name><given-names>M. A.</given-names>
+<surname>Morgan</surname></string-name>, <string-name><given-names>Y.-H.</given-names>
+<surname>Takahashi</surname></string-name>, <string-name><given-names>C. K.</given-names>
+<surname>Collings</surname></string-name>, <string-name><given-names>E. R.</given-names>
+<surname>Smith</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Ntziachristos</surname></string-name>, <string-name><given-names>J. N.</given-names>
+<surname>Savas</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Zou</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Hashizume</surname></string-name>, <string-name><given-names>J. J.</given-names>
+<surname>Meeks</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Shilatifard</surname></string-name></person-group>, 
+<article-title>Resetting the epigenetic balance of Polycomb and COMPASS function at enhancers for cancer therapy</article-title>. <source>Nat. Med.</source>
+<volume>24</volume>, 
+<fpage>758</fpage>&#8211;<lpage>769</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29785026</pub-id></mixed-citation>
+      </ref>
+      <ref id="R29">
+        <label>29</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Z. B.</given-names>
+<surname>Zhao</surname></string-name>, <string-name><given-names>A. P.</given-names>
+<surname>Szczepanski</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Tsuboyama</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Abdala-Valencia</surname></string-name>, <string-name><given-names>Y. A.</given-names>
+<surname>Goo</surname></string-name>, <string-name><given-names>B. D.</given-names>
+<surname>Singer</surname></string-name>, <string-name><given-names>E. T.</given-names>
+<surname>Bartom</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Yue</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Wang</surname></string-name></person-group>, 
+<article-title>PAX9 determines epigenetic state transition and cell fate in cancer</article-title>. <source>Cancer Res.</source>
+<volume>81</volume>, 
+<fpage>4696</fpage>&#8211;<lpage>4708</lpage> (<year>2021</year>).<pub-id pub-id-type="pmid">34341073</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

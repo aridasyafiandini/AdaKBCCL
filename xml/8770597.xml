@@ -1,0 +1,220 @@
+<pmc-articleset><article dtd-version="1.3" xml:lang="en" article-type="research-article">
+  
+  
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-journal-id">2984705R</journal-id>
+      <journal-id journal-id-type="pubmed-jr-id">2786</journal-id>
+      <journal-id journal-id-type="nlm-ta">Cancer Res</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Cancer Res</journal-id>
+      <journal-title-group>
+        <journal-title>Cancer research</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0008-5472</issn>
+      <issn pub-type="epub">1538-7445</issn>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">34810201</article-id>
+      <article-id pub-id-type="pmc">8770597</article-id>
+      <article-id pub-id-type="doi">10.1158/0008-5472.CAN-21-1991</article-id>
+      <article-id pub-id-type="manuscript">NIHMS1759764</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Plasticity in the Absence of NOTCH Uncovers a RUNX2-Dependent Pathway in Small Cell Lung Cancer</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hong</surname>
+            <given-names>Deli</given-names>
+          </name>
+          <xref rid="A1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Knelson</surname>
+            <given-names>Erik H.</given-names>
+          </name>
+          <xref rid="A1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Li</surname>
+            <given-names>Yixiang</given-names>
+          </name>
+          <xref rid="A1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Durmaz</surname>
+            <given-names>Yavuz T.</given-names>
+          </name>
+          <xref rid="A1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gao</surname>
+            <given-names>Wenhua</given-names>
+          </name>
+          <xref rid="A1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Walton</surname>
+            <given-names>Emily</given-names>
+          </name>
+          <xref rid="A2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Vajdi</surname>
+            <given-names>Amir</given-names>
+          </name>
+          <xref rid="A3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Thai</surname>
+            <given-names>Tran</given-names>
+          </name>
+          <xref rid="A1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sticco-Ivins</surname>
+            <given-names>Maura</given-names>
+          </name>
+          <xref rid="A2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sabet</surname>
+            <given-names>Amin H.</given-names>
+          </name>
+          <xref rid="A1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jones</surname>
+            <given-names>Kristen</given-names>
+          </name>
+          <xref rid="A4" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schinzel</surname>
+            <given-names>Anna C.</given-names>
+          </name>
+          <xref rid="A1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bronson</surname>
+            <given-names>Rod T.</given-names>
+          </name>
+          <xref rid="A5" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Nguyen</surname>
+            <given-names>Quang-De</given-names>
+          </name>
+          <xref rid="A4" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tolstorukov</surname>
+            <given-names>Michael Y.</given-names>
+          </name>
+          <xref rid="A3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Vivero</surname>
+            <given-names>Marina</given-names>
+          </name>
+          <xref rid="A2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Signoretti</surname>
+            <given-names>Sabina</given-names>
+          </name>
+          <xref rid="A2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Barbie</surname>
+            <given-names>David A.</given-names>
+          </name>
+          <xref rid="A1" ref-type="aff">1</xref>
+          <xref rid="A6" ref-type="aff">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Oser</surname>
+            <given-names>Matthew G.</given-names>
+          </name>
+          <xref rid="A1" ref-type="aff">1</xref>
+          <xref rid="A6" ref-type="aff">6</xref>
+          <xref rid="CR1" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1"><label>1</label>Department of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA 02215, USA</aff>
+      <aff id="A2"><label>2</label>Department of Pathology, Brigham and Women&#8217;s Hospital, Harvard Medical School, MA 02115, USA</aff>
+      <aff id="A3"><label>3</label>Department of Informatics, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA 02215, USA.</aff>
+      <aff id="A4"><label>4</label>Lurie Family Imaging Center, Center for Biomedical Imaging in Oncology, Dana-Farber Cancer Institute, Boston, MA 02210, USA</aff>
+      <aff id="A5"><label>5</label>Division of Immunology, Department of Microbiology and Immunobiology, Harvard Medical School, Boston, MA 02215.</aff>
+      <aff id="A6"><label>6</label>Department of Medicine, Brigham and Women&#8217;s Hospital, Harvard Medical School, MA 02115, USA</aff>
+      <author-notes>
+        <fn fn-type="con" id="FN1">
+          <p id="P1">Authors&#8217; Contributions</p>
+          <p id="P2">Conceptualization: D.H., D.A.B, and M.G.O.; Methodology: D.H., E.H.K, W.G., E.W., M.S., Q.D.N, S.S., and M.G.O.; Investigation: D.H., E.H.K, K.J., and M.G.O; Formal Analysis: D.H., E.H.K, Y.L., A.V., T.T., A.H.S, M.Y.T., M.V; Writing: D.H. and M.G.O.; Review and Editing: All authors; Funding Acquisition: M.G.O.</p>
+        </fn>
+        <corresp id="CR1"><label>*</label>Correspondence should be addressed to Matthew G. Oser, <email>Matthew_Oser@dfci.harvard.edu</email>. Dana-Farber Cancer Institute, 450 Brookline Avenue, LC 4215B, Boston, MA 02215.</corresp>
+      </author-notes>
+      <pub-date pub-type="nihms-submitted">
+        <day>2</day>
+        <month>12</month>
+        <year>2021</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <day>15</day>
+        <month>1</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>22</day>
+        <month>11</month>
+        <year>2021</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>15</day>
+        <month>7</month>
+        <year>2022</year>
+      </pub-date>
+      <volume>82</volume>
+      <issue>2</issue>
+      <fpage>248</fpage>
+      <lpage>263</lpage>
+      <abstract id="ABS1">
+        <p id="P3">Neuroendocrine to non-neuroendocrine plasticity supports small cell lung cancer (SCLC) tumorigenesis and promotes immunogenicity. Approximately 20&#8211;25% of SCLCs harbor loss of function (LOF) <italic toggle="yes">NOTCH</italic> mutations. Previous studies demonstrated that NOTCH functions as a SCLC tumor suppressor, but can also drive non-neuroendocrine plasticity to support SCLC growth. Given the dual functionality of NOTCH, it&#8217;s not understood why SCLCs select for LOF NOTCH mutations and how these mutations impact SCLC tumorigenesis. In a CRISPR-based genetically-engineered mouse model of SCLC, genetic loss of <italic toggle="yes">Notch1</italic> or <italic toggle="yes">Notch2</italic> modestly accelerated SCLC tumorigenesis. Interestingly, <italic toggle="yes">Notch</italic>-mutant SCLCs still formed non-neuroendocrine subpopulations, and these Notch-independent, non-neuroendocrine subpopulations were driven by Runx2-mediated regulation of Rest. <italic toggle="yes">Notch2</italic>-mutant non-neuroendocrine cells highly express innate immune signaling genes including STING and were sensitive to STING agonists. This work identifies a Notch-independent mechanism to promote non-neuroendocrine plasticity and suggests that therapeutic approaches to activate STING could be selectively beneficial for SCLCs with <italic toggle="yes">NOTCH2</italic> mutations.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>NOTCH</kwd>
+        <kwd>RUNX</kwd>
+        <kwd>REST</kwd>
+        <kwd>STING</kwd>
+        <kwd>small cell lung cancer</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+</article>
+</pmc-articleset>

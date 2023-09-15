@@ -1,0 +1,1092 @@
+<pmc-articleset xmlns:ns0="http://www.w3.org/1999/xlink"><article article-type="research-article">
+  
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Genes Dev</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Genes Dev</journal-id>
+      <journal-id journal-id-type="hwp">genesdev</journal-id>
+      <journal-id journal-id-type="pmc">genesdev</journal-id>
+      <journal-id journal-id-type="publisher-id">GAD</journal-id>
+      <journal-title-group>
+        <journal-title>Genes &amp; Development</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0890-9369</issn>
+      <issn pub-type="epub">1549-5477</issn>
+      <publisher>
+        <publisher-name>Cold Spring Harbor Laboratory Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">31727771</article-id>
+      <article-id pub-id-type="pmc">6942053</article-id>
+      <article-id pub-id-type="medline">8711660</article-id>
+      <article-id pub-id-type="doi">10.1101/gad.328336.119</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Paper</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The KDM5A/RBP2 histone demethylase represses NOTCH signaling to sustain neuroendocrine differentiation and promote small cell lung cancer tumorigenesis</article-title>
+        <alt-title alt-title-type="left-running">Oser et al.</alt-title>
+        <alt-title alt-title-type="right-running">KDM5A Promotes SCLC tumorigenesis</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Oser</surname>
+            <given-names>Matthew G.</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+          <xref ref-type="aff" rid="af2">2</xref>
+          <xref ref-type="aff" rid="af3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sabet</surname>
+            <given-names>Amin H.</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gao</surname>
+            <given-names>Wenhua</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+          <xref ref-type="aff" rid="af3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chakraborty</surname>
+            <given-names>Abhishek A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+          <xref ref-type="aff" rid="af3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schinzel</surname>
+            <given-names>Anna C.</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jennings</surname>
+            <given-names>Rebecca B.</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+          <xref ref-type="aff" rid="af4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fonseca</surname>
+            <given-names>Raquel</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bonal</surname>
+            <given-names>Dennis M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+          <xref ref-type="aff" rid="af5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Booker</surname>
+            <given-names>Matthew A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="af6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Flaifel</surname>
+            <given-names>Abdallah</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+          <xref ref-type="aff" rid="af4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Novak</surname>
+            <given-names>Jesse S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+          <xref ref-type="aff" rid="af4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Christensen</surname>
+            <given-names>Camilla L.</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Hua</given-names>
+          </name>
+          <xref ref-type="aff" rid="af7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Herbert</surname>
+            <given-names>Zachary T.</given-names>
+          </name>
+          <xref ref-type="aff" rid="af8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tolstorukov</surname>
+            <given-names>Michael Y.</given-names>
+          </name>
+          <xref ref-type="aff" rid="af6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Buss</surname>
+            <given-names>Elizabeth J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+          <xref ref-type="aff" rid="af9">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wong</surname>
+            <given-names>Kwok-Kin</given-names>
+          </name>
+          <xref ref-type="aff" rid="af7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bronson</surname>
+            <given-names>Roderick T.</given-names>
+          </name>
+          <xref ref-type="aff" rid="af10">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Nguyen</surname>
+            <given-names>Quang-De</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+          <xref ref-type="aff" rid="af5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Signoretti</surname>
+            <given-names>Sabina</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+          <xref ref-type="aff" rid="af4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kaelin</surname>
+            <given-names>William G.</given-names>
+            <suffix>Jr.</suffix>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+          <xref ref-type="aff" rid="af3">3</xref>
+          <xref ref-type="aff" rid="af9">9</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1"><label>1</label>Department of Medical Oncology, Dana-Farber Cancer Institute and Brigham and Women's Hospital, Harvard Medical School, Boston, Massachusetts 02215, USA;</aff>
+      <aff id="af2"><label>2</label>Lowe Center for Thoracic Oncology, Dana-Farber Cancer Institute, Boston, Massachusetts 02215, USA;</aff>
+      <aff id="af3"><label>3</label>Department of Medicine, Brigham and Women's Hospital, Harvard Medical School, Massachusetts 02115, USA;</aff>
+      <aff id="af4"><label>4</label>Department of Pathology, Brigham and Women's Hospital, Harvard Medical School, Massachusetts 02115, USA;</aff>
+      <aff id="af5"><label>5</label>Lurie Family Imaging Center, Center for Biomedical Imaging in Oncology, Dana-Farber Cancer Institute, Boston, Massachusetts 02210, USA;</aff>
+      <aff id="af6"><label>6</label>Department of Informatics and Analytics, Dana-Farber Cancer Institute, Boston, Massachusetts 02215, USA;</aff>
+      <aff id="af7"><label>7</label>Laura and Isaac Perlmutter Cancer Center, New York University Langone Medical Center, New York, New York 10016, USA;</aff>
+      <aff id="af8"><label>8</label>Molecular Biology Core Facilities, Dana-Farber Cancer Institute and Brigham and Women's Hospital, Harvard Medical School, Boston, Massachusetts 02215, USA;</aff>
+      <aff id="af9"><label>9</label>Howard Hughes Medical Institute, Chevy Chase, Maryland 20815, USA;</aff>
+      <aff id="af10"><label>10</label>Division of Immunology, Department of Microbiology and Immunobiology, Harvard Medical School, Boston, Massachusetts 02215</aff>
+      <author-notes>
+        <corresp>Corresponding author: <email>William_Kaelin@dfci.harvard.edu</email></corresp>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <day>1</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <volume>33</volume>
+      <issue>23-24</issue>
+      <fpage>1718</fpage>
+      <lpage>1738</lpage>
+      <history>
+        <date date-type="received">
+          <day>2</day>
+          <month>5</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>21</day>
+          <month>10</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>
+          <ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/site/misc/terms.xhtml">&#169; 2019 Oser et al.; Published by Cold Spring Harbor Laboratory Press</ext-link>
+        </copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="creative-commons" ns0:href="http://creativecommons.org/licenses/by-nc/4.0/">
+          <license-p>This article is distributed exclusively by Cold Spring Harbor Laboratory Press for the first six months after the full-issue publication date (see <ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/site/misc/terms.xhtml">http://genesdev.cshlp.org/site/misc/terms.xhtml</ext-link>). After six months, it is available under a Creative Commons License (Attribution-NonCommercial 4.0 International), as described at <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <self-uri content-type="pdf" ns0:href="1718.pdf" />
+      <abstract abstract-type="precis">
+        <p>In this study from Oser et al., the authors investigated how RB1 loss causes a neuroendocrine phenotype in different tumor types. They show that histone demethylase KDM5A (also known as RBP2 or JARID1A) promotes small cell lung cancer (SCLC) proliferation and SCLCs neuroendocrine differentiation phenotype through sustained expression of the neuroendocrine transcription factor ASCL1 by repressing NOTCH2 and NOTCH target genes, thereby establishing a role for KDM5A in SCLC tumorigenesis.</p>
+      </abstract>
+      <abstract>
+        <p>More than 90% of small cell lung cancers (SCLCs) harbor loss-of-function mutations in the tumor suppressor gene <italic>RB1</italic>. The canonical function of the <italic>RB1</italic> gene product, pRB, is to repress the E2F transcription factor family, but pRB also functions to regulate cellular differentiation in part through its binding to the histone demethylase KDM5A (also known as RBP2 or JARID1A). We show that KDM5A promotes SCLC proliferation and SCLC's neuroendocrine differentiation phenotype in part by sustaining expression of the neuroendocrine transcription factor ASCL1. Mechanistically, we found that KDM5A sustains ASCL1 levels and neuroendocrine differentiation by repressing NOTCH2 and NOTCH target genes. To test the role of KDM5A in SCLC tumorigenesis in vivo, we developed a CRISPR/Cas9-based mouse model of SCLC by delivering an adenovirus (or an adeno-associated virus [AAV]) that expresses Cre recombinase and sgRNAs targeting <italic>Rb1, Tp53</italic>, and <italic>Rbl2</italic> into the lungs of Lox-Stop-Lox Cas9 mice. Coinclusion of a KDM5A sgRNA decreased SCLC tumorigenesis and metastasis, and the SCLCs that formed despite the absence of KDM5A had higher NOTCH activity compared to <italic>KDM5A</italic><sup>+/+</sup> SCLCs. This work establishes a role for KDM5A in SCLC tumorigenesis and suggests that KDM5 inhibitors should be explored as treatments for SCLC.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>KDM5A</kwd>
+        <kwd>RBP2</kwd>
+        <kwd>JARID1A</kwd>
+        <kwd>ASCL1</kwd>
+        <kwd>NOTCH</kwd>
+        <kwd>SCLC</kwd>
+        <kwd>neuroendocrine differentiation</kwd>
+        <kwd>small cell lung cancer</kwd>
+        <kwd>CRISPR/Cas9</kwd>
+        <kwd>mouse model</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group id="funding-1">
+          <funding-source>
+            <institution-wrap>
+              <institution>HHMI </institution>
+              <institution-id institution-id-type="open-funder-registry">10.13039/100000011</institution-id>
+            </institution-wrap>
+          </funding-source>
+        </award-group>
+        <award-group id="funding-2">
+          <funding-source>
+            <institution-wrap>
+              <institution>NIH </institution>
+              <institution-id institution-id-type="open-funder-registry">10.13039/100000002</institution-id>
+            </institution-wrap>
+          </funding-source>
+        </award-group>
+        <award-group id="funding-3">
+          <funding-source>
+            <institution-wrap>
+              <institution>National Cancer Institute (NCI) </institution>
+              <institution-id institution-id-type="open-funder-registry">10.13039/100000054</institution-id>
+            </institution-wrap>
+          </funding-source>
+          <award-id>K08CA222657</award-id>
+        </award-group>
+        <award-group id="funding-4">
+          <funding-source>
+            <institution-wrap>
+              <institution>Lung Cancer Research Foundation </institution>
+              <institution-id institution-id-type="open-funder-registry">10.13039/100007038</institution-id>
+            </institution-wrap>
+          </funding-source>
+        </award-group>
+        <award-group id="funding-5">
+          <funding-source>
+            <institution-wrap>
+              <institution>Dana Farber/Harvard Cancer Center </institution>
+              <institution-id institution-id-type="open-funder-registry">10.13039/100008126</institution-id>
+            </institution-wrap>
+          </funding-source>
+        </award-group>
+        <award-group id="funding-6">
+          <funding-source>(DF/HCC) Lung Cancer Program</funding-source>
+        </award-group>
+      </funding-group>
+      <counts>
+        <page-count count="21" />
+      </counts>
+    </article-meta>
+  </front>
+  <body><p>Small cell lung cancers (SCLCs) are high-grade neuroendocrine tumors that account for &#8764;15% of lung cancers (<xref rid="GAD328336OSEC23" ref-type="bibr">Kalemkerian et al. 2013</xref>). Almost all SCLCs highly express either ASCL1 (in 70% of cases) or NEUROD1 (in 20% of cases) (<xref rid="GAD328336OSEC11" ref-type="bibr">Christensen et al. 2014</xref>; <xref rid="GAD328336OSEC19" ref-type="bibr">George et al. 2015</xref>; <xref rid="GAD328336OSEC5" ref-type="bibr">Borromeo et al. 2016</xref>), which are both neuronal/neuroendocrine lineage transcription factors (<xref rid="GAD328336OSEC40" ref-type="bibr">Pattyn et al. 2004</xref>; <xref rid="GAD328336OSEC17" ref-type="bibr">Gao et al. 2009</xref>; <xref rid="GAD328336OSEC8" ref-type="bibr">Chanda et al. 2014</xref>). In SCLC, ASCL1 activates genes involved in neuroendocrine differentiation and lung development, as well as known SCLC proto-oncogenes such as <italic>MYCL1</italic>, <italic>NKX2.1</italic>, and <italic>SOX2</italic> (<xref rid="GAD328336OSEC5" ref-type="bibr">Borromeo et al. 2016</xref>). ASCL1 is required for survival in SCLC cell lines (<xref rid="GAD328336OSEC2" ref-type="bibr">Augustyn et al. 2014</xref>) and for tumor initiation in a genetically engineered mouse model (GEMM) of SCLC (<xref rid="GAD328336OSEC5" ref-type="bibr">Borromeo et al. 2016</xref>), suggesting that maintenance of the neuroendocrine differentiation state in SCLC is necessary to sustain tumor growth. However, the mechanisms that drive high ASCL1 expression in SCLC are not well understood.</p><p>Approximately 25% of SCLCs have mutually exclusive loss of function (LOF) mutations in <italic>NOTCH</italic> receptors (<italic>NOTCH1, NOTCH2, NOTCH3,</italic> and <italic>NOTCH4</italic>) (<xref rid="GAD328336OSEC19" ref-type="bibr">George et al. 2015</xref>). Reexpression of the transcriptionally active intracellular domain (ICD) of NOTCH1 (NOTCH1-ICD) or NOTCH2 (NOTCH2-ICD) slows SCLC cell proliferation in vitro and inhibits tumor formation in vivo in a SCLC GEMM (<xref rid="GAD328336OSEC19" ref-type="bibr">George et al. 2015</xref>), demonstrating that NOTCH1 and NOTCH2 function as tumor suppressors in SCLC. Reexpression of NOTCH-ICD also dramatically decreases ASCL1 expression (<xref rid="GAD328336OSEC19" ref-type="bibr">George et al. 2015</xref>), suggesting that low NOTCH activity in SCLC is required to sustain ASCL1 levels and maintain neuroendocrine differentiation. Interestingly, nearly 80% of human SCLCs have transcriptional signatures of low NOTCH activity and express high levels of ASCL1, irrespective of whether they harbor a <italic>NOTCH</italic> mutation (<xref rid="GAD328336OSEC19" ref-type="bibr">George et al. 2015</xref>). This suggests that other, as yet unknown, mechanisms repress NOTCH activity in SCLC tumors that are genetically <italic>NOTCH</italic> WT.</p><p>SCLC is almost always linked to inactivating mutations in the <italic>RB1</italic> and <italic>TP53</italic> tumor suppressor genes. The canonical function of the pRB pathway, which includes pRB and its upstream regulators p16, Cyclin D1, and CDK4, is to regulate cell-cycle progression by modulating E2F-dependent transcription (<xref rid="GAD328336OSEC15" ref-type="bibr">Dyson 2016</xref>). Almost all SCLCs harbor <italic>RB1</italic> mutations, whereas <italic>CDKN2A</italic> (p16), <italic>CCND1</italic> (Cyclin D1), and <italic>CDK4</italic> mutations are conspicuously rare. This suggests a specific role for pRB loss in SCLC pathogenesis that is not shared by other E2F regulators.</p><p><italic>Rb1</italic> loss in the mouse leads to the development of neuroendocrine pituitary, thyroid, and retinal tumors (<xref rid="GAD328336OSEC21" ref-type="bibr">Jacks et al. 1992</xref>; <xref rid="GAD328336OSEC53" ref-type="bibr">Zhang et al. 2004</xref>). Interestingly, pRB loss in <italic>EGFR</italic>-mutant non-small cell lung cancer, castration-resistant prostate cancer, and bladder cancer has been linked to transdifferentiation to a small cell neuroendocrine phenotype (<xref rid="GAD328336OSEC49" ref-type="bibr">Tan et al. 2014</xref>; <xref rid="GAD328336OSEC38" ref-type="bibr">Niederst et al. 2015</xref>; <xref rid="GAD328336OSEC9" ref-type="bibr">Chang 2017</xref>; <xref rid="GAD328336OSEC26" ref-type="bibr">Ku et al. 2017</xref>; <xref rid="GAD328336OSEC36" ref-type="bibr">Mu et al. 2017</xref>), suggesting that pRB loss promotes neuroendocrine differentiation.</p><p>In this regard, pRB has been shown to bind and inhibit the activity of the H3K4 histone demethylase KDM5A/RBP2/JARID1A (hereafter referred to as KDM5A), and KDM5A is required for the differentiation block induced by pRB loss (i.e., KDM5A is epistatic to pRB) in cellular models (<xref rid="GAD328336OSEC3" ref-type="bibr">Benevolenskaya et al. 2005</xref>; <xref rid="GAD328336OSEC30" ref-type="bibr">Lin et al. 2011</xref>). Furthermore, loss of KDM5A suppresses the growth of <italic>Rb1</italic><sup>&#8722;/&#8722;</sup> neuroendocrine pituitary and thyroid tumors (<xref rid="GAD328336OSEC30" ref-type="bibr">Lin et al. 2011</xref>; <xref rid="GAD328336OSEC32" ref-type="bibr">McBrayer et al. 2018</xref>). The role for KDM5A in neuroendocrine differentiation and SCLC tumorigenesis has been largely unexplored, although one study reported that KDM5A shRNAs slowed cellular proliferation in the SCLC cell line NCI-H446 that inherently expresses low levels of ASCL1 (<xref rid="GAD328336OSEC51" ref-type="bibr">V&#225;raljai et al. 2015</xref>).</p><p>Genetically engineered mouse models (GEMMs) of SCLC have been developed to study SCLC tumorigenesis in vivo. These models have traditionally been generated by intratracheal (IT) injection of adenoviruses encoding Cre recombinase into mice carrying homozygous floxed alleles for <italic>Rb1</italic> and <italic>Trp53</italic> (referred to hereafter as RP model). In the RP model, SCLCs form after 1 yr (<xref rid="GAD328336OSEC33" ref-type="bibr">Meuwissen et al. 2003</xref>). Some human SCLCs also have mutations in both <italic>RB1</italic> and its paralog <italic>RBL2</italic> (<xref rid="GAD328336OSEC19" ref-type="bibr">George et al. 2015</xref>), and SCLC tumor latency is reduced to 6 mo in mice when <italic>Rb1</italic>, <italic>Trp53</italic>, and <italic>Rbl2</italic> (protein = p130) are inactivated in the lung (referred to hereafter as the RPP model) (<xref rid="GAD328336OSEC45" ref-type="bibr">Schaffer et al. 2010</xref>). However, studying additional genetic interactions in these models is burdensome given the amount of breeding, and hence time, required to introduce additional experimental alleles (e.g., a null allele for a candidate therapeutic target gene or cooperating tumor suppressor gene).</p><p>A mouse strain (hereafter called LSL-Cas9 mice) that conditionally expresses Cas9 after Cre recombinase-mediated excision of a Lox-Stop-Lox (LSL) cassette was recently used to make a lung adenocarcinoma GEMM (<xref rid="GAD328336OSEC43" ref-type="bibr">Platt et al. 2014</xref>). These mice developed lung adenocarcinomas &#8764;2 mo after IT injection of an adeno-associated virus (AAV) encoding sgRNAs against <italic>Trp53</italic>, <italic>Lkb1</italic>, and <italic>Kras</italic> together with a homologous repair template for introducing an oncogenic <italic>K-Ras</italic> mutation (<xref rid="GAD328336OSEC43" ref-type="bibr">Platt et al. 2014</xref>). Notably, most of these tumors did not carry a <italic>K-Ras</italic> mutation and were therefore driven primarily by <italic>Trp53</italic> and <italic>Lkb1</italic> loss. We reasoned this technology could be used to rapidly inactivate <italic>Rb1, Trp53</italic>, and <italic>Rbl2</italic> in the mouse to cause SCLC and that, if successful, we could then simultaneously inactivate additional genes that might impact SCLC biology.</p><p>Herein, we show that KDM5A sustains ASCL1 levels and neuroendocrine differentiation in SCLC through a NOTCH2-dependent mechanism. We also describe a CRISPR/Cas9-based SCLC GEMM generated by IT injection of an adenovirus that encodes Cre and sgRNAs against Rb1, <italic>Trp53</italic>, and Rbl2 into LSL-Cas9 mice. We used this SCLC GEMM to simultaneously deliver a Kdm5a sgRNA at tumor initiation as a means of studying Kdm5a's role in SCLC tumorigenesis.</p><sec sec-type="results" id="s1"><title>Results</title><sec id="s1a"><title>KDM5A promotes SCLC proliferation in vitro</title><p>To ask whether KDM5A promotes SCLC proliferation, we infected three different <italic>RB1</italic><sup>&#8722;/&#8722;</sup> SCLC cell lines (GLC16, NCI-H82, and NCI-H1876) with lentiviruses that express Cas9 and one of two effective <italic>KDM5A</italic> sgRNAs (<xref ref-type="fig" rid="GAD328336OSEF1">Fig. 1</xref>A,C,E). CRISPR-mediated knockdown of KDM5A slowed cellular proliferation in all three cell lines (<xref ref-type="fig" rid="GAD328336OSEF1">Fig. 1</xref>B,D,F). These effects were likely on target because the proliferation defect in NCI-H82 cells caused by one of the <italic>KDM5A</italic> sgRNAs was reversed by expression of an sgRNA-resistant <italic>KDM5A</italic> variant (<xref ref-type="fig" rid="GAD328336OSEF1">Fig. 1</xref>G,H). Importantly, CRISPR/Cas9 screens performed in 517 cancer cell lines from Project Achilles demonstrated that KDM5A is not a common essential gene and was only found to be a dependency in six of the 558 cell lines examined (<xref rid="GAD328336OSEC50" ref-type="bibr">Tsherniak et al. 2017</xref>). Together, these data show that inactivation of KDM5A inhibits SCLC proliferation in vitro.</p><fig id="GAD328336OSEF1" orientation="portrait" position="float"><label>Figure 1.</label><caption><p>Loss of KDM5A inhibits SCLC proliferation. (<italic>A</italic>,<italic>C</italic>,<italic>E</italic>) Immunoblot analysis of GLC16 cells (<italic>A</italic>), NCI-H1876 cells (<italic>C</italic>), and NCI-H82 cells (<italic>E</italic>) infected with lentiviruses expressing Cas9 and the indicated sgRNAs. (<italic>B</italic>,<italic>D</italic>,<italic>F</italic>) Cell proliferation of GLC16 cells (<italic>B</italic>), NCI-H1876 cells (<italic>D</italic>), and NCI-H82 cells (<italic>F</italic>), as in <italic>A</italic>, <italic>C</italic>, and <italic>E</italic>, respectively. For <italic>B</italic>, <italic>D</italic>, and <italic>F</italic>, <italic>n</italic> = 3 biological replicates. (<italic>G</italic>,<italic>H</italic>) Immunoblot analysis (<italic>G</italic>) and cellular proliferation (<italic>H</italic>) of NCI-H82 cells that were infected with viruses expressing a sgRNA-resistant KDM5A cDNA (or with the empty vector [EV]) and superinfected to express the indicated sgRNA. For H, <italic>n</italic> = 3 biological replicates. For all experiments, data are represented as &#177; SEM. (*) <italic>P</italic> &lt; 0.05.</p></caption><graphic ns0:href="1718f01" /></fig></sec><sec id="s1b"><title>KDM5A sustains ASCL1 levels in SCLC</title><p><italic>RB1</italic> loss causes a differentiation block in mouse embryonic fibroblasts and myocytes that is relieved by inactivation of <italic>KDM5A</italic>. Therefore, <italic>RB1</italic> and <italic>KDM5A</italic> are epistatic with respect to differentiation control (<xref rid="GAD328336OSEC3" ref-type="bibr">Benevolenskaya et al. 2005</xref>). Since almost all SCLCs have loss-of-function <italic>RB1</italic> mutations (<xref rid="GAD328336OSEC42" ref-type="bibr">Peifer et al. 2012</xref>; <xref rid="GAD328336OSEC44" ref-type="bibr">Rudin et al. 2012</xref>; <xref rid="GAD328336OSEC19" ref-type="bibr">George et al. 2015</xref>), we hypothesized that KDM5A causes a differentiation block in SCLC. Studies with genetically engineered mouse models (GEMMs) of SCLC using cell-type-specific promoters revealed that pulmonary neuroendocrine cells are possibly the cell of origin for most SCLCs (<xref rid="GAD328336OSEC47" ref-type="bibr">Sutherland et al. 2011</xref>). Therefore, we reasoned that a differentiation block in SCLC would manifest as maintenance of its neuroendocrine phenotype, which can be measured by the presence of neuroendocrine markers such as ASCL1, synaptophysin, and chromogranin A. To ask whether KDM5A causes a differentiation block in SCLC, we inactivated KDM5A using CRISPR/Cas9 in three different SCLC cell lines that express high levels of ASCL1 (GLC16, NCI-H1417, NCI-H1876). KDM5A inactivation decreased the levels of the neuroendocrine lineage transcriptional activator ASCL1 as well as other neuroendocrine markers (<xref ref-type="fig" rid="GAD328336OSEF2">Fig. 2</xref>A,B; <ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S1A</ext-link>).</p><fig id="GAD328336OSEF2" orientation="portrait" position="float"><label>Figure 2.</label><caption><p>KDM5A sustains ASCL1 levels in SCLC. (<italic>A</italic>,<italic>B</italic>) Immunoblot analysis of GLC16 cells (<italic>A</italic>) and NCI-H1876 cells (<italic>B</italic>) 14 d after infection with lentiviruses expressing Cas9 and the indicated sgRNAs. (<italic>C</italic>) Immunoblot analysis of histone extracts from GLC16, NCI-H1876, and NCI-H69 SCLC cells treated with the indicated concentrations of KDM5-C70 for 3 d. (<italic>D</italic>&#8211;<italic>I</italic>) Immunoblot analysis (<italic>top</italic>) and proliferation assays (<italic>bottom</italic>) of GLC16 cells (<italic>D</italic>,<italic>G</italic>), NCI-H1876 cells (<italic>E</italic>,<italic>H</italic>), and NCI-H69 cells (<italic>F</italic>,<italic>I</italic>) treated with the indicated concentrations of KDM5-C70. (<italic>J</italic>) Representative phase-contrast images of adherent NCI-H69 cells after treatment with the indicated concentrations of KDM5-C70 for 24 d. Scale bar, 10 &#956;m. (<italic>K</italic>) Immunoblot analysis of NCI-H69 cells infected with a doxycycline (DOX)-inducible lentivirus that expresses ASCL1 or EV. The cells were treated with KDM5-C70 at the indicated concentrations for 12 d. DOX (2 &#956;g/mL) was added to cells 48 h prior to the addition of KDM5-C70 where indicated by the &#8220;+&#8221;. (LE) Long exposure, (SE) short exposure. (<italic>L</italic>) Number of viable cells, relative to untreated controls, of cells treated as in (<italic>K</italic>). <italic>n</italic> = 5 biological replicates. (**) <italic>P</italic> &lt; 0.01 (two-way ANOVA comparing either ASCL1&#8722; vs. ASCL1+ or EV+ vs. ASCL1+).</p></caption><graphic ns0:href="1718f02" /></fig><p>We next asked whether pharmacological inhibition of KDM5 demethylase activity repressed ASCL1 levels in three SCLC cell lines (NCI-H69, NCI-H1876, and GLC16). KDM5-C70, a KDM5-family demethylase inhibitor that selectively inhibits KDM5 family members (<xref rid="GAD328336OSEC22" ref-type="bibr">Johansson et al. 2016</xref>) and promotes H3 lysine(K) 4 trimethylation without causing accumulation of other H3 lysine methylation marks (<xref ref-type="fig" rid="GAD328336OSEF2">Fig. 2</xref>C), markedly decreased ASCL1 levels in all three SCLC cell lines (<xref ref-type="fig" rid="GAD328336OSEF2">Fig. 2</xref>D&#8211;F), and inhibited cellular proliferation in NCI-H1876 and NCI-H69 cells, but not in GLC16 cells (<xref ref-type="fig" rid="GAD328336OSEF2">Fig. 2</xref>G&#8211;I). Strikingly, some NCI-H69 cells, a classic-type SCLC cell line that normally grow purely as suspension cells in aggregates, adhered to tissue-culture plastic after treatment with KDM5-C70 (<xref ref-type="fig" rid="GAD328336OSEF2">Fig. 2</xref>J), a phenotype that has been correlated with loss of neuroendocrine differentiation in preclinical SCLC models in vitro and in vivo (<xref rid="GAD328336OSEC6" ref-type="bibr">Calbo et al. 2011</xref>; <xref rid="GAD328336OSEC29" ref-type="bibr">Lim et al. 2017</xref>).</p><p>Both stable and inducible exogenous ASCL1 expression in NCI-H69 cells partially mitigated the antiproliferative effects of KDM5-C70, suggesting that down-regulation of endogenous ASCL1 contributes to the antiproliferative effects of KDM5-C70 (<xref ref-type="fig" rid="GAD328336OSEF2">Fig. 2</xref>K,L; <ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S1B,C</ext-link>). It should be noted that the exogenous ASCL1 levels we were able to achieve were considerably lower than endogenous ASCL1 levels in NCI-H69 cells (<xref ref-type="fig" rid="GAD328336OSEF2">Fig. 2</xref>K; <ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S1B</ext-link>). This might account for the incomplete rescue we observed, as would ASCL1-independent activities of KDM5-C70. Further underscoring the importance of ASCL1 with respect to KDM5-C70's antiproliferative effects, ASCL1-positive SCLC subtype cell lines, but not the NEUROD1-positive SCLC subtype cell lines, were more sensitive to KDM5-C70 compared with the NSCLC cell lines examined (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S1D&#8211;H</ext-link>). Together, these results demonstrate that KDM5A sustains ASCL1 levels in SCLC to maintain its neuroendocrine phenotype.</p></sec><sec id="s1c"><title>KDM5A represses NOTCH2 and NOTCH target genes to sustain ASCL1 levels in SCLC</title><p>KDM5A is a histone demethylase that often functions to repress target genes at transcriptional start sites (<xref rid="GAD328336OSEC41" ref-type="bibr">Pedersen and Helin 2010</xref>). Therefore, we reasoned that KDM5A's ability to sustain ASCL1 levels is likely an indirect effect. To elucidate candidate target genes that are normally repressed by KDM5A to sustain ASCL1 expression, we performed an RNA-sequencing experiment with GLC16 SCLC cells treated with an sgRNA-targeting <italic>KDM5A</italic> compared with cells treated with a nontargeting sgRNA. Consistent with our data described above (see <xref ref-type="fig" rid="GAD328336OSEF2">Fig. 2</xref>), <italic>ASCL1</italic> was among the 10 most significantly down-regulated mRNAs in the transcriptome in KDM5A knockdown cells (<xref ref-type="fig" rid="GAD328336OSEF3">Fig. 3</xref>A). Gene set enrichment analysis (GSEA) of our RNA-sequencing data showed that cells treated with the KDM5A sgRNA had an increased H3K4 trimethylation signature compared with cells treated with nontargeting sgRNA (<xref ref-type="fig" rid="GAD328336OSEF3">Fig. 3</xref>B), which is consistent with KDM5A's known function as a H3K4me3 histone demethylase. In addition, GSEA revealed that ASCL1 targets were significantly down-regulated and mRNAs that regulate EMT were enriched in KDM5A knockdown cells (<xref ref-type="fig" rid="GAD328336OSEF3">Fig. 3</xref>B), providing further evidence that KDM5A inactivation causes a loss of neuroendocrine differentiation and a change in cell state.</p><fig id="GAD328336OSEF3" orientation="portrait" position="float"><label>Figure 3.</label><caption><p>KDM5A represses NOTCH2 and NOTCH target genes to sustain neuroendocrine differentiation in SCLC. (<italic>A</italic>) Heatmap from an RNA-seq experiment performed with GLC16 cells expressing Cas9 and an sgRNA targeting KDM5A (sgKDM5A) or a nontargeting sgRNA (sgControl). Shown are the top 10 enriched (red) or top 10 depleted (blue) mRNAs in sgKDM5A cells compared with sgControl cells. Cells were harvested 14 d after sgRNA infection. (<italic>B</italic>) Gene Set Enrichment Analysis (GSEA) of RNA-seq data in <italic>A</italic> of H3K4me3 (<italic>left</italic>), ASCL1 Targets Down (<italic>middle</italic>), and Epithelial Mesenchymal Transition (<italic>right</italic>) in sgKDM5A cells compared with sgControl cells. (<italic>C</italic>&#8211;<italic>E</italic>) qRT-PCR for <italic>ASCL1</italic> (<italic>C</italic>), <italic>NOTCH2</italic> (<italic>D</italic>), and <italic>HES1</italic> (<italic>E</italic>) in sgKDM5A cells compared with sgControl cells. For <italic>C</italic>, <italic>n</italic> = 2 biological replicates. For <italic>D</italic>, <italic>n</italic> = 5 biological replicates. <italic>P</italic> = 0.07. For <italic>E</italic>, <italic>n</italic> = 3 biological replicates. (<italic>F</italic>&#8211;<italic>H</italic>) Abundance of the indicated mRNAs, as determined by qRT-PCR, in GLC16 cells (<italic>F</italic>), NCI-H1876 cells (<italic>G</italic>), and NCI-H69 cells (<italic>H</italic>) treated with the indicated concentrations of KDM5-C70. In <italic>F</italic> and <italic>G</italic>, cells were treated for 3 d. In <italic>H</italic>, cells were treated for 9 d. For <italic>F</italic>, <italic>n</italic> = 3 biological replicates. For <italic>G</italic>, <italic>n</italic> = 7 biological replicates. For <italic>H</italic>, <italic>n</italic> = 2 biological replicates. (<italic>I</italic>) Immunoblot analysis of GLC16 cells that were first infected with a lentivirus that expresses Cas9 and an sgRNA targeting <italic>NOTCH2</italic> (sgNOTCH2) or a nontargeting sgRNA (sgControl), and then superinfected with an sgRNA targeting <italic>KDM5A</italic> (sgKDM5A) or a nontargeting sgRNA (sgControl) as indicated. For all experiments, data are represented as &#177;SEM. (*) <italic>P</italic> &lt; 0.05. (**) <italic>P</italic> &lt; 0.01.</p></caption><graphic ns0:href="1718f03" /></fig><p>Interestingly, <italic>NOTCH2</italic> was the fourth most up-regulated mRNA in the entire transcriptome of cells lacking KDM5A (<xref ref-type="fig" rid="GAD328336OSEF3">Fig. 3</xref>A). This was notable because NOTCH1 and NOTCH2 are tumor suppressors in SCLC and repress ASCL1 to inhibit the SCLC neuroendocrine phenotype (<xref rid="GAD328336OSEC19" ref-type="bibr">George et al. 2015</xref>). SCLCs that express ASCL1 have low NOTCH receptor and NOTCH target gene expression irrespective of their <italic>NOTCH</italic> mutational status (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S2A</ext-link>; <xref rid="GAD328336OSEC19" ref-type="bibr">George et al. 2015</xref>). Furthermore, KDM5A interacts with RBP-J and represses the activity of the nuclear NOTCH activation complex (<xref rid="GAD328336OSEC28" ref-type="bibr">Liefke et al. 2010</xref>). We therefore hypothesized that KDM5A represses <italic>NOTCH2</italic> and potentially other NOTCH target genes to sustain neuroendocrine differentiation in SCLC. Using quantitative reverse transcription PCR (RT-qPCR), we confirmed that CRISPR/Cas9 mediated elimination of KDM5A in GLC16 cells increased <italic>NOTCH2</italic> and <italic>HES1</italic> (a canonical NOTCH target gene) mRNA levels and decreased <italic>ASCL1</italic> mRNA levels (<xref ref-type="fig" rid="GAD328336OSEF3">Fig. 3</xref>C&#8211;E). In line with these data, treatment of three different SCLC cell lines (GLC16, NCI-H1876, and NCI-H69 cells) with KDM5-C70 increased <italic>HES1</italic> mRNA levels in all three cell lines and increased <italic>NOTCH2</italic> expression in GLC16 and NCI-H1876 cells (<xref ref-type="fig" rid="GAD328336OSEF3">Fig. 3</xref>F&#8211;H). We then performed endogenous KDM5A ChIP sequencing experiments in two different SCLC lines (GLC16 and NCI-H1876) to determine whether KDM5A binds the promoters of <italic>NOTCH2</italic> and <italic>NOTCH2</italic> target genes. We detected binding of KDM5A to the <italic>NOTCH2</italic> promoter, canonical NOTCH target genes such as <italic>HES1</italic> and <italic>HEY1</italic>, as well as <italic>NOTCH2NL</italic> (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S3A&#8211;D</ext-link>), which is a gene duplication of <italic>NOTCH2</italic> that functions to amplify NOTCH2 signaling (<xref rid="GAD328336OSEC16" ref-type="bibr">Fiddes et al. 2018</xref>; <xref rid="GAD328336OSEC48" ref-type="bibr">Suzuki et al. 2018</xref>). The binding of KDM5A to <italic>NOTCH2</italic> and <italic>NOTCH2NL</italic> correlated with increased <italic>NOTCH2</italic> and <italic>NOTCH2NL</italic> mRNA expression in the KDM5A knockout cells (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S3E</ext-link>). Together, these results demonstrate that KDM5A represses <italic>NOTCH2</italic> and NOTCH target genes in SCLC through direct binding.</p><p>We next asked whether NOTCH2 overexpression phenocopies KDM5A inactivation in SCLC cell lines. To test this, we infected GLC16 cells, which express low levels of NOTCH2 (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S2A</ext-link>), with a lentivirus that expresses transcriptionally active NOTCH2 (N2-ICD) in the presence of doxycycline (DOX-On N2-ICD-FLAG) or with the corresponding empty vector (DOX-On EV) (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S2B</ext-link>). We first confirmed that DOX-induced N2-ICD expression induced the canonical NOTCH targets, <italic>HES1</italic> and <italic>HEY1</italic> (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S2D</ext-link>), demonstrating that the exogenous N2-ICD was functional. As has been reported previously (<xref rid="GAD328336OSEC19" ref-type="bibr">George et al. 2015</xref>), enforced expression of N2-ICD slowed cellular proliferation (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S2E</ext-link>). Importantly, N2-ICD also decreased <italic>ASCL1</italic> mRNA expression and protein levels (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S2B,C</ext-link>), thereby recapitulating the effects of KDM5A inactivation.</p><p>We next asked whether there were similarities between the transcriptional signatures of SCLC cells that overexpress N2-ICD or lack KDM5A. To answer this, we first performed RNA sequencing in DOX-On N2-ICD cells grown in the presence or absence of DOX and in cells in which KDM5A was or was not inactivated using CRISPR/Cas9. The top 20 target genes induced by N2-ICD (+ DOX compared with &#8722;DOX) were comprised of several known NOTCH target genes, including <italic>HES</italic> and <italic>HEY</italic> family transcriptional repressors and <italic>NRARP</italic>, and also some candidate novel NOTCH target genes (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S2F</ext-link>). Remarkably, nine of the top 20 genes up-regulated by N2-ICD were also significantly up-regulated upon KDM5A knockdown (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S2H</ext-link>).</p><p>The top 20 target genes down-regulated by N2-ICD included <italic>ASCL1</italic> and the neuroendocrine transcription factor <italic>INSM1</italic> (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S2G</ext-link>), which is regulated by ASCL1 (<xref rid="GAD328336OSEC5" ref-type="bibr">Borromeo et al. 2016</xref>). Both <italic>ASCL1</italic> and <italic>INSM1</italic> were also significantly down-regulated in KDM5A knockdown cells (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S2I</ext-link>). Together, these data show that there is substantial overlap between the transcriptional signatures of KDM5A inactivation and NOTCH2 overexpression that converge on ASCL1 regulation and neuroendocrine differentiation.</p><p>In the simplest model, KDM5A represses NOTCH2 to sustain neuroendocrine differentiation in SCLC. To test this directly, we performed an epistasis experiment by inactivating <italic>NOTCH2</italic> and <italic>KDM5A</italic>, alone or in combination, in GLC16 cells using CRISPR/Cas9. A nontargeting sgRNA was used as a control. Consistent with our previous results, inactivating <italic>KDM5A</italic> alone dramatically decreased ASCL1 levels (<xref ref-type="fig" rid="GAD328336OSEF3">Fig. 3</xref>I). Strikingly, ASCL1 levels were completely restored in KDM5A knockdown cells where NOTCH2 was also inactivated (<xref ref-type="fig" rid="GAD328336OSEF3">Fig. 3</xref>I). Furthermore, a &#947;-secretase inhibitor that blocks NOTCH activation at the plasma membrane also restored ASCL1 levels in cells in which KDM5A was inactivated using CRISPR/Cas9 (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S1I</ext-link>). Therefore, KDM5A's ability to sustain ASCL1 levels and neuroendocrine differentiation is NOTCH2-dependent.</p><p>Similar to our findings with KDM5A, LSD1, which demethylates monomethylated H3K4 (<xref rid="GAD328336OSEC46" ref-type="bibr">Shi et al. 2004</xref>), was recently shown to be a dependency in SCLC through its ability to repress NOTCH and sustain ASCL1 (<xref rid="GAD328336OSEC1" ref-type="bibr">Augert et al. 2019</xref>). Given that KDM5A and LSD1 both converge on H3K4 methylation (<xref rid="GAD328336OSEC46" ref-type="bibr">Shi et al. 2004</xref>; <xref rid="GAD328336OSEC10" ref-type="bibr">Christensen et al. 2007</xref>; <xref rid="GAD328336OSEC25" ref-type="bibr">Klose et al. 2007</xref>), we hypothesized that combined inhibition of KDM5A and LSD1 would be synergistic. To test this, we treated NCI-H69 and NCI-H1876 cells with varying concentrations of KDM5-C70 alone, the LSD1 inhibitor ORY-1001 alone, or both inhibitors. As previously reported, KDM5-C70 selectively increased H3K4 trimethylation, while ORY-1001 did not (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S4A</ext-link>). Combining KDM5-C70 and ORY-1001 at low concentrations synergistically suppressed ASCL1 levels (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S4B,E</ext-link>) and cellular proliferation (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S4C,D,F,G</ext-link>).</p></sec><sec id="s1d"><title>A novel genetically engineered mouse model of SCLC developed using CRISPR/Cas9</title><p>To accelerate our ability to study the role of Kdm5a in SCLC tumorigenesis in the RPP GEMM of SCLC, we developed a novel SCLC GEMM using CRISPR/Cas9. To do this we made an adeno-associated virus (AAV) that expresses Cre recombinase and <italic>Rb1</italic>, <italic>Trp53</italic>, and <italic>Rbl2</italic> sgRNAs (<xref ref-type="fig" rid="GAD328336OSEF4">Fig. 4</xref>A) and confirmed that it inactivated these three genes when introduced into Cas9-positive mouse embryonic fibroblasts and inactivated a floxed GFP reporter in cellular assays (<xref ref-type="fig" rid="GAD328336OSEF4">Fig. 4</xref>B; <ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S5A&#8211;D</ext-link>).</p><fig id="GAD328336OSEF4" orientation="portrait" position="float"><label>Figure 4.</label><caption><p>A genetically engineered mouse model of SCLC developed using CRISPR/Cas9. (<italic>A</italic>) Schematic of the AAV used to infect LSL-Cas9 mice. RPP = sgRb1, sgTrp53, sgRbl2. (<italic>B</italic>) Immunoblot analysis of mouse embryonic fibroblasts (MEFs) expressing Cas9 7 d after infection with the AAV depicted in <italic>A</italic>. (<italic>C</italic>) Lung MRIs of a representative LSL-Cas9 mouse at the times indicated after intratracheal (IT) injection of the AAV depicted in <italic>A</italic>. (<italic>D</italic>) Lung, liver, and kidney histopathology and immunohistochemistry (IHC) for the neuroendocrine markers Ascl1 and Synaptophysin from a representative LSL-Cas9 mouse after IT injection of the AAV in <italic>A</italic>. (<italic>E</italic>,<italic>F</italic>) Median tumor-free (<italic>E</italic>) and median overall survival (<italic>F</italic>) of LSL-Cas9 mice that were IT injected with the AAV in <italic>A</italic>.</p></caption><graphic ns0:href="1718f04" /></fig><p>We then introduced this AAV (referred to hereafter as RPP AAV) into the lungs of Lox-Stop-Lox (LSL) Cas9 mice by intratracheal (IT) injection and began monitoring the mice by biweekly lung MRIs 8 mo later. The mice began developing tumors about 200 d after IT injection and most were dead within 1 yr (<xref ref-type="fig" rid="GAD328336OSEF4">Fig. 4</xref>C,E,F). At necropsy, most of these mice had liver metastases and some had kidney/adrenal metastases (<xref ref-type="fig" rid="GAD328336OSEF4">Fig. 4</xref>D; <ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S5E</ext-link>), both consistent with the behavior of human SCLC and mouse SCLC GEMMs (<xref rid="GAD328336OSEC23" ref-type="bibr">Kalemkerian et al. 2013</xref>; <xref rid="GAD328336OSEC18" ref-type="bibr">Gazdar et al. 2015</xref>). Seven out of eight mice that developed lung tumors had histology consistent with SCLC (the eighth had mixed histology more suggestive of lung adenocarcinoma) and expressed the neuroendocrine markers Ascl1 and Synaptophysin (<xref ref-type="fig" rid="GAD328336OSEF4">Fig. 4</xref>D; <ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S5E</ext-link>) and, when examined, harbored loss-of-function insertion/deletions at the expected CRISPR/Cas9 cut sites for the <italic>Rb1</italic>, <italic>Trp53</italic>, and <italic>Rbl2</italic> sgRNAs (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S5F,G</ext-link>). Interestingly, &gt;90% of the CRISPR amplicon sequencing reads for <italic>Rb1</italic> and <italic>Trp53</italic> within each tumor revealed single base pair, presumably loss-of-function insertions, consistent with strong positive selection of these insertions in founder clones (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S5F</ext-link>). Therefore CRISPR/Cas9 can be used to generate SCLC through somatic gene editing of <italic>Rb1</italic>, <italic>Trp53</italic>, and <italic>Rbl2</italic> in mice.</p></sec><sec id="s1e"><title>KDM5A promotes SCLC tumorigenesis and metastasis in vivo</title><p>To study the role of Kdm5a in SCLC tumorigenesis, we next generated adenoviruses that encoded Cre and sgRNAs targeting <italic>Rb1</italic>, <italic>Trp53</italic>, and <italic>Rbl2</italic> together with an sgRNA targeting Kdm5a (referred to hereafter as sgKdm5a RPP) or a nontargeting control sgRNA (referred to hereafter as sgControl RPP) (<xref ref-type="fig" rid="GAD328336OSEF5">Fig. 5</xref>A,B; <ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S6A</ext-link>). We switched from AAV to adenovirus because IT administration of Cre to make SCLC GEMMs has traditionally been accomplished with adenoviruses (<xref rid="GAD328336OSEC33" ref-type="bibr">Meuwissen et al. 2003</xref>) and because we observed, upon treating additional mice, that &#8764;25% of mice administered the RPP AAV developed pulmonary histiocytic sarcomas.</p><fig id="GAD328336OSEF5" orientation="portrait" position="float"><label>Figure 5.</label><caption><p>Loss of Kdm5a inhibits SCLC tumorigenesis in vivo. (<italic>A</italic>) Schematic of the adenovirus used to infect LSL-Cas9 mice. RPP = sgRb1, sgTrp53, sgRbl2. sg &#8220;T&#8221;=either sgKdm5a or sgControl (nontargeting sgRNA). (<italic>B</italic>) Immunoblot analysis of MEFs expressing Cas9 7 d after infection with the adenovirus in <italic>A</italic>. (<italic>C</italic>) Representative lung MRIs and (<italic>D</italic>) quantification of the percent of mice with lung lesions at the times indicated (in months) after intratracheal (IT) injection of the adenovirus (either sgKdm5a RPP or sgControl RPP as indicated) in <italic>A</italic> into LSL-Cas9 mice. For <italic>D</italic>, <italic>n</italic> = 19 mice (sgKdm5a RPP) or 24 mice (sgControl RPP). (****) <italic>P</italic> &lt; 0.0001 using two-way &#967;<sup>2</sup> test. (<italic>E</italic>,<italic>F</italic>) Tumor volume measurements of individual LSL-Cas9 mice injected with either sgControl RPP (<italic>E</italic>) or sgKdm5a RPP (<italic>F</italic>) adenoviruses. For <italic>E</italic>, <italic>n</italic> = 20 mice. For <italic>F</italic>, <italic>n</italic> = 16 mice. (<italic>G</italic>) Quantification of tumor doubling time measured in days calculated using tumor volumes from <italic>E</italic> and <italic>F</italic>. (*) <italic>P</italic> &lt; 0.05. (<italic>H</italic>) Percentage of mice with SCLC metastases at necropsy (See <ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Figure S6F</ext-link> for a table listing the target organ of the metastatic lesion.) (*) <italic>P</italic> &lt; 0.05. <italic>n</italic> = 16 mice (sgKdm5a RPP) or 20 mice (sgControl RPP). (<italic>I</italic>) Median overall survival of LSL-Cas9 mice injected with either sgKdm5a RPP or sgControl RPP that developed SCLC. <italic>n</italic> = 16 mice (sgKdm5a RPP) or 20 mice (sgControl RPP). (**) <italic>P</italic> &lt; 0.01. For all experiments, data are represented as &#177;SEM.</p></caption><graphic ns0:href="1718f05" /></fig><p>We then introduced either the sgKdm5a RPP or sgControl RPP adenovirus into the lungs of LSL-Cas9 mice and began monitoring the mice by monthly MRI 6 mo later. Tumors developed with a longer latency (<xref ref-type="fig" rid="GAD328336OSEF5">Fig. 5</xref>D), and grew more slowly (<xref ref-type="fig" rid="GAD328336OSEF5">Fig. 5</xref>C,E&#8211;G; <ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Figs. S6B,C</ext-link>), in the sgKdm5A RPP mice compared with the sgControl RPP mice. Moreover, there was a significant decrease in metastasis in sgKdm5a RPP mice compared with sgControl RPP mice (<xref ref-type="fig" rid="GAD328336OSEF5">Fig. 5</xref>H; <ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S6F</ext-link>). These biological differences were associated with an increase in median overall survival in sgKdm5a RPP mice compared with sgControl RPP mice (<xref ref-type="fig" rid="GAD328336OSEF5">Fig. 5</xref>I). At necropsy, &gt;90% of tumors formed in both sgKdm5a RPP mice and sgControl RPP mice were SCLC based on histological analysis after staining with hematoxylin and eosin and antibodies against the neuroendocrine markers Ascl1, Synaptophysin, and Chromogranin A (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Figs. S6D,E, S7A,B</ext-link>). CRISPR amplicon sequencing of tumors for <italic>Rb1</italic>, <italic>Trp53</italic>, and <italic>Rbl2</italic> showed that all three genes were completely inactivated in SCLCs formed in both sgKdm5a RPP mice and sgControl RPP mice (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S6G</ext-link>). Collectively, this shows that Kdm5a promotes SCLC tumorigenesis and metastasis.</p></sec><sec id="s1f"><title>KDM5A represses Notch2 in SCLC in vivo</title><p>Given that Kdm5a promotes SCLC tumorigenesis (<xref ref-type="fig" rid="GAD328336OSEF5">Fig. 5</xref>), we then asked how tumors were able to form in mice that were injected with the sgKdm5a RPP adenovirus. One possibility was that these tumors selected for functional Kdm5a (either nonedited <italic>Kdm5a</italic> or in-frame insertions/deletions of <italic>Kdm5a</italic>). Surprisingly, CRISPR amplicon sequencing of the tumors that formed despite the Kdm5a sgRNA revealed that the sgRNA target site for Kdm5a contained an insertion that would lead to a premature stop codon (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S7C,D</ext-link>) at an allelic frequency concordant with insertion/deletions found in <italic>Rb1</italic> and <italic>Trp53</italic> in 11/11 SCLC tumors examined. Immunohistochemistry (IHC) for Kdm5a confirmed loss of protein expression of Kdm5a in mice treated with sgKdm5a RPP (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S7A,B</ext-link>). There were no global changes in trimethylation of H3K4 levels in sgKdm5a RPP tumors compared with sgControl RPP tumors (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S8A,B</ext-link>). Lastly, mRNA expression of other Kdm5 family paralogs (Kdm5b, Kdm5c, and Kdm5d) was similar in sgKdm5a RPP tumors compared with sgControl RPP tumors (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S8C</ext-link>). Together, the mutational and immunohistochemical analyses of KDM5A demonstrate that Kdm5a was successfully inactivated in the tumors arising in the sgKdm5A RPP mice. Conceivably, these tumors underwent genetic or epigenetic changes that rendered them Kdm5a-independent.</p><p>Our mouse model allowed us to ask whether Kdm5a also represses Notch2 levels in vivo as it does in cell culture. We first developed and validated IHC assays for Notch2 and Notch1 in mouse embryonic fibroblasts in which we had deleted <italic>Notch2</italic> or <italic>Notch1</italic> using CRISPR/Cas9 (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S9A,B</ext-link>). Consistent with our in vitro studies, the percentage of Notch2-positive tumor cells by IHC in sgKdm5a RPP tumors was increased compared with sgControl RPP tumors (<xref ref-type="fig" rid="GAD328336OSEF6">Fig. 6</xref>A,B; <ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S9C,D</ext-link>). To corroborate these findings, we also isolated cell lines from sgKdm5a RPP and sgControl RPP tumors using two independent methods (see Materials and Methods) (<xref rid="GAD328336OSEC31" ref-type="bibr">Liu et al. 2017</xref>). Cell lines derived from sgKDM5a RPP tumors had increased levels of Notch2 and decreased levels of the neuroendocrine markers Ascl1 and Synaptophysin compared with the cell lines derived from sgControl RPP tumors (<xref ref-type="fig" rid="GAD328336OSEF6">Fig. 6</xref>D; <ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S10A</ext-link>). Interestingly, cells lines generated from the sgKdm5a RPP tumors were more adherent than cell lines generated from the sgControl RPP tumors (<ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Fig. S10B,C</ext-link>), a phenotype that has been correlated with a non-neuroendocrine phenotype (<xref rid="GAD328336OSEC6" ref-type="bibr">Calbo et al. 2011</xref>; <xref rid="GAD328336OSEC29" ref-type="bibr">Lim et al. 2017</xref>).</p><fig id="GAD328336OSEF6" orientation="portrait" position="float"><label>Figure 6.</label><caption><p>Kdm5a represses Notch2 and Notch signaling in SCLC in vivo. (<italic>A</italic>) Representative H&amp;E and IHC for Kdm5a and Notch2 in SCLC lung tumors from LSL-Cas9 mice injected with either sgKdm5a RPP or sgControl RPP adenoviruses. Scale bar, 100 &#956;m. (<italic>B</italic>) Quantification of percent Notch2-positive tumor cells by IHC from <italic>A</italic>. <italic>n</italic> = 11 lung tumors (sgKdm5a RPP) or 19 lung tumors (sgControl RPP). (<italic>C</italic>) Gene set enrichment analysis (GSEA) using the hallmarks gene sets of NOTCH signaling (<italic>left</italic>), epithelial mesenchymal transition (<italic>middle</italic>), and KRAS signaling up (<italic>right</italic>), from the RNA-seq data obtained from lung tumors arising in the LSL-Cas9 mice injected with sgKdm5a RPP compared with sgControl RPP adenoviruses. <italic>n</italic> = 8 lung tumors for each group. <italic>q</italic>-values are indicated. (<italic>D</italic>) Immunoblot analysis of cell lines maintained on J2 fibroblast feeder layers (see Materials and Methods) from SCLC tumors that grew in LSL-Cas9 mice injected with sgKdm5a RPP or sgControl RPP adenoviruses. (<italic>E</italic>) Volcano plot of the RNA-seq data showing the log2fold change in gene expression in sgKdm5a RPP tumors compared with sgControl RPP tumors. <italic>Dlk1</italic> is a canonical Notch inhibitory ligand. (<italic>F</italic>,<italic>G</italic>) <italic>Dlk1</italic> (<italic>F</italic>) and <italic>Nell1</italic> (<italic>G</italic>) mRNA levels, as determined by qRT-PCR, in samples used for the RNA-seq experiment above. <italic>n</italic> = 8 for sgKdm5a RPP, <italic>n</italic> = 8 for sgControl RPP. For all experiments, data are represented as &#177;SEM. (*) <italic>P</italic> &lt; 0.05. (**) <italic>P</italic> &lt; 0.01.</p></caption><graphic ns0:href="1718f06" /></fig><p>To better understand the global transcriptional changes caused by Kdm5a inactivation in SCLC tumors, we performed RNA sequencing and GSEA comparing sgKdm5a RPP tumors and sgControl RPP tumors. Consistent with our in vitro data (<xref ref-type="fig" rid="GAD328336OSEF3">Fig. 3</xref>) and in vivo data (<xref ref-type="fig" rid="GAD328336OSEF6">Fig. 6</xref>A,B), GSEA showed significantly increased NOTCH signaling in sgKdm5a RPP tumors compared with sgControl RPP tumors (<xref ref-type="fig" rid="GAD328336OSEF6">Fig. 6</xref>C). Several gene sets associated with differentiation/cell state changes were also up-regulated in sgKdm5a RPP tumors compared with control tumors, including an epithelial mesenchymal transition gene set (<xref ref-type="fig" rid="GAD328336OSEF6">Fig. 6</xref>C). Furthermore, K-Ras signaling was also up-regulated in sgKdm5a RPP tumors (<xref ref-type="fig" rid="GAD328336OSEF6">Fig. 6</xref>C), which might circumvent the growth inhibitory effects of Kdm5a loss and, like Kdm5a loss, decreases neuroendocrine markers in SCLC cell lines (<xref rid="GAD328336OSEC6" ref-type="bibr">Calbo et al. 2011</xref>).</p><p>Interestingly, our RNA sequencing data showed that <italic>Dlk1</italic>, a Notch inhibitory ligand that is highly expressed in many human SCLC tumors (<xref rid="GAD328336OSEC19" ref-type="bibr">George et al. 2015</xref>), was the fourth most significantly up-regulated gene in sgKdm5a RPP tumors compared with sgControl RPP tumors (<xref ref-type="fig" rid="GAD328336OSEF6">Fig. 6</xref>E). We validated our RNA sequencing results using RT-qPCR for <italic>Nell1</italic> (the most up-regulated gene in sgKdm5a RPP tumors) and <italic>Dlk1</italic> in the sgKdm5a RPP and sgControl RPP tumors (<xref ref-type="fig" rid="GAD328336OSEF6">Fig. 6</xref>F,G). Notch signaling suppresses SCLC and, as shown here, is up-regulated in cells lacking Kdm5a. Up-regulation of <italic>Dlk1</italic> might serve to mitigate the tumor-suppressive effect of Notch (<xref rid="GAD328336OSEC19" ref-type="bibr">George et al. 2015</xref>) pursuant to Kdm5a loss.</p></sec></sec><sec sec-type="discussion" id="s2"><title>Discussion</title><p>We show that the H3K4 demethylase KDM5A represses <italic>NOTCH2</italic> and thereby sustains <italic>ASCL1</italic> expression in SCLC. ASCL1 transcriptionally activates genes that promote neuroendocrine differentiation and SCLC tumorigenesis, and genetic loss of <italic>ASCL1</italic> inhibits SCLC tumorigenesis in a genetically engineered mouse model of SCLC (<xref rid="GAD328336OSEC5" ref-type="bibr">Borromeo et al. 2016</xref>). Consistent with these observations, we observed that loss of <italic>KDM5A</italic> retards the development and growth of mouse SCLCs and that KDM5A-defective mouse SCLCs exhibit increased NOTCH2, increased NOTCH signaling, decreased ASCL1, and decreased neuroendocrine differentiation relative to their KDM5A-proficient counterparts.</p><p><italic>NOTCH1</italic> and <italic>NOTCH2</italic> are bona fide SCLCs tumor suppressor genes, but many SCLCs that lack <italic>NOTCH1</italic> or <italic>NOTCH2</italic> mutations nonetheless have impaired NOTCH activity (<xref rid="GAD328336OSEC19" ref-type="bibr">George et al. 2015</xref>). Our findings suggest that <italic>RB1</italic> loss and deregulation of KDM5A suffices to at least partially inhibit NOTCH activity. The subsequent inactivation of <italic>NOTCH1</italic> or <italic>NOTCH2</italic> would conceivably attenuate NOTCH signaling even further. We note that <italic>NOTCH1</italic> mutations are more common than <italic>NOTCH2</italic> mutations in SCLC (<xref rid="GAD328336OSEC19" ref-type="bibr">George et al. 2015</xref>). <italic>RB1</italic> loss and deregulation of KDM5A partially down-regulates <italic>NOTCH2</italic> and spares <italic>NOTCH1</italic>, which would increase the selection pressure to inactivate <italic>NOTCH1</italic>.</p><p>H3K4 methylation has been linked to NOTCH signaling previously (<xref rid="GAD328336OSEC35" ref-type="bibr">Moshkin et al. 2009</xref>; <xref rid="GAD328336OSEC28" ref-type="bibr">Liefke et al. 2010</xref>; <xref rid="GAD328336OSEC13" ref-type="bibr">Di Stefano et al. 2011</xref>). H3K4 trimethylation near transcription start sites typically enhances transcription, while monomethylated H3K4 often marks transcriptional enhancers (<xref rid="GAD328336OSEC4" ref-type="bibr">Beshiri et al. 2012</xref>; <xref rid="GAD328336OSEC52" ref-type="bibr">Whyte et al. 2012</xref>). KDM5 family members and KDM1A (LSD1) demethylate methylated H3K4, with the former uniquely capable of demethylating trimethylated H3K4 (<xref rid="GAD328336OSEC46" ref-type="bibr">Shi et al. 2004</xref>; <xref rid="GAD328336OSEC10" ref-type="bibr">Christensen et al. 2007</xref>; <xref rid="GAD328336OSEC25" ref-type="bibr">Klose et al. 2007</xref>). In model organisms, KDM5A and LSD1 cooperate to directly repress NOTCH target genes through local erasure of H3K4 methylation marks (<xref rid="GAD328336OSEC13" ref-type="bibr">Di Stefano et al. 2011</xref>). KDM5A can be recruited to DNA via histone chaperone proteins or via RBP-J, which is a core component of the NOTCH DNA-binding transcriptional complex (<xref rid="GAD328336OSEC35" ref-type="bibr">Moshkin et al. 2009</xref>; <xref rid="GAD328336OSEC28" ref-type="bibr">Liefke et al. 2010</xref>). LSD1 forms a complex with SIRT1 that also represses NOTCH target gene expression (<xref rid="GAD328336OSEC37" ref-type="bibr">Mulligan et al. 2011</xref>). Our findings suggest that KDM5A also represses <italic>NOTCH2</italic> itself. Importantly, we showed that <italic>KDM5A</italic> and <italic>NOTCH2</italic> are epistatic to one another with respect to control of ASCL1 and neuroendocrine differentiation.</p><p>Retinoblastomas and SCLCs are, numerically, the most common tumors linked to germline and somatic <italic>RB1</italic> mutations, respectively. These tumors, like the pituitary and thyroid tumors that develop in <italic>Rb1</italic><sup>+/&#8722;</sup> mice, express neuroendocrine markers. This intimate relationship between <italic>RB1</italic> inactivation and neuroendocrine tumors suggests that neuroendocrine cells are especially permissive for transformation after <italic>RB1</italic> loss, that <italic>RB1</italic> loss causes cells to maintain or adopt neuroendocrine features (<xref rid="GAD328336OSEC39" ref-type="bibr">Park et al. 2018</xref>), or perhaps both. In this regard, <italic>RB1</italic> loss has been linked to acquired drug resistance and neuroendocrine transdifferentiation of epithelial cancers (<xref rid="GAD328336OSEC49" ref-type="bibr">Tan et al. 2014</xref>; <xref rid="GAD328336OSEC38" ref-type="bibr">Niederst et al. 2015</xref>; <xref rid="GAD328336OSEC9" ref-type="bibr">Chang 2017</xref>; <xref rid="GAD328336OSEC26" ref-type="bibr">Ku et al. 2017</xref>; <xref rid="GAD328336OSEC36" ref-type="bibr">Mu et al. 2017</xref>), supporting that <italic>RB1</italic> loss causes expression of neuroendocrine markers. Our findings suggest that <italic>RB1</italic> loss, and subsequent deregulation of the pRB-binding protein KDM5A, represses NOTCH signaling, increases ASCL1 levels, and thereby increases neuroendocrine differentiation.</p><p><italic>ASCL1</italic> appears to be a lineage addiction oncogene in SCLC, but the ASCL1 protein would classically be viewed as undruggable. However, targeting mechanisms that indirectly promote ASCL1 activity, such as inhibiting proteins that normally function to increase <italic>ASCL1</italic> mRNA expression, could indirectly inhibit ASCL1. Using both genetic and pharmacological tools, we showed that inhibiting KDM5A decreases ASCL1 expression in SCLC cell lines, suggesting that KDM5A inhibition could be used as a therapeutic strategy to target ASCL1. Notably, <italic>Kdm5a</italic> is a nonessential gene in mice and <italic>Kdm5a</italic> inactivation in mice decreases <italic>Rb1</italic><sup>&#8722;/&#8722;</sup> neuroendocrine tumors in both prevention and treatment models (<xref rid="GAD328336OSEC30" ref-type="bibr">Lin et al. 2011</xref>; <xref rid="GAD328336OSEC32" ref-type="bibr">McBrayer et al. 2018</xref>). A caveat with our study is that the pharmacological inhibitor we used, KDM5-C70, is selective for KDM5 demethylases, but inhibits all four KDM5 family members at nearly equivalent IC50 values (<xref rid="GAD328336OSEC22" ref-type="bibr">Johansson et al. 2016</xref>). It is also notable that the antitumor effects that we observed upon genetically ablating <italic>Kdm5a</italic> in our mouse model, though reproducible, were relatively modest. We suspect that this reflects the fact that <italic>Kdm5a</italic> was inactivated at or near the time of initiation, coupled with strong selective pressure for escape mechanisms when an oncogene is inactivated. Indeed, we observed similar effect sizes when we eliminated the SCLC oncoprotein <italic>Ascl1</italic> instead of <italic>Kdm5a</italic> in our mouse model (MG Oser and WG Kaelin, unpubl.). We imagine that the effects of inactivating <italic>Kdm5a</italic> might have been greater had we acutely inactivated it in established tumors.</p><p>Our preclinical data suggests that combining a KDM5 inhibitor with an LSD1 inhibitor would synergistically suppress ASCL1, which could result in increased efficacy compared with treatment with a KDM5 inhibitor or LSD1 inhibitor alone. Notably, SCLCs are selectively sensitive to an LSD1 inhibitor compared with other adult solid tumors (<xref rid="GAD328336OSEC34" ref-type="bibr">Mohammad et al. 2015</xref>). A recent study demonstrated that pharmacological inhibition of LSD1 had striking efficacy in some patient-derived SCLC xenograft models (<xref rid="GAD328336OSEC1" ref-type="bibr">Augert et al. 2019</xref>), which was associated with activation of NOTCH signaling and repression of ASCL1. Our findings provide a further rationale for developing drugs that specifically inhibit KDM5A and for testing them in preclinical SCLC models alone or in combination with LSD1 inhibitors.</p><p>We developed a new SCLC GEMM using CRISPR/Cas9 to simultaneously inactivate <italic>Rb1, Trp53,</italic> and <italic>Rbl2</italic> in the lung. We also showed that this method can be used to rapidly ask whether inactivating a fourth gene (in our case, <italic>Kdm5a</italic>) can alter the natural history of SCLC. Therefore, this model can be used to interrogate candidate oncoproteins, tumor suppressors, or therapeutic targets without the need for complex and time-consuming breeding strategies. To our knowledge, this is the first SCLC GEMM developed on a pure congenic background, which allows cell lines established from this model to be used for syngeneic transplant studies. Our model is well suited to study response and resistance of SCLC to immunotherapies, which is timely, since the PD-L1 checkpoint blockade antibody Atezolizomab has recently been shown to improve survival when given with chemotherapy as a first-line treatment for SCLC patients (<xref rid="GAD328336OSEC20" ref-type="bibr">Horn et al. 2018</xref>). Furthermore, cell lines derived from our SCLC GEMM stably express Cas9 and therefore could be used directly to perform CRISPR/Cas9 screens to nominate potential SCLC oncogenes, tumor suppressor genes, or genes that modulate response or resistance to targeted therapy or immunotherapy.</p></sec><sec sec-type="materials|methods" id="s3"><title>Materials and methods</title><sec id="s3a"><title>Cell lines and cell culture</title><p>NCI-H1417 (obtained 6/2017), NCI-H1876 (obtained 11/2016), NCI-H2081 (obtained in 11/2018), NCI-H1694 (obtained in 11/2018), NCI-H446 (obtained in 3/2016), and 293FT cells were originally obtained from American Type Culture Collection (ATCC). CORL47 and CORL279 were obtained from Sigma (11/2018). NCI-H69, NCI-H82, GLC16, A549, NCI-H1650, and NCI-H1975 cells were a kind gift from Dr. Kwok-kin Wong's laboratory (New York University) and were obtained in 8/2014. PC-9 cells were a kind gift from Dr. Geoff Shapiro's laboratory (Dana-Farber Cancer Institute) obtained in 11/2014. Cell line authentication was performed (prior to freezing initial early passage stocks) on NCI-H69 and NCI-H82 by Genetica DNA Laboratories in 9/2014 and were found to match the specifications listed in ATCC. All cell lines when initially obtained were tested for mycoplasma using the MycoAlert Mycoplasma Detection Kit (Lonzo #LT07-418) and were negative. NCI-H1417, NCI-H69, NCI-H82, CORL47, CORL279, NCI-H446, A549, NCI-H1650, NCI-H1975, PC-9, and GLC16 cells were maintained in RPMI-1640 media. NCI-H1876, NCI-H2081, and NCI-H1694 cells were maintained in DMEM/F12 media. 293FT cells were maintained in DMEM media. All media was supplemented with 10% fetal bovine serum (FBS), 100 units/mL penicillin, and 100 &#956;g/mL streptomycin except for NCI-H1876, NCI-H2081, and NCI-H1694 cells, where the media was supplemented with 5% FBS, 100 units/mL penicillin, and 100 &#956;g/mL streptomycin, and HITES [10 nM hydrocortisone, Insulin-Transferrin-Selenium (Sigma), and 10 nM beta-estradiol]. Cell lines isolated from genetically engineered small cell lung cancer mouse tumors (see below) were maintained in RPMI-1640 media supplemented with 10% FBS, 100 units/mL penicillin, 100 &#956;g/mL streptomycin, and HITES. Early passage cells of all of the cell lines listed above were frozen using Bambanker's freezing media (Bulldog Bio). Cells were then maintained in culture for &lt;4 mo at which point new early passage vials were thawed. Where indicated, the following chemicals (stored at &#8722;20&#176;C) were also added to the media as indicated in the text: doxycycline (stock 1 mg/mL in H<sub>2</sub>0), KDM5-C70 (Xcessbio #M60192-2, stock 10 mM in DMSO), GSI-IX (VWR #80512-718, stock 5 mM), or ORY-1001 (Selleck #S7795, stock 10 mM in DMSO).</p></sec><sec id="s3b"><title>Lentiviral sgRNA expression vectors and sgRNA sequences</title><p>The LentiGuide-Puro (Addgene #52963) and lentiCRISPR v2 (Addgene #52961) sgRNA expression vectors were made by digesting the respective parental vectors with BsmBI for 2 h at 55&#176;C and gel-band purifying the resulting linearized vectors for subsequent ligations. sgRNA sequences were designed using the Broad Institutes sgRNA designer tool (<uri ns0:href="http://portals.broadinstitute.org/gpp/public/analysis-tools/sgrna-design">http://portals.broadinstitute.org/gpp/public/analysis-tools/sgrna-design</uri>). Sense and antisense oligonucleotides corresponding to the desired sgRNA and that contained 5&#8242; and 3&#8242; BsmBI sites to facilitate cloning were synthesized by IDT technologies. The sense and antisense oligonucleotides were mixed at equimolar ratios (0.25 nanomoles of each sense and antisense oligonucleotide) and annealed by heating to 100&#176;C in annealing buffer (1X annealing buffer 100 mM NaCl, 10 mM Tris-HCl, pH 7.4) followed by slow cooling to 30&#176;C over 3 h. The annealed oligonucleotides were then diluted at 1:400 in 0.5X annealing buffer and ligated into the BmsBI digested lentiviral vectors by incubation with T4 DNA ligase for 2 h at 25&#176;C. The ligation mixture was transformed into XL-10 Gold ultracompetent cells. Ampicillin-resistant colonies were screened by restriction digestion of miniprep DNAs and subsequently validated by DNA sequencing.</p><p>The following sgRNA oligos were used (including BsmBI sites): <italic>KDM5A human #1</italic> sense (5&#8242;-CACCGCTCCGCCGCGTAGCCCCC-3&#8242;), <italic>KDM5A human #1</italic> anti-sense (5&#8242;-AAACGGGGGCTACGCGGCGGAGC-3&#8242;), <italic>KDM5A human #2</italic> sense (5&#8242;-CACCGCGTTGCAATGGCGGGCGT-3&#8242;), <italic>KDM5A human #2</italic> anti-sense (5&#8242;-AAACACGCCCGCCATTGCAACGC-3&#8242;), <italic>KDM5A human #3</italic> sense (5&#8242; CACCGTCAGCTTTATCGGCCGCATC-3&#8242;), <italic>KDM5A human #3</italic> anti-sense (5&#8242;- AAACGATGCGGCCGATAAAGCTGAC-3&#8242;), <italic>KDM5A human #4</italic> sense (5&#8242; CACCGTCTGTGAACTCCTCCCAACT-3&#8242;), <italic>KDM5A human #4</italic> anti-sense (5&#8242;- AAACAGTTGGGAGGAGTTCACAGAC-3&#8242;), <italic>KDM5A human #5</italic> sense (5&#8242; CACCGCCCAACTCGGCTCAAAGACG-3&#8242;), <italic>KDM5A human #5</italic> anti-sense (5&#8242;- AAACCGTCTTTGAGCCGAGTTGGGC-3&#8242;), <italic>KDM5A human #6</italic> sense (5&#8242; CACCGATGCGGCCGATAAAGCTGAG-3&#8242;), <italic>KDM5A human #6</italic> anti-sense (5&#8242;- AAACCTCAGCTTTATCGGCCGCATC-3&#8242;), <italic>KDM5A human #7</italic> sense (5&#8242; CACCGAAGACGGGGCACTCTGGCGG-3&#8242;), <italic>KDM5A human #7</italic> anti-sense (5&#8242;- AAACCCGCCAGAGTGCCCCGTCTTC-3&#8242;), <italic>NOTCH2 human #1</italic> sense (5&#8242;-CACCGTTGATGTCCATCTCACAACG-3&#8242;), <italic>NOTCH2 human #1</italic> anti-sense (5&#8242;-AAACCGTTGTGAGATGGACATCAAC-3&#8242;), <italic>Kdm5a</italic> mouse #8 sense (5&#8242;- CACCGGCGCCCGATAAAACTCAG-3&#8242;), <italic>Kdm5a</italic> mouse #8 anti-sense (5&#8242;- AAACCTGAGTTTTATCGGGCGCC-3&#8242;), <italic>Rb1</italic> mouse #11 sense (5&#8242;- CACCGCAACTAGAAAATGATACG-3&#8242;), <italic>Rb1</italic> mouse #11 anti-sense (5&#8242;- AAACCGTATCATTTTCTAGTTGC-3&#8242;), <italic>Trp53</italic> mouse #8 sense (5&#8242;- CACCGGTGTAATAGCTCCTGCATGG-3&#8242;), <italic>Trp53</italic> mouse #8 anti-sense (5&#8242;- AAACCCATGCAGGAGCTATTACACC-3&#8242;), <italic>Rbl2</italic> mouse #6 sense (5&#8242;- CACCGAGGAGGATGGCGACGCCG-3&#8242;), <italic>Rbl2</italic> mouse #6 anti-sense (5&#8242;- AAACCGGCGTCGCCATCCTCCTC-3&#8242;), <italic>C0111 (</italic>nontargeting sgRNA) sense (5&#8242;- CACCGGGAGGCTAAGCGTCGCAA-3&#8242;), <italic>C0111</italic> (nontargeting sgRNA) anti-sense (5&#8242;- AAACTTGCGACGCTTAGCCTCCC-3&#8242;).</p></sec><sec id="s3c"><title>Lentiviral cDNA expression vectors</title><p>To make the lentiviral KDM5A expression vector pLL3.7-EF1&#945;-KDM5A WT 3 X HA, a plasmid encoding full-length KDM5A with a C-terminal 3X (hemagglutinin) HA tag (a kind gift from Troy Luster) was PCR amplified using primers that introduced a 5&#8242; XbaI site (5&#8242;- AATCTAGAATGGCGGGCGTGGGGCCGGGGGGCTA-3&#8242;) and a 3&#8242; NotI site (5&#8242;- TTGCGGCCGCTCAAGCGTAATCTGGAACGTCGTATGGAT-3&#8242;). The resulting PCR product was digested with XbaI and NotI, gel purified, and ligated into a modified PLL3.7 lentiviral vector containing an EF1&#945; promoter and encoding a G418 resistance gene (a kind gift from Samuel McBrayer) that was digested with XbaI and NotI. Kanamycin-resistant colonies were screened by restriction digestion of miniprep DNA and subsequently validated by DNA sequencing.</p><p>To make the DOX-On pTripZ <italic>NOTCH2-ICD</italic> cDNA, pcDNA3 NOTCH2-ICD (a kind gift from Dr. Stephen Blacklow) was used as a template for overhang PCR that introduced attB1 and attB2 sites onto the 5&#8242; and 3&#8242; ends of NOTCH2-ICD (5&#8242; primer 5&#8242;- GGGGACAAGTTTGTACAAAAAAGCAGGCTTCATGGCAAAACGAAAGCGTAAGCATG-3&#8242; and a 3&#8242; primer 5&#8242; GGGGACCACTTTGTACAAGAAAGCTGGGTCCGCATAAACCTGCATGTTGTTG -3&#8242;). The PCR product was gel extracted and introduced into the pDONR223 vector by homologous recombination using BP clonase (Life Technologies #11789020) for 1 h at 25&#176;C according to the manufacturer's instruction. The reaction mixture was then transformed at a ratio of 1:10 (reaction volume/volume competent cells) into HB101 competent cells (Promega). Spectinomycin-resistant colonies were screened by restriction digestion of miniprep DNA and subsequently validated by DNA sequencing. A homologous recombination reaction was then performed using LR Clonase II (Life Technologies #11791100) with the pENTR223-NOTCH2-ICD vector and a DOX-On pTripZ vector that was modified to be used as a destination vector for recombination cloning. The reaction was transformed into XL-10 Gold ultracompetent cells. Kanamycin-resistant colonies were screened by restriction digestion of miniprep DNA and subsequently validated by DNA sequencing.</p><p>To make lentiviral vectors for DOX-inducible exogenous ASCL1 expression (pTripZ-EV and pTripZ-ASCL1-3XFLAG), homologous recombination reactions between pENTR223 ASCL1 or pENTR223 EV and a modified pTripZ-NEO destination vector were performed using LR Clonase II. The reaction mixture was transformed into HB101 competent cells (Promega). Kanamycin-resistant colonies were screened by restriction digestion of miniprep DNA and subsequently validated by DNA sequencing.</p><p>To make lentiviral vectors for constitutive exogenous ASCL1 expression (pLenti-EF1&#945;-EV and pLenti-EF1&#945;-ASCL1-3XHA), homologous recombination reactions between pENTR223 ASCL1 or pENTR223 EV and the destination lentiviral vector pLenti-EF1&#945;-gateway-3HA-PGK-Puromycin (a kind gift from Dr. Gang Lu) were performed using LR Clonase II. The reaction mixture was transformed into HB101 competent cells (Promega). Kanamycin-resistant colonies were screened by restriction digestion of miniprep DNA and subsequently validated by DNA sequencing.</p><p>Lenti-Cas9-2A-Blast was purchased from Addgene (#73310).</p></sec><sec id="s3d"><title>Lentivirus production</title><p>Lentiviruses were made by Lipofectamine 2000-based cotransfection of 293FT cells with the respective lentiviral expression vectors and the packaging plasmids psPAX2 (Addgene #12260) and pMD2.G (Addgene #12259<bold>)</bold> in a ratio of 4:3:1. Virus-containing supernatant was collected at 48 and 72 h after transfection, pooled together (15 mL total per 10-cm tissue culture dish), passed through a 0.45-&#181;m filter, aliquoted, and frozen at &#8722;80&#176;C until use.</p></sec><sec id="s3e"><title>Lentiviral infection</title><p>Suspension cells were counted using a Vi-Cell XR Cell Counter (Beckman Coulter) and resuspended in 1 mL lentivirus with 5 &#956;g/mL polybrene at the following concentrations in individual wells of a 12-well plate: 1 &#215; 10<sup>6</sup> cells/mL for NCI-H82 cells, or 2 &#215; 10<sup>6</sup> cells/mL for NCI-H1876, GLC16, and NCI-H1417 cells. The plates were then centrifuged at 434<italic>g</italic> for 2 h at 30&#176;C.; 12&#8211;16 h later the virus was removed and cells were grown for 72 h before being placed under drug selection. Cells were selected by growth in puromycin (1 &#956;g/mL), blasticidin (10 &#956;g/mL), or G418 (800 &#956;g/mL) and maintained in media containing puromycin (1 &#956;g/mL), blasticidin (10 &#956;g/mL), or G418 (400 &#956;g/mL), respectively.</p></sec><sec id="s3f"><title>Immunoblot analysis</title><p>1 &#215; 10<sup>6</sup> cells were centrifuged at 400<italic>g</italic> for 3 min at 4&#176;C and the media was removed by gentle aspiration. The cell pellet was then washed once in 1 mL of ice-cold PBS, transferred to a 1.5-mL Eppendorf tube, and centrifuged at 400<italic>g</italic> for 3 min at 4&#176;C. The PBS was carefully aspirated and the cell pellet was lysed in RBP2 lysis buffer (50 mM Tris Cl pH 7.5, 400 mM NaCl, 0.5% NP-40) supplemented with a protease inhibitor cocktail (Complete, Roche Applied Science, 11836153001) and phosphatase inhibitors (PhosSTOP Sigma #04906837001). Whole-cell extracts were quantified using the Bradford Protein Assay and 40 &#956;g of protein per sample was boiled in sample buffer (3X is 6.7% SDS, 33% Glycerol, 300 mM DTT, and Bromophenol Blue), resolved bySDS-PAGE (6% SDS-PAGE for KDM5A, NOTCH, Rb1, and p130, 8% SDS-PAGE for Tp53, 10% SDS-PAGE for ASCL1, HES1, and Synaptophysin), transferred onto nitrocellulose membranes, blocked in 5% milk in Tris-Buffered Saline with 0.1% Tween 20 (TBS-T) for 1 h, and probed with the indicated primary antibodies overnight at 4&#176;C. Membranes were then washed three times in TBS-T, probed with the indicated horseradish peroxidase-conjugated (HRP) secondary antibodies for 1 h at room temperature, and washed three times in TBS-T. Bound antibodies were detected with enhanced chemiluminescence (ECL) Western blotting detection reagents (Immobilon [Thermo Fisher Scientific, #WBKLS0500] or Supersignal West Pico [Thermo Fisher Scientific, #PI34078]). The primary antibodies used were: rabbit &#945;-KDM5A (Cell Signaling #3876S, used at 1:1000), rabbit &#945;-ASCL1 (Abcam Ab211327, used at 1:1000), rabbit &#945;-NOTCH1 (Cell Signaling D1E11 #3608 used at 1:1000), rabbit &#945;-Cleaved NOTCH1 (Cell Signaling D3B8 #4147 used at 1:1000), rabbit &#945;-NOTCH2 (Cell Signaling D76A6 #5732 used at 1:1000), rabbit &#945;-HES1 (Cell Signaling D6P2U #11988 used at 1:1000), mouse &#945;-HA (HA.11, Covance), rabbit &#945;-Rb1 (Abcam #181616 used at 1:2000), rabbit rodent- specific &#945;-p53 (Cell Signaling D2H9O #32532 used at 1:1000), rabbit &#945;-p130 (Abcam #76234 used at 1:1000), rabbit &#945;-Synaptophysin (Abcam #32127 used at 1:10,000), rabbit &#945;-Chromogranin A (Abcam #15160 used at 1:200), rabbit &#945;-NEUROD (Cell Signaling #4373 used at 1:1000), mouse &#945;-Vinculin (Sigma, hVIN-1, # V9131, used at 1:1000), mouse &#945;-Tubulin (Sigma, B-5-1-2, # T5168, used at 1:5000), mouse &#945;-FLAG (Sigma, clone M2, #F1804, used at 1:2000), and mouse &#945;-&#946;-actin (Sigma, clone AC-15, #A3854, used at 1:25,000). The HRP conjugated secondary antibodies were Goat &#945;-Mouse (Pierce) and Goat &#945;-Rabbit (Pierce) and were used at 1:5000.</p></sec><sec id="s3g"><title>Histone extractions and histone immunoblot analysis</title><p>1 &#215; 10<sup>6</sup> cells were pelleted by centrifugation at 400<italic>g</italic> for 3 min at 4&#176;C in a 15-mL conical tube. The cell pellets were then washed once in 1 mL of ice cold PBS, transferred to a 1.5-mL Eppendorf tube, and pelleted by centrifugation at 400<italic>g</italic> for 3 min at 4&#176;C. The PBS was removed by gentle aspiration and the soluble proteins from the cell pellets were extracted by incubation in Nucleus Lysis Buffer (250 mM Sucrose, 60 mM KCL, 15 nM NaCl, 15 mM Tris pH 7.5, 5 mM MgCl<sub>2</sub>, 1 mM CaCl<sub>2</sub>, 1 mM DTT, 0.3% NP-40 supplemented with a cocktail of protease inhibitor cocktail and phosphatase inhibitors) for 10 min at 4&#176;C. The extracts were then centrifuged at 10,000<italic>g</italic> for 1 min at 4&#176;C and the supernatant was removed by aspiration. The cell pellets were again resuspended in Nucleus Lysis Buffer and incubated for 10 min at 4&#176;C and then centrifuged at 10,000<italic>g</italic> for 1 min at 4&#176;C. The supernatant was removed by aspiration and the histones in the insoluble pellet were extracted by overnight incubation in 100 &#181;L of 0.2 N HCl followed by centrifugation at 16,800<italic>g</italic> for 15 min at 4&#176;C. The supernatant was transferred to a fresh 1.5-mL Eppendorf tube and quantified using the Bradford Protein Assay. The pH of the supernatant was neutralized by adding 1/5 volume of 1 N NaOH, as confirmed by the color of the samples after the addition of sample buffer containing Bromophenol Blue. A total of 1 &#956;g of protein in sample buffer was boiled and resolved by SDS-PAGE on a 15% SDS&#8211;polyacrylamide gel. Immunoblot analysis was performed as described above. The primary antibodies used were rabbit &#945;-Histone 3 (Cell Signaling, DH12, #4499), rabbit &#945;-Tri Methyl-Histone H3 (Lys 4) (Cell Signaling C42D8 #9751 used at 1:1000), rabbit &#945;-Tri Methyl-Histone H3 (Lys 27) (Cell Signaling C36B11 #9733 used at 1:1000), mouse &#945;-Di/Tri Methyl-Histone H3 (Lys 9) (Cell Signaling 6F12 #5327 used at 1:1000). The secondary antibody was HRP-conjugated Goat &#945;-Rabbit (Pierce).</p></sec><sec id="s3h"><title>Cell-proliferation assays</title><p>Cells were counted on day 0 using a Vi-Cell XR Cell Counter and plated in petri dishes at 100,000 cells/mL in 8 mL of media for GLC16 cells or at 32,500 cells/mL in 8 mL of media for NCI-H82 cells. NCI-H1876 cells were plated in tissue culture-treated 6-well plates at 500,000 cells/mL in 2 mL of media and NCI-H69 cells were plated at 200,000 cells/mL in 2 mL of media in such plates. For experiments involving KDM5-C70, fresh drug (KDM5-C70 or DMSO) was added to the cells every 3&#8211;4 d (as indicated) at the concentrations indicated. For the DOX-On inducible ASCL1 cDNA expression experiments, Doxycycline (2 &#181;g/mL) was added to cells where indicated 48-h prior to treatment with KDM5-C70 and added to the fresh media each time the cells were passaged. Cells were passaged at 1:2 every 3-4 d with fresh media replacement, and cell counts were then determined using the Vi-Cell XR Cell Counter and normalized to day 0.</p></sec><sec id="s3i"><title>Assays for neuroendocrine differentiation</title><p>GLC16, NCI-H1876, NCI-H69, or NCI-H1417 cells were counted on day 0 using a Vi-Cell XR Cell Counter and plated in tissue culture-treated dishes at 200,000 cells/mL. The cells were passaged at 1:2 every 3 d (with fresh media replacement) and harvested for immunoblot analysis at the times indicated after treatment with KDM5-C70 or infection with lentiviruses expressing sgRNAs targeting KDM5A.</p></sec><sec id="s3j"><title>Adherence assays</title><p>NCI-H69 cells were counted on day 0 using a Vi-Cell XR Cell Counter and plated in tissue-culture-treated 6-well plates at 200 cells/mL in 2 mL with the indicated concentration of KDM5-C70. The cells were passaged at 1:2 every 3 d (with fresh media replacement containing KDM5C-70).</p><p>Floating cells from mouse SCLC cell lines (#703, #631, #38 12, #38 13, #38 2) were counted on day 0 using a Vi-Cell XR Cell Counter and plated in tissue culture-treated 6-well plates at 400 cells/mL in 2 mL media. Ninety-six hours later the cells were washed twice in PBS to remove nonadherent cells. Representative images were acquired using brightfield microscopy with a 10&#215; objective and then stained with crystal violet for visualization of the entire well.</p></sec><sec id="s3k"><title>Pharmacodynamic studies with KDM5-C70</title><p>GLC16, NCI-H1876, or NCI-H69 cells were plated at 200,000 cells/mL on a tissue-culture dish and treated with the indicated concentrations of KDM5-C70 for 72 h. Histones were extracted (see Materials and Methods) and immunoblotted for the indicated antibodies recognizing specific histone methylation marks.</p></sec><sec id="s3l"><title>KDM5A sgRNA rescue experiments</title><p>NCI-H82 cells expressing Cas9 were first infected with pLL3.7-EF1&#945;-KDM5A WT 3X HA, selected with G418, and then superinfected lentiviruses expressing an sgRNA targeting <italic>KDM5A</italic> (sgKDM5A #2) or a nontargeting sgRNA (control sgRNA). sgKDM5A #2 targets an intron-exon boundary of the genomic DNA sequence of KDM5A and therefore is inherently resistant to the KDM5A cDNA expression vector. Puromycin-resistant cells, indicative of successful infection with the sgRNA lentiviruses, were counted using the Vi-Cell XR Cell and proliferation assays were performed as described above for NCI-H82 cells.</p></sec><sec id="s3m"><title>NOTCH2 sgRNA/KDM5A sgRNA epistasis experiments</title><p>GLC16 cells expressing Cas9 were first infected with pLentiCRISPR-Neomycin lentivirus encoding a Neomycin-resistance gene, and an sgRNA targeting <italic>NOTCH2</italic> (sgNOTCH2 #1) or a nontargeting sgRNA (control sgRNA). The Neomycin-resistant cells were selected with G418. Neomycin-resistant cells were then superinfected with pLentiCRISPR-puromycin lentivirus encoding a puromycin-resistance gene, and an sgRNA targeting <italic>KDM5A</italic> (sgKDM5A #1) or a nontargeting sgRNA (control sgRNA). Following selection with puromycin, the cells were counted using a Vi-Cell XR Cell and plated at 200,000 cells/mL. Cells were harvested for immunoblot analysis at the times indicated.</p></sec><sec id="s3n"><title>KDM5-C70 and ORY-1001 synergy experiments</title><p>NCI-H69 cells or NCI-H1876 cells were counted on day 0 using a Vi-Cell XR Cell Counter and plated in tissue culture-treated 6-well plates at 200,000 cells/mL (for NCI-H69 cells) or 250,000 cells/mL (for NCI-H1876 cells) in 2 mL with the indicated concentrations of KDM5-C70 or ORY-1001 or both. For NCI-H69 cells, the cells were passaged at 1:2 every 3 d (with fresh media replacement containing KDM5C-70 or ORY-1001 or both). For NCI-H1876 cells, fresh media was replaced (containing KDM5-C70 or ORY-1001 or both) every 4 d. Coefficient of drug interaction (CDI) was calculated by using the following formula: CDI = AB/(A &#215; B), where AB = cell count after combined treatment with KDM5-C70 and ORY-1001, A = cell count after KDM5-C70 treatment alone, and B = cell count after ORY-1001 treatment alone.</p></sec><sec id="s3o"><title>KDM5-C70 dose response assays</title><p>For KDM5-C70 dose response assays in <ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Figure 1E&#8211;H</ext-link>, cells were counted on D0 using a Vi-Cell XR Cell Counter and plated at the following densities with the indicated concentrations of KDM5-C70: 100,000 cells/mL in 2 mL in a 6-well plate for SCLC cell lines (NCI-H69, NCI-H2081, GLC16, CORL47, CORL279, NCI-H82, NCI-H1694, NCI-H1876, and NCI-H446 cells) and 10,000 cells/mL in 2 mL in a 6-well plate for NSCLC cell lines (A549, NCI-H1650, NCI-H1975, and PC-9 cells). On day 5, all cell lines were passaged [1:2 for all SCLC cell lines, except for NCI-H1876 cells (which only required fresh media) and NCI-H446 cells (passaged at 1:5), and 1:10 for all NSCLC cell lines], and replaced with fresh media containing KDM5-C70. All cells were counted on day 10 using a Vi-Cell XR Cell Counter.</p></sec><sec id="s3p"><title>RNA sequencing and gene set enrichment analysis (GSEA)</title><p>For the sgKDM5A RNA sequencing experiment, GLC16 cells expressing Cas9 were infected with a lentivirus (plentiGuide-Puro) encoding sgKDM5A #1 or a nontargeting sgRNA (sgControl) and selected with puromycin. On day 11, cells were counted using Vi-Cell XR Cell Counter and plated at 200,000 cells/mL in 8 mL of complete media. Cells were harvested for RNA 72 h later (day 14 after infection). RNA was extracted using RNeasy mini kit (Qiagen #74106) and RNA sequencing was performed.</p><p>For the NOTCH2-ICD overexpression RNA sequencing experiment, GLC16 pTripZ NOTCH2-ICD cells were plated at 200,000 cells/mL in 8 mL of complete media on tissue culture-treated dishes and grown in the presence or absence of DOX (at 1 &#956;g/mL) for 72 h. RNA was extracted using RNeasy mini kit and RNA sequencing was performed.</p><p>For the RNA sequencing experiment using the SCLC tumors derived from the CRISPR-based SCLC GEMM, tumors were harvested at necropsy and were flash-frozen. RNA was extracted using RNeasy mini kit and RNA sequencing was performed.</p><p>Libraries were prepared using Illumina TruSeq stranded mRNA sample preparation kits from 500 ng of purified total RNA according to the manufacturer's protocol. The finished dsDNA libraries were quantified by Qubit fluorometer, Agilent TapeStation 2200, and RT-qPCR using the Kapa Biosystems library quantification kit according to manufacturer's protocols. Uniquely indexed libraries were pooled in equimolar ratios and sequenced on an Illumina NextSeq500 with single-end 75-bp reads by the Dana-Farber Cancer Institute Molecular Biology Core Facilities.</p><p>Sequenced reads were aligned to the UCSC hg19 human reference or UCSC mm9 mouse reference genome assembly and gene counts were quantified using STAR (v2.5.1b). Differential expression testing was performed by DESeq2 (v1.10.1) as part of the VIPER analysis pipeline (<uri ns0:href="https://bitbucket.org/cfce/viper/">https://bitbucket.org/cfce/viper/</uri>). Normalized read counts (RPKM) were calculated using cufflinks (v2.2.1).</p><p>For gene set enrichment analysis (GSEA), software was downloaded from the Gene Set Enrichment Analysis website (<uri ns0:href="http://www.broad.mit.edu/gsea/downloads.jsp">http://www.broad.mit.edu/gsea/downloads.jsp</uri>). GSEA was performed using the &#8220;Gene-Ontology&#8221; or &#8220;Hallmark&#8221; gene sets for identification of enriched/depleted signatures. Gene Sets with an FDR &lt; 0.25 and a nominal <italic>P</italic>-value of &lt;0.05 were considered significant.</p></sec><sec id="s3q"><title>Reverse-transcriptase quantitative PCR (RT-qPCR)</title><p>RNA was extracted using RNeasy mini kit (Qiagen #74106) according to the manufacturer's instructions. RNA concentration was determined using the Nanodrop 8000 (Thermofisher Scientific). A cDNA library was synthesized using AffinityScript QPCR cDNA Synthesis Kit (Agilent #600559) according to the manufacturer's instructions by use of Random Primers. qPCR was performed using the LightCycler 480 (Roche) with the LightCycler 480 Probes Master Kit (Roche) and Taqman probes (ThermoFisher Scientific) according to the manufacturer's instructions. The &#916;&#916;C<sub>T</sub> Method was used to analyze data. The C<sub>T</sub> values for each probe were then normalized to the C<sub>T</sub> value of <italic>ACTB</italic> for that sample. The data from each experiment was then normalized to the control to determine the relative fold change in mRNA expression. The following TaqMan probes were used: ASCL1 human (Hs04187546_g1), ACTB human (Hs01060665_m1), HES1 human (Hs00172878_m1), HEY1 human (Hs01114113_m1), NOTCH2 human (Hs01050724_m1), Actb mouse (Mm00607939_s1), Dlk1 mouse (Mm00494477_m1), and Nell1 mouse (Mm00616857_m1).</p></sec><sec id="s3r"><title>ChIP sequencing and analysis</title><p>ChIP-seq analysis was performed using GLC16 cells and NCI-H1876 SCLC cell lines. Briefly, GLC16 cells were plated at 0.2 &#215; 10<sup>6</sup> cells/mL in 20 mL of complete media. NCI-H1876 cells were plated at 1 &#215; 10<sup>6</sup> cells/mL in 20 mL of complete media. Forty-eight hours after plating, media was removed by aspiration and the cells were washed once in PBS at room temperature. The cells were then cross-linked by incubation with 2 mM disuccinimidyl glutarate (DSG) with rocking for 30 min at room temperature. The DSG was removed and the cells were fixed in 1% paraformaldehyde diluted in PBS for 10 min at 37&#176;C. Excess formaldehyde was quenched by dropwise addition of Glycine to a final concentration 125 mM. The cells were then rocked for an additional 5 min at room temperature. The paraformaldehyde/glycine was then removed and the cells were washed once with ice cold PBS. A total of 5 mL of ice-cold PBS was added to the cells and the cells were removed by scraping.</p><p>The cells were centrifuged at 3000<italic>g</italic> for 5 min and resuspended in 3 mL of lysis buffer (50 mM Hepes-NaOH pH 8, 140 mM NaCl, 1 mM EDTA, 10% glycerol, 0.5% NP-40, 0.25% TX-100 supplemented with a protease inhibitor cocktail and phosphatase inhibitors) and incubated while rotating for 10 min at 4&#176;C. Intact nuclei were then collected by centrifugation in an Eppendorf microcentrifuge at 4500 rpm for 5 min at 4&#176;C. The supernatant was then gently aspirated and the pellet was resuspended in 1 mL of wash buffer (10 mM Tris-HCl pH 8.0, 200 mM NaCl, 1 mM EDTA, supplemented with a protease inhibitor cocktail and phosphatase inhibitors) and incubated while rotating for 10 min at 4&#176;C. The nuclei were again collected by centrifugation in an Eppendorf microcentrifuge at 4500 rpm for 5 min at 4&#176;C. The supernatant was then aspirated and the tube was rinsed with 0.5 mL of shearing buffer (0.1% SDS, 1 mM EDTA, 10 mM Tris-HCl pH 8.0 supplemented with a protease inhibitor cocktail and phosphatase inhibitors). The nuclei were again collected by centrifugation in an Eppendorf microcentrifuge at 4500 rpm for 5 min at 4&#176;C, the supernatant was carefully removed, and the pellet was resuspended in 1 mL shearing buffer and transferred to a 1 mL AFA tube (Covaris #520130).</p><p>The chromatin was then sonicated using a Covaris E220 sonicator at 100 peak incident power, 10% duty cycles, 200 cycles per burst, water level 8 for 900 sec. The samples were then transferred to 1.5-mL Eppendorf tubes and centrifuged in an Eppendorf microcentrifuge at 13,000 rpm for 5 min at 4&#176;C. 0.9 mL of the supernatants were transferred to a new Eppendorf tube, to which was added TX-100 (final concentration of 1%) and NaCl (final concentration of 150 mM).</p><p>A total of 20 &#181;L of Dynabeads Protein G (ThermoFisher #10004D) was then added and samples were rotated for 1 h at 4&#176;C. The Dynabeads were then removed using a magnetic stand and the supernatants were transferred to new tubes. Five percent of the total was removed to be used as the input. One microgram of rabbit polyclonal anti-KDM5A antibody (Abcam, #ab70892) was added and the samples were incubated overnight while rotating at 4&#176;C. The following morning, A total of 50 &#181;L of Dynabeads Protein G were added and the samples were incubated for another 2 h while rotating at 4&#176;C. A magnetic stand was used to pellet the Dynabeads. The supernatant was removed and the Dynabeads were washed once in 1 mL of low-salt immune complex wash buffer (20 mM Tris-HCl pH 8.0, 150 mM NaCl, 0.1% SDS, 1% TX-100, 2 mM EDTA) and incubated for 5 min while rotating at 4&#176;C. The beads were again pelleted using a magnetic stand. Following removal of the supernatant, the Dynabeads were washed once in 1 mL of high-salt immune complex wash buffer (20 mM Tris-HCl pH 8.0, 500 mM NaCl, 0.1% SDS, 1% TX-100, 2 mM EDTA) and incubated for 5 min while rotating at 4&#176;C. The beads were again pelleted with a magnetic stand. Following removal of the supernatant the Dynabeads were washed once in 1 mL of Lithium Chloride wash buffer (10 mM Tris-HCl pH 8.0, 250 mM LiCl, 1% SDS, 1% NP-40, 1 mM EDTA) and incubated for 5 min while rotating at 4&#176;C. The beads were then washed twice in TE (pH 8) at room temperature and the beads were then resuspended in 100 &#181;L TE (pH 8).</p><p>RNase A was then added to a final concentration of 0.2 mg/mL and the samples were incubated for 30 min at 37&#176;C. To reverse the crosslinking, proteinase K was then added to a final concentration of 0.8 mg/mL and the samples were incubated for 30 min at 42&#176;C and then an additional 8 h at 65&#176;C. A total of 300 &#181;L QG buffer and 100 &#181;L of isopropanol was then added to each sample and a magnetic stand was used to pellet the Dynabeads. The supernatant was then collected and DNA was isolated using QIAquick gel extraction kit (Qiagen) according to the manufacturer's instructions.</p><p>Recovered DNA was quantified by Qubit and sequencing libraries were prepared using the Rubicon Genomics Thruplex-DNAseq sample preparation kits from 2 ng of the immunoprecipitated DNA according to manufacturer's protocol. The resultant ChIPseq libraries were quantified by Qubit fluorometer, Agilent TapeStation 2200, and RT-qPCR using the Kapa Biosystems library quantification kit according to manufacturer's protocols. Uniquely indexed libraries were pooled in equimolar ratios and sequenced on a single Illumina NextSeq500 run with single-end 75-bp reads by the Dana-Farber Cancer Institute Molecular Biology Core Facilities.</p><p>ChIP-seq reads generated from KDM5A libraries were aligned to the Human genome (hg19) using the Burrows-Wheeler Aligner (BWA) (<xref rid="GAD328336OSEC27" ref-type="bibr">Li and Durbin 2010</xref>). KDM5A ChIP and Input tag densities were calculated using the R package SPP (<xref rid="GAD328336OSEC24" ref-type="bibr">Kharchenko et al. 2008</xref>) with a Gaussian kernel bandwidth of 35 bp. Enrichment of KDM5A relative to input was determined and peaks were called using the SPP function &#8220;get.broad.enrichment.clusters&#8221; with a <italic>Z</italic>-score threshold of three and a window size of 1000 bp. Files in BigWig format were generated for both tag enrichment and tag density for visualization in the genome browser. Reference transcript annotations for the human genome were obtained from the University of California Santa Cruz Genomics Institute (UCSC) (<xref rid="GAD328336OSEC7" ref-type="bibr">Casper et al. 2018</xref>). Each transcription start site (TSS) was categorized as KDM5A positive in GLC16 and/or NCI-H1876 cell lines if an overlapping KDM5A peak was encompassing the TSS in both KDM5A ChIP-seq replicates of the corresponding cell line. Peaks at TSSs were then compared with expression data from GLC16 cells that were either treated with a KDM5A sgRNA or with a control sgRNA. Expression estimates were produced with the VIPER package (<xref rid="GAD328336OSEC12" ref-type="bibr">Cornwell et al. 2018</xref>). Genes with a significant increase in expression (log2 fold-change cutoff &#8805;1.5 and an adjusted <italic>P</italic>-value &lt;0.05) were reported.</p></sec><sec id="s3s"><title>Adenoviral and adeno-associated viral (AAV) sgRNA expression vectors</title><p>Effective sgRNAs targeting mouse <italic>Kdm5a</italic>, <italic>Rb1</italic>, <italic>Trp53</italic>, and <italic>Rbl2</italic> were first validated using lentiviral vectors (see <ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Figs. 5,6</ext-link>). To generate the AAV vector depicted in <xref ref-type="fig" rid="GAD328336OSEF4">Figure 4</xref>A, we first generated a destination vector (pAAVGao-DEST-EFS-Cre-2A-Fluc-spA). This was accomplished by inserting a multiple cloning site sequence (TCTAGAACCGGTAGATCTATCGATAAGCTTGGTACCCTCGAGTTAATTAAGGATCCGCTAGCGCGGCCGC) between XbaI and NotI in pX551 (a gift from Feng Zhang [Addgene # 60957]), which replaced the original sequence in the pX551 vector. We then inserted the universal gateway cassette between PacI and NheI using restriction enzymes to generate an intermediate vector named pAAVGao-DEST. Next we performed overlapping PCR to assemble the EFS promoter, Cre and 2A-Fluc-short poly(A) signal that contained a 5&#8242; PacI site and 3&#8242; XbaI site. The PCR product was digested with PacI and XbaI and ligated into pAAVGao-DEST cut with these two enzymes.</p><p>Next we performed Gibson assembly to generate an entry vector (pENTR223-sgRb1-sgTp53-sgRbl2) containing sgRNAs targeting <italic>Rb1, Trp53, and Rbl2</italic>. pENTR223-sgRb1-sgTp53-sgRbl2 was then mixed with pAAVGao-DEST-EFS-Cre-2A-Fluc-spA to make the final pAAVGao-sgRb1-sgTp53-sgRbl2-EFS-Cre-2A-Fluc-spA by homologous recombination reaction using LR Clonase II (Life Technologies #11791100) at 25&#176;C for 1 h per the manufacturer's instructions. The reaction mixtures were then transformed at a ratio of 1:10 (volume recombination reaction:volume competent cells) into HB101 cells and ampicillin-resistant colonies were screened by restriction digestion of miniprep DNA and subsequently validated by DNA sequencing.</p><p>To generate the adenoviruses depicted in <xref ref-type="fig" rid="GAD328336OSEF5">Figure 5</xref>A, Gibson assembly was performed to generate an entry vector that encoded CMV-Cre recombinase and sgRNAs targeting <italic>Rb1, Trp53, <italic>and</italic> Rbl2</italic> and either an sgRNA targeting <italic>Kdm5a</italic> (pENTR223-CMV-Cre-sgKdm5a-sgRb1-sgTp53-sgRbl2) or a nontargeting sgRNA (sgControl) (pENTR223-CMV-Cre-sgC0111-sgRb1-sgTp53-sgRbl2). Gateway cloning was performed to clone the cassettes above into pAd-PL DEST (Invitrogen) according to the manufacturer's instructions. The recombinants were transformed into HB101 cells and ampicillin-resistant colonies were screened by restriction digestion of miniprep DNA and subsequently validated by DNA sequencing.</p></sec><sec id="s3t"><title>Adeno-associated virus (AAV) production</title><p>293FT cells were counted using a Vi-Cell XR Cell Counter (Beckman Coulter) and 1 &#215; 10<sup>7</sup> cells were plated using DMEM media containing FBS without penicillin and streptomycin on a 15-cm tissue-culture dish. The following day, the cells were transfected using Lipofectamine 2000 with the AAV vector along with AAV-DJ and AAV-pHelper packaging vectors (Cell Biolabs) at a ratio of 1:1:1. The next day, fresh DMEM media with 10% FBS was added; 48 h later, the cells and media were collected and subjected to four freeze-thaw cycles by alternating between an ethanol dry ice bath and 37&#176;C. Cell debris was removed by centrifugation and the supernatant was collected, passed through a 0.45-&#181;m filter, aliquoted, and frozen at &#8722;80&#176;C until use.</p><p>To generate high-titer AAV for in vivo experiments, AAV was generated as described above, but 10 15-cm tissue-culture dishes of 293FT cells were transfected with AAV, and all transfected cells were pooled when the virus was harvested. AAV virus was purified using Virabind AAV Purification Megakit (Cell Biolabs #VPK141) according to the manufacturer's instructions. AAV virus was titered using QuickTiter AAV Quantitation Kit (Cell Biolabs ##VPK145) according to the manufacturer's instructions.</p></sec><sec id="s3u"><title>Adenovirus production</title><p>A total of 5 &#181;g of the adenovirus vector (pAd/PL Invitrogen #V494-20) containing the desired sgRNA sequences and Cre recombinase expression cassette (see Cloning Methods) was digested with PacI (New England Biolabs) for 2 h at 37&#176;C according to the manufacturer's instructions and column purified using Qiagen's gel extraction kit. One microgram of PacI-digested pAd/PL was transfected into 1.5 &#215; 10<sup>6</sup> 293AD cells plated on a 6-cm tissue-culture dish using Lipofectamine 2000. The following day, the media was exchanged, and subsequently every 48 h thereafter. Once 293AD cells showed evidence of adenovirus production (determined by comet formation with lysis), the cells and supernatant were harvested, which were then subjected to four freeze&#8211;thaw cycles by alternating between an ethanol dry ice bath and 37&#176;C. Cell debris was removed by centrifugation and the supernatant was collected, passed through a 0.45-&#181;m filter, aliquoted, and frozen at &#8722;80&#176;C until use.</p><p>To generate high-titer adenovirus for in vivo experiments, adenovirus was generated as described above. One hundred microliters of the adenovirus stock was added to each 10-cm tissue-culture dish of 293FT cells plated at 3 &#215; 10<sup>6</sup> cells per dish (four 10-cm dishes in total for each purification). When 293FT cells showed evidence of adenovirus production, as determined by cell rounding and partial detachment (&#8764;48&#8211;72 h after addition of adenoviral stock), the cells were collected and adenovirus was purified using Virabind Adenovirus Purification Kit (VPK-100). The purified adenovirus was then dialyzed into PBS at 4&#176;C overnight. Adenovirus was titered using QuickTiter Adenovirus Quantitation Kit (Cell Biolabs ##VPK106) according to the manufacturer's instructions.</p></sec><sec id="s3v"><title>Mouse experiments</title><p>All mouse experiments complied with National Institutes of Health guidelines and were approved by Dana-Farber Cancer Institute Animal Care and Use Committee (DFCI, protocol 03-105).</p></sec><sec id="s3w"><title>Intratracheal injections</title><p>Intratracheal injections were performed as described previously (<xref rid="GAD328336OSEC14" ref-type="bibr">DuPage et al. 2009</xref>). Briefly, mice were anesthetized with ketamine and xylazine and pedal reflexes were monitored to ensure adequate anesthesia. Mice were maintained on a heated stage at 37&#176;C while anesthetized. Mice were hung on stage with their top incisors and intubated with a 22-gauge 1-inch catheter (ThermoFisher Scientific #1484120). Once intubated, adenovirus (4 &#215; 10<sup>8</sup> VP/mouse) or AAV (1 &#215; 10<sup>11</sup> GC/mouse) in a total volume of 75 &#181;L (diluted in PBS) was added to the catheter and subsequently inhaled by the mice.</p></sec><sec id="s3x"><title>Generation of genetically engineered mouse models of SCLC using CRISPR/Cas9</title><p>For the AAV experiments in <xref ref-type="fig" rid="GAD328336OSEF4">Figure 4</xref><bold>,</bold> 2&#8211;3-mo-old transgenic lox-stop-lox Cas9 mice (a kind gift from Feng Zhang now deposited at Jackson Laboratories [Jackson No. 026556]) were intratracheally injected with an AAV (1 &#215; 10<sup>11</sup> GC/mouse) encoding effective sgRNAs targeting <italic>Rb1, Trp53,</italic> and <italic>Rbl2</italic> and Cre recombinase and firefly luciferase. MRI's of the lungs were performed beginning &#8764;8 mo after intratracheal injection and performed every 2-wk thereafter until the mice were euthanized.</p><p>For the adenovirus experiments in <xref ref-type="fig" rid="GAD328336OSEF5">Figures 5</xref> and <xref ref-type="fig" rid="GAD328336OSEF6">6</xref>, 2&#8211;3-mo-old transgenic Lox-stop-Lox Cas9 mice (a kind gift from Monte Winslow now deposited at Jackson Laboratories [Jackson No. 026816]) were intratracheally injected with adenovirus (4 &#215; 10<sup>8</sup> VP/mouse) encoding effective sgRNAs targeting <italic>Rb1, Trp53,</italic> and <italic>Rbl2</italic> and Cre recombinase that also encoded either an effective sgRNA targeting <italic>Kdm5a</italic> (sgKdm5a RPP) or a nontargeting sgRNA as a control (sgControl RPP). MRIs of the lungs were performed on mice beginning 8 mo after intratracheal injection and were performed monthly thereafter until the mice became symptomatic and were euthanized. Tumor volumes were calculated by lung MRIs (see Mouse MRI Imaging Methods). Tumor doubling times were calculated based on the tumor volume measurements.</p><p>Mice were euthanized when they became symptomatic (primarily respiratory distress), moribund, or lost 15% of their total body weight. (All mice injected with adenovirus were included in the final analysis except for two mice [#188 and #189]. These two mice died after the first MRI imaging session, likely related to anesthesia, and did not have tumors by MRI or necropsy.) Half of the lung tumor specimen was immediately flash frozen in liquid nitrogen for subsequent DNA and RNA analysis, while the other half was fixed in 10% formalin for 24 h and then stored in 70% ethanol. Liver and kidney/adrenals were also harvested and fixed in formalin as above to determine whether metastasis occurred. The tissues were then embedded in paraffin. Slides were made for hematoxylin and Eosin (H&amp;E) and immunohistochemistry (IHC) staining and analyzed by a pathologist.</p></sec><sec id="s3y"><title>Mouse MRI imaging</title><p>MRI experiments were performed on a Bruker BioSpec 7T/30-cm USR horizontal bore Superconducting Magnet System (Bruker Corp.) equipped with the B-GA12S2 gradient and integrated with a second-order room-temperature shim system, which provides a maximum gradient amplitude of 440 mT/m and slew rate of 3440 T/m/s. The Bruker-made 23-mm ID birdcage volume radiofrequency (RF) coil was used for both RF excitation and receiving. The Bruker AutoPac with laser positioning was used for accurate definition of the region of interest. Animals were anesthetized with 1.5% isoflurane mixed in medical air at a flow rate of 2 L/min. Body temperature was maintained at 37&#176;C using a warm air fan. A pressure-transducer for respiratory gating was placed on the abdomen. Animal respiration and temperature were monitored and regulated by the SAII (SA Instruments Inc., Stony Brook, NY) monitoring and gating system model 1025T. Bruker Paravision 6.0.1 was used for MRI data acquisition. T2 weighted images of the lungs were obtained using a fast spin echo (RARE) with fat suppression sequence with the following parameters: TR = 1773 ms, TE = 36 ms, Rare Factor = 8, Number of Averages = 8, total acquisition time 4 min 40 sec, FOV = 24 &#215; 24 mm<sup>2</sup>, matrix size = 192 &#215; 256, spatial resolution = 125 &#215; 117 &#181;m<sup>2</sup>, slice thickness = 1.0 mm, number of slices = 20, and a total acquisition time of 7:30 min. Images were analyzed with the semi-automatic segmentation analysis software ClinicalVolumes (ClinicalVolumes, London, UK). A region of interest (ROI) delineating the tumor lesion was defined on each slice, and the total tumor volume was computed as the sum of all the ROI-defined areas.</p></sec><sec id="s3z"><title>CRISPR-amplicon sequencing</title><p>Tumors were harvested from LSL-Cas9 mice that were injected with the specified AAV or adenovirus and flash frozen at &#8722;80&#176;C. Genomic DNA was isolated using the QIAamp DNA Blood Mini Kit (Qiagen #51106) according to the manufacturer's instructions. Nested PCR was done by performing two successive PCR reactions using KOD Xtreme polymerase (EMD Millipore #71975) and following a set of primers to amplify the genomic region of <italic>Kdm5a, Rb1, Trp53, or Rbl2</italic>: Outer forward <italic>Kdm5a</italic> (5&#8242;- CTCGTTCTCGTCCTAAGAAGATGCG -3&#8242;), outer reverse <italic>Kdm5a</italic> (5&#8242;- CACACGCGATCAAATAAAATGTC -3&#8242;), inner forward <italic>Kdm5a</italic> (5&#8242;- TGGTGACCATGGCGTCCGTG-3&#8242;), inner reverse <italic>Kdm5a</italic> (5&#8242;-AAAGAGGAAAGCCACGGGGAGGAGG-3&#8242;). Outer forward <italic>Rb1</italic> (5&#8242;- GCAGAATAAAATTCTACCAGG -3&#8242;), outer reverse <italic>Rb1</italic> (5&#8242;- CTATCATCTTCATGCTACAA-3&#8242;), inner forward <italic>Rb1</italic> (5&#8242;- GGTCAATGTGGAATACACAATTG-3&#8242;), inner reverse <italic>Rb1</italic> (5&#8242;- GCATATATATCTACTTCAGCTG-3&#8242;). Outer forward <italic>Trp53</italic> (5&#8242;- ATAGAGACGCTGAGTCCGGTTC-3&#8242;), outer reverse <italic>Trp53</italic> (5&#8242;- CCTAAGCCCAAGAGGAAACAGA-3&#8242;), inner forward <italic>Trp53</italic> (5&#8242;- TGCAGGTCACCTGTAGTGAGGTAGG-3&#8242;), inner reverse <italic>Trp53</italic> (5&#8242;- GAAACAGGCAGAAGCTGGGGAAGAAAC-3&#8242;). Outer forward <italic>Rbl2</italic> (5&#8242;- ACAGTAGCAGGACAGGCTGCT-3&#8242;), outer reverse <italic>Rbl2</italic> (5&#8242;-CTGCAGAGTTGACAGGCACTA-3&#8242;), inner forward <italic>Rbl2</italic> (5&#8242;-TTCGCGGTTTGAATGGCTGCG -3&#8242;), inner reverse <italic>Rbl2</italic> (5&#8242;- GGTAGCTGCTCCAGGCCTC-3&#8242;). The final PCR product was then column purified using Qiagen's gel extraction kit and sequenced using next-generation sequencing by the MGH DNA Core Facility.</p></sec><sec id="s3aa"><title>Immunohistochemistry (IHC)</title><p>For immunohistochemistry analyses, 4-&#956;m-thick tissue sections were prepared and left to air dry overnight. Slides were baked in an Isotemp Oven (Fisher Scientific) for 30 min at 60&#176;C to melt excess paraffin. Immunohistochemistry staining for KDM5A was performed on a Bond III (Leica Biosystems, Buffalo Grove, IL) using the Bond Polymer Refine Detection Kit (DS9800; Leica Biosystems). Antigen retrieval was performed on the Bond III for 30 min using Bond Epitope Retrieval Solution 2 (EDTA, pH = 9.0). Slides were incubated with rabbit monoclonal anti-KDM5A antibody (Abcam cat. no. ab194286, 1:500) diluted in Bond Primary Antibody Diluent (Leica Biosystems cat. no. AR9352) for 30 min, before incubation with HRP-conjugated secondary antibody for 10 min. Staining was visualized by incubation with the chromogen 3,3&#8242;-diaminobenzidine for 5 min. Finally, slides were counterstained with hematoxylin, dehydrated in graded ethanol and xylene, and cover slips were applied.</p><p>Immunohistochemical staining for H3K4me3, Ascl1, Synaptophysin, Chromogranin A, Notch1, and Notch2 was performed by hand. As above, 4-micron-thick paraffin-embedded tissue sections were prepared on glass slides and left to air-dry overnight. Slides were baked in an Isotemp Oven (Fisher Scientific, Pittsburgh, PA) at 60&#176;C for 30 min before staining. For antigen retrieval, slides were heated with a DC2002 Decloaking Chamber (Biocare Medical, Pacheco, CA) to 125&#176;C for 30 sec and 90&#176;C for 10 sec in EDTA buffer (pH = 8, Thermo Scientific cat. no. Ap-9004-500) for synaptophysin staining, or citrate (pH = 6.0, Thermo Scientific cat. no. Ap-9003-500) for Chromogranin A, Ascl1, Notch1, Notch2, and H3K4me3 staining. All sections were incubated with peroxidase (Dako, Carpinteria, CA) and protein (Dako) blocking reagents for 5 min each. Sections were then incubated with rabbit monoclonal anti-Synaptophysin antibody (Abcam cat. no. ab32127; 1:5500), rabbit monoclonal anti-H3K4me3 antibody (Cell Signaling cat. no. 9751; 1:5000) rabbit polyclonal anti-Chromogranin A antibody (Abcam cat. no. ab15160; 1:300), rabbit monoclonal anti-Notch1 antibody (Cell Signaling cat. no. 3608; 1:100), rabbit monoclonal anti-Notch2 antibody (Cell Signaling cat. no. 5732; 1:100), or rabbit monoclonal anti-Ascl1 antibody (Abcam cat. no. ab211327; 1:100) diluted in Dako Diluent with Background Reducing Components (Dako) for 60 min at room temperature. Following primary incubation, sections were incubated with Envision + System-HRP Labeled Polymer Anti-Rabbit (Dako cat. no. K4003) for 30 min. All sections were developed using the DAB chromogen kit (Dako K3468) and counterstained with hematoxylin, dehydrated in graded ethanol and xylene, mounted, and coverslipped.</p><p>To establish specificity of the IHC assay for Notch1, and Notch2, we compared MEFs expressing Cas9 that were infected with two effective sgRNAs (that we previously validated by immunoblot analysis) targeting <italic>Notch1</italic> (sg1 and sg5) or <italic>Notch2</italic> (sg1 and sg2) or a nontargeting sgRNA used as a control.</p><p>Notch1, Notch2, and H3K4me3 stained slides were digitized using the Scanscope XT (Aperio Technologies Inc., Visa, CA) and analyzed using the Indica Lab Halo platform. Slides were annotated and nuclear staining was quantified using Indica Labs-Multiplex IHC v1.2algorithm. The percentage of Notch1, Notch2, and H3K4me3 positivity in tumor cells was then calculated. The level of H3K4me3 expression was quantified using a 0 to 3+ scale based on the optical density of the nuclear staining in each cell.</p></sec><sec id="s3ab"><title>Generation of cell lines from mouse SCLC tumors</title><p>To generate cell lines from tumors using 3T3-J2 murine fibroblasts (<xref rid="GAD328336OSEC31" ref-type="bibr">Liu et al. 2017</xref>), 3T3-J2 murine fibroblasts that had been irradiated and confirmed to be senescent were plated in the morning in complete Schlegal media (DMEM/F12 media supplemented with 10% FBS, Insulin-Transferrin-Selenium (Life Technologies #41400045), 0.125 &#181;g/mL EGF, 5 &#181;M Y-27632 (ROCK inhibitor, Sigma #SCM075), 25 &#181;g/mL hydrocortisone (Sigma H0135), 11.7 &#181;M Cholera toxin (Sigma #C-1032), 250 &#181;g/mL fungizone (Fisher Scientific #BP264550), and 100 units/mL penicillin, and 100 &#956;g/mL streptomycin. The irradiated 3T3-J2 murine fibroblasts were allowed to adhere for at least 2 h. LSL-Cas9 mice (Jackson No. 026816) that were injected with sgKdm5a RPP or sgControl RPP adenovirus that had lung tumors confirmed by MRI and were symptomatic were euthanized with CO<sub>2</sub> and their tumors were quickly extracted, washed in ice cold PBS, and minced several times using an ethanol-sterilized razor blade. A total of 3 mL of collagenase/hyaluronidase (Stem cell biology #07912) diluted 1:10 in DMEM/F12 media and 1 mL dispase (Corning # 354235) was added to the tumor, and incubated at 37&#176;C for 20&#8211;40 min (until most tumor cells were in suspension). The cells were then collected, centrifuged at 1000 rpm (Eppendorf Centrifuge 5810R) for 5 min, resuspended in complete Schlegal media, filtered through a 70-&#181;m cell strainer (BD #352350), centrifuged again at 1000 rpm for 5 min, and resuspended in fresh complete Schlegal media and placed on tissue culture dishes containing irradiated 3T3-J2 murine fibroblasts. Media was subsequently replaced every 3 d and fresh irradiated 3T3-J2 murine fibroblasts were used for every passage (&#8764;5&#8211;7 d).</p><p>To generate cell lines from tumors without 3T3-J2 murine fibroblasts, LSL-Cas9 mice (Jackson No. 026556) that were injected with sgKdm5a RPP or sgControl RPP AAV-DJ that were symptomatic were euthanized with CO<sub>2</sub> and their tumors were quickly extracted, washed in ice-cold PBS, and minced several times using an ethanol-sterilized razor blade. A total of 3 mL of collagenase/hyaluronidase (Stem cell biology #07912) diluted 1:10 in RPMI HITES media (containing 10% FBS, penicillin and streptomycin, and supplementation with ITS [Gibco #41400045, 10 nM hydrocortisone, and 10 nM &#946;-estradiol] and 1 mL dispase [Corning # 354235] was added to the tumor, and incubated at 37&#176;C for 20&#8211;40 min [until most tumor cells were in suspension]). The cells were then collected, centrifuged at 1000 rpm for 5 min, resuspended in RPMI HITES media, filtered through a 70-&#181;m cell strainer (BD #352350), centrifuged again at 1000 rpm for 5 min, resuspended in fresh RPMI HITES media and placed in ultra-low adherence tissue culture dishes (Corning #3471). Media was subsequently replaced every 3 d.</p></sec><sec id="s4"><title>Statistical analysis</title><p>For the RNA sequencing experiments and GSEA analysis in <xref ref-type="fig" rid="GAD328336OSEF3">Figures 3</xref>, <xref ref-type="fig" rid="GAD328336OSEF6">6</xref>, and <ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Figure S2</ext-link>, statistical significance with calculated using FDR corrected for multiple hypothesis testing where <italic>q</italic>-value of &lt;0.25 is considered statistically significant. For experiments in <xref ref-type="fig" rid="GAD328336OSEF2">Figure 2</xref>L and <ext-link ext-link-type="uri" ns0:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.328336.119/-/DC1">Supplemental Figure S1C,H</ext-link>, two-way ANOVA was performed.</p><p>For the in vivo studies using sgKdm5a RPP and sgControl RPP in <xref ref-type="fig" rid="GAD328336OSEF5">Figure 5</xref>: &#967;<sup>2</sup> test was used determine the <italic>P</italic>-value of % of mice with lung lesions in <xref ref-type="fig" rid="GAD328336OSEF5">Figure 5</xref>D, Log-rank test and Gehan&#8211;Breslow&#8211;Wilcoxon test were used to determine the <italic>P</italic>-value of the Kaplan&#8211;Meier survival analysis in <xref ref-type="fig" rid="GAD328336OSEF5">Figure 5</xref>I.</p><p>For all other experiments, statistical significance was calculated using unpaired, two-tailed Students <italic>t</italic>-test. <italic>P</italic>-values were considered statistically significant if the <italic>P</italic>-value was &lt;0.05. For all figures: (*) <italic>P</italic>-value &lt;0.05, (**) <italic>P</italic>-value &lt;0.01, (***) <italic>P</italic>-value &lt;0.001, (****) <italic>P</italic>-value &lt;0.0001. Error bars represent SEM unless otherwise indicated.</p></sec><sec sec-type="data-availability" id="s5"><title>Data availability</title><p>Data from RNA sequencing and ChIP sequencing experiments will be deposited in the GEO database prior to publication. All other data and materials can be requested from the corresponding author upon reasonable request.</p></sec><sec id="s6"><title>Competing interest statement</title><p>W.G.K. is a board director at Lilly Pharmaceuticals, founder of Tango Therapeutics and Cedilla Therapeutics, Scientific Advisor at Nextech Invest, has ownership interest (including stock, patents, etc.) in Lilly, Tango Therapeutics, Nextech Invest, and Cedilla Therapeutics, and is a consultant/advisory board member for Lilly Pharmaceuticals, Tango Therapeutics, Nextech Invest, and Cedilla Therapeutics. M.G.O. is a consultant for HVH precision analytics and has research funding from AstraZeneca and Eli Lilly and Company. No potential conflicts of interest were disclosed by the other authors.</p></sec></sec>
+<sec sec-type="supplementary-material">
+<title>Supplementary Material</title>
+<supplementary-material id="PMC_1" content-type="local-data">
+<caption>
+<title>Supplemental Material</title>
+</caption>
+<media mimetype="text" mime-subtype="html" ns0:href="supp_33_23-24_1718__index.html" />
+<media ns0:role="associated-file" mimetype="application" mime-subtype="pdf" ns0:href="supp_gad.328336.119_Supplemental_Figure_Legends.pdf" />
+<media ns0:role="associated-file" mimetype="application" mime-subtype="ps" ns0:href="supp_gad.328336.119_Supplemental_Figure_10.ps" />
+<media ns0:role="associated-file" mimetype="application" mime-subtype="ps" ns0:href="supp_gad.328336.119_Supplemental_Figure_7.ps" />
+<media ns0:role="associated-file" mimetype="application" mime-subtype="ps" ns0:href="supp_gad.328336.119_Supplemental_Figure_8.ps" />
+<media ns0:role="associated-file" mimetype="application" mime-subtype="ps" ns0:href="supp_gad.328336.119_Supplemental_Figure_9.ps" />
+<media ns0:role="associated-file" mimetype="application" mime-subtype="ps" ns0:href="supp_gad.328336.119_Supplemental_Figure_1.ps" />
+<media ns0:role="associated-file" mimetype="application" mime-subtype="ps" ns0:href="supp_gad.328336.119_Supplemental_Figure_4.ps" />
+<media ns0:role="associated-file" mimetype="application" mime-subtype="ps" ns0:href="supp_gad.328336.119_Supplemental_Figure_2.ps" />
+<media ns0:role="associated-file" mimetype="application" mime-subtype="ps" ns0:href="supp_gad.328336.119_Supplemental_Figure_5.ps" />
+<media ns0:role="associated-file" mimetype="application" mime-subtype="ps" ns0:href="supp_gad.328336.119_Supplemental_Figure_3.ps" />
+<media ns0:role="associated-file" mimetype="application" mime-subtype="ps" ns0:href="supp_gad.328336.119_Supplemental_Figure_6.ps" />
+</supplementary-material>
+</sec>
+</body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>W.G.K. is supported by Howard Hughes Medical Institute (HHMI) and a National Institutes of Health (NIH) R35 grant. M.G.O. is supported by a National Cancer Institute (NCI)/NIH K08 grant (no. K08CA222657), a Lung Cancer Research Foundation grant, and a developmental research project award from the Dana Farber/Harvard Cancer Center (DF/HCC) Lung Cancer Program. E.J.B. was an HHMI medical research fellow. Special thanks to Drs. Monte Winslow and Ian Winters for providing H11 LSL-Cas9, Dr. Stephen Blacklow for providing NOTCH2-ICD plasmids and thoughtful discussions, Drs. Kornelia Polyak and Kunihiko Hinohara for their help with ChIP-seq experiments, and members of the Kaelin laboratory for critical reading of the manuscript.</p>
+      <p><italic>Author contributions</italic>: M.G.O. and W.G.K. conceived the project; M.G.O., W.G., A.H.S., A.A.C., A.C.S., R.B.J., R.F., D.M.B., M.A.B., A.F., J.S.N., C.L.C., H.Z., Z.T.H., M.Y.T., and Q.N. performed the methodology; M.G.O., A.H.S., W.G., A.C.S., R.B.J., R.F., D.M.B., A.F., J.S.N., and E.B. performed the investigation; M.G.O., A.A.C., A.C.S., R.B.J., D.M.B., M.A.B., A.F., Z.T.H., M.Y.T., and Q.N. performed the formal analysis; M.G.O. and W.G.K. wrote the paper; all authors are responsible for reviewing and editing; funding was acquired by M.G.O. and W.G.K.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="supplementary-material">
+        <p>Supplemental material is available for this article.</p>
+      </fn>
+      <fn>
+        <p>Article is online at <ext-link ext-link-type="uri" ns0:href="http://www.genesdev.org/cgi/doi/10.1101/gad.328336.119">http://www.genesdev.org/cgi/doi/10.1101/gad.328336.119</ext-link>.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="GAD328336OSEC1">
+        <mixed-citation publication-type="journal"><string-name><surname>Augert</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Eastwood</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Ibrahim</surname>
+<given-names>AH</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Grunblatt</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Basom</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Liggitt</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Eaton</surname>
+<given-names>KD</given-names></string-name>, <string-name><surname>Martins</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Poirier</surname>
+<given-names>JT</given-names></string-name>, <etal />
+<year>2019</year>
+<article-title>Targeting NOTCH activation in small cell lung cancer through LSD1 inhibition</article-title>. <source>Sci Signal</source>
+<volume>12</volume>: <fpage>eaau2922</fpage>
+<pub-id pub-id-type="doi">10.1126/scisignal.aau2922</pub-id><pub-id pub-id-type="pmid">30723171</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC2">
+        <mixed-citation publication-type="journal"><string-name><surname>Augustyn</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Borromeo</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Fujimoto</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Shao</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Dospoy</surname>
+<given-names>PD</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Tan</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Sullivan</surname>
+<given-names>JP</given-names></string-name>, <string-name><surname>Larsen</surname>
+<given-names>JE</given-names></string-name>, <etal />
+<year>2014</year>
+<article-title>ASCL1 is a lineage oncogene providing therapeutic targets for high-grade neuroendocrine lung cancers</article-title>. <source>Proc Natl Acad Sci</source>
+<volume>111</volume>: <fpage>14788</fpage>&#8211;<lpage>14793</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1410419111</pub-id><pub-id pub-id-type="pmid">25267614</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC3">
+        <mixed-citation publication-type="journal"><string-name><surname>Benevolenskaya</surname>
+<given-names>EV</given-names></string-name>, <string-name><surname>Murray</surname>
+<given-names>HL</given-names></string-name>, <string-name><surname>Branton</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Young</surname>
+<given-names>RA</given-names></string-name>, <string-name><surname>Kaelin</surname>
+<given-names>WG</given-names><suffix>Jr</suffix></string-name>. <year>2005</year>
+<article-title>Binding of pRB to the PHD protein RBP2 promotes cellular differentiation</article-title>. <source>Mol Cell</source>
+<volume>18</volume>: <fpage>623</fpage>&#8211;<lpage>635</lpage>. <pub-id pub-id-type="doi">10.1016/j.molcel.2005.05.012</pub-id><pub-id pub-id-type="pmid">15949438</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC4">
+        <mixed-citation publication-type="journal"><string-name><surname>Beshiri</surname>
+<given-names>ML</given-names></string-name>, <string-name><surname>Holmes</surname>
+<given-names>KB</given-names></string-name>, <string-name><surname>Richter</surname>
+<given-names>WF</given-names></string-name>, <string-name><surname>Hess</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Islam</surname>
+<given-names>AB</given-names></string-name>, <string-name><surname>Yan</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Plante</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Litovchick</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Gevry</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Lopez-Bigas</surname>
+<given-names>N</given-names></string-name>, <etal />
+<year>2012</year>
+<article-title>Coordinated repression of cell cycle genes by KDM5A and E2F4 during differentiation</article-title>. <source>Proc Natl Acad Sci</source>
+<volume>109</volume>: <fpage>18499</fpage>&#8211;<lpage>18504</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1216724109</pub-id><pub-id pub-id-type="pmid">23093672</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC5">
+        <mixed-citation publication-type="journal"><string-name><surname>Borromeo</surname>
+<given-names>MD</given-names></string-name>, <string-name><surname>Savage</surname>
+<given-names>TK</given-names></string-name>, <string-name><surname>Kollipara</surname>
+<given-names>RK</given-names></string-name>, <string-name><surname>He</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Augustyn</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Osborne</surname>
+<given-names>JK</given-names></string-name>, <string-name><surname>Girard</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Minna</surname>
+<given-names>JD</given-names></string-name>, <string-name><surname>Gazdar</surname>
+<given-names>AF</given-names></string-name>, <string-name><surname>Cobb</surname>
+<given-names>MH</given-names></string-name>, <etal />
+<year>2016</year>
+<article-title>ASCL1 and NEUROD1 reveal heterogeneity in pulmonary neuroendocrine tumors and regulate distinct genetic programs</article-title>. <source>Cell Rep</source>
+<volume>16</volume>: <fpage>1259</fpage>&#8211;<lpage>1272</lpage>. <pub-id pub-id-type="doi">10.1016/j.celrep.2016.06.081</pub-id><pub-id pub-id-type="pmid">27452466</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC6">
+        <mixed-citation publication-type="journal"><string-name><surname>Calbo</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>van Montfort</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Proost</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>van Drunen</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Beverloo</surname>
+<given-names>HB</given-names></string-name>, <string-name><surname>Meuwissen</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Berns</surname>
+<given-names>A</given-names></string-name>. <year>2011</year>
+<article-title>A functional role for tumor cell heterogeneity in a mouse model of small cell lung cancer</article-title>. <source>Cancer Cell</source>
+<volume>19</volume>: <fpage>244</fpage>&#8211;<lpage>256</lpage>. <pub-id pub-id-type="doi">10.1016/j.ccr.2010.12.021</pub-id><pub-id pub-id-type="pmid">21316603</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC7">
+        <mixed-citation publication-type="journal"><string-name><surname>Casper</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Zweig</surname>
+<given-names>AS</given-names></string-name>, <string-name><surname>Villarreal</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Tyner</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Speir</surname>
+<given-names>ML</given-names></string-name>, <string-name><surname>Rosenbloom</surname>
+<given-names>KR</given-names></string-name>, <string-name><surname>Raney</surname>
+<given-names>BJ</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>CM</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>BT</given-names></string-name>, <string-name><surname>Karolchik</surname>
+<given-names>D</given-names></string-name>, <etal />
+<year>2018</year>
+<article-title>The UCSC Genome Browser database: 2018 update</article-title>. <source>Nucleic Acids Res</source>
+<volume>46</volume>: <fpage>D762</fpage>&#8211;<lpage>D769</lpage>.<pub-id pub-id-type="pmid">29106570</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC8">
+        <mixed-citation publication-type="journal"><string-name><surname>Chanda</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Ang</surname>
+<given-names>CE</given-names></string-name>, <string-name><surname>Davila</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Pak</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Mall</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>QY</given-names></string-name>, <string-name><surname>Ahlenius</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Jung</surname>
+<given-names>SW</given-names></string-name>, <string-name><surname>S&#252;dhof</surname>
+<given-names>TC</given-names></string-name>, <string-name><surname>Wernig</surname>
+<given-names>M</given-names></string-name>. <year>2014</year>
+<article-title>Generation of induced neuronal cells by the single reprogramming factor ASCL1</article-title>. <source>Stem Cell Reports</source>
+<volume>3</volume>: <fpage>282</fpage>&#8211;<lpage>296</lpage>. <pub-id pub-id-type="doi">10.1016/j.stemcr.2014.05.020</pub-id><pub-id pub-id-type="pmid">25254342</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC9">
+        <mixed-citation publication-type="journal"><string-name><surname>Chang</surname>
+<given-names>MT</given-names></string-name>, <string-name><surname>Penson</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Desai</surname>
+<given-names>NB</given-names></string-name>, <string-name><surname>Socci</surname>
+<given-names>ND</given-names></string-name>, <string-name><surname>Shen</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Seshan</surname>
+<given-names>VE</given-names></string-name>, <string-name><surname>Kundra</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Abeshouse</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Viale</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Cha</surname>
+<given-names>EK</given-names></string-name>, <etal />
+<year>2018</year>
+<article-title>Small cell carcinomas of the bladder and lung are characterized by a convergent but distinct pathogenesis</article-title>. <source>Clin Cancer Res</source>
+<volume>24</volume>: <fpage>1965</fpage>&#8211;<lpage>1973</lpage>. <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-17-2655</pub-id><pub-id pub-id-type="pmid">29180607</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC10">
+        <mixed-citation publication-type="journal"><string-name><surname>Christensen</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Agger</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Cloos</surname>
+<given-names>PA</given-names></string-name>, <string-name><surname>Pasini</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Rose</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Sennels</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Rappsilber</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Hansen</surname>
+<given-names>KH</given-names></string-name>, <string-name><surname>Salcini</surname>
+<given-names>AE</given-names></string-name>, <string-name><surname>Helin</surname>
+<given-names>K</given-names></string-name>. <year>2007</year>
+<article-title>RBP2 belongs to a family of demethylases, specific for tri- and dimethylated lysine 4 on histone 3</article-title>. <source>Cell</source>
+<volume>128</volume>: <fpage>1063</fpage>&#8211;<lpage>1076</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2007.02.003</pub-id><pub-id pub-id-type="pmid">17320161</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC11">
+        <mixed-citation publication-type="journal"><string-name><surname>Christensen</surname>
+<given-names>CL</given-names></string-name>, <string-name><surname>Kwiatkowski</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Abraham</surname>
+<given-names>BJ</given-names></string-name>, <string-name><surname>Carretero</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Al-Shahrour</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Chipumuro</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Herter-Sprie</surname>
+<given-names>GS</given-names></string-name>, <string-name><surname>Akbay</surname>
+<given-names>EA</given-names></string-name>, <string-name><surname>Altabef</surname>
+<given-names>A</given-names></string-name>, <etal />
+<year>2014</year>
+<article-title>Targeting transcriptional addictions in small cell lung cancer with a covalent CDK7 inhibitor</article-title>. <source>Cancer Cell</source>
+<volume>26</volume>: <fpage>909</fpage>&#8211;<lpage>922</lpage>. <pub-id pub-id-type="doi">10.1016/j.ccell.2014.10.019</pub-id><pub-id pub-id-type="pmid">25490451</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC12">
+        <mixed-citation publication-type="journal"><string-name><surname>Cornwell</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Vangala</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Taing</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Herbert</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>K&#246;ster</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Sun</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Qiu</surname>
+<given-names>X</given-names></string-name>, <etal />
+<year>2018</year>
+<article-title>VIPER: visualization pipeline for RNA-seq, a snakemake workflow for efficient and complete RNA-seq analysis</article-title>. <source>BMC Bioinformatics</source>
+<volume>19</volume>: <fpage>135</fpage>
+<pub-id pub-id-type="doi">10.1186/s12859-018-2139-9</pub-id><pub-id pub-id-type="pmid">29649993</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC13">
+        <mixed-citation publication-type="journal"><string-name><surname>Di Stefano</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Walker</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Burgio</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Corona</surname>
+<given-names>DF</given-names></string-name>, <string-name><surname>Mulligan</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Naar</surname>
+<given-names>AM</given-names></string-name>, <string-name><surname>Dyson</surname>
+<given-names>NJ</given-names></string-name>. <year>2011</year>
+<article-title>Functional antagonism between histone H3K4 demethylases in vivo</article-title>. <source>Genes Dev</source>
+<volume>25</volume>: <fpage>17</fpage>&#8211;<lpage>28</lpage>. <pub-id pub-id-type="doi">10.1101/gad.1983711</pub-id><pub-id pub-id-type="pmid">21205864</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC14">
+        <mixed-citation publication-type="journal"><string-name><surname>DuPage</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Dooley</surname>
+<given-names>AL</given-names></string-name>, <string-name><surname>Jacks</surname>
+<given-names>T</given-names></string-name>. <year>2009</year>
+<article-title>Conditional mouse lung cancer models using adenoviral or lentiviral delivery of Cre recombinase</article-title>. <source>Nat Protoc</source>
+<volume>4</volume>: <fpage>1064</fpage>&#8211;<lpage>1072</lpage>. <pub-id pub-id-type="doi">10.1038/nprot.2009.95</pub-id><pub-id pub-id-type="pmid">19561589</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC15">
+        <mixed-citation publication-type="journal"><string-name><surname>Dyson</surname>
+<given-names>NJ</given-names></string-name>. <year>2016</year>
+<article-title><italic>RB1</italic>: a prototype tumor suppressor and an enigma</article-title>. <source>Genes Dev</source>
+<volume>30</volume>: <fpage>1492</fpage>&#8211;<lpage>1502</lpage>. <pub-id pub-id-type="doi">10.1101/gad.282145.116</pub-id><pub-id pub-id-type="pmid">27401552</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC16">
+        <mixed-citation publication-type="journal"><string-name><surname>Fiddes</surname>
+<given-names>IT</given-names></string-name>, <string-name><surname>Lodewijk</surname>
+<given-names>GA</given-names></string-name>, <string-name><surname>Mooring</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Bosworth</surname>
+<given-names>CM</given-names></string-name>, <string-name><surname>Ewing</surname>
+<given-names>AD</given-names></string-name>, <string-name><surname>Mantalas</surname>
+<given-names>GL</given-names></string-name>, <string-name><surname>Novak</surname>
+<given-names>AM</given-names></string-name>, <string-name><surname>van den Bout</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Bishara</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Rosenkrantz</surname>
+<given-names>JL</given-names></string-name>, <etal />
+<year>2018</year>
+<article-title>Human-specific <italic>NOTCH2NL</italic> genes affect notch signaling and cortical neurogenesis</article-title>. <source>Cell</source>
+<volume>173</volume>: <fpage>1356</fpage>&#8211;<lpage>1369.e22</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2018.03.051</pub-id><pub-id pub-id-type="pmid">29856954</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC17">
+        <mixed-citation publication-type="journal"><string-name><surname>Gao</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Ure</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Ables</surname>
+<given-names>JL</given-names></string-name>, <string-name><surname>Lagace</surname>
+<given-names>DC</given-names></string-name>, <string-name><surname>Nave</surname>
+<given-names>KA</given-names></string-name>, <string-name><surname>Goebbels</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Eisch</surname>
+<given-names>AJ</given-names></string-name>, <string-name><surname>Hsieh</surname>
+<given-names>J</given-names></string-name>. <year>2009</year>
+<article-title>Neurod1 is essential for the survival and maturation of adult-born neurons</article-title>. <source>Nat Neurosci</source>
+<volume>12</volume>: <fpage>1090</fpage>&#8211;<lpage>1092</lpage>. <pub-id pub-id-type="doi">10.1038/nn.2385</pub-id><pub-id pub-id-type="pmid">19701197</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC18">
+        <mixed-citation publication-type="journal"><string-name><surname>Gazdar</surname>
+<given-names>AF</given-names></string-name>, <string-name><surname>Savage</surname>
+<given-names>TK</given-names></string-name>, <string-name><surname>Johnson</surname>
+<given-names>JE</given-names></string-name>, <string-name><surname>Berns</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Sage</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Linnoila</surname>
+<given-names>RI</given-names></string-name>, <string-name><surname>MacPherson</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>McFadden</surname>
+<given-names>DG</given-names></string-name>, <string-name><surname>Farago</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Jacks</surname>
+<given-names>T</given-names></string-name>, <etal />
+<year>2015</year>
+<article-title>The comparative pathology of genetically engineered mouse models for neuroendocrine carcinomas of the lung</article-title>. <source>J Thorac Oncol</source>
+<volume>10</volume>: <fpage>553</fpage>&#8211;<lpage>564</lpage>. <pub-id pub-id-type="doi">10.1097/JTO.0000000000000459</pub-id><pub-id pub-id-type="pmid">25675280</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC19">
+        <mixed-citation publication-type="journal"><string-name><surname>George</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Lim</surname>
+<given-names>JS</given-names></string-name>, <string-name><surname>Jang</surname>
+<given-names>SJ</given-names></string-name>, <string-name><surname>Cun</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Ozreti&#263;</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Kong</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Leenders</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Lu</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Fern&#225;ndez-Cuesta</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Bosco</surname>
+<given-names>G</given-names></string-name>, <etal />
+<year>2015</year>
+<article-title>Comprehensive genomic profiles of small cell lung cancer</article-title>. <source>Nature</source>
+<volume>524</volume>: <fpage>47</fpage>&#8211;<lpage>53</lpage>. <pub-id pub-id-type="doi">10.1038/nature14664</pub-id><pub-id pub-id-type="pmid">26168399</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC20">
+        <mixed-citation publication-type="journal"><string-name><surname>Horn</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Mansfield</surname>
+<given-names>AS</given-names></string-name>, <string-name><surname>Szcz&#281;sna</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Havel</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Krzakowski</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Hochmair</surname>
+<given-names>MJ</given-names></string-name>, <string-name><surname>Huemer</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Losonczy</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Johnson</surname>
+<given-names>ML</given-names></string-name>, <string-name><surname>Nishio</surname>
+<given-names>M</given-names></string-name>, <etal />
+<year>2018</year>
+<article-title>First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer</article-title>. <source>N Engl J Med</source>
+<volume>379</volume>: <fpage>2220</fpage>&#8211;<lpage>2229</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMoa1809064</pub-id><pub-id pub-id-type="pmid">30280641</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC21">
+        <mixed-citation publication-type="journal"><string-name><surname>Jacks</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Fazeli</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Schmitt</surname>
+<given-names>EM</given-names></string-name>, <string-name><surname>Bronson</surname>
+<given-names>RT</given-names></string-name>, <string-name><surname>Goodell</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Weinberg</surname>
+<given-names>RA</given-names></string-name>. <year>1992</year>
+<article-title>Effects of an Rb mutation in the mouse</article-title>. <source>Nature</source>
+<volume>359</volume>: <fpage>295</fpage>&#8211;<lpage>300</lpage>. <pub-id pub-id-type="doi">10.1038/359295a0</pub-id><pub-id pub-id-type="pmid">1406933</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC22">
+        <mixed-citation publication-type="journal"><string-name><surname>Johansson</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Velupillai</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Tumber</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Szykowska</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Hookway</surname>
+<given-names>ES</given-names></string-name>, <string-name><surname>Nowak</surname>
+<given-names>RP</given-names></string-name>, <string-name><surname>Strain-Damerell</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Gileadi</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Philpott</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Burgess-Brown</surname>
+<given-names>N</given-names></string-name>, <etal />
+<year>2016</year>
+<article-title>Structural analysis of human KDM5B guides histone demethylase inhibitor development</article-title>. <source>Nat Chem Biol</source>
+<volume>12</volume>: <fpage>539</fpage>&#8211;<lpage>545</lpage>. <pub-id pub-id-type="doi">10.1038/nchembio.2087</pub-id><pub-id pub-id-type="pmid">27214403</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC23">
+        <mixed-citation publication-type="journal"><string-name><surname>Kalemkerian</surname>
+<given-names>GP</given-names></string-name>, <string-name><surname>Akerley</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Bogner</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Borghaei</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Chow</surname>
+<given-names>LQ</given-names></string-name>, <string-name><surname>Downey</surname>
+<given-names>RJ</given-names></string-name>, <string-name><surname>Gandhi</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Ganti</surname>
+<given-names>AK</given-names></string-name>, <string-name><surname>Govindan</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Grecula</surname>
+<given-names>JC</given-names></string-name>, <etal />
+<year>2013</year>
+<article-title>Small cell lung cancer</article-title>. <source>J Natl Compr Canc Netw</source>
+<volume>11</volume>: <fpage>78</fpage>&#8211;<lpage>98</lpage>. <pub-id pub-id-type="doi">10.6004/jnccn.2013.0011</pub-id><pub-id pub-id-type="pmid">23307984</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC24">
+        <mixed-citation publication-type="journal"><string-name><surname>Kharchenko</surname>
+<given-names>PV</given-names></string-name>, <string-name><surname>Tolstorukov</surname>
+<given-names>MY</given-names></string-name>, <string-name><surname>Park</surname>
+<given-names>PJ</given-names></string-name>. <year>2008</year>
+<article-title>Design and analysis of ChIP-seq experiments for DNA-binding proteins</article-title>. <source>Nat Biotechnol</source>
+<volume>26</volume>: <fpage>1351</fpage>&#8211;<lpage>1359</lpage>. <pub-id pub-id-type="doi">10.1038/nbt.1508</pub-id><pub-id pub-id-type="pmid">19029915</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC25">
+        <mixed-citation publication-type="journal"><string-name><surname>Klose</surname>
+<given-names>RJ</given-names></string-name>, <string-name><surname>Yan</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Tothova</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Yamane</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Erdjument-Bromage</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Tempst</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Gilliland</surname>
+<given-names>DG</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Kaelin</surname>
+<given-names>WG</given-names><suffix>Jr</suffix></string-name>. <year>2007</year>
+<article-title>The retinoblastoma binding protein RBP2 is an H3K4 demethylase</article-title>. <source>Cell</source>
+<volume>128</volume>: <fpage>889</fpage>&#8211;<lpage>900</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2007.02.013</pub-id><pub-id pub-id-type="pmid">17320163</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC26">
+        <mixed-citation publication-type="journal"><string-name><surname>Ku</surname>
+<given-names>SY</given-names></string-name>, <string-name><surname>Rosario</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Mu</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Seshadri</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Goodrich</surname>
+<given-names>ZW</given-names></string-name>, <string-name><surname>Goodrich</surname>
+<given-names>MM</given-names></string-name>, <string-name><surname>Labb&#233;</surname>
+<given-names>DP</given-names></string-name>, <string-name><surname>Gomez</surname>
+<given-names>EC</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>J</given-names></string-name>, <etal />
+<year>2017</year>
+<article-title><italic>Rb1</italic> and <italic>Trp53</italic> cooperate to suppress prostate cancer lineage plasticity, metastasis, and antiandrogen resistance</article-title>. <source>Science</source>
+<volume>355</volume>: <fpage>78</fpage>&#8211;<lpage>83</lpage>. <pub-id pub-id-type="doi">10.1126/science.aah4199</pub-id><pub-id pub-id-type="pmid">28059767</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC27">
+        <mixed-citation publication-type="journal"><string-name><surname>Li</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Durbin</surname>
+<given-names>R</given-names></string-name>. <year>2010</year>
+<article-title>Fast and accurate long-read alignment with Burrows-Wheeler transform</article-title>. <source>Bioinformatics</source>
+<volume>26</volume>: <fpage>589</fpage>&#8211;<lpage>595</lpage>. <pub-id pub-id-type="doi">10.1093/bioinformatics/btp698</pub-id><pub-id pub-id-type="pmid">20080505</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC28">
+        <mixed-citation publication-type="journal"><string-name><surname>Liefke</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Oswald</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Alvarado</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Ferres-Marco</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Mittler</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Rodriguez</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Dominguez</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Borggrefe</surname>
+<given-names>T</given-names></string-name>. <year>2010</year>
+<article-title>Histone demethylase KDM5A is an integral part of the core Notch&#8211;RBP-J repressor complex</article-title>. <source>Genes Dev</source>
+<volume>24</volume>: <fpage>590</fpage>&#8211;<lpage>601</lpage>. <pub-id pub-id-type="doi">10.1101/gad.563210</pub-id><pub-id pub-id-type="pmid">20231316</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC29">
+        <mixed-citation publication-type="journal"><string-name><surname>Lim</surname>
+<given-names>JS</given-names></string-name>, <string-name><surname>Ibaseta</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Fischer</surname>
+<given-names>MM</given-names></string-name>, <string-name><surname>Cancilla</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>O'Young</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Cristea</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Luca</surname>
+<given-names>VC</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Jahchan</surname>
+<given-names>NS</given-names></string-name>, <string-name><surname>Hamard</surname>
+<given-names>C</given-names></string-name>, <etal />
+<year>2017</year>
+<article-title>Intratumoural heterogeneity generated by Notch signalling promotes small-cell lung cancer</article-title>. <source>Nature</source>
+<volume>545</volume>: <fpage>360</fpage>&#8211;<lpage>364</lpage>. <pub-id pub-id-type="doi">10.1038/nature22323</pub-id><pub-id pub-id-type="pmid">28489825</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC30">
+        <mixed-citation publication-type="journal"><string-name><surname>Lin</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Cao</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Beshiri</surname>
+<given-names>ML</given-names></string-name>, <string-name><surname>Fujiwara</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Francis</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Cherniack</surname>
+<given-names>AD</given-names></string-name>, <string-name><surname>Geisen</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Blair</surname>
+<given-names>LP</given-names></string-name>, <string-name><surname>Zou</surname>
+<given-names>MR</given-names></string-name>, <etal />
+<year>2011</year>
+<article-title>Loss of the retinoblastoma binding protein 2 (RBP2) histone demethylase suppresses tumorigenesis in mice lacking <italic>Rb1</italic> or <italic>Men1</italic></article-title>. <source>Proc Natl Acad Sci</source>
+<volume>108</volume>: <fpage>13379</fpage>&#8211;<lpage>13386</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1110104108</pub-id><pub-id pub-id-type="pmid">21788502</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC31">
+        <mixed-citation publication-type="journal"><string-name><surname>Liu</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Krawczyk</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Suprynowicz</surname>
+<given-names>FA</given-names></string-name>, <string-name><surname>Palechor-Ceron</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Yuan</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Dakic</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Simic</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Zheng</surname>
+<given-names>YL</given-names></string-name>, <string-name><surname>Sripadhan</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>C</given-names></string-name>, <etal />
+<year>2017</year>
+<article-title>Conditional reprogramming and long-term expansion of normal and tumor cells from human biospecimens</article-title>. <source>Nat Protoc</source>
+<volume>12</volume>: <fpage>439</fpage>&#8211;<lpage>451</lpage>. <pub-id pub-id-type="doi">10.1038/nprot.2016.174</pub-id><pub-id pub-id-type="pmid">28125105</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC32">
+        <mixed-citation publication-type="journal"><string-name><surname>McBrayer</surname>
+<given-names>SK</given-names></string-name>, <string-name><surname>Olenchock</surname>
+<given-names>BA</given-names></string-name>, <string-name><surname>DiNatale</surname>
+<given-names>GJ</given-names></string-name>, <string-name><surname>Shi</surname>
+<given-names>DD</given-names></string-name>, <string-name><surname>Khanal</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Jennings</surname>
+<given-names>RB</given-names></string-name>, <string-name><surname>Novak</surname>
+<given-names>JS</given-names></string-name>, <string-name><surname>Oser</surname>
+<given-names>MG</given-names></string-name>, <string-name><surname>Robbins</surname>
+<given-names>AK</given-names></string-name>, <string-name><surname>Modiste</surname>
+<given-names>R</given-names></string-name>, <etal />
+<year>2018</year>
+<article-title>Autochthonous tumors driven by <italic>Rb1</italic> loss have an ongoing requirement for the RBP2 histone demethylase</article-title>. <source>Proc Natl Acad Sci</source>
+<volume>115</volume>: <fpage>E3741</fpage>&#8211;<lpage>E3748</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1716029115</pub-id><pub-id pub-id-type="pmid">29610306</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC33">
+        <mixed-citation publication-type="journal"><string-name><surname>Meuwissen</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Linn</surname>
+<given-names>SC</given-names></string-name>, <string-name><surname>Linnoila</surname>
+<given-names>RI</given-names></string-name>, <string-name><surname>Zevenhoven</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Mooi</surname>
+<given-names>WJ</given-names></string-name>, <string-name><surname>Berns</surname>
+<given-names>A</given-names></string-name>. <year>2003</year>
+<article-title>Induction of small cell lung cancer by somatic inactivation of both Trp53 and Rb1 in a conditional mouse model</article-title>. <source>Cancer Cell</source>
+<volume>4</volume>: <fpage>181</fpage>&#8211;<lpage>189</lpage>. <pub-id pub-id-type="doi">10.1016/S1535-6108(03)00220-4</pub-id><pub-id pub-id-type="pmid">14522252</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC34">
+        <mixed-citation publication-type="journal"><string-name><surname>Mohammad</surname>
+<given-names>HP</given-names></string-name>, <string-name><surname>Smitheman</surname>
+<given-names>KN</given-names></string-name>, <string-name><surname>Kamat</surname>
+<given-names>CD</given-names></string-name>, <string-name><surname>Soong</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Federowicz</surname>
+<given-names>KE</given-names></string-name>, <string-name><surname>Van Aller</surname>
+<given-names>GS</given-names></string-name>, <string-name><surname>Schneck</surname>
+<given-names>JL</given-names></string-name>, <string-name><surname>Carson</surname>
+<given-names>JD</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Butticello</surname>
+<given-names>M</given-names></string-name>, <etal />
+<year>2015</year>
+<article-title>A DNA hypomethylation signature predicts antitumor activity of LSD1 inhibitors in SCLC</article-title>. <source>Cancer Cell</source>
+<volume>28</volume>: <fpage>57</fpage>&#8211;<lpage>69</lpage>. <pub-id pub-id-type="doi">10.1016/j.ccell.2015.06.002</pub-id><pub-id pub-id-type="pmid">26175415</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC35">
+        <mixed-citation publication-type="journal"><string-name><surname>Moshkin</surname>
+<given-names>YM</given-names></string-name>, <string-name><surname>Kan</surname>
+<given-names>TW</given-names></string-name>, <string-name><surname>Goodfellow</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Bezstarosti</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Maeda</surname>
+<given-names>RK</given-names></string-name>, <string-name><surname>Pilyugin</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Karch</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Bray</surname>
+<given-names>SJ</given-names></string-name>, <string-name><surname>Demmers</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Verrijzer</surname>
+<given-names>CP</given-names></string-name>. <year>2009</year>
+<article-title>Histone chaperones ASF1 and NAP1 differentially modulate removal of active histone marks by LID-RPD3 complexes during NOTCH silencing</article-title>. <source>Mol Cell</source>
+<volume>35</volume>: <fpage>782</fpage>&#8211;<lpage>793</lpage>. <pub-id pub-id-type="doi">10.1016/j.molcel.2009.07.020</pub-id><pub-id pub-id-type="pmid">19782028</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC36">
+        <mixed-citation publication-type="journal"><string-name><surname>Mu</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Benelli</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Karthaus</surname>
+<given-names>WR</given-names></string-name>, <string-name><surname>Hoover</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>CC</given-names></string-name>, <string-name><surname>Wongvipat</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Ku</surname>
+<given-names>SY</given-names></string-name>, <string-name><surname>Gao</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Cao</surname>
+<given-names>Z</given-names></string-name>, <etal />
+<year>2017</year>
+<article-title><italic>SOX2</italic> promotes lineage plasticity and antiandrogen resistance in <italic>TP53</italic>- and <italic>RB1</italic>-deficient prostate cancer</article-title>. <source>Science</source>
+<volume>355</volume>: <fpage>84</fpage>&#8211;<lpage>88</lpage>. <pub-id pub-id-type="doi">10.1126/science.aah4307</pub-id><pub-id pub-id-type="pmid">28059768</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC37">
+        <mixed-citation publication-type="journal"><string-name><surname>Mulligan</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Di Stefano</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Ji</surname>
+<given-names>JY</given-names></string-name>, <string-name><surname>Ouyang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Nishikawa</surname>
+<given-names>JL</given-names></string-name>, <string-name><surname>Toiber</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Kulkarni</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Najafi-Shoushtari</surname>
+<given-names>SH</given-names></string-name>, <etal />
+<year>2011</year>
+<article-title>A SIRT1-LSD1 corepressor complex regulates Notch target gene expression and development</article-title>. <source>Mol Cell</source>
+<volume>42</volume>: <fpage>689</fpage>&#8211;<lpage>699</lpage>. <pub-id pub-id-type="doi">10.1016/j.molcel.2011.04.020</pub-id><pub-id pub-id-type="pmid">21596603</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC38">
+        <mixed-citation publication-type="journal"><string-name><surname>Niederst</surname>
+<given-names>MJ</given-names></string-name>, <string-name><surname>Sequist</surname>
+<given-names>LV</given-names></string-name>, <string-name><surname>Poirier</surname>
+<given-names>JT</given-names></string-name>, <string-name><surname>Mermel</surname>
+<given-names>CH</given-names></string-name>, <string-name><surname>Lockerman</surname>
+<given-names>EL</given-names></string-name>, <string-name><surname>Garcia</surname>
+<given-names>AR</given-names></string-name>, <string-name><surname>Katayama</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Costa</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Ross</surname>
+<given-names>KN</given-names></string-name>, <string-name><surname>Moran</surname>
+<given-names>T</given-names></string-name>, <etal />
+<year>2015</year>
+<article-title>RB loss in resistant EGFR mutant lung adenocarcinomas that transform to small-cell lung cancer</article-title>. <source>Nat Commun</source>
+<volume>6</volume>: <fpage>6377</fpage>
+<pub-id pub-id-type="doi">10.1038/ncomms7377</pub-id><pub-id pub-id-type="pmid">25758528</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC39">
+        <mixed-citation publication-type="journal"><string-name><surname>Park</surname>
+<given-names>JW</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>JK</given-names></string-name>, <string-name><surname>Sheu</surname>
+<given-names>KM</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Balanis</surname>
+<given-names>NG</given-names></string-name>, <string-name><surname>Nguyen</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Smith</surname>
+<given-names>BA</given-names></string-name>, <string-name><surname>Cheng</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Tsai</surname>
+<given-names>BL</given-names></string-name>, <string-name><surname>Cheng</surname>
+<given-names>D</given-names></string-name>, <etal />
+<year>2018</year>
+<article-title>Reprogramming normal human epithelial tissues to a common, lethal neuroendocrine cancer lineage</article-title>. <source>Science</source>
+<volume>362</volume>: <fpage>91</fpage>&#8211;<lpage>95</lpage>. <pub-id pub-id-type="doi">10.1126/science.aat5749</pub-id><pub-id pub-id-type="pmid">30287662</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC40">
+        <mixed-citation publication-type="journal"><string-name><surname>Pattyn</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Simplicio</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>van Doorninck</surname>
+<given-names>JH</given-names></string-name>, <string-name><surname>Goridis</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Guillemot</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Brunet</surname>
+<given-names>JF</given-names></string-name>. <year>2004</year>
+<article-title>Ascl1/Mash1 is required for the development of central serotonergic neurons</article-title>. <source>Nat Neurosci</source>
+<volume>7</volume>: <fpage>589</fpage>&#8211;<lpage>595</lpage>. <pub-id pub-id-type="doi">10.1038/nn1247</pub-id><pub-id pub-id-type="pmid">15133515</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC41">
+        <mixed-citation publication-type="journal"><string-name><surname>Pedersen</surname>
+<given-names>MT</given-names></string-name>, <string-name><surname>Helin</surname>
+<given-names>K</given-names></string-name>. <year>2010</year>
+<article-title>Histone demethylases in development and disease</article-title>. <source>Trends Cell Biol</source>
+<volume>20</volume>: <fpage>662</fpage>&#8211;<lpage>671</lpage>. <pub-id pub-id-type="doi">10.1016/j.tcb.2010.08.011</pub-id><pub-id pub-id-type="pmid">20863703</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC42">
+        <mixed-citation publication-type="journal"><string-name><surname>Peifer</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Fern&#225;ndez-Cuesta</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Sos</surname>
+<given-names>ML</given-names></string-name>, <string-name><surname>George</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Seidel</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Kasper</surname>
+<given-names>LH</given-names></string-name>, <string-name><surname>Plenker</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Leenders</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Sun</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Zander</surname>
+<given-names>T</given-names></string-name>, <etal />
+<year>2012</year>
+<article-title>Integrative genome analyses identify key somatic driver mutations of small-cell lung cancer</article-title>. <source>Nat Genet</source>
+<volume>44</volume>: <fpage>1104</fpage>&#8211;<lpage>1110</lpage>. <pub-id pub-id-type="doi">10.1038/ng.2396</pub-id><pub-id pub-id-type="pmid">22941188</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC43">
+        <mixed-citation publication-type="journal"><string-name><surname>Platt</surname>
+<given-names>RJ</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Zhou</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Yim</surname>
+<given-names>MJ</given-names></string-name>, <string-name><surname>Swiech</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Kempton</surname>
+<given-names>HR</given-names></string-name>, <string-name><surname>Dahlman</surname>
+<given-names>JE</given-names></string-name>, <string-name><surname>Parnas</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Eisenhaure</surname>
+<given-names>TM</given-names></string-name>, <string-name><surname>Jovanovic</surname>
+<given-names>M</given-names></string-name>, <etal />
+<year>2014</year>
+<article-title>CRISPR-Cas9 knockin mice for genome editing and cancer modeling</article-title>. <source>Cell</source>
+<volume>159</volume>: <fpage>440</fpage>&#8211;<lpage>455</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2014.09.014</pub-id><pub-id pub-id-type="pmid">25263330</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC44">
+        <mixed-citation publication-type="journal"><string-name><surname>Rudin</surname>
+<given-names>CM</given-names></string-name>, <string-name><surname>Durinck</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Stawiski</surname>
+<given-names>EW</given-names></string-name>, <string-name><surname>Poirier</surname>
+<given-names>JT</given-names></string-name>, <string-name><surname>Modrusan</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Shames</surname>
+<given-names>DS</given-names></string-name>, <string-name><surname>Bergbower</surname>
+<given-names>EA</given-names></string-name>, <string-name><surname>Guan</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Shin</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Guillory</surname>
+<given-names>J</given-names></string-name>, <etal />
+<year>2012</year>
+<article-title>Comprehensive genomic analysis identifies SOX2 as a frequently amplified gene in small-cell lung cancer</article-title>. <source>Nat Genet</source>
+<volume>44</volume>: <fpage>1111</fpage>&#8211;<lpage>1116</lpage>. <pub-id pub-id-type="doi">10.1038/ng.2405</pub-id><pub-id pub-id-type="pmid">22941189</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC45">
+        <mixed-citation publication-type="journal"><string-name><surname>Schaffer</surname>
+<given-names>BE</given-names></string-name>, <string-name><surname>Park</surname>
+<given-names>KS</given-names></string-name>, <string-name><surname>Yiu</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Conklin</surname>
+<given-names>JF</given-names></string-name>, <string-name><surname>Lin</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Burkhart</surname>
+<given-names>DL</given-names></string-name>, <string-name><surname>Karnezis</surname>
+<given-names>AN</given-names></string-name>, <string-name><surname>Sweet-Cordero</surname>
+<given-names>EA</given-names></string-name>, <string-name><surname>Sage</surname>
+<given-names>J</given-names></string-name>. <year>2010</year>
+<article-title>Loss of p130 accelerates tumor development in a mouse model for human small-cell lung carcinoma</article-title>. <source>Cancer Res</source>
+<volume>70</volume>: <fpage>3877</fpage>&#8211;<lpage>3883</lpage>. <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-09-4228</pub-id><pub-id pub-id-type="pmid">20406986</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC46">
+        <mixed-citation publication-type="journal"><string-name><surname>Shi</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Lan</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Matson</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Mulligan</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Whetstine</surname>
+<given-names>JR</given-names></string-name>, <string-name><surname>Cole</surname>
+<given-names>PA</given-names></string-name>, <string-name><surname>Casero</surname>
+<given-names>RA</given-names></string-name>, <string-name><surname>Shi</surname>
+<given-names>Y</given-names></string-name>. <year>2004</year>
+<article-title>Histone demethylation mediated by the nuclear amine oxidase homolog LSD1</article-title>. <source>Cell</source>
+<volume>119</volume>: <fpage>941</fpage>&#8211;<lpage>953</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2004.12.012</pub-id><pub-id pub-id-type="pmid">15620353</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC47">
+        <mixed-citation publication-type="journal"><string-name><surname>Sutherland</surname>
+<given-names>KD</given-names></string-name>, <string-name><surname>Proost</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Brouns</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Adriaensen</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Song</surname>
+<given-names>JY</given-names></string-name>, <string-name><surname>Berns</surname>
+<given-names>A</given-names></string-name>. <year>2011</year>
+<article-title>Cell of origin of small cell lung cancer: inactivation of Trp53 and Rb1 in distinct cell types of adult mouse lung</article-title>. <source>Cancer Cell</source>
+<volume>19</volume>: <fpage>754</fpage>&#8211;<lpage>764</lpage>. <pub-id pub-id-type="doi">10.1016/j.ccr.2011.04.019</pub-id><pub-id pub-id-type="pmid">21665149</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC48">
+        <mixed-citation publication-type="journal"><string-name><surname>Suzuki</surname>
+<given-names>IK</given-names></string-name>, <string-name><surname>Gacquer</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Van Heurck</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Kumar</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Wojno</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Bilheu</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Herpoel</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Lambert</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Cheron</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Polleux</surname>
+<given-names>F</given-names></string-name>, <etal />
+<year>2018</year>
+<article-title>Human-specific <italic>NOTCH2NL</italic> genes expand cortical neurogenesis through delta/notch regulation</article-title>. <source>Cell</source>
+<volume>173</volume>: <fpage>1370</fpage>&#8211;<lpage>1384.e16</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2018.03.067</pub-id><pub-id pub-id-type="pmid">29856955</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC49">
+        <mixed-citation publication-type="journal"><string-name><surname>Tan</surname>
+<given-names>HL</given-names></string-name>, <string-name><surname>Sood</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Rahimi</surname>
+<given-names>HA</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Gupta</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Hicks</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Mosier</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Gocke</surname>
+<given-names>CD</given-names></string-name>, <string-name><surname>Epstein</surname>
+<given-names>JI</given-names></string-name>, <string-name><surname>Netto</surname>
+<given-names>GJ</given-names></string-name>, <etal />
+<year>2014</year>
+<article-title>Rb loss is characteristic of prostatic small cell neuroendocrine carcinoma</article-title>. <source>Clin Cancer Res</source>
+<volume>20</volume>: <fpage>890</fpage>&#8211;<lpage>903</lpage>. <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-13-1982</pub-id><pub-id pub-id-type="pmid">24323898</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC50">
+        <mixed-citation publication-type="journal"><string-name><surname>Tsherniak</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Vazquez</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Montgomery</surname>
+<given-names>PG</given-names></string-name>, <string-name><surname>Weir</surname>
+<given-names>BA</given-names></string-name>, <string-name><surname>Kryukov</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Cowley</surname>
+<given-names>GS</given-names></string-name>, <string-name><surname>Gill</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Harrington</surname>
+<given-names>WF</given-names></string-name>, <string-name><surname>Pantel</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Krill-Burger</surname>
+<given-names>JM</given-names></string-name>, <etal />
+<year>2017</year>
+<article-title>Defining a cancer dependency map</article-title>. <source>Cell</source>
+<volume>170</volume>: <fpage>564</fpage>&#8211;<lpage>576.e16</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2017.06.010</pub-id><pub-id pub-id-type="pmid">28753430</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC51">
+        <mixed-citation publication-type="journal"><string-name><surname>V&#225;raljai</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Islam</surname>
+<given-names>AB</given-names></string-name>, <string-name><surname>Beshiri</surname>
+<given-names>ML</given-names></string-name>, <string-name><surname>Rehman</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Lopez-Bigas</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Benevolenskaya</surname>
+<given-names>EV</given-names></string-name>. <year>2015</year>
+<article-title>Increased mitochondrial function downstream from KDM5A histone demethylase rescues differentiation in pRB-deficient cells</article-title>. <source>Genes Dev</source>
+<volume>29</volume>: <fpage>1817</fpage>&#8211;<lpage>1834</lpage>. <pub-id pub-id-type="doi">10.1101/gad.264036.115</pub-id><pub-id pub-id-type="pmid">26314709</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC52">
+        <mixed-citation publication-type="journal"><string-name><surname>Whyte</surname>
+<given-names>WA</given-names></string-name>, <string-name><surname>Bilodeau</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Orlando</surname>
+<given-names>DA</given-names></string-name>, <string-name><surname>Hoke</surname>
+<given-names>HA</given-names></string-name>, <string-name><surname>Frampton</surname>
+<given-names>GM</given-names></string-name>, <string-name><surname>Foster</surname>
+<given-names>CT</given-names></string-name>, <string-name><surname>Cowley</surname>
+<given-names>SM</given-names></string-name>, <string-name><surname>Young</surname>
+<given-names>RA</given-names></string-name>. <year>2012</year>
+<article-title>Enhancer decommissioning by LSD1 during embryonic stem cell differentiation</article-title>. <source>Nature</source>
+<volume>482</volume>: <fpage>221</fpage>&#8211;<lpage>225</lpage>. <pub-id pub-id-type="doi">10.1038/nature10805</pub-id><pub-id pub-id-type="pmid">22297846</pub-id></mixed-citation>
+      </ref>
+      <ref id="GAD328336OSEC53">
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Schweers</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Dyer</surname>
+<given-names>MA</given-names></string-name>. <year>2004</year>
+<article-title>The first knockout mouse model of retinoblastoma</article-title>. <source>Cell Cycle</source>
+<volume>3</volume>: <fpage>952</fpage>&#8211;<lpage>959</lpage>.<pub-id pub-id-type="pmid">15190215</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

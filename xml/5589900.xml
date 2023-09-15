@@ -1,0 +1,1413 @@
+<pmc-articleset xmlns:ns0="http://www.w3.org/1999/xlink"><article article-type="research-article">
+  
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+      <journal-title-group>
+        <journal-title>Nature Communications</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2041-1723</issn>
+      <publisher>
+        <publisher-name>Nature Publishing Group UK</publisher-name>
+        <publisher-loc>London</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">28883545</article-id>
+      <article-id pub-id-type="pmc">5589900</article-id>
+      <article-id pub-id-type="publisher-id">639</article-id>
+      <article-id pub-id-type="doi">10.1038/s41467-017-00639-9</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Copy number rather than epigenetic alterations are the major dictator of imprinted methylation in tumors</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Martin-Trujillo</surname>
+            <given-names>Alex</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4217-1807</contrib-id>
+          <name>
+            <surname>Vidal</surname>
+            <given-names>Enrique</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Monteagudo-S&#225;nchez</surname>
+            <given-names>Ana</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1412-9011</contrib-id>
+          <name>
+            <surname>Sanchez-Delgado</surname>
+            <given-names>Marta</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4192-8983</contrib-id>
+          <name>
+            <surname>Moran</surname>
+            <given-names>Sebastian</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hernandez Mora</surname>
+            <given-names>Jose Ramon</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Heyn</surname>
+            <given-names>Holger</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+          <xref ref-type="aff" rid="Aff5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Guitart</surname>
+            <given-names>Miriam</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Esteller</surname>
+            <given-names>Manel</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff4">4</xref>
+          <xref ref-type="aff" rid="Aff7">7</xref>
+          <xref ref-type="aff" rid="Aff8">8</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <name>
+            <surname>Monk</surname>
+            <given-names>David</given-names>
+          </name>
+          <address>
+            <phone>+0034 93 260 7128</phone>
+            <email>dmonk@idibell.cat</email>
+          </address>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0427 2257</institution-id><institution-id institution-id-type="GRID">grid.418284.3</institution-id><institution>Imprinting and Cancer group, Cancer Epigenetic and Biology Program (PEBC), </institution><institution>Institut d&#8217;Investigaci&#243; Biomedica de Bellvitge (IDIBELL), Avinguda Granvia, L&#8217;Hospitalet de Llobregat, </institution></institution-wrap>08907 Barcelona, Spain </aff>
+        <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.473715.3</institution-id><institution>Centre for Genomic Regulation (CRG), </institution><institution>The Barcelona Institute of Science and Technology, </institution></institution-wrap>Barcelona, Spain </aff>
+        <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2172 2676</institution-id><institution-id institution-id-type="GRID">grid.5612.0</institution-id><institution>Universitat Pompeu Fabra (UPF), </institution><institution>Barcelona, Spain Universitat Pompeu Fabra (UPF), </institution></institution-wrap>08003 Barcelona, Spain </aff>
+        <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0427 2257</institution-id><institution-id institution-id-type="GRID">grid.418284.3</institution-id><institution>Cancer Epigenetics group, Cancer Epigenetic and Biology Program (PEBC), </institution><institution>Institut d&#8217;Investigaci&#243; Biomedica de Bellvitge (IDIBELL), Avinguda Granvia, L&#8217;Hospitalet de Llobregat, </institution></institution-wrap>08907 Barcelona, Spain </aff>
+        <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.473715.3</institution-id><institution>CNAG-CRG, Centre for Genomic Regulation (CRG), </institution><institution>Barcelona Institute of Science and Technology (BIST), </institution></institution-wrap>Baldiri i Reixac 4, 08028 Barcelona, Spain </aff>
+        <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0000 9238 6887</institution-id><institution-id institution-id-type="GRID">grid.428313.f</institution-id><institution>Genetics Laboratory, </institution><institution>UDIAT- Diagnostic Centre, Corporaci&#243; Sanit&#224;ria Parc Taul&#237;, </institution></institution-wrap>08208 Sabadell, Spain </aff>
+        <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1937 0247</institution-id><institution-id institution-id-type="GRID">grid.5841.8</institution-id><institution>Department of Physiological Sciences II, School of Medicine, </institution><institution>University of Barcelona, </institution></institution-wrap>Barcelona, 08907 Catalonia Spain </aff>
+        <aff id="Aff8"><label>8</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0000 9601 989X</institution-id><institution-id institution-id-type="GRID">grid.425902.8</institution-id><institution>Institucio Catalana de Recerca i Estudis Avan&#231;ats (ICREA), </institution></institution-wrap>08010 Barcelona, Spain </aff>
+      </contrib-group>
+      <pub-date pub-type="epub">
+        <day>7</day>
+        <month>9</month>
+        <year>2017</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>7</day>
+        <month>9</month>
+        <year>2017</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2017</year>
+      </pub-date>
+      <volume>8</volume>
+      <elocation-id>467</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>18</day>
+          <month>11</month>
+          <year>2016</year>
+        </date>
+        <date date-type="accepted">
+          <day>17</day>
+          <month>7</month>
+          <year>2017</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#169; The Author(s) 2017</copyright-statement>
+        <license license-type="OpenAccess">
+          <license-p>
+<bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article&#8217;s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article&#8217;s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" ns0:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract id="Abs1">
+        <p id="Par1">It has been postulated that imprinting aberrations are common in tumors. To understand the role of imprinting in cancer, we have characterized copy-number and methylation in over 280 cancer cell lines and confirm our observations in primary tumors. Imprinted differentially methylated regions (DMRs) regulate parent-of-origin monoallelic expression of neighboring transcripts in <italic>cis</italic>. Unlike single-copy CpG islands that may be prone to hypermethylation, imprinted DMRs can either loose or gain methylation during tumorigenesis. Here, we show that methylation profiles at imprinted DMRs often not represent genuine epigenetic changes but simply the accumulation of underlying copy-number aberrations (CNAs), which is independent of the genome methylation state inferred from cancer susceptible loci. Our results reveal that CNAs also influence allelic expression as loci with copy-number neutral loss-of-heterozygosity or amplifications may be expressed from the appropriate parental chromosomes, which is indicative of maintained imprinting, although not observed as a single expression foci by RNA FISH.</p>
+      </abstract>
+      <abstract id="Abs2" abstract-type="web-summary">
+        <p id="Par2">Altered genomic imprinting is frequently reported in cancer. Here, the authors analyze copy number and methylation in cancer cell lines and primary tumors to show that imprinted methylation profiles represent the accumulation of copy number alteration, rather than epigenetic alterations.</p>
+      </abstract>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>issue-copyright-statement</meta-name>
+          <meta-value>&#169; The Author(s) 2017</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="Sec1" sec-type="introduction">
+      <title>Introduction</title>
+      <p id="Par3">Cancer is the leading cause of death in adults. Tumors themselves are typically classified using pathological criteria and tissue origin. However following the huge investment from large international consortia, cancers can now be sorted into molecular subgroups based on genetic and epigenetic profiles<sup><xref ref-type="bibr" rid="CR1">1</xref></sup> which has led to targeted therapies for subtypes with specific alterations.</p>
+      <p id="Par4">To help with molecular classification, we have investigated whether aberrations at imprinted loci can stratify tumors from different tissue origins.</p>
+      <p id="Par5">Genomic imprinting is the parent-of-origin specific monoallelic transcription, regulated in part by allelic difference in DNA methylation established in the male and female germline and maintained throughout somatic development<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>. In addition to being indispensible for growth, imprinted genes have been suggested to play a crucial role in driving oncogenic switch or suppressing tumor development<sup><xref ref-type="bibr" rid="CR3">3</xref></sup>. Deregulated expression, which includes the reactivation of the normally silent allele (commonly referred to as loss-of-imprinting, LOI) or the silencing of the transcribed allele, has been implicated in childhood cancer associated with the classical imprinting disorder Beckwith&#8211;Wiedemann syndrome<sup><xref ref-type="bibr" rid="CR4">4</xref></sup>. In these cases gains of methylation at the paternally methylated <italic>H19</italic> DMR or paternal uniparental disomy (copy-number neutral loss-of-heterozygosity, cnnLOH) result in over-expression of <italic>IGF2</italic>-miR483 and the concomitant silencing of <italic>H19</italic>-miR675<sup><xref ref-type="bibr" rid="CR5">5</xref></sup>. However it is becoming evident that an increasingly number of imprinted genes shows irregularities in adult tumors. For example aberrant expression of transcripts in the <italic>H19-IGF2</italic> domain has been reported in more than 15 tumor types, with somatic amplifications of <italic>IGF2</italic> and miR483 implicated in the initiation of colorectal cancer<sup><xref ref-type="bibr" rid="CR5">5</xref>, <xref ref-type="bibr" rid="CR6">6</xref></sup>, with copy-number gains being mutually exclusive with P13K pathway-activating mutations<sup><xref ref-type="bibr" rid="CR7">7</xref></sup>. In addition over-expression of <italic>H19</italic>-miR675 is frequently observed in colorectal cancers, which suppress the expression of the tumor-suppressor <italic>RB1</italic>
+<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>. Downregulation of <italic>DIRAS3</italic> (also known as <italic>ARH1</italic>) by either deletion or methylation is frequently observed in breast and ovarian cancers<sup><xref ref-type="bibr" rid="CR9">9</xref>, <xref ref-type="bibr" rid="CR10">10</xref></sup> and has been implicated in sensitivity to Cisplatin, a widely used platinum-based chemotherapy agent<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>. Furthermore epigenetic silencing and deletions of <italic>L3MBTL1</italic>, a member of the polycomb-like family located at chromosome 20q, is associated with hematological malignancies showing increased genome instability<sup><xref ref-type="bibr" rid="CR12">12</xref>, <xref ref-type="bibr" rid="CR13">13</xref></sup>.</p>
+      <p id="Par6">Imprinted deregulation has also helped modify our thoughts on the classical genetic events leading to cancer. For example, despite the <italic>RB1</italic> gene being at the center of Knudson&#8217;s two hit hypothesis in which familial retinoblastoma displays autosomal dominant inheritance with the first hit present in the germline and the second somatically acquired<sup><xref ref-type="bibr" rid="CR14">14</xref></sup>, this gene is preferentially expressed from the maternal chromosome<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>. This is evident in epidemiological data from sporadic retinoblastoma patients in which the maternal chromosome 13 is preferentially lost<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>.</p>
+      <p id="Par7">Ignoring placenta-specific imprinted genes<sup><xref ref-type="bibr" rid="CR17">17</xref>&#8211;<xref ref-type="bibr" rid="CR19">19</xref></sup>, there are currently ~150 transcripts in the human genome mapping to ~30 domains suggesting that other imprinted genes may contribute to the development of cancer in adults. However to date very few studies have systematically looked at the influence of somatically acquired copy-number alterations (CNAs) on imprinted methylation profiles in cancer. We have performed an analysis to determine the association between CNAs and DNA methylation profiles for three cancer cell types originating in the lung, colon and breast which rank among the most frequent solid tumor types, as well as liver, which is a prevalent cause of cancer-associated deaths due to hepatitis B virus infections (<ext-link ext-link-type="uri" ns0:href="https://www.cancer.org/research/cancer-facts-statistics">https://www.cancer.org/research/cancer-facts-statistics</ext-link>). Overall we observe that all four-tumor types show highly aberrant profiles, with a high proportion of aberrant imprinted DMR methylation patterns being associated with cancer-associated CNAs and not somatically acquired epigenetic defects.</p>
+    </sec>
+    <sec id="Sec2" sec-type="results">
+      <title>Results</title>
+      <p id="Par8">We utilize copy-number and epigenetic data from a large set of cancer cell lines from the Sanger Institutes COSMIC project<sup><xref ref-type="bibr" rid="CR20">20</xref>, <xref ref-type="bibr" rid="CR21">21</xref></sup> with observations confirmed in cohorts of well-characterized primary cancer samples from The Cancer Genome Atlas (TCGA) consortium<sup><xref ref-type="bibr" rid="CR7">7</xref>, <xref ref-type="bibr" rid="CR22">22</xref>&#8211;<xref ref-type="bibr" rid="CR25">25</xref></sup>. To determine the interplay between CNAs and DNA methylation we combined data from genotyping (Affymetrix Genome-wide SNP6 arrays) and methylation (Illumina Infinium HumanMethylation450 BeadChips, HM450k) platforms that interrogated 906,000 single-nucleotide polymorphisms (SNPs) and 485,577 CpG dinucleotides, respectively. Our group has previously characterized the Infinium HM450k methylation array for parent-of-origin methylation associated with imprinted regions<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>. In this study we focused on the 661 probes mapping to 37 imprinted DMRs.</p>
+      <sec id="Sec3">
+        <title>CNAs at imprinted domains in cancer cell lines</title>
+        <p id="Par9">High-resolution copy-number data for each imprinted domain was obtained from COSMIC cell line project that included 173 lung, 50 colorectal, 49 breast and 15 hepatocarcinoma cell lines. We confirmed the CNAs using other low-resolution molecular cytogenetic methods, including SKY karyotyping and standard DNA fluorescence in situ hybridization (FISH) (Fig.&#160;<xref rid="Fig1" ref-type="fig">1a&#8211;c</xref>)(<ext-link ext-link-type="uri" ns0:href="http://www.pawefish.path.cam.ac.uk">http://www.pawefish.path.cam.ac.uk</ext-link>)<sup><xref ref-type="bibr" rid="CR25">25</xref></sup>. We identify thousands of aberrations including deletions, amplifications and cnnLOH. Copy-number calling was reported as total copy number and minor allele, where a normal diploid state is 2:1 and cnnLOH having a total copy number&#8201;&#8805;&#8201;2 and a minor allele count of zero, an event in which one allele is deleted and the remaining one amplified. In all cases an estimated ploidy baseline (total alleles/baseline ploidy) was also calculated for each cell line (Supplementary Data&#160;<xref rid="MOESM2" ref-type="media">1</xref> and Supplementary Figs&#160;<xref rid="MOESM1" ref-type="media">1</xref>&#8211;<xref rid="MOESM1" ref-type="media">6</xref>) since total copy number&#8201;&#8805;&#8201;2 could represent amplification in a diploid tumor but a deletion in a hyperploid tumor. No cell lines had normal copy-number at all imprinted domains, with the least affected being the breast-derived CAL-51 cell line that was normal except for cnnLOH of the chromosome 11q15 domains (2:0) and the colorectal cell line LS-180 which had isolated cnnLOH of <italic>GRB10</italic> (2:0). The most severe CNAs were observed in lung cancer cell lines, with the <italic>PPIEL</italic> locus on chromosome 1 being amplified up to 14 times in DMS-273 (14:1) NCI-H378 (14:1) and NCI-H1836 (14:2) with the NCI-H1694 cell line having all copies of one allele (14:0). Such huge gains were not restricted to the <italic>PPIEL</italic> locus as the <italic>MCTS2/HM13</italic> domain was also amplified 14 times in the SKLU-1 cell line (14:2). The full catalog of copy-number and methylation results is available at <ext-link ext-link-type="uri" ns0:href="http://www.humanimprints.net">www.humanimprints.net</ext-link> (Supplementary Data&#160;<xref rid="MOESM3" ref-type="media">2</xref>).<fig id="Fig1"><label>Fig. 1</label><caption><p>Analysis of copy-number and methylation of imprinted regions in cancer cell lines. <bold>a</bold> A Circos graph showing the average methylation for probes mapping within each imprinted DMR for the breast cancer cell line MDA-MB-453. The center heatmap represents the methylation profile obtained from the Illumina Infinium HM450k methylation BeadChip array of 19 normal breast samples, whereas the outer heatmap represent the profile of the cell line. The outer section represents the average copy number for each imprinted loci, obtained from Affymetrics SNP6 array data, depicted as minor allele count (<italic>light blue</italic>) and total copy number (<italic>dark blue</italic>). <bold>b</bold> Sky karyotype validation for the same cell line revealing near tetraploid status. <bold>c</bold> Standard DNA FISH analysis for the chromosome 15q11-13 region in three cell lines. The red probe maps ~1&#8201;Mb from <italic>SNRPN</italic> in the <italic>GABRB3</italic> gene, while the green probe maps to the centromere. The colorectal cell line HCT-15 has normal copy-number, whereas the two breast cancer cell lines carry CNAs. The HCC1954 cells have a focal amplification of <italic>SNRPN</italic> while the amplification in the T47D cells incorporates the centromere. <bold>d</bold> A chromosome ideogram showing the extent of amplifications and deletions for the <italic>SNRPN</italic> and <italic>IGF1R</italic> domains on chromosome 15. Amplifications are in <italic>red</italic> and deletion in <italic>blue</italic> with the width of the lines representing the total copy-number for each aberration. <bold>e</bold> The observed vs. expected methylation profile for the <italic>PPIEL</italic> domain in lung-derived cancer cell lines. The dashed lines represent the&#8201;&#177;&#8201;3 s.d. of the mean of normal control tissues. Data points outside this range are deemed to have a methylation profile independent of CNA</p></caption><graphic ns0:href="41467_2017_639_Fig1_HTML" id="d29e601" /></fig>
+</p>
+        <p id="Par10">Next, we wish to determine the size of the CNAs since telomere/centromere bound aberrations tend to be larger than focal internal CNAs<sup><xref ref-type="bibr" rid="CR24">24</xref></sup>. Indeed we observe that focal internal CNAs incorporating imprinted domains were smaller in 96% of cases and were in higher copy number 79% of the time. For example the average telomere bound amplification for <italic>HTR5A</italic> on chromosome 7 is 41&#8201;Mb, with an average total copy-number of 4.4, whereas internal amplifications are on average 8.5&#8201;Mb with &gt;9 copies (Supplementary Data&#160;<xref rid="MOESM4" ref-type="media">3</xref>). For chromosomes harboring more than one imprinted domain, the CNAs may be focal or involve the entire chromosome arm (Fig.&#160;<xref rid="Fig1" ref-type="fig">1c, d</xref>)(extended data available at the <ext-link ext-link-type="uri" ns0:href="http://www.humanimprints.net">www.humanimprints.net</ext-link>). This was confirmed using DNA FISH in the breast cancer cell line HCC1954 that has an internal amplification of 15q11.2-12 including <italic>SNRPN</italic> that does not encompass the nearby centromere (Fig.&#160;<xref rid="Fig1" ref-type="fig">1c</xref>).</p>
+      </sec>
+      <sec id="Sec4">
+        <title>CNAs dictate imprinted DMR methylation profiles</title>
+        <p id="Par11">We hypothesize that CNAs are a major determinant of allelic methylation at imprinted DMRs. To ensure that the profiles obtained using the COSMIC HM450k methylation data set accurately reflected the methylation pattern at imprinted DMRs, we compared the profiles for five cell lines with those obtained using reduced representation bisulphite sequencing (RRBS) generated by ENCODE. Despite the difference in technology, a comparison of the methylation profiles revealed high correlation (Spearman &#8216;s correlation: A549 r&#8201;=&#8201;0.85, HCT-116 r&#8201;=&#8201;0.79, T47D r&#8201;=&#8201;0.95, HepG2 r&#8201;=&#8201;0.6, MCF7 r&#8201;=&#8201;0.74. <italic>P</italic>-value&#8201;&lt;&#8201;0.0001) suggesting that the HM450k methylation array data can be used with high confidence (Supplementary Fig.&#160;<xref rid="MOESM1" ref-type="media">7</xref>). To test our hypothesis, we subsequently compared the absolute methylation (average methylation for all probes within an imprinted DMR) with the CNA-based predicted methylation value. Assuming that no epimutations have occurred, then methylation will be entirely dictated by chromosome number and parental origin. For example for a normal cell with 2:1 copy-number complement, methylation will be ~&#8201;50% as one allele is methylated and the other unmethylated. However for a cell line of 4:1, depending on the parental origin of the minor allele methylation will be in a ratio of 75:25 or 25:75%. In all cases of cnnLOH the methylation profile will be near zero or fully methylated irrespective of the total chromosome number. Any sample with a CNA-based predicted methylation value outside&#8201;&#177;&#8201;3 s.d. of normal tissue controls were assumed to have a profile not dependent on CNA, and attributed to a failure to maintain the correct epigenetic profile (Fig.&#160;<xref rid="Fig1" ref-type="fig">1e</xref>). In total 17.6% of all imprinted DMRs in breast-derived cancer cell lines present with methylation changes independent of CNA, whereas only 12.8% lung, 9% liver and 8.1% colon cancer cell posses methylation profiles not corresponding to copy-number. An estimate of the proportion of methylation variability explained by copy-number alone is shown in the supplementary information (Supplementary Fig.&#160;<xref rid="MOESM1" ref-type="media">8</xref>). The most frequently epimutated regions varied depending on tissue origin, with the maternally methylated <italic>ZNF597</italic> DMR being affected in 66.6% of hepatocarcinoma cell lines, <italic>H19</italic> in 28.9 % of lung, <italic>ZNF331</italic> DMR1 in 32% of colon and <italic>GRB10</italic> in 44.9% of breast-derived cancer cell lines.</p>
+      </sec>
+      <sec id="Sec5">
+        <title>Methylation profiling at copy-number normal loci</title>
+        <p id="Par12">To obtain a clearer picture of the role of aberrant methylation independent of CNAs, we assessed the allelic methylation asymmetry at imprinted domains in cancer cell lines without copy-number changes. A comparison of the distribution of Infinium HM450k &#946;-values revealed that copy-number normal samples were more frequently hypermethylated rather than failing to maintain methylation, a pattern that was not obvious when all cell lines were analyzed together irrespective of CNAs (Fig.&#160;<xref rid="Fig2" ref-type="fig">2a</xref>). To confirm the high-density array methylation profiles we performed pyrosequencing for 3 DMRs including <italic>NHP2L1</italic>, <italic>FAM50B</italic> and the <italic>Kv</italic>DMR1 (Fig.&#160;<xref rid="Fig2" ref-type="fig">2b</xref>). The results obtained were extremely similar for the two different methodologies (Spearman&#8217;s correlation; <italic>NHP2L1</italic> r&#8201;=&#8201;0.88, <italic>FAM50B</italic> r&#8201;=&#8201;0.97, <italic>Kv</italic>DMR1 r&#8201;=&#8201;0.88), further reassuring us that the array-based methylation profiling is extremely accurate. However, despite being quantitative, pyrosequencing does not give strand-specific or allelic information and averaging &#946;-values for all probes within an imprinted DMR may mask subtle anomalies. For these reasons, we performed bisulphite PCRs and subcloning to confirm some of the rare unexpected array methylation profiles (Fig.&#160;<xref rid="Fig2" ref-type="fig">2c</xref>). For example we observe complete hypermethylation at the <italic>PLAGL1</italic> DMR in the colorectal cell line SW48 but two different profiles in SW837, with the 5&#8242; promoter region being fully methylated whilst the interval encompassing the transcription start site (TSS) has normal allelic methylation. A similar bipartite methylation profile was also observed at the <italic>MEG3</italic> DMR in the hepatocarcinoma cell line JHH-4. In addition we observe normal allelic methylation of the <italic>L3MBTL1</italic> DMR in breast cancer cell line T47D, with the exception that the ~&#8201;200&#8201;bp immediately adjacent to the TSS, which is devoid of methylation. We previously described that the bidirectional promoter associated with the <italic>SGCE</italic> and <italic>PEG10</italic> is a maternal DMR on the telomeric side of a large CpG island, with the opposite side unmethylated in all somatic tissues, except placenta where is also methylated on the maternal allele<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>. Intriguingly we observe that several cell lines, irrespectively of tissue origin, adopt this placenta profile, which we confirm by PCR in the hepatocellular carcinoma cell line HepG2 (Fig.&#160;<xref rid="Fig2" ref-type="fig">2c</xref>).<fig id="Fig2"><label>Fig. 2</label><caption><p>Methylation anomalies at imprinted DMRs in cancer cell lines. <bold>a</bold> Line graphs of the number of cancer cell lines showing methylation defects in imprinted DMRs. Control DNA methylation frequencies are depicted by <italic>black solid line</italic> with a &#946;-values near 0.5 indicative of one methylated and one unmethylated allele. <italic>Dashed line</italic> represents total methylation defects irrespective of the underlying CNA status, whereas <italic>solid red line</italic> represents the methylation profiles in samples carrying normal 2:1 copy number complement. <bold>b</bold> Pyrosequencing quantification for the <italic>NH2PL1</italic> and <italic>FAM50B</italic> DMRs in colorectal cell lines with different CNA status. The average methylation of eight controls colon biopsies were used to generate Turkey box-and-whisker plots with whiskers spanning from 25th to 75th percentiles&#8201;&#177;&#8201;1.5 interquartile range to highlight outliers. A similar analysis was performed for the <italic>Kv</italic>DMR1 in lung cancer cell lines. Number of copies is represented by <italic>circle size</italic> (<italic>inner</italic>, minor allele; <italic>outer</italic>, total copy number). <bold>c</bold> Detailed methylation maps of four imprinted DMRs as determined by Illumina Infium HM450k methylation beadChip arrays. Each <italic>dot</italic> represent the position of single probes with the profiles of cancer cell lines (<italic>red</italic> data points) compared to the respective normal tissues (<italic>black</italic> data points). The <italic>green bars</italic> highlight the position of the CpG islands associated with each DMR and the <italic>arrow</italic> the nearest transcripts. Two different bisulphite PCRs were performed per region to confirm the strand-specific methylation profile as determined by cloning and direct sequencing. Each <italic>circle</italic> represents a single CpG dinucleotide on a DNA strand (results for multiple DNA strands are depicted as <italic>rows</italic>), <italic>filled circles</italic> indicate a methylated cytosine, and <italic>open circles</italic> an unmethylated cytosine</p></caption><graphic ns0:href="41467_2017_639_Fig2_HTML" id="d29e790" /></fig>
+</p>
+      </sec>
+      <sec id="Sec6">
+        <title>The influence of nearby non-imprinted genes within CNAs</title>
+        <p id="Par13">The effect of non-imprinted genes located within the same CNAs as imprinted loci could influence tumor development. In an attempt to understand the impact of additional genes, we identified nine oncogenes and two tumor-suppressor genes that map within the vicinity of the imprinted loci (Supplementary Data&#160;<xref rid="MOESM5" ref-type="media">4</xref>). In general, the greater the distance between the cancer-associated gene and the imprinted loci the lower the frequency that both regions are involved in the same cytogenetic aberration. However, in many cases both loci are affected. For example, the imprinted <italic>PPIEL</italic> locus is located ~373&#8201;kb from the <italic>MYCL1</italic> oncogene and co-amplification of both regions was observed in 98% of lung, 91% in liver, 97% in breast and 100% in colon cancer cell lines harboring copy-number gains of 1p34.</p>
+        <p id="Par14">In addition to the classic acquired LOH caused with deletions, we show that cnnLOH is a common chromosomal defect affecting imprinted loci. Since cnnLOH may lead to homozygosity of pathogenic mutations (i.e., silencing tumor-suppressor genes or activating oncogenes) we screened for genes with homozygous mutations mapping within cnnLOH regions harboring imprinted loci. Of the 280 cell lines analyzed, 258 had at least one region of cnnLOH affecting an imprinted loci with 26% also containing homozygous mutated genes described from in the COSMIC database. The majority of mutated genes have not been associated with tumor initiation of progression. However we did identify reoccurring mutations of <italic>RB1</italic> associated with cnnLOH of chr13q14 and <italic>PTEN</italic> mutations with cnnLOH of chr10q23-26 in lung and breast cancer cell lines (Supplementary Data&#160;<xref rid="MOESM6" ref-type="media">5</xref>).</p>
+        <p id="Par15">Further analysis of the parent-of-origin of the cnnLOH, as inferred by the methylation profile of the affected imprinted DMRs, suggests that the influence on imprinted gene dosage is complex. For example, cnnLOH for the chr11p15.5 interval involves both the maternally and paternally derived chromosomes equally in breast and lung cancer-derived cell lines, but is exclusively paternal in colon cancer cell lines consistent with previous observations that <italic>IGF2</italic> over-expression is oncogenic<sup><xref ref-type="bibr" rid="CR7">7</xref></sup>. For cases also harboring homozygous mutated genes, it seems that the presence of the genetic variant is more influential than the parent-of-origin of the cnnLOH, with the exception that <italic>RB1</italic>, in which all lung cancer cell lines (7/7) are associated with hypermethylation at the <italic>RB1</italic> imprinted DMR.</p>
+      </sec>
+      <sec id="Sec7">
+        <title>DMR profiles are independent of other epigenome changes</title>
+        <p id="Par16">Compared to normal cells, cancer cells show drastic changes in DNA methylation status, generally exhibiting global hypomethylation at intragenic and repetitive elements accompanied by regions of hypermethylation. Over the years the various regions of cancer-associated hypermethylation have been defined, initially as a collective of promoter CpG islands prone to gaining methylation known as CpG island methylator phenotype (CIMP)<sup><xref ref-type="bibr" rid="CR26">26</xref></sup>. The list of hypermethylated regions is continually expanding with use of technologies with increased genome resolution and now include bivalent domains, CpG-rich sequences decorated with the permissive histone modification H3K4me2/3 and the repressive modification H3K27me3, which represent ~68% of cancer-associated hypermethylated genes<sup><xref ref-type="bibr" rid="CR27">27</xref>, <xref ref-type="bibr" rid="CR28">28</xref></sup> and DNA methylation valleys (DMVs), large intervals that are generally devoid of DNA methylation in normal tissues<sup><xref ref-type="bibr" rid="CR29">29</xref></sup> (Supplementary Data&#160;<xref rid="MOESM7" ref-type="media">6</xref>). We compared the DNA methylation profiles of 30 CIMP, 442 bivalent domains and 166 DMVs to obtain a general genome methylation profile in each cancer cell line. We observe that cell lines with the greatest number of hypermethylated CIMP regions were also more susceptible to bivalent and DMV hypermethylation (Fig.&#160;<xref rid="Fig3" ref-type="fig">3a</xref>). To determine if the predominant hypermethylation we observe at imprinted DMRs simply reflects the genome-wide methylation state, we ordered each cell line according to its CIMP profile (i.e., ranked according to the severity and number of affected loci per cell line). Unlike CIMP and bivalent domains that are highly correlated (Pearson&#8217;s correlation: colon r&#8201;=&#8201;0.96. Spearman&#8217;s correlation: breast r&#8201;=&#8201;0.93, liver r&#8201;=&#8201;0.92 and lung r&#8201;=&#8201;0.93) there was no apparent similarity between CIMP and imprinted methylation for any cancer type (Fig.&#160;<xref rid="Fig3" ref-type="fig">3b</xref>).<fig id="Fig3"><label>Fig. 3</label><caption><p>The methylation profiles of genomic intervals susceptible to cancer-associated hypermethylation. <bold>a</bold> Heatmap of pairwise correlation coefficient of for CpG island methylator phenotype (CIMP), bivalent domains (BIV) and DNA methylation valleys (DMV) in the cell lines derived from the four different tissues. Numbers in the colored squares represent Pearson&#8217;s or Sparman&#8217;s rank according to data distribution. <bold>b</bold> Stacked histograms ranked according to the severity and number of affected loci per cell line. The graphs in the <italic>left column</italic> reveal that cell lines with the highest hypermethylation burden for CIMP regions are similarly hypermethylated at bivalent domains. The <italic>middle column</italic> is a comparison between the methylation profiles of imprinted DMRs irrespective of CNA status and CIMP. The <italic>right row</italic> is the same comparison but with only imprinted domains with a normal copy-number. For each type of loci the number of genes analyzed is indicated on the <italic>x</italic>-axis</p></caption><graphic ns0:href="41467_2017_639_Fig3_HTML" id="d29e889" /></fig>
+</p>
+        <p id="Par17">In addition, we assessed a subset of cancer cell lines for hypomethylation of repetitive DNA (ALU-Yb8, LINE-1 and &#945;-satellites). These elements are commonly used as surrogates to measure genome-wide methylation levels as ~&#8201;27% of total CpG methylation is contained within LINE-1 elements and 23% in ALU-Yb8 sequences<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>. We identified substantial hypomethylation of these elements in numerous cell lines compared to tissue matched controls, but those cell lines affected did not show extreme hyper- or hypomethylation at imprinted DMR (Supplementary Fig.&#160;<xref rid="MOESM1" ref-type="media">9</xref>). Taken together these observations argue against a direct connection between global DNA methylation status and imprinting, supporting an independent mechanism of regulation in cancer.</p>
+      </sec>
+      <sec id="Sec8">
+        <title>Allelic expression profiling in cancer cell lines</title>
+        <p id="Par18">To date, very few cancer cell lines have been assessed for allelic expression of imprinted genes. To determine the influence of both methylation and CNAs on allelic expression, we genotyped highly informative exonic SNPs within <italic>NAPL1L5, PEG10</italic>, <italic>H19</italic>, <italic>IGF2</italic>, <italic>MEST</italic>, <italic>KCNQ1OT1, MEG3, PEG3, L3MBTL1</italic> and <italic>NHP2L1</italic> in 57 cancer cell lines with allelic expression determined by PCR with reverse transcription (RT-PCR) in heterozygous cases (Supplementary Figs&#160;<xref rid="MOESM1" ref-type="media">10</xref>&#8211;<xref rid="MOESM1" ref-type="media">19</xref>). This revealed that if expressed, copy-number normal cell lines with normal methylation maintained appropriate monoallelic expression (e.g., <italic>NHP2L1</italic> in NCI-H441; <italic>KCNQ1OT1</italic> in COLO-824, DM-273, HCT-15, NCI-H1048 and MDA-MB-157; <italic>MEG3</italic> in Hs-578-T; <italic>NAP1L5</italic> in BT-474, GP5d and HCT-15; <italic>PEG10</italic> in HCT-116) and in rare cases with robust loss-of-methylation the transcripts were biallelically expressed (e.g., <italic>NHP2L1</italic> in HLE). Interestingly we observe several cases in which cell lines with a total/minor ratio of 4:2 with ~50% methylation are also robustly expressed from one genotype, suggesting that the four chromosomes are maintaining their original parental imprints having two active and two repressed chromosome copies (e.g., <italic>NHP2L1</italic> in Hs-578-T and NCI-H508, <italic>KCNQ1OT1</italic> in AU565 and HCC1954; <italic>H19</italic> in LS-411N and LS-1034; <italic>L3MBTL1</italic> in NCI-H1975; <italic>NAP1L5</italic> in MDA-MB-453). To confirm these expression profiles, we performed RNA FISH for the long non-coding (lnc)RNA <italic>KCNQ1OT1</italic> that is retained near the site of transcription. In the breast cell line COLO-824, we observe a single signal consistent with it being copy-number normal and monoallelically expressed, as did the colorectal cell lines HCT-15, confirming the observations by Sunamura et al.<sup><xref ref-type="bibr" rid="CR31">31</xref></sup> (Fig.&#160;<xref rid="Fig4" ref-type="fig">4a, b</xref> and Supplementary Fig.&#160;<xref rid="MOESM1" ref-type="media">20</xref>). We observe two signals in the MCF7 cell line that has cnnLOH for 11p15 (total/minor ratio of 2:0) and absence of methylation at the <italic>Kv</italic>DMR1. Interestingly we also observe two <italic>KCNQ1OT1</italic> signals in the copy-number 4:2 HCC1954 cell line consistent with two copies of the paternal allele being expressed in these cells. These observations highlight that fact that a cell may be transcribing from more than one chromosome but maintaining the correct imprinting profile if it carries copy-number aberrations.<fig id="Fig4"><label>Fig. 4</label><caption><p>Allelic expression analysis of <italic>KCNQ1OT1</italic> in cancer cell lines. <bold>a</bold> Three cell lines with different copy-number status (COLO-824, copy number 2:1; HCC1954, copy number 4:2; MCF7 copy number 2:0) were assessed by Sanger sequencing of rs231359 polymorphism in the <italic>KCNQ1OT1</italic> transcript in DNA and cDNA, respectively. The average methylation of the <italic>Kv</italic>DMR1 was determined from Infinium HM450k array data. <bold>b</bold> Representative RNA-FISH analysis of <italic>KCNQ1OT1</italic> lncRNA-coated territory (green signal, white arrows) of individual nuclei with inserts representing zoomed in images of FISH signals. Nuclei were stained with DAPI. The quantification of <italic>KCNQ1OT1</italic> expression signals represented as stacked bar charts indicates the percentage of nuclei displaying the indicated number of expression foci. <bold>c</bold>
+<italic>KCNQ1OT1</italic> RNA-FISH performed on cells retreated with RNAse A</p></caption><graphic ns0:href="41467_2017_639_Fig4_HTML" id="d29e1021" /></fig>
+</p>
+      </sec>
+      <sec id="Sec9">
+        <title>Confirming imprinted CNAs in primary cancer samples</title>
+        <p id="Par19">Human cancer-derived cell lines are widely used models to study the biology of cancer and in the majority of cases recurrent genetic and epigenetic change found in tumors are also identified in cell lines and vice versa. In order to confirm our cell lines observations in primary tumors we analyzed publically available data sets from TCGA including breast carcinomas (BRCA), colon adenocarcinomas (COAD), liver hepatocellular carcinomas (LIHC) and lung tumors (lung adenocarcinomas, LUAD&#8201;+&#8201;squamous cell carcinomas, LUSC) for which data is available from normal, tumor and adjacent-tissue samples.</p>
+        <p id="Par20">A huge number of CNAs were observed in the primary data sets encompassing imprinted domains, but in most cases copy-number gains were not as severe as in cell lines and were restricted to the tumor samples and not matched adjacent-tissue (Fig.&#160;<xref rid="Fig5" ref-type="fig">5a, b</xref>). For many imprinted loci the copy-number aberrations were a mix of both deletions and amplifications, but striking recurrent changes were observed. For example, the four imprinted regions on chromosome 20q (<italic>MCTS2, NNAT, L3MTBL1</italic> and <italic>GNAS</italic>) were invariable subject to copy-number gains with very few deletions observed in the four cancer types. In contrast some imprinted domain were associated with CNAs specific to a tumor type. When observed, <italic>H19/IGF2</italic> CNAs in COAD were mainly amplifications, consistent with previous reports<sup><xref ref-type="bibr" rid="CR7">7</xref></sup>, whereas equal numbers of gains/losses are observed in the other three tumor types analyzed. Furthermore, amplifications of <italic>RB1</italic> at chr13q14 were preferentially observed in COAD samples whereas deletions were preferentially observed in BRCA, the latter consistent with the reports of the functional loss of <italic>RB1</italic> in basal-like and luminal breast carcinomas<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>. Similarly chromosome 22q deletions are common somatic alteration in both breast and colorectal cancer<sup><xref ref-type="bibr" rid="CR33">33</xref></sup> and we confirm a high frequency of deletions of <italic>NH2PL1</italic> mapping to 22q13 in BRCA and COAD data sets.<fig id="Fig5"><label>Fig. 5</label><caption><p>Methylation profiles of imprinted DMRs in primary TCGA cancer samples. <bold>a</bold> Scatter plots for imprinted domains on chromosome 20 in tumor, adjacent and control somatic DNA reveals that the CNAs are restricted to the cancer samples. <bold>b</bold> Ideogram for chromosome 20 showing the extent of amplifications and deletions for <italic>MCTS2, NNAT, L3MBTL1</italic> and <italic>GNAS</italic> domains in lung-derived cancer samples. Amplifications are in <italic>red</italic> and deletion in <italic>blue</italic> with the width of the lines representing the total copy-number for each aberration. <bold>c</bold> Stacked histograms ranked according to the severity and number of affected loci per sample. The graphs in the <italic>left column</italic> reveal that cell lines with the highest hypermethylation burden for CIMP regions are similarly hypermethylated at bivalent domains. The <italic>middle column</italic> is a comparison between the methylation profiles of imprinted DMRs irrespective of CNA status and CIMP. The <italic>right row</italic> is the same comparison but with only imprinted domains with a normal copy-number. For each type of loci the number of genes analyzed is indicated on the <italic>x</italic>-axis. <bold>d</bold> Line graph of the number of cancer samples showing methylation defects in imprinted DMRs. Control DNA methylation frequencies are depicted by <italic>black solid line</italic> with a &#946;-value near 0.5 indicative of one methylated and one unmethylated allele. <italic>Dashed red line</italic> represents total methylation defects irrespective of the underlying CNA status, whereas <italic>solid red line</italic> represents the methylation profiles in samples carrying normal 2:1 copy number complement. <bold>e</bold> The observed vs. expected methylation profile for the <italic>GNAS</italic> A/B DMR overlapping exon 1A in lung tumors. The <italic>dashed lines</italic> represent the &#8201;&#177;&#8201;3 s.d. of the mean of normal control tissues. Data points outside this range are deemed to have a methylation profile independent of CNA</p></caption><graphic ns0:href="41467_2017_639_Fig5_HTML" id="d29e1129" /></fig>
+</p>
+        <p id="Par21">Next, we wish to determine the size of the CNAs since we observed that telomere/centromere bound aberrations tend to be larger than focal internal CNAs in cancer cell lines. This was also true for CNAs encompassing imprinted domains in primary cancer samples, with focal internal CNAs being more prevalent and often in higher copy number than those involving either the telomere or centromere (extended data available at the <ext-link ext-link-type="uri" ns0:href="http://www.humanimprints.net">www.humanimprints.net</ext-link>). For example the average telomere bound amplification for <italic>IGF1R</italic> on chromosome 15 is 18&#8201;Mb, often representing just a single additional copy, whereas internal amplifications are on average 3&#8201;Mb with 6&#8211;7 copies.</p>
+      </sec>
+      <sec id="Sec10">
+        <title>Imprinted methylation in TCGA data sets</title>
+        <p id="Par22">The methylation changes in the TCGA primary tumor samples are less frequent and less extreme than in cancer cell lines; however, this may reflect cellular composition of the sample with primary tumors being heterogenous and infiltrated with normal cells (mean tumor cell estimate&#8201;&#177;&#8201;s.d.; BRCA 72.2&#8201;&#177;&#8201;20.5%, COAD 71.5&#8201;&#177;&#8201;16.6%, LIHC 87.1&#8201;&#177;&#8201;11.7%, LUAD 76.3&#8201;&#177;&#8201;19.1%) (Supplementary Data&#160;<xref rid="MOESM8" ref-type="media">7</xref>).</p>
+        <p id="Par23">There was high correlation between hypermethyalted CIMP, bivalent domains and DMVs for all tissues (Spearman&#8217;s correlation for CIMP vs bivalent domains: BRCA r&#8201;=&#8201;0.88, COAD r&#8201;=&#8201;0.95, LIHC r&#8201;=&#8201;0.81 and LUAD r&#8201;=&#8201;0.84)(Fig.&#160;<xref rid="Fig5" ref-type="fig">5c</xref>), with the COAD sample set being more hypermethyalted than the other cancer types (Supplementary Data&#160;<xref rid="MOESM9" ref-type="media">8</xref>). With the exception of the LIHC samples, the number of imprinted DMRs subject to hypermethylation is much greater than those with hypomethylation (Fig.&#160;<xref rid="Fig5" ref-type="fig">5c, d</xref>), with no correlation with global DNA methylation status as gauged by comparisons with CIMP, bivalent domains and DMVs (Fig.&#160;<xref rid="Fig5" ref-type="fig">5c</xref>). Consistent with our observation in cell lines, aberrant imprinted methylation was closely associated with CNAs status (Fig.&#160;<xref rid="Fig5" ref-type="fig">5e</xref>). To determine whether specific imprinted DMRs were affected in cancer from different tissue origin, we assessed the frequency of methylation defects at loci with normal 2:1 copy-number. No particular DMR was affected in specific cancer type. The most frequently observed hypermethylated regions are <italic>PEG13</italic> (60%) in COAD, <italic>PPIEL</italic> (34%) in LIHC, <italic>INPP5FV2</italic> (30%) in BRCA and the paternally methylated <italic>ZNF597</italic> DMR (20%) in LUAD. Similarly, no imprinted DMR was consistently hypomethylated, with the most frequently affected regions being <italic>GNAS</italic> (20%) in LIHC, <italic>FAM50B</italic> (9%) in LUAD, <italic>L3MBTL1</italic> (8%) in COAD and <italic>MCTS2</italic> (6%) in BRCA. Furthermore some imprinted DMRs have stable methylation comparable with normal tissues with the LUAD data set having the most unaffected loci (<italic>NAP1L5, PLAGL1, PEG10, MEST, PEG3, NNAT</italic> and <italic>NH2PL1</italic>).</p>
+      </sec>
+      <sec id="Sec11">
+        <title>Molecular subtypes and imprinted methylation</title>
+        <p id="Par24">The somatic load of driver mutations in the cancer cell lines has been extensive studied, with the results cataloged in the COSMIC somatic mutation database. To determine if methylation defects at imprinted loci were more prevalent in tumors harboring-specific genetic aberrations, we compare methylation profiles of samples with 2:1 copy-number positive for common mutations<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. We failed to observe any association between reoccurring mutations (<italic>TP53</italic>, <italic>PIK3CA</italic>, <italic>CDH1</italic> and <italic>AKT1</italic> in breast-derive cancer cell lines; <italic>TP53</italic>, <italic>MLH1</italic>, <italic>APC</italic>, <italic>KRAS</italic>, <italic>BRAF</italic> and <italic>PIK3CA</italic> in colorectal cancer cell lines; <italic>CTNNB1</italic>, <italic>TP53</italic>, <italic>AXIN1</italic>, <italic>JAK1</italic> and <italic>LRP1B</italic> in hepatocarcinoma cell lines; <italic>TP53</italic>, <italic>PIK3CA</italic> and <italic>AKT1</italic> in lung cancer cell lines) or microsatellite instability (MSI) and imprinted DMR status for any cell lines. However we observe increased normal copy-number status in colon, liver and lung-derived cell lines with high MSI, consistent with the previous reports that chromosomal instability and microsatellite stability are largely mutually exclusive<sup><xref ref-type="bibr" rid="CR34">34</xref></sup> (Supplementary Figs&#160;<xref rid="MOESM1" ref-type="media">21</xref>&#8211;<xref rid="MOESM1" ref-type="media">24</xref>).</p>
+        <p id="Par25">The primary tumor samples from the TCGA have also been extensive studied at the molecular level allowing similar comparisons to be performed. Comparable to cell lines, we do not observe increased frequency of aberrant imprinted methylation for any characteristic including reoccurring mutations, hepatitis infections and alcohol consumption in LIHC, smoking status in LUAD or HER2, progesterone or estrogen hormone receptor status in BRCA data sets (Supplementary Figs&#160;<xref rid="MOESM1" ref-type="media">25</xref>&#8211;<xref rid="MOESM1" ref-type="media">28</xref>).</p>
+      </sec>
+    </sec>
+    <sec id="Sec12" sec-type="discussion">
+      <title>Discussion</title>
+      <p id="Par26">In this current study, we have generated DNA methylation and CNAs profiles for over 280 cancer cell lines and compared the results with large primary tumor data sets available from the TCGA.</p>
+      <p id="Par27">Methylation at imprinted loci is unique in that opposing parental alleles have different methylations states that are dictated by parental origin. Unlike other single-copy regions which may be prone to accumulate cancer associated hypermethylation from an initially unmethylated state, imprinted DMRs can either loose or gain methylation. Importantly cancer-associated copy number changes will influence the absolute methylation observed at imprinted DMRs while this is not so important for CIMP, bivalent domains and DMVs. In the majority of cases, we observe that the methylation profiles at imprinted DMRs do not represent epigenetic changes but simply the parental origin of underlying CNAs. In some cases, we predict methylation errors may have occurred within cytogenetically abnormal genomes, but it is not possible to know which aberration, the CNA or methylation defect, occurred first. In addition, it is impossible to know if all copies of a highly amplified region for example <italic>PPIEL</italic> or <italic>GNAS</italic> are subject to epimutations, resulting in a mosaic/clonal state.</p>
+      <p id="Par28">It is known that some tumors with higher frequency of cancer-associated hypermethylation are enriched for oncogenic mutations. However our detailed analysis was unsuccessful in revealing a clear link with any driver mutation or exposure. Mutations in BRAF<sup>V600E</sup>
+<sup><xref ref-type="bibr" rid="CR35">35</xref></sup> and <italic>CTNNB1</italic>
+<sup><xref ref-type="bibr" rid="CR36">36</xref></sup> have been described in colorectal and liver tumors with extensively acquired hypermethylation. We fail to identify any association between aberrant imprinted methylation and these two mutations, despite one study in hepatocellular carcinomas reporting enrichment of <italic>CTNNB1</italic> mutations in samples with hypomethylation at imprinted loci<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>.</p>
+      <p id="Par29">Direct evidence for the role of LOI and cancer comes from the mouse model, in which biallelic expression of <italic>Igf2</italic> present on an <italic>Apc</italic>(<italic>Min)</italic> background has an increased incidence of colorectal cancers<sup><xref ref-type="bibr" rid="CR38">38</xref></sup>. However, human data implicating this locus in sporadic cancer is more controversial. Biallelic expression of <italic>IGF2</italic> has been associated with hypomethylation of the <italic>H19</italic> DMR in colorectal cancer<sup><xref ref-type="bibr" rid="CR39">39</xref></sup>, rather than the hypermethylation that would predictably lead to reactivation of the maternal allele of <italic>IGF2</italic> by ablation of insulator function. This hypomethylation extends to the <italic>IGF2</italic>-DMR0 region and was reported to occur in the normal colonic mucosa of patients, suggesting that this epigenetic abnormality is not limited to the tumors. Methylation data from TCGA COAD data set supports the observed hypomethylation at both these paternally methylated DMRs (cg19642877 is the only probe on the HM450k platform mapping within <italic>IGF2</italic>-DMR0 with methylation somatically acquired DMR, therefore this was not included in our analysis) but there is no evidence for aberrant methylation in adjacent normal tissues (Supplementary Data&#160;<xref rid="MOESM10" ref-type="media">9</xref>), endorsing the reports that methylation at this regions is not a predisposing constitution biomarker for colorectal cancer<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>.</p>
+      <p id="Par30">Cultured cancer cell lines are widely used models and have help form the fundamental basis for our current understanding of cancer biology. However the use of such an in vitro system has limitations. These include cell line misidentification<sup><xref ref-type="bibr" rid="CR41">41</xref></sup> and inter-laboratory clonal expansion or induce secondary genomic changes that may occur since these originally heterogeneous cell lines have been maintained for decades in different culture conditions. To limit these oversights, we have performed our genotyping and methylation analyses on the same DNA samples obtained from the Wellcome Trust Sanger Institute, with quantitative and allelic conformation performed on these DNA aliquots. Furthermore the results of our allelic expression profiling are consistent with examples reported in literature. For example, the methylation and allelic expression of <italic>DIRAS3</italic> in the breast cell lines UM159 and CAL51 as reported by Niemczyk et al.<sup><xref ref-type="bibr" rid="CR42">42</xref></sup>, and the <italic>H19</italic> methylation profile of the colorectal cell lines COLO-205 and LoVo are similar to those reported more than 10 years ago<sup><xref ref-type="bibr" rid="CR43">43</xref></sup>. We also observe identical hypermethylation in the liver cancer cell lines at the <italic>RB1</italic> (HLE and HuH-7) and <italic>MEG3</italic> DMRs (HLE and HuH-7)<sup><xref ref-type="bibr" rid="CR44">44</xref>&#8211;<xref ref-type="bibr" rid="CR46">46</xref></sup> although our data suggests that these profiles are due to cnnLOH.</p>
+      <p id="Par31">While we are confident that our allelic expression results are consistent with previous reports and reflect the expression status in the cell lines, results are sometimes not as would be predicted. For example in the colon cell line HCT-116, we observe robust monoallelic expression despite the <italic>H19</italic> DMR being methylated on both alleles. This is further complicated by the fact that the nearby <italic>cis</italic>-regulated somatic <italic>IGF2</italic>-DMR0 maintains allelic methylation consistent with previous reports<sup><xref ref-type="bibr" rid="CR39">39</xref></sup>. In addition the COLO-205 is heterozygous for the reciprocally imprinted, co-regulated <italic>H19</italic> and <italic>IGF2</italic> genes. However, we observe a discordant expression pattern with maintained monoallelic expression of <italic>H19</italic> and biallelic expression of <italic>IGF2</italic>, a situation that has previous been reported in lung adenocarcinomas<sup><xref ref-type="bibr" rid="CR47">47</xref></sup>. One possible explanation for the latter observation is that expression of <italic>IGF2</italic> has switched from the predominant P3/P4 imprinted promoters to the tissue-specific non-imprinted P1 promoter<sup><xref ref-type="bibr" rid="CR48">48</xref></sup>. A similar scenario may account for the biallelic expression of <italic>MEST</italic> observed in many cell lines despite the DMR being hypermethylated, however since the SNP used to discriminate alleles is located beyond PCR range, we are unable to demonstrate promoter switching.</p>
+      <p id="Par32">To conclude, the involvement of imprinting in cancer has gained much attention, but very few studies have taken CNAs into account when reporting methylation profiles. This has resulted in the inflated documenting of somatically acquired epigenetic errors at imprinted loci in cancer. Our data strongly suggest that CNAs should be investigated before reporting an epigenetic change at imprinted loci in cancer.</p>
+    </sec>
+    <sec id="Sec13" sec-type="materials|methods">
+      <title>Methods</title>
+      <sec id="Sec14">
+        <title>DNA samples</title>
+        <p id="Par33">Cell line DNA used for confirmation analyses were obtained directly from the Sanger Institute. All cell lines cultured in-house, except two, were obtained from ATCC repository and grown using conditions recommended by the supplier. The hepatocellular carcinoma cell lines JHH-2 and JHH-4<sup><xref ref-type="bibr" rid="CR49">49</xref></sup> were obtained from the National Institute of Biomedical Innovation JCRB Cell Bank, Osaka, Japan. These cells were maintained in Eagle&#8217;s minimal essential medium plus 10% fetal bovine serum.</p>
+        <p id="Par34">Control liver, breast, colon and lung tissue samples were obtained from Catalan Tumor Biobank (<ext-link ext-link-type="uri" ns0:href="http://www.clinicbiobanc.org/">http://www.clinicbiobanc.org/</ext-link>) with DNA extracted with phenol/chloroform using phase-lock gel columns (5 Prime) and RNA extracted with Trizol (Thermofisher) following standard protocols. cDNA synthesis was performed using 1ug of RNA following an initial DNase treatment (amplification grade DNase I, Invitrogen). Reverse transcription was performed with MMLV retrotranscriptase (Promega) and random primers (Promega) following the manufacturer&#8217;s instructions. Ethical approval for this study was granted by the Institutional Review Boards of the Bellvitge Institute for Biomedical Research (PR223/09) and (PR024/11).</p>
+      </sec>
+      <sec id="Sec15">
+        <title>Bioinformatic analysis</title>
+        <p id="Par35">The Illumina Infinium HM450k methylation data sets for cancer cell lines and primary samples was obtained from COSMIC cell line project (GEO number GSE68379) and TCGA Data Portal (<ext-link ext-link-type="uri" ns0:href="https://tcga-data.nci.nih.gov">https://tcga-data.nci.nih.gov</ext-link>), respectively. Pre-processing and normalization were performed following GenomeStudio (Illumina) using the Bioconductor minfi package<sup><xref ref-type="bibr" rid="CR50">50</xref></sup>. This includes background subtraction and control normalization. After normalization, methylation beta (&#946;) values range from 0 (unmethylated) to 1 (fully methylated). Before analysis, we excluded possible sources of technical bias and genetic variation that could influence results. We discarded, firstly, all probes with a detection <italic>P</italic>-value&#8201;&gt;&#8201;0.01 in more than 10 % of the samples and secondly, those with missing values in one or more of the tested samples. We also discarded those probes containing a common SNP (minor allele frequency&#8201;&#8805;&#8201;1%, dbSNP138) in the flanking 5&#8201;bp of the interrogated CpG site. Finally, we removed all probes mapping to the X and Y chromosomes. All analyses were performed using human genome version 19 (hg19) as the reference genome. When applicable, coordinates from hg18 to hg19 version were converted using LiftOver tool from USCS Genome Browser website (<ext-link ext-link-type="uri" ns0:href="https://genome.ucsc.edu">https://genome.ucsc.edu</ext-link>).</p>
+        <p id="Par36">Epigenetic profiles: Infinium HM450k probes located within bivalent domain, DMV and CIMP regions were extracted according to published coordinates<sup><xref ref-type="bibr" rid="CR26">26</xref>, <xref ref-type="bibr" rid="CR27">27</xref>, <xref ref-type="bibr" rid="CR29">29</xref></sup>. For each sample the average &#946;-value of the probes located within each defined interval was calculated. For subsequent methylation analysis, only regions that were uniformly unmethylated (&lt;0.2 average &#946;-value) in normal tissues (<italic>n</italic>&#8201;=&#8201;19 breast, <italic>n</italic>&#8201;=&#8201;12 colon, <italic>n</italic>&#8201;=&#8201;10 liver and <italic>n</italic>&#8201;=&#8201;7 lung) were selected. We categorized the intervals according to the severity of methylation gains as compared to their corresponding normal tissue controls, being lowly methylated (mean of controls&#8201;+&#8201;0.2), mildly methylated (absolute &#946;-value&#8201;&gt;&#8201;0.5) and highly methylated (absolute &#946;-value&#8201;&gt;&#8201;0.75).</p>
+        <p id="Par37">Imprinted methylation analysis: Infinium HM450k probes located within 37 germline imprinted DMRs which have more than one probe were extracted from loci defined by methyl-seq<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>. For each sample, the average methylation at each imprinted DMRs was calculated. Briefly, we classified hyper/hypomethylated imprinted DMR when averaged &#946;-values are above or below 0.8/0.2. We also calculated intermediate methylation defects when samples show&#8201;&#177;&#8201;0.2 &#946;-value relative to controls, but the absolute methylation do not reach 0.8/0.2 cutoff values. For each cancer type, methylation analyses for cell lines and TCGA samples were performed independently using the same criteria. For TCGA data set, methylation level of an individual tumor sample was compared to its corresponding non-tumor adjacent-paired tissue, whereas methylation level for each cancer cell line was compared to the averaged &#946;-values of corresponding normal tissue controls.</p>
+      </sec>
+      <sec id="Sec16">
+        <title>RRBS methylation analysis</title>
+        <p id="Par38">Processed-RRBS data for A549, T47D, MCF7, HCT-116 and HepG2 cell lines were downloaded from ENCODE project<sup><xref ref-type="bibr" rid="CR51">51</xref></sup> (GEO accession number: GSE27584). At each CpG site, the methylation rate was calculated as the ratio of methylated reads (C) over the total read count (C&#8201;+&#8201;T) at that site. Similar to Infinium HM450k data, CpG sites within imprinted DMRs were extracted according to coordinates<sup><xref ref-type="bibr" rid="CR17">17</xref></sup> and the average methylation at each imprinted DMR was calculated using RRBS-detected cytosines covered by&#8201;&#8805;&#8201;10 reads. The association between methylation level at imprinted DMRs obtained from Infinium HM450k and RRBS methods was assessed using Spearman&#8217;s correlation coefficient.</p>
+        <p id="Par39">Predicted methylation analysis: we obtained Affymetrix Genome-wide SNP6.0 genotyping profile of 287 cancer cell lines and 2676 TCGA primary tissues from the Sanger Institutes COSMIC cell line project and TCGA data portal. A total of 306 cancer cell lines (derived from 51 breast cancers, 54 colorectal cancers; 20 hepatocarcinomas and 181 lung tumors) had Infinium HM450k array data, allowing us to determine the association between CNAs and DNA methylation. At the time of this study (2013 onwards) only 178 TCGA primary tissues had pair data copy-number and methylation data. To obtain the CNA predicted methylation value we first determined the minor methylation value as the ratio between the minor and the total allele count. Then, if this corresponded to an Infinium HM450k value below 0.5, we assume that the methylated allele was the minor one and reported the minor methylation value as the CNA predicted methylation. If the corresponding Infinium HM450k value was above 0.5, we assumed that the methylated allele was the major one and report 1&#8212;minor methylation value as the CNA predicted methylation.</p>
+        <p id="Par40">To estimate the proportion of methylation variance explained by copy-number we used univariate linear regression. For each imprinted region and tissue type, we fit a model with the average observed methylation as outcome and the expected-by-copy-number methylation (described above) as predictor, considering the different cell lines as observations and obtaining the corresponding coefficient of determination (R<sup>2</sup>).</p>
+        <p id="Par41">CNA analysis: We used Level 3 CNA estimations for TCGA samples (BRCA <italic>n</italic>&#8201;=&#8201;1044; COAD <italic>n</italic>&#8201;=&#8201;429; LIHC <italic>n</italic>&#8201;=&#8201;208; LUAD <italic>n</italic>&#8201;=&#8201;494 and LUSC <italic>n</italic>&#8201;=&#8201;501). For the cell lines, we used the CONAN copy number estimations. CNAs were selected if they overlapped an imprinted DMR by at least 1&#8201;bp. We defined an amplification/deletion to be internal if it was more than 1&#8201;Mb away from the corresponding telomere/centromere (whichever is closer). For TCGA data, we utilized all available data (even if no methylation data was available) and estimated copy number using circular binary segmentation algorithm as implemented in PSCBS<sup><xref ref-type="bibr" rid="CR52">52</xref></sup>.</p>
+        <p id="Par42">Mutation status in cancer cell lines: We obtained mutational data for all cell lines from the repository Cell Line Project release v76 (<ext-link ext-link-type="uri" ns0:href="http://cancer.sanger.ac.uk/cell_lines">http://cancer.sanger.ac.uk/cell_lines</ext-link>).</p>
+      </sec>
+      <sec id="Sec17">
+        <title>Genotyping and imprinting analysis</title>
+        <p id="Par43">Exonic SNPs (minor allele frequency&#8201;&gt;&#8201;0.1) within imprinted transcripts were identified in the UCSC hg19 browser and genotypes obtained by PCR and direct sequencing. Sequence traces were interrogated using Sequencher v4.6 (Gene Codes Corporation, MI). Heterozygous sample were analyzed for allelic expression using RT-PCR incorporating the polymorphism within the final PCR amplicon (for primer sequences see Supplementary Data&#160;<xref rid="MOESM11" ref-type="media">10</xref>).</p>
+      </sec>
+      <sec id="Sec18">
+        <title>Bisulphite PCR of cell line-derived DNA</title>
+        <p id="Par44">For confirmation of methylation profiles in normal tissues and cancer cell lines standard bisulphite conversion of approximately 1&#8201;&#956;g DNA was subjected to sodium bisulphite treatment and purified using the EZ DNA methylation-Gold kit (ZYMO, Orange, CA). Approximately 2 ul of converted DNA was used in each amplification reaction using Immolase Taq polymerase (Bioline) at 45 cycles and the resulting PCR product cloned into pGEM-T easy vector (Promega) for subsequent subcloning and sequencing (for primer sequence see Supplementary Data&#160;<xref rid="MOESM11" ref-type="media">10</xref>).</p>
+      </sec>
+      <sec id="Sec19">
+        <title>Pyrosequencing analysis for methylation quantification</title>
+        <p id="Par45">Approximately 50&#8201;ng of bisulphite converted DNA was used for pyrosequencing of imprinted DMR or repeat elements<sup><xref ref-type="bibr" rid="CR30">30</xref>, <xref ref-type="bibr" rid="CR53">53</xref></sup>. Standard bisulphite PCR was used to amplify the regions of interest with the exception that one primer was biotinylated (for primer sequences see Supplementary Data&#160;<xref rid="MOESM11" ref-type="media">10</xref>). For sequencing, forward primers were designed to the complementary strand. The pyrosequencing reaction was carried out on a PyroMark Q96 instrument. The peak heights were determined using Pyro Q-CpG1.0.9 software (Biotage). The data were subjected to statistical analysis using Graph Pas Prism 5.0 (Graph Pad Software). Difference between groups were considered significant at <italic>P</italic>&#8201;&lt;&#8201;0.05.</p>
+      </sec>
+      <sec id="Sec20">
+        <title>DNA FISH</title>
+        <p id="Par46">The detection of CNAs involving 15q11-13 was identified using Vysis probes with <italic>GABRB3</italic> labeled with SpectrumOrange and the D15Z1 CEP15 labeled with SpectrumGreen (Abbott Molecular Inc.). For the preparation of metaphase spreads, cell lines were exposed to colcemid for 3&#8201;h ~24&#8201;h after feeding. After treatment with hypotonic solution the cells were fixed in Carnoy&#8217;s fixative dropped onto glass slides. Prior to hybridization the slides were dehydrated through an ethanol series of 70, 85 and 100% for one minute each. Heat denaturation, hybridization in humidified chambers and washes were performed following supplier&#8217;s recommendations. DAPI-vectorshield mounted slides were visualized with on a Zeiss microscope with images of individual nuclei captured using the automated MetaSystems platform.</p>
+      </sec>
+      <sec id="Sec21">
+        <title>RNA FISH</title>
+        <p id="Par47">Expression of the lncRNA <italic>KCNQ1OT1</italic> assessed by RNA FISH. Cells were grown on poly-L-lysine coated slides and fixed in 4% paraformaldehyde-PBS for 20&#8201;min at room temperature, washed twice in PBS and permeabilized with 70% EtOH at 4&#8201;&#176;C overnight. The fixed slides were washed twice in PBS, followed by two washes in 2&#215; SSC. Control slides were treated with RNAse A (Roche) treatment for 1&#8201;h at 37&#8201;&#176;C and subsequently washed twice in 2&#215; SSC. A pre-hybridization step involving incubating the fixed slides in 15% formamide/2&#215; SSC for 20&#8201;min at room temperature was performed before hybridization. BAC probe RP11-937O11 (obtained from the BACPAC Resource Center) was labeled with either SpectrumRed or SpectrumGreen UTP by nick translation and competed with human COT-1 DNA (Roche) following the supplier&#8217;s protocol (Abbott Molecular Inc.). 4&#8201;ul of heat denatured probe/LSI buffer was added to non-denatured slides and hybridized overnight at 37&#8201;&#176;C in a humidified chamber. Subsequently the slides were carefully washed in 2&#215; SSC/15% formamide for 20&#8201;min at 37&#8201;&#176;C, followed by two washed in 1&#215; SSC at 37&#8201;&#176;C for 20&#8201;min each. Slides were mounted using DAPI-vectorshield and visualized using a Leica fluorescence microscope. A total of 100 nuclei were counted to determine the number of expression foci per cell.</p>
+      </sec>
+      <sec id="Sec22">
+        <title>Data availability</title>
+        <p id="Par48">The Illumina Infinium HM450k methylation array and RRBS methylation data sets for cancer cell lines were obtained from Gene Expression Omnibus (GEO) accession numbers GSE68379 and GSE27584, respectively. Circus graphs for methylation and copy-number as well as maps for the extent of amplifications and deletions for all cell lines is available at <ext-link ext-link-type="uri" ns0:href="http://www.humanimprints.net">www.humanimprints.net</ext-link>.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Electronic supplementary material</title>
+      <sec id="Sec23">
+        <p>
+<supplementary-material content-type="local-data" id="MOESM1"><media ns0:href="41467_2017_639_MOESM1_ESM.pdf"><caption><p>Supplementary Information</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM2"><media ns0:href="41467_2017_639_MOESM2_ESM.xlsx"><caption><p>Supplementary Data 1</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM3"><media ns0:href="41467_2017_639_MOESM3_ESM.xlsx"><caption><p>Supplementary Data 2</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM4"><media ns0:href="41467_2017_639_MOESM4_ESM.xlsx"><caption><p>Supplementary Data 3</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM5"><media ns0:href="41467_2017_639_MOESM5_ESM.xlsx"><caption><p>Supplementary Data 4</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM6"><media ns0:href="41467_2017_639_MOESM6_ESM.xlsx"><caption><p>Supplementary Data 5</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM7"><media ns0:href="41467_2017_639_MOESM7_ESM.xlsx"><caption><p>Supplementary Data 6</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM8"><media ns0:href="41467_2017_639_MOESM8_ESM.xls"><caption><p>Supplementary Data 7</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM9"><media ns0:href="41467_2017_639_MOESM9_ESM.xlsx"><caption><p>Supplementary Data 8</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM10"><media ns0:href="41467_2017_639_MOESM10_ESM.xlsx"><caption><p>Supplementary Data 9</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM11"><media ns0:href="41467_2017_639_MOESM11_ESM.xlsx"><caption><p>Supplementary Data 10</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM12"><media ns0:href="41467_2017_639_MOESM12_ESM.pdf"><caption><p>Peer Review File</p></caption></media></supplementary-material>
+</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <fn-group>
+      <fn>
+        <p>Alex Martin-Trujillo and Enrique Vidal contributed equally to this work.</p>
+      </fn>
+      <fn>
+        <p>
+          <bold>Electronic supplementary material</bold>
+        </p>
+        <p>
+<bold>Supplementary Information</bold> accompanies this paper at doi:10.1038/s41467-017-00639-9.</p>
+      </fn>
+      <fn>
+        <p>
+<bold>Publisher's note:</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+      </fn>
+    </fn-group>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We are grateful to Paul Edwards at the Hutchison-MRC Research Centre, Cambridge for helpful discussions and sharing of Sky karyotype data. This work was supported by Spanish Ministerio de Educaci&#243;n y Competitividad (MINECO) (BFU2011-27658 and BFU2014-53093-R to D.M.), co-financed by the European Regional Development Fund (FEDER), the Asociaci&#242;n Espa&#241;ola Contra el C&#225;ncer (AECC to D.M.) and the Fundaci&#242; Olga Torres (FOT to H.H.). AMS is a recipient of a FPI PhD studentship from MINECO (BFU2014-53093) and H.H. is a Miguel Servet (CP14/00229) researcher funded by the Spanish Institute of Health Carlos III (ISCIII). Work supported by the Xarxa de Bancs de Tumors de Catalunya is sponsored by Pla Director d&#8217;Oncologia de Catalunya (XBTC).</p>
+    </ack>
+    <notes notes-type="author-contribution">
+      <title>Author contributions</title>
+      <p>D.M., A.M.-T. and E.V. designed the experiments and analyzed the data. A.M.T., A.M.-S., M.S.S. and S.M. performed the experiments and contributed to discussion. D.M. wrote the manuscript. A.M.T. and M.S.D. prepared the figures. J.R.H.M., H.H., M.G. and M.E. contributed to data analysis and discussion. All authors revised and edited the manuscript.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <sec id="FPar1">
+        <title>Competing interests</title>
+        <p id="Par49">The authors declare no competing financial interests.</p>
+      </sec>
+    </notes>
+    <ref-list id="Bib1">
+      <title>References</title>
+      <ref id="CR1">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hoadley</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Multiplatform analysis of 12 cancer types reveals molecular classification within and across tissues of origin</article-title>
+          <source>Cell</source>
+          <year>2014</year>
+          <volume>14</volume>
+          <fpage>929</fpage>
+          <lpage>944</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2014.06.049</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR2">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Monk</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Germline-derived DNA methylation and early embryo epigenetic reprogramming: the selected survival of imprints</article-title>
+          <source>Int. J. Biochem. Cell Biol.</source>
+          <year>2014</year>
+          <volume>67</volume>
+          <fpage>128</fpage>
+          <lpage>138</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.biocel.2015.04.014</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR3">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Monk</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Deciphering the cancer imprintome</article-title>
+          <source>Brief Funct. Genomics</source>
+          <year>2010</year>
+          <volume>9</volume>
+          <fpage>329</fpage>
+          <lpage>339</lpage>
+          <pub-id pub-id-type="doi">10.1093/bfgp/elq013</pub-id>
+          <pub-id pub-id-type="pmid">20551091</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR4">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mussa</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Cancer risk in Beckwith-Wiedemann syndrome: a systematic review and meta-analysis outlining a novel (Epi)genotype specific histotype targeted screening protocol</article-title>
+          <source>J. Pediatr.</source>
+          <year>2016</year>
+          <volume>176</volume>
+          <fpage>142</fpage>
+          <lpage>149</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jpeds.2016.05.038</pub-id>
+          <pub-id pub-id-type="pmid">27372391</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR5">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Veronese</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Oncogenic role of miR-483-3p at the IGF2/483 locus</article-title>
+          <source>Cancer Res.</source>
+          <year>2010</year>
+          <volume>70</volume>
+          <fpage>3140</fpage>
+          <lpage>3149</lpage>
+          <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-09-4456</pub-id>
+          <pub-id pub-id-type="pmid">20388800</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR6">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cui</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Loss of IGF2 imprinting: a potential marker of colorectal cancer risk</article-title>
+          <source>Science</source>
+          <year>2003</year>
+          <volume>299</volume>
+          <fpage>1753</fpage>
+          <lpage>1755</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1080902</pub-id>
+          <pub-id pub-id-type="pmid">12637750</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR7">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <collab>Cancer Genome Atlas Network</collab>
+          </person-group>
+          <article-title>Comprehensive molecular characterization of human colon and rectal cancer</article-title>
+          <source>Nature</source>
+          <year>2012</year>
+          <volume>487</volume>
+          <fpage>330</fpage>
+          <lpage>337</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature11252</pub-id>
+          <pub-id pub-id-type="pmid">22810696</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR8">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tsang</surname>
+              <given-names>W</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Oncofetal H19-derived miR-675 regulates tumour suppressor RB in human colorectal cancer</article-title>
+          <source>Carcinogenesis</source>
+          <year>2010</year>
+          <volume>31</volume>
+          <fpage>350</fpage>
+          <lpage>358</lpage>
+          <pub-id pub-id-type="doi">10.1093/carcin/bgp181</pub-id>
+          <pub-id pub-id-type="pmid">19926638</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR9">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Peng</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>ARHI is the center of allelic deletion on chromosome 1p31 in ovarian and breast cancers</article-title>
+          <source>Int. J. Cancer</source>
+          <year>2000</year>
+          <volume>86</volume>
+          <fpage>690</fpage>
+          <lpage>694</lpage>
+          <pub-id pub-id-type="doi">10.1002/(SICI)1097-0215(20000601)86:5&lt;690::AID-IJC14&gt;3.0.CO;2-K</pub-id>
+          <pub-id pub-id-type="pmid">10797292</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR10">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Feng</surname>
+              <given-names>W</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Imprinted tumour suppressor genes ARHI and PEG3 are the most frequently down-regulated in human ovarian cancers by loss of heterozygosity and promoter methylation</article-title>
+          <source>Cancer</source>
+          <year>2008</year>
+          <volume>112</volume>
+          <fpage>1489</fpage>
+          <lpage>1502</lpage>
+          <pub-id pub-id-type="doi">10.1002/cncr.23323</pub-id>
+          <pub-id pub-id-type="pmid">18286529</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR11">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Washington</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>ARHI (DIRAS3)-mediated autophagy-associated cell death enhances chemosensitivity to cisplatin in ovarian cancer cell lines and xenografts</article-title>
+          <source>Cell Death Dis.</source>
+          <year>2015</year>
+          <volume>6</volume>
+          <fpage>e1836</fpage>
+          <pub-id pub-id-type="doi">10.1038/cddis.2015.208</pub-id>
+          <pub-id pub-id-type="pmid">26247722</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR12">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gurvich</surname>
+              <given-names>N</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>L3MBTL1 polycomb protein, a candidate tumour suppressor in del(20q12) myeloid disorders, is essential for genome stability</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>2010</year>
+          <volume>107</volume>
+          <fpage>22552</fpage>
+          <lpage>22557</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1017092108</pub-id>
+          <pub-id pub-id-type="pmid">21149733</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR13">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aziz</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Cooperativity of imprinted genes inactivated by acquired chromosome 20q deletions</article-title>
+          <source>J. Clin. Invest.</source>
+          <year>2013</year>
+          <volume>123</volume>
+          <fpage>2169</fpage>
+          <lpage>2182</lpage>
+          <pub-id pub-id-type="doi">10.1172/JCI66113</pub-id>
+          <pub-id pub-id-type="pmid">23543057</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR14">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Knudson</surname>
+              <given-names>A</given-names>
+              <suffix>Jr.</suffix>
+            </name>
+          </person-group>
+          <article-title>Mutation and cancer: statistical study of retinoblastoma</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>1971</year>
+          <volume>68</volume>
+          <fpage>820</fpage>
+          <lpage>823</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.68.4.820</pub-id>
+          <pub-id pub-id-type="pmid">5279523</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR15">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kanber</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>The human retinoblastoma gene is imprinted</article-title>
+          <source>PLoS Genet</source>
+          <year>2009</year>
+          <volume>5</volume>
+          <fpage>e100079</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pgen.1000790</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR16">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dryja</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Parental origin of mutations of the retinoblastoma gene</article-title>
+          <source>Nature</source>
+          <year>1989</year>
+          <volume>339</volume>
+          <fpage>556</fpage>
+          <lpage>558</lpage>
+          <pub-id pub-id-type="doi">10.1038/339556a0</pub-id>
+          <pub-id pub-id-type="pmid">2733786</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR17">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Court</surname>
+              <given-names>F</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Genome-wide parent-of-origin DNA methylation analysis reveals the intricacies of human imprinting and suggests a germline methylation-independent mechanism of establishment</article-title>
+          <source>Genome Res.</source>
+          <year>2014</year>
+          <volume>24</volume>
+          <fpage>554</fpage>
+          <lpage>569</lpage>
+          <pub-id pub-id-type="doi">10.1101/gr.164913.113</pub-id>
+          <pub-id pub-id-type="pmid">24402520</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR18">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sanchez-Delgado</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Absence of maternal methylation in biparental hydatidiform moles from women with NLRP7 maternal-effect mutations reveals widespread placenta-specific imprinting</article-title>
+          <source>PLoS Genet.</source>
+          <year>2015</year>
+          <volume>11</volume>
+          <fpage>e1005644</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pgen.1005644</pub-id>
+          <pub-id pub-id-type="pmid">26544189</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR19">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sanchez-Delgado</surname>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Human oocyte-derived methylation differences persist in the placenta revealing widespread transient imprinting</article-title>
+          <source>PLoS Genet.</source>
+          <year>2016</year>
+          <volume>12</volume>
+          <fpage>e1006427</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pgen.1006427</pub-id>
+          <pub-id pub-id-type="pmid">27835649</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR20">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Forbes</surname>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>COSMIC: somatic cancer genetics at high-resolution</article-title>
+          <source>Nucleic Acid Res.</source>
+          <year>2017</year>
+          <volume>45</volume>
+          <fpage>D7770D783(D1)</fpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkw1121</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR21">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Iorio</surname>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>A landscape of pharmacogenomic interactions in cancer</article-title>
+          <source>Cell</source>
+          <year>2016</year>
+          <volume>166</volume>
+          <fpage>740</fpage>
+          <lpage>752</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2016.06.017</pub-id>
+          <pub-id pub-id-type="pmid">27397505</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR22">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <collab>Cancer Genome Atlas Network</collab>
+          </person-group>
+          <article-title>Comprehensive molecular profiling of lung adenocarcinoma</article-title>
+          <source>Nature</source>
+          <year>2014</year>
+          <volume>551</volume>
+          <fpage>543</fpage>
+          <lpage>550</lpage>
+        </element-citation>
+      </ref>
+      <ref id="CR23">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <collab>Cancer Genome Atlas Network</collab>
+          </person-group>
+          <article-title>Comprehensive molecular portraits of human breast tumours</article-title>
+          <source>Nature</source>
+          <year>2012</year>
+          <volume>490</volume>
+          <fpage>61</fpage>
+          <lpage>70</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature11412</pub-id>
+          <pub-id pub-id-type="pmid">23000897</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR24">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zack</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Pan-cancer patterns of somatic copy number alteration</article-title>
+          <source>Nat. Genet.</source>
+          <year>2013</year>
+          <volume>45</volume>
+          <fpage>1134</fpage>
+          <lpage>1140</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng.2760</pub-id>
+          <pub-id pub-id-type="pmid">24071852</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR25">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grigorova</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Lyman</surname>
+              <given-names>RC</given-names>
+            </name>
+            <name>
+              <surname>Caldas</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Edwards</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Chromosome abnormalities in 10 lung cancer cell lines of the NCI-H series analyzed with spectral karyotyping</article-title>
+          <source>Cancer Genet. Cytogenet.</source>
+          <year>2005</year>
+          <volume>162</volume>
+          <fpage>1</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cancergencyto.2005.03.007</pub-id>
+          <pub-id pub-id-type="pmid">16157194</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR26">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Toyota</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>CpG island methylator phenotype in colorectal cancer</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>1999</year>
+          <volume>96</volume>
+          <fpage>8681</fpage>
+          <lpage>8686</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.96.15.8681</pub-id>
+          <pub-id pub-id-type="pmid">10411935</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR27">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Widschwendter</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Epigenetic stem cell signature in cancer</article-title>
+          <source>Nat. Genet.</source>
+          <year>2007</year>
+          <volume>39</volume>
+          <fpage>157</fpage>
+          <lpage>158</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng1941</pub-id>
+          <pub-id pub-id-type="pmid">17200673</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR28">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ohm</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>A stem cell-like chromatin pattern may predispose tumour suppressor genes to DNA hypermethylation and heritable silencing</article-title>
+          <source>Nat. Genet.</source>
+          <year>2007</year>
+          <volume>39</volume>
+          <fpage>237</fpage>
+          <lpage>242</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng1972</pub-id>
+          <pub-id pub-id-type="pmid">17211412</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR29">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xie</surname>
+              <given-names>W</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Epigenomic analysis of multilineage differentiation of human embryonic stem cells</article-title>
+          <source>Cell</source>
+          <year>2013</year>
+          <volume>153</volume>
+          <fpage>1134</fpage>
+          <lpage>1148</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2013.04.022</pub-id>
+          <pub-id pub-id-type="pmid">23664764</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR30">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Choi</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Changes in DNA methylation of tandem DNA repeats are different from interspersed repeats in cancer</article-title>
+          <source>Int. J. Cancer</source>
+          <year>2009</year>
+          <volume>125</volume>
+          <fpage>723</fpage>
+          <lpage>729</lpage>
+          <pub-id pub-id-type="doi">10.1002/ijc.24384</pub-id>
+          <pub-id pub-id-type="pmid">19437537</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR31">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sunamura</surname>
+              <given-names>N</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Regulation of functional KCNQ1OT1 lncRNA by &#946;-catenin</article-title>
+          <source>Sci. Rep.</source>
+          <year>2016</year>
+          <volume>6</volume>
+          <fpage>20690</fpage>
+          <pub-id pub-id-type="doi">10.1038/srep20690</pub-id>
+          <pub-id pub-id-type="pmid">26868975</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR32">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Herschkowitz</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Fan</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Perou</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>The functional loss of the retinoblastoma tumour suppressor is a common event in basal-like and luminal B breast carcinomas</article-title>
+          <source>Breast Cancer Res.</source>
+          <year>2008</year>
+          <volume>10</volume>
+          <fpage>R75</fpage>
+          <pub-id pub-id-type="doi">10.1186/bcr2142</pub-id>
+          <pub-id pub-id-type="pmid">18782450</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR33">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Castells</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Gusella</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Ramesh</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Rustgi</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>A region of deletion on chromosome 22q13 is common to human breast and colorectal cancers</article-title>
+          <source>Cancer Res.</source>
+          <year>2000</year>
+          <volume>60</volume>
+          <fpage>2836</fpage>
+          <lpage>2839</lpage>
+          <pub-id pub-id-type="pmid">10850424</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR34">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Birgisson</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Microsatellite instability and mutations in BRAF and KRAS are significant predictors of disseminated disease in colon cancer</article-title>
+          <source>BMC Cancer</source>
+          <year>2015</year>
+          <volume>15</volume>
+          <fpage>125</fpage>
+          <pub-id pub-id-type="doi">10.1186/s12885-015-1144-x</pub-id>
+          <pub-id pub-id-type="pmid">25884297</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR35">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hinoue</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Analysis of the association between CIMP and BRAF in colorectal cancer by DNA methylation profiling</article-title>
+          <source>PLoS ONE</source>
+          <year>2009</year>
+          <volume>4</volume>
+          <fpage>e8357</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0008357</pub-id>
+          <pub-id pub-id-type="pmid">20027224</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR36">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nishida</surname>
+              <given-names>N</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Extensive methylation is associated with beta-catenin mutations in hepatocellular carcinoma: evidence for two distinct pathways of human hepatocarcinogenesis</article-title>
+          <source>Cancer Res.</source>
+          <year>2007</year>
+          <volume>67</volume>
+          <fpage>4586</fpage>
+          <lpage>4594</lpage>
+          <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-06-3464</pub-id>
+          <pub-id pub-id-type="pmid">17510384</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR37">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Anwar</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Loss of DNA methylation at imprinted loci is a frequent event in hepatocellular carcinoma and identifies patients with shortened survival</article-title>
+          <source>Clin. Epigenet.</source>
+          <year>2015</year>
+          <volume>7</volume>
+          <fpage>110</fpage>
+          <pub-id pub-id-type="doi">10.1186/s13148-015-0145-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR38">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sakatani</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Loss of imprinting of Igf2 alters intestinal maturation and tumourigenesis in mice</article-title>
+          <source>Science</source>
+          <year>2005</year>
+          <volume>307</volume>
+          <fpage>1976</fpage>
+          <lpage>1978</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1108080</pub-id>
+          <pub-id pub-id-type="pmid">15731405</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR39">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cui</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Loss of imprinting in colorectal cancer linked to hypomethylation of H19 and IGF2</article-title>
+          <source>Cancer Res.</source>
+          <year>2002</year>
+          <volume>62</volume>
+          <fpage>6442</fpage>
+          <lpage>6446</lpage>
+          <pub-id pub-id-type="pmid">12438232</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR40">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ito</surname>
+              <given-names>Y</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Somatically acquired hypomethylation of IGF2 in breast and colorectal cancer</article-title>
+          <source>Hum. Mol. Genet.</source>
+          <year>2008</year>
+          <volume>17</volume>
+          <fpage>2633</fpage>
+          <lpage>2643</lpage>
+          <pub-id pub-id-type="doi">10.1093/hmg/ddn163</pub-id>
+          <pub-id pub-id-type="pmid">18541649</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR41">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gillet</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Varma</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Gottesman</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>The clinical relevance of cancer cell lines</article-title>
+          <source>J. Natl Cancer. Inst.</source>
+          <year>2013</year>
+          <volume>105</volume>
+          <fpage>452</fpage>
+          <lpage>458</lpage>
+          <pub-id pub-id-type="doi">10.1093/jnci/djt007</pub-id>
+          <pub-id pub-id-type="pmid">23434901</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR42">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Niemczyk</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Imprinted chromatin around DIRAS3 regulates alternative splicing of GNG12-AS1, a long noncoding RNA</article-title>
+          <source>Am. J. Hum. Genet.</source>
+          <year>2013</year>
+          <volume>93</volume>
+          <fpage>224</fpage>
+          <lpage>235</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ajhg.2013.06.010</pub-id>
+          <pub-id pub-id-type="pmid">23871723</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR43">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nakano</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Expression profile of LIT1/KCNQ1OT1 and epigenetic status at the KvDMR1 in colorectal cancers</article-title>
+          <source>Cancer Sci.</source>
+          <year>2006</year>
+          <volume>97</volume>
+          <fpage>1147</fpage>
+          <lpage>1154</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1349-7006.2006.00305.x</pub-id>
+          <pub-id pub-id-type="pmid">16965397</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR44">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Braconi</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>microRNA-29 can regulate expression of the long non-coding RNA gene MEG3 in hepatocellular cancer</article-title>
+          <source>Oncogene</source>
+          <year>2011</year>
+          <volume>30</volume>
+          <fpage>4750</fpage>
+          <lpage>4756</lpage>
+          <pub-id pub-id-type="doi">10.1038/onc.2011.193</pub-id>
+          <pub-id pub-id-type="pmid">21625215</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR45">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Anwar</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Loss of imprinting and allelic switching at the DLK1-MEG3 locus in human hepatocellular carcinoma</article-title>
+          <source>PLoS ONE</source>
+          <year>2012</year>
+          <volume>7</volume>
+          <fpage>e49462</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0049462</pub-id>
+          <pub-id pub-id-type="pmid">23145177</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR46">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Anwar</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Deregulation of RB1 expression by loss of imprinting in human hepatocellular carcinoma</article-title>
+          <source>J. Pathol.</source>
+          <year>2014</year>
+          <volume>233</volume>
+          <fpage>392</fpage>
+          <lpage>401</lpage>
+          <pub-id pub-id-type="doi">10.1002/path.4376</pub-id>
+          <pub-id pub-id-type="pmid">24838394</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR47">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kohda</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Frequent loss of imprinting of IGF2 and MEST in lung adenocarcinoma</article-title>
+          <source>Mol. Carcinog.</source>
+          <year>2001</year>
+          <volume>31</volume>
+          <fpage>184</fpage>
+          <lpage>191</lpage>
+          <pub-id pub-id-type="doi">10.1002/mc.1053</pub-id>
+          <pub-id pub-id-type="pmid">11536368</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR48">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ekstr&#246;m</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Cui</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Ohlsson</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Promoter-specific IGF2 imprinting status and its plasticity during human liver development</article-title>
+          <source>Development</source>
+          <year>1995</year>
+          <volume>121</volume>
+          <fpage>309</fpage>
+          <lpage>316</lpage>
+          <pub-id pub-id-type="pmid">7768174</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR49">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fujise</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Integration of hepatitis B virus DNA into cells of six established human hepatocellular carcinoma cell lines</article-title>
+          <source>Hepatogastroenterology</source>
+          <year>1990</year>
+          <volume>37</volume>
+          <fpage>457</fpage>
+          <lpage>460</lpage>
+          <pub-id pub-id-type="pmid">1701409</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR50">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aryee</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Minfi: a flexible and comprehensive bioconductor package for the analysis of Infinium DNA methylation microarrays</article-title>
+          <source>Bioinformatics</source>
+          <year>2014</year>
+          <volume>30</volume>
+          <fpage>1363</fpage>
+          <lpage>1369</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btu049</pub-id>
+          <pub-id pub-id-type="pmid">24478339</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR51">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <collab>ENCODE Project Consortium</collab>
+          </person-group>
+          <article-title>An integrated encylopedia of DNA elements in the human genome</article-title>
+          <source>Nature</source>
+          <year>2012</year>
+          <volume>489</volume>
+          <fpage>57</fpage>
+          <lpage>74</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature11247</pub-id>
+          <pub-id pub-id-type="pmid">22955616</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR52">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Olshen</surname>
+              <given-names>AB</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Parent-specific copy number in paired tumour-normal studies using circular binary segmentation</article-title>
+          <source>Bioinformatics</source>
+          <year>2011</year>
+          <volume>27</volume>
+          <fpage>2038</fpage>
+          <lpage>2046</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btr329</pub-id>
+          <pub-id pub-id-type="pmid">21666266</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR53">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Camprub&#237;</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Stability of genomic imprinting and gestational-age dynamic methylation in complicated pregnancies conceived following assisted reproductive technologies</article-title>
+          <source>Biol. Reprod.</source>
+          <year>2013</year>
+          <volume>89</volume>
+          <fpage>50</fpage>
+          <pub-id pub-id-type="doi">10.1095/biolreprod.113.108456</pub-id>
+          <pub-id pub-id-type="pmid">23884645</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

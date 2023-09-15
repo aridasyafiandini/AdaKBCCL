@@ -1,0 +1,3151 @@
+<pmc-articleset xmlns:ns0="http://www.niso.org/schemas/ali/1.0/" xmlns:ns1="http://www.w3.org/1999/xlink" xmlns:ns2="http://www.w3.org/1998/Math/MathML"><article article-type="research-article" dtd-version="1.3">
+  
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">iScience</journal-id>
+      <journal-id journal-id-type="iso-abbrev">iScience</journal-id>
+      <journal-title-group>
+        <journal-title>iScience</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2589-0042</issn>
+      <publisher>
+        <publisher-name>Elsevier</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">36483011</article-id>
+      <article-id pub-id-type="pmc">9722452</article-id>
+      <article-id pub-id-type="pii">S2589-0042(22)01875-2</article-id>
+      <article-id pub-id-type="doi">10.1016/j.isci.2022.105603</article-id>
+      <article-id pub-id-type="publisher-id">105603</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>DLL3 regulates Notch signaling in small cell lung cancer</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" id="au1">
+          <name>
+            <surname>Kim</surname>
+            <given-names>Jun W.</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="aff2" ref-type="aff">2</xref>
+          <xref rid="fn1" ref-type="fn">3</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au2">
+          <name>
+            <surname>Ko</surname>
+            <given-names>Julie H.</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="aff2" ref-type="aff">2</xref>
+          <xref rid="fn1" ref-type="fn">3</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au3">
+          <name>
+            <surname>Sage</surname>
+            <given-names>Julien</given-names>
+          </name>
+          <email>julsage@stanford.edu</email>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="aff2" ref-type="aff">2</xref>
+          <xref rid="fn2" ref-type="fn">4</xref>
+          <xref rid="cor1" ref-type="corresp">&#8727;</xref>
+        </contrib>
+        <aff id="aff1"><label>1</label>Department of Pediatrics, Stanford University, 265 Campus Drive, SIM1 G2078, Stanford, CA, USA</aff>
+        <aff id="aff2"><label>2</label>Department of Genetics, Stanford University, 265 Campus Drive, SIM1 G2078, Stanford, CA, USA</aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="cor1"><label>&#8727;</label>Corresponding author <email>julsage@stanford.edu</email></corresp>
+        <fn id="fn1">
+          <label>3</label>
+          <p id="ntpara0010">These authors contributed equally</p>
+        </fn>
+        <fn id="fn2">
+          <label>4</label>
+          <p id="ntpara0015">Lead contact</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="pmc-release">
+        <day>16</day>
+        <month>11</month>
+        <year>2022</year>
+      </pub-date>
+      
+      <pub-date pub-type="collection">
+        <day>22</day>
+        <month>12</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>16</day>
+        <month>11</month>
+        <year>2022</year>
+      </pub-date>
+      <volume>25</volume>
+      <issue>12</issue>
+      <elocation-id>105603</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>13</day>
+          <month>9</month>
+          <year>2022</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>29</day>
+          <month>10</month>
+          <year>2022</year>
+        </date>
+        <date date-type="accepted">
+          <day>14</day>
+          <month>11</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#169; 2022 The Author(s)</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <license>
+          <ns0:license_ref specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ns0:license_ref>
+          <license-p>This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).</license-p>
+        </license>
+      </permissions>
+      <abstract id="abs0010">
+        <title>Summary</title>
+        <p>Tumor heterogeneity plays a critical role in tumor development and response to treatment. In small-cell lung cancer (SCLC), intratumoral heterogeneity is driven in part by the Notch signaling pathway, which reprograms neuroendocrine cancer cells to a less/non-neuroendocrine state. Here we investigated the atypical Notch ligand DLL3 as a biomarker of the neuroendocrine state and a regulator of cell-cell interactions in SCLC. We first built a mathematical model to predict the impact of DLL3 expression on SCLC cell populations. We next tested this model using a single-chain variable fragment (scFv) to track DLL3 expression <italic>in&#160;vivo</italic> and a new mouse model of SCLC with inducible expression of DLL3 in SCLC tumors. We found that high levels of DLL3 promote the expansion of a SCLC cell population with lower expression levels of both neuroendocrine and non-neuroendocrine markers. This work may influence how DLL3-targeting therapies are used in SCLC patients.</p>
+      </abstract>
+      <abstract abstract-type="graphical" id="abs0015">
+        <title>Graphical abstract</title>
+        <fig id="undfig1" position="anchor">
+          <graphic ns1:href="fx1" />
+        </fig>
+      </abstract>
+      <abstract abstract-type="author-highlights" id="abs0020">
+        <title>Highlights</title>
+        <p>
+          <list list-type="simple" id="ulist0010">
+            <list-item id="u0010">
+              <label>&#8226;</label>
+              <p id="p0010">Ectopic expression of DLL3 suppresses Notch signaling in SCLC cells</p>
+            </list-item>
+            <list-item id="u0015">
+              <label>&#8226;</label>
+              <p id="p0015">Lateral inhibition model predicts expression level-dependent effects of DLL3</p>
+            </list-item>
+            <list-item id="u0020">
+              <label>&#8226;</label>
+              <p id="p0020">Anti-DLL3 scFv labels SCLC cells <italic>in&#160;vitro</italic> and <italic>in&#160;vivo</italic></p>
+            </list-item>
+            <list-item id="u0025">
+              <label>&#8226;</label>
+              <p id="p0025">DLL3 expression prevents cell-fate bifurcation in mouse model of SCLC</p>
+            </list-item>
+          </list>
+        </p>
+      </abstract>
+      <abstract abstract-type="teaser" id="abs0025">
+        <p>Molecular biology; Cancer; In silico biology</p>
+      </abstract>
+      <kwd-group id="kwrds0010">
+        <title>Subject areas</title>
+        <kwd>Molecular biology</kwd>
+        <kwd>Cancer</kwd>
+        <kwd>In silico biology</kwd>
+      </kwd-group>
+    </article-meta>
+    <notes>
+      <p id="misc0010">Published: December 22, 2022</p>
+    </notes>
+  </front>
+  <body>
+    <sec id="sec1">
+      <title>Introduction</title>
+      <p id="p0030">Tumors consist of a variety of cancer and non-cancer cells. Both cancer cells and non-cancer cells in the tumor microenvironment display various levels of heterogeneity. This heterogeneity may vary over time and environmental conditions, and it plays an important role in tumor development, including shaping the natural response of tumors to the immune system or treatment in the clinic (reviewed in<xref rid="bib1" ref-type="bibr"><sup>1</sup></xref><sup>,</sup><xref rid="bib2" ref-type="bibr"><sup>2</sup></xref><sup>,</sup><xref rid="bib3" ref-type="bibr"><sup>3</sup></xref><sup>,</sup><xref rid="bib4" ref-type="bibr"><sup>4</sup></xref>).</p>
+      <p id="p0035">SCLC is an aggressive subtype of lung cancer with fast growth rates and a striking metastatic ability. The median overall survival of SCLC patients has remained close to 8&#8211;10&#160;months in the past 3 decades, with a 5-year survival at &#8764;6% and over 200,000 estimated deaths worldwide every year. Most tumors respond well initially to standard-of-care chemoradiation treatment, but resistance emerges rapidly in nearly all cases (reviewed in<xref rid="bib5" ref-type="bibr"><sup>5</sup></xref>). The recent approval of T&#160;cell immune checkpoint inhibitors has been beneficial to only a small fraction of SCLC patients (reviewed in<xref rid="bib6" ref-type="bibr"><sup>6</sup></xref>). There is a critical need to develop biomarkers for SCLC development and more efficient therapeutic strategies.</p>
+      <p id="p0040">SCLC tumors harbor few non-cancer cells<xref rid="bib7" ref-type="bibr"><sup>7</sup></xref> but inter- and intratumoral heterogeneity is still a prominent feature of these tumors. At the epigenetic/transcriptional level, SCLC tumors have been classified into different subtypes based on transcriptional programs driven by specific transcription factors in cancer cell populations, with the SCLC-A (expressing the ASCL1 transcription factor) and SCLC-N (expressing the NEUROD1 transcription factor) neuroendocrine subtypes being the most frequent in patients.<xref rid="bib8" ref-type="bibr"><sup>8</sup></xref><sup>,</sup><xref rid="bib9" ref-type="bibr"><sup>9</sup></xref><sup>,</sup><xref rid="bib10" ref-type="bibr"><sup>10</sup></xref> Importantly, mounting evidence indicates that individual SCLC tumors are comprising heterogeneous populations of cancer cells with different levels of neuroendocrine gene programs.<xref rid="bib11" ref-type="bibr"><sup>11</sup></xref><sup>,</sup><xref rid="bib12" ref-type="bibr"><sup>12</sup></xref><sup>,</sup><xref rid="bib13" ref-type="bibr"><sup>13</sup></xref> As an example of this intratumoral heterogeneity, in SCLC-A tumors, activation of Notch signaling can reprogram neuroendocrine (NE) cancer cells toward less/non-neuroendocrine (non-NE) phenotypes.<xref rid="bib12" ref-type="bibr"><sup>12</sup></xref> The non-NE cells are less tumorigenic and genetic and pharmacologic approaches to promote NE to non-NE differentiation have been shown to decrease SCLC tumor growth.<xref rid="bib14" ref-type="bibr"><sup>14</sup></xref> But non-NE can support the survival of the NE cells, including when tumors are treated with chemotherapy.<xref rid="bib12" ref-type="bibr"><sup>12</sup></xref><sup>,</sup><xref rid="bib15" ref-type="bibr"><sup>15</sup></xref> In this context, the mechanisms activating Notch signaling are not completely understood, but may depend on the YAP transcriptional regulator.<xref rid="bib16" ref-type="bibr"><sup>16</sup></xref> As another example, in SCLC-N tumors, expression of c-MYC can activate Notch signaling, which also promotes the transition of these tumors to a less neuroendocrine phenotype.<xref rid="bib17" ref-type="bibr"><sup>17</sup></xref> These data and data from human tumors indicate that both inter- and intratumoral heterogeneity are likely key contributors of the ability of SCLC tumors to become resistant to therapies.<xref rid="bib8" ref-type="bibr"><sup>8</sup></xref><sup>,</sup><xref rid="bib18" ref-type="bibr"><sup>18</sup></xref><sup>,</sup><xref rid="bib19" ref-type="bibr"><sup>19</sup></xref></p>
+      <p id="p0045">DLL3 (Delta-like ligand 3) is an atypical ligand for NOTCH receptors initially studied for its role in early pattern formation in mouse embryos.<xref rid="bib20" ref-type="bibr"><sup>20</sup></xref><sup>,</sup><xref rid="bib21" ref-type="bibr"><sup>21</sup></xref><sup>,</sup><xref rid="bib22" ref-type="bibr"><sup>22</sup></xref> Early work showed that DLL3 does not activate Notch signaling but rather functions as an inhibitor of Notch signaling in a cell autonomous manner,<xref rid="bib23" ref-type="bibr"><sup>23</sup></xref> possibly in a <italic>cis</italic>-inhibition mechanism in the Golgi.<xref rid="bib24" ref-type="bibr"><sup>24</sup></xref><sup>,</sup><xref rid="bib25" ref-type="bibr"><sup>25</sup></xref> However, genetic studies of DLL3 O-fucosylation indicate that interactions with NOTCH may not fully account for the physiological function of DLL3, suggesting possible Notch-independent roles for DLL3 <italic>in&#160;vivo.</italic><xref rid="bib26" ref-type="bibr"><sup>26</sup></xref> The mouse <italic>Dll3</italic> gene is a direct target of ASCL1<xref rid="bib27" ref-type="bibr"><sup>27</sup></xref> and <italic>DLL3</italic> is expressed in a significant number of human SCLC tumors. Importantly, Saunders and colleagues showed that DLL3 is present at the surface of SCLC cells and that targeting DLL3-expressing SCLC cells using an antibody-drug conjugate (ADC) can eradicate SCLC in pre-clinical models.<xref rid="bib28" ref-type="bibr"><sup>28</sup></xref> Clinical trials using Rovalpituzumab tesirine (Rova-T), an ADC targeting DLL3, have been unsuccessful largely because of toxic side effects of this molecule (e.g.,<xref rid="bib29" ref-type="bibr"><sup>29</sup></xref><sup>,</sup><xref rid="bib30" ref-type="bibr"><sup>30</sup></xref><sup>,</sup><xref rid="bib31" ref-type="bibr"><sup>31</sup></xref>). However, other strategies are being developed to target DLL3 expressing cells, (e.g.,<xref rid="bib32" ref-type="bibr"><sup>32</sup></xref><sup>,</sup><xref rid="bib33" ref-type="bibr"><sup>33</sup></xref><sup>,</sup><xref rid="bib34" ref-type="bibr"><sup>34</sup></xref><sup>,</sup><xref rid="bib35" ref-type="bibr"><sup>35</sup></xref>) and DLL3 remains a target of interest for detection and treatment of SCLC.</p>
+      <p id="p0050">Here we developed tools and models to further investigate the role of DLL3 as a biomarker of SCLC and as a regulator of Notch signaling in SCLC. We used mathematical modeling based on published data to predict the potential role that DLL3 expression may have on tumor heterogeneity. We further developed a new single-chain fragment variable (scFv) that can bind DLL3 on cells in culture and <italic>in&#160;vivo.</italic> Finally, we used this scFv to test our mathematical models in a new genetically engineered mouse model of SCLC with inducible expression of DLL3. Our data show variable levels of DLL3 expression in SCLC and indicate that DLL3 expression contributes to intratumoral heterogeneity.</p>
+    </sec>
+    <sec id="sec2">
+      <title>Results</title>
+      <sec id="sec2.1">
+        <title>Modeling the role of DLL3 in Notch-driven intratumoral heterogeneity in SCLC</title>
+        <p id="p0055">DLL3 is often viewed as a <italic>cis</italic>-inhibitor of Notch signaling during development because of its role in localizing NOTCH receptors in the Golgi (<xref rid="fig1" ref-type="fig">Figure&#160;1</xref>A). To determine if DLL3 could suppress Notch activity in SCLC cells, we used cells derived from tumors in the <italic>Rb</italic><sup><italic>fl/fl</italic></sup><italic>;p53</italic><sup><italic>fl/fl</italic></sup><italic>;Rbl2</italic><sup><italic>fl/fl</italic></sup><italic>;Hes1</italic><sup><italic>GFP/+</italic></sup> mouse model of SCLC (<italic>RPR2;Hes1</italic><sup><italic>GFP</italic></sup> model, also known as <italic>TKO;Hes1</italic><sup><italic>GFP</italic></sup>, for triple knockout).<xref rid="bib12" ref-type="bibr"><sup>12</sup></xref><sup>,</sup><xref rid="bib16" ref-type="bibr"><sup>16</sup></xref> In this model, SCLC cells express GFP when the <italic>Hes1</italic> promoter is active. Because <italic>Hes1</italic> is a target of Notch signaling, GFP expression can serve as a reporter of Notch activity, and HES1<sup>GFP</sup>-positive (HES1<sup>pos</sup>) cells are less/non-neuroendocrine.<xref rid="bib12" ref-type="bibr"><sup>12</sup></xref><sup>,</sup><xref rid="bib16" ref-type="bibr"><sup>16</sup></xref> We isolated HES1<sup>pos</sup> cells from <italic>RPR2;Hes1</italic><sup><italic>GFP</italic></sup>mutant tumors, and ectopic expression of FLAG-tagged DLL3 in these HES1<sup>pos</sup> cells led to fewer GFP-positive cells, providing further&#160;evidence that DLL3 can suppress Notch signaling in <italic>cis</italic> in this SCLC context (<xref rid="fig1" ref-type="fig">Figures&#160;1</xref>B&#8211;1D and <xref rid="mmc1" ref-type="supplementary-material">S1</xref>A).<fig id="fig1"><label>Figure&#160;1</label><caption><p>Mathematical model of mutual inactivation shows production rate-dependent role of DLL3</p><p>(A) Schematic of Notch, DLL1, and DLL3 interactions in lateral inhibition with mutual inactivation (LIMI).</p><p>(B) Schematic of HES1<sup>GFP</sup>-positive cells from an <italic>RPR2;Hes1</italic><sup><italic>GFP</italic></sup> tumor serving as a reporter cell line, with GFP expression from the <italic>Hes1</italic> locus to monitor the effect of ectopic DLL3 expression in regulating Notch activity.</p><p>(C) Flow cytometry of HES1<sup>GFP</sup>-positive cells with (blue) and without (black) ectopic expression of DLL3 (representative of n&#160;= 4 biological replicates).</p><p>(D) Percentage of GFP<sup>high</sup> HES1<sup>GFP</sup>-positive cells with and without ectopic expression of DLL3. Unpaired t-test, data represented as mean&#160;&#177; s.d. &#8727;&#8727;&#8727;p&lt;0.001.</p><p>(E) Log(H<sub>max</sub>/H<sub>min</sub>) at steady state were calculated as a function of <italic>&#946;</italic><sub>D3</sub> and <italic>&#946;</italic><sub>D</sub>. Regions with values greater than 0 (light blue to yellow regions) support patterning, whereas those with 0 (dark blue) do not.</p><p>(F) Hexagonal cell lattice with LIMI showing that DLL3 expression can lead to sparser patterns of HES1<sup>high</sup> cells (blue) or no pattern (homogeneous color).</p><p>(G) H<sub>max</sub> as a function of <italic>&#946;</italic><sub>D3</sub> and <italic>&#946;</italic><sub>D</sub>.</p><p>(H) H<sub>min</sub> as a function of <italic>&#946;</italic><sub>D3</sub> and <italic>&#946;</italic><sub>D</sub>.</p><p>(I) Simulations with the indicated parameters for <italic>&#946;</italic><sub>D3</sub> showing H levels in cells with high and low final H levels.</p><p>Green, red, purple, and gray dots in (E), (G), and (H)&#160;correspond to the parameters used in (I). See also <xref rid="mmc1" ref-type="supplementary-material">Figure&#160;S1</xref> and <xref rid="mmc1" ref-type="supplementary-material">Table&#160;S1</xref>.</p></caption><graphic ns1:href="gr1" /></fig></p>
+        <p id="p0060">In the Notch signaling pathway, activation of NOTCH receptors by their ligands, including Delta-like proteins (DLLs), leads to NOTCH cleavage, releasing the NOTCH intracellular domain (NICD). NICD induces transcription of the gene coding for HES1, which is an inhibitor of ASCL1, which is itself an activator of the expression of NOTCH ligands (DLLs, representing DLL1/3/4 and Jagged1/2 here).<xref rid="bib27" ref-type="bibr"><sup>27</sup></xref><sup>,</sup><xref rid="bib36" ref-type="bibr"><sup>36</sup></xref> This negative feedback leads to lateral inhibition and distinct cell fates among neighboring cells: low NOTCH/high DLL (&#8216;sender&#8217;) cells and high Notch/low DLL (&#8216;receiver&#8217;) cells (<xref rid="fig1" ref-type="fig">Figure&#160;1</xref>A).<xref rid="bib37" ref-type="bibr"><sup>37</sup></xref> To gain a better understanding of the consequences of DLL3 expression on Notch signaling and intratumoral heterogeneity in SCLC, we built a simple mathematical model by incorporating DLL3 in the canonical mutual inhibition model of lateral inhibition<xref rid="bib38" ref-type="bibr"><sup>38</sup></xref> using the following reactions: (1) NOTCH receptors, denoted N, bind to DLL1 (as a representative of all NOTCH ligands, denoted D) in <italic>trans</italic>, which leads to cleavage of NOTCH and release of the Notch intracellular domain (NICD), denoted S; (2) NICD increases expression of HES1, denoted H<xref rid="bib39" ref-type="bibr"><sup>39</sup></xref>; (3) HES1 inhibits expression of DLL1<xref rid="bib27" ref-type="bibr"><sup>27</sup></xref><sup>,</sup><xref rid="bib36" ref-type="bibr"><sup>36</sup></xref>; (4) NOTCH receptors bind to DLL1 and DLL3, denoted D3, in <italic>cis</italic>, which inhibits NOTCH cleavage.<xref rid="bib23" ref-type="bibr"><sup>23</sup></xref><sup>,</sup><xref rid="bib25" ref-type="bibr"><sup>25</sup></xref><sup>,</sup><xref rid="bib40" ref-type="bibr"><sup>40</sup></xref> As expected, setting the production rate of D3 at 0 replicated the results from previous studies on mutual inactivation<xref rid="bib38" ref-type="bibr"><sup>38</sup></xref><sup>,</sup><xref rid="bib41" ref-type="bibr"><sup>41</sup></xref>supporting patterning even without cooperative regulatory feedback in the lateral inhibition model (<xref rid="mmc1" ref-type="supplementary-material">Figures&#160;S1</xref>B&#8211;S1G). We simulated this model using 1600 parameter sets across a two-dimensional parameter space spanning a wide range of production rates of D (<italic>&#946;</italic><sub><italic>D</italic></sub>) and D3 (<italic>&#946;</italic><sub><italic>D3</italic></sub>) (<xref rid="fig1" ref-type="fig">Figure&#160;1</xref>E and Equations <xref rid="fd1" ref-type="disp-formula">(1)</xref>, <xref rid="fd2" ref-type="disp-formula">(2)</xref>, <xref rid="fd3" ref-type="disp-formula">(3)</xref>, <xref rid="fd4" ref-type="disp-formula">(4)</xref> in <xref rid="sec4" ref-type="sec">STAR methods</xref> section, and <xref rid="mmc1" ref-type="supplementary-material">Table&#160;S1</xref> for parameter values). To represent multicellular interactions, a two-dimensional hexagonal cell lattice was used for each parameter set. We plotted log(H<sub>max</sub>/H<sub>min</sub>), where H<sub>max</sub> and H<sub>min</sub> are the maximal and minimal HES1 levels in the hexagonal lattice at the steady state, respectively, as a function of <italic>&#946;</italic><sub><italic>D</italic></sub> and <italic>&#946;</italic><sub><italic>D3</italic></sub> to observe parameters leading to lateral inhibition, or heterogeneity in HES1 level.<xref rid="bib42" ref-type="bibr"><sup>42</sup></xref></p>
+        <p id="p0065">The <italic>cis</italic>-inhibition model shows that when &#946;<sub>D3</sub>&gt; &#946;<sub>D</sub>, HES1 heterogeneity mostly does not occur, indicating effective inhibition of cell-type bifurcation (<xref rid="fig1" ref-type="fig">Figure&#160;1</xref>E). Within the parameter regime leading to heterogeneity, &#946;<sub>D3</sub> also regulates the ratio of receiver (HES1<sup>high</sup>) cells and sender (HES1<sup>low</sup>) cells, with higher number of sender cells as &#946;<sub>D3</sub> increases (<xref rid="fig1" ref-type="fig">Figure&#160;1</xref>F). We next examined H<sub>max</sub> and H<sub>min</sub> separately. H<sub>max</sub> consistently decreases as &#946;<sub>D3</sub> increases (<xref rid="fig1" ref-type="fig">Figure&#160;1</xref>G). Of interest, a large region of parameter space shows higher H<sub>min</sub>&#160;with increasing DLL3 (<xref rid="fig1" ref-type="fig">Figures&#160;1</xref>H and 1I). H<sub>min</sub> increases throughout the parameter regime that&#160;leads&#160;to heterogeneity, peaking near &#946;<sub>D3</sub>&#160;= &#946;<sub>D</sub>, and gradually decreases as &#946;<sub>D3</sub>further increases (<xref rid="fig1" ref-type="fig">Figure&#160;1</xref>H).</p>
+        <p id="p0070">In this system, our mathematical modeling suggests that the influence of DLL3 on the heterogeneity of HES1 level depends on the level of DLL3 expression. At high levels (&#946;<sub>D3</sub>&gt;&gt; &#946;<sub>D</sub>), DLL3 inhibits both heterogeneity and Notch activation. At lower levels, however, DLL3 allows <italic>trans</italic>-interaction between NOTCH and other DLLs while preventing lateral inhibition, which leads to homogeneous intermediate NOTCH activation throughout the cell population. In the parameter space leading to heterogeneity, DLL3 expression also affects sparsity of the receiver cells.</p>
+      </sec>
+      <sec id="sec2.2">
+        <title>Generation and validation of a single-chain fragment variable (scFv) binding DLL3</title>
+        <p id="p0075">Given that differences in DLL3 expression level may contribute to intratumoral heterogeneity via NOTCH-driven patterning, we sought to examine whether DLL3 levels in tumors were related to the amount of NOTCH signaling or intratumoral heterogeneity present <italic>in&#160;vivo</italic>. To do this, we first developed a new tool to detect DLL3 in tumors <italic>in&#160;vivo.</italic></p>
+        <p id="p0080">Single-chain fragment variables (scFvs) have several advantages over antibodies, including their small size and their ease of production in bacteria.<xref rid="bib43" ref-type="bibr"><sup>43</sup></xref><sup>,</sup><xref rid="bib44" ref-type="bibr"><sup>44</sup></xref> We generated a His-tagged scFv based on the sequence of an antibody targeting DLL3 (Methods) (<xref rid="fig2" ref-type="fig">Figures&#160;2</xref>A and <xref rid="mmc1" ref-type="supplementary-material">S2</xref>A). We first tested the binding of this scFv targeting DLL3 in 293T cells expressing exogenous DLL3 compared to controls. Flow cytometry analysis using an anti-His antibody showed increased binding in cells expressing mouse DLL3 (<xref rid="fig2" ref-type="fig">Figures&#160;2</xref>B and 2C). Using the same approach, we were also able to detect endogenous DLL3 expression in human SCLC cell lines (<xref rid="fig2" ref-type="fig">Figures&#160;2</xref>C and <xref rid="mmc1" ref-type="supplementary-material">S2</xref>B). Thus, this scFv targeting DLL3 is capable of binding to DLL3 expressed on the surface of SCLC cells in culture.<fig id="fig2"><label>Figure&#160;2</label><caption><p>Detection of DLL3 expression at the surface of cells using an anti-DLL3 scFv</p><p>(A) Schematic representation of the His-tagged scFv targeting DLL3 (aDLL3scFv) and the detection of cells expressing DLL3 using this molecule.</p><p>(B) Representative flow cytometry analysis of DLL3 expression in 293T cells expressing exogenous mouse DLL3 using aDLL3scFv (from n&#160;= 3 biological replicates).</p><p>(C) Quantification of DLL3 detection in 293T-DLL3 cells from (B)&#160;and human SCLC cell lines.</p><p>(D) Schematic representation of AF680-labeled aDLL3scFv (aDLL3AF680).</p><p>(E) Representative flow cytometry showing binding activity of aDLL3AF680 (from n&#160;= 3 biological replicates).</p><p>(F) Quantification of (E)&#160;in human SCLC cell lines.</p><p>(G) Whole body fluorescent images of H82 tumor xenografts with 2&#160;nmol of AF680-labeled scFv injected via the tail vein (left). Tumors (T)&#160;and kidneys (K)&#160;are indicated. Quantification of imaging signals (right), reported as the total flux (p/s) (n&#160;= 3).</p><p>(H) Representative <italic>ex&#160;vivo</italic> imaging of two H82-bearing mice in (G).</p><p>Unpaired t-test, data represented as mean&#160;&#177; s.d. &#8727;p&lt;0.05, &#8727;&#8727;p&lt;0.01, &#8727;&#8727;&#8727;p&lt;0.001. See also <xref rid="mmc1" ref-type="supplementary-material">Figure&#160;S2</xref>.</p></caption><graphic ns1:href="gr2" /></fig></p>
+        <p id="p0085">To determine if this scFv molecule (aDLL3scFv) could be useful to detect SCLC tumors <italic>in&#160;vivo</italic>, we directly labeled the amino groups of lysine residues and the N-terminal group of the aDLL3scFv with Alexa Fluor 680 (AF680), a near-infrared fluorophore with strong tissue penetration that is suitable for <italic>in&#160;vivo</italic> imaging (<xref rid="fig2" ref-type="fig">Figure&#160;2</xref>D). We first verified that the AF680-labeled aDLL3scFv (aDLL3AF680) still detected DLL3 on the surface of 293T cells expressing exogenous DLL3 as well as SCLC cells in culture (<xref rid="fig2" ref-type="fig">Figures&#160;2</xref>E, 2F, and <xref rid="mmc1" ref-type="supplementary-material">S2</xref>C). Noninvasive optical imaging was performed over a 6-h time period following tail-vein injections with 2&#160;nmol of aDLL3AF680 in NSG mice bearing subcutaneous xenografts (H82 model). Whole-body fluorescent imaging showed prominent signal in the tumor area, as well as in the kidney (where the scFv molecules are excreted) 2&#8211;3&#160;h post injection (<xref rid="fig2" ref-type="fig">Figures&#160;2</xref>G and 2H). Maximum tumor-to-normal tissue contrast was observed 2&#160;h post injection (<xref rid="mmc1" ref-type="supplementary-material">Figure&#160;S2</xref>D). Signal from the fluorescent scFv was strong after 1&#160;h and started to decrease after 3&#8211;4 h, as expected for a small molecule with a short half-life (<xref rid="fig2" ref-type="fig">Figure&#160;2</xref>G).</p>
+      </sec>
+      <sec id="sec2.3">
+        <title>Exogenous expression of DLL3 in mouse SCLC tumors</title>
+        <p id="p0090">Notch signaling is a driver of non-neuroendocrine cell fates and intratumoral heterogeneity in SCLC,<xref rid="bib12" ref-type="bibr"><sup>12</sup></xref><sup>,</sup><xref rid="bib17" ref-type="bibr"><sup>17</sup></xref> and our mathematical modeling predicts that DLL3 may contribute to Notch signaling activity and may modulate heterogeneity. We next sought to test this idea experimentally in the <italic>RPR2</italic> mouse model of SCLC where this heterogeneity has been described.<xref rid="bib12" ref-type="bibr"><sup>12</sup></xref><sup>,</sup><xref rid="bib16" ref-type="bibr"><sup>16</sup></xref> In this model, intra-tracheal instillation of an adenoviral vector expressing the Cre recombinase initiates tumors modeling the SCLC-A subtype of human SCLC. SCLC cells in these tumors express DLL3 at their surface (<xref rid="mmc1" ref-type="supplementary-material">Figure&#160;S3</xref>A).</p>
+        <p id="p0095">To manipulate DLL3 levels in this model, we generated a new allele to conditionally induce DLL3 expression upon Cre-mediated recombination (<italic>Rosa26</italic><sup><italic>LSL-Dll3</italic></sup> allele) (<xref rid="fig3" ref-type="fig">Figure&#160;3</xref>A). We crossed this allele to the <italic>RPR2</italic> model (<italic>RPR2;Rosa26</italic><sup><italic>LSL-Dll3</italic></sup> mice) and initiated tumors by Ad-CMV-Cre instillation. As controls, we used <italic>RPR2;Rosa26</italic><sup><italic>LSL-Luc</italic></sup> mice.<xref rid="bib45" ref-type="bibr"><sup>45</sup></xref> Tumors developed in <italic>RPR2;Rosa26</italic><sup><italic>Dll3</italic></sup> mice, and their histology was indistinguishable from that of <italic>RPR2;Rosa26</italic><sup><italic>Luc</italic></sup> mice; whereas we did not generate enough mice to rigorously quantify tumor number and tumor burden, we did not observe any striking difference in tumor development between the two models (<xref rid="fig3" ref-type="fig">Figure&#160;3</xref>B). A cell line derived from a <italic>RPR2;Rosa26</italic><sup><italic>Dll3</italic></sup>mutant lung tumor grew as spherical clusters in suspension typical of neuroendocrine SCLC cell lines<xref rid="bib12" ref-type="bibr"><sup>12</sup></xref> and showed&#160;weak but detectable expression of the tdTomato reporter linked to DLL3 expression, as well as the expected&#160;recombination of the <italic>Lox-STOP-Lox</italic> cassette, validating the new allele (<xref rid="fig3" ref-type="fig">Figures&#160;3</xref>A, <xref rid="mmc1" ref-type="supplementary-material">S3</xref>B, and S3C).<fig id="fig3"><label>Figure&#160;3</label><caption><p>DLL3 expression perturbs the balance between neuroendocrine and non-neuroendocrine cells in a mouse model of SCLC</p><p>(A) Schematic representation of the Cre-inducible <italic>Dll3</italic> allele and the genetically engineered mouse model of SCLC.</p><p>(B) Representative hematoxylin and eosin (H&amp;E) staining of sections from <italic>RPR2;R26</italic><sup><italic>Luc</italic></sup> and <italic>RPR2;R26</italic><sup><italic>Dll3</italic></sup>mutant lungs (top, scale bar 1&#160;mm) and lung tumors (bottom, scale bar 100&#160;&#956;m) 6&#160;months after tumor initiation (n &#8805; 6 mice).</p><p>(C) Representative flow cytometry analysis of DLL3 cell surface expression in SCLC cells from <italic>RPR2;R26</italic><sup><italic>Luc</italic></sup> and <italic>RPR2;R26</italic><sup><italic>Dll3</italic></sup>mutant mice 5.5&#160;months after tumor initiation.</p><p>(D) Quantification of (C) (n&#160;= 5 independent experiments).</p><p>(E) As in (C)&#160;with <italic>RPR2;R26</italic><sup><italic>Luc</italic></sup> SCLC cells differentiated by NCAM and ICAM expression.</p><p>(F) Quantification of (E) (n&#160;= 6 independent experiments).</p><p>(G) Representative flow cytometry dot plots of control cancer cells from <italic>RPR2;R26</italic><sup><italic>Luc</italic></sup> tumors with no stain, stained cells from <italic>RPR2;R26</italic><sup><italic>Luc</italic></sup> tumors, and stained cells from <italic>RPR2;R26</italic><sup><italic>Dll3</italic></sup> tumors (from left to right).</p><p>(H&#8211;J) Quantification of NCAM<sup>high</sup> ICAM<sup>low</sup>, NCAM<sup>low</sup> ICAM<sup>high</sup>, and NCAM<sup>low</sup> ICAM<sup>low</sup> populations in (G).</p><p>Unpaired t-test, data represented as mean&#160;&#177; s.d. &#8727;p&lt;0.05, &#8727;&#8727;p&lt;0.01, &#8727;&#8727;&#8727;p&lt;0.001. See also <xref rid="mmc1" ref-type="supplementary-material">Figure&#160;S3</xref>.</p></caption><graphic ns1:href="gr3" /></fig></p>
+        <p id="p0100">We analyzed tumors from <italic>RPR2;Rosa26</italic><sup><italic>Dll3</italic></sup> and <italic>RPR2;Rosa26</italic><sup><italic>Luc</italic></sup>mutant mice &#8764;5&#8211;6&#160;months after tumor initiation for DLL3 expression using aDLL3scFv. In control <italic>RPR2;Rosa26</italic><sup><italic>Luc</italic></sup> tumors, we observed two populations of cancer cells, as would be expected for tumors with neuroendocrine (high DLL3) and less/non-neuroendocrine (low DLL3) cells (<xref rid="fig3" ref-type="fig">Figures&#160;3</xref>C and 3D). We validated this using NCAM and ICAM staining, with NCAM<sup>high</sup> ICAM<sup>low</sup> cells representing neuroendocrine cells and NCAM<sup>low</sup> ICAM<sup>high</sup> cells representing less/non-neuroendocrine, as validated previously by RNA-sequencing of these two populations from <italic>RPR2</italic> tumors<xref rid="bib16" ref-type="bibr"><sup>16</sup></xref> (<xref rid="fig3" ref-type="fig">Figures&#160;3</xref>E and 3F). In <italic>RPR2;Rosa26</italic><sup><italic>Dll3</italic></sup>mutant tumors, we observed fewer cells with low levels of DLL3 and a more homogeneous population of cells expressing intermediate/high levels of DLL3 (<xref rid="fig3" ref-type="fig">Figures&#160;3</xref>C and 3D), indicating that the <italic>Rosa26</italic><sup><italic>Dll3</italic></sup> allele can elevate DLL3 expression on the surface of DLL3<sup>low</sup> cells but does not result in further overexpression on the surface of DLL3<sup>high</sup> cells (<xref rid="fig3" ref-type="fig">Figures&#160;3</xref>C and 3D). Similarly, although NCAM<sup>high</sup> ICAM<sup>low</sup> cells express higher level of DLL3 compared to NCAM<sup>low</sup> ICAM<sup>high</sup>, no significant difference was detected between those of NCAM<sup>high</sup> ICAM<sup>low</sup> cells and cells from <italic>RPR2;Rosa26</italic><sup><italic>Dll3</italic></sup>mutant tumors (<xref rid="fig3" ref-type="fig">Figures&#160;3</xref>E and3F).</p>
+        <p id="p0105">We next quantified HES1 expression as a marker of intratumoral heterogeneity in <italic>RPR2;Rosa26</italic><sup><italic>Dll3</italic></sup> and <italic>RPR2;Rosa26</italic><sup><italic>Luc</italic></sup>mutant tumors, with HES1<sup>high</sup> cells being Notch-active and less/non-neuroendocrine. As expected, we found regions with variable numbers of HES1-positive cells<xref rid="bib12" ref-type="bibr"><sup>12</sup></xref><sup>,</sup><xref rid="bib16" ref-type="bibr"><sup>16</sup></xref> (<xref rid="mmc1" ref-type="supplementary-material">Figure&#160;S3</xref>D). However, we did not detect any significant change in heterogeneity based on this marker between the two groups (<xref rid="mmc1" ref-type="supplementary-material">Figure&#160;S3</xref>E). Although these experiments indicate that higher levels of DLL3 in tumors do not block the ability of SCLC cells to undergo a transition to a NOTCH-driven HES1-positive state, we reasoned that immunostaining may not be quantitative enough to identify more subtle changes.</p>
+        <p id="p0110">We used flow cytometry to compare the expression of NCAM and ICAM in primary lung tumors from <italic>RPR2;Rosa26</italic><sup><italic>Dll3</italic></sup> and <italic>RPR2;Rosa26</italic><sup><italic>Luc</italic></sup> mice (<xref rid="fig3" ref-type="fig">Figure&#160;3</xref>G). Compared to <italic>RPR2;Rosa26</italic><sup><italic>Luc</italic></sup> tumors, we found that <italic>RPR2;Rosa26</italic><sup><italic>Dll3</italic></sup> tumors exhibited a significant decrease in the NCAM<sup>low</sup> ICAM<sup>high</sup> non-neuroendocrine population with no significant change in the NCAM<sup>high</sup> ICAM<sup>low</sup> neuroendocrine population (<xref rid="fig3" ref-type="fig">Figures&#160;3</xref>G&#8211;3I). The change in the NCAM<sup>low</sup> ICAM<sup>high</sup> population was reflected by an increase in NCAM<sup>low</sup> ICAM<sup>low</sup> cells in <italic>RPR2;Rosa26</italic><sup><italic>Dll3</italic></sup> tumors (<xref rid="fig3" ref-type="fig">Figures&#160;3</xref>G and 3J).</p>
+        <p id="p0115">The relatively homogeneous population in <italic>RPR2;Rosa26</italic><sup><italic>Dll3</italic></sup> tumors suggests that higher expression of DLL3 in SCLC cells can inhibit the cell-fate bifurcation process mediated by the Notch signaling pathway. These observations support a model in which DLL3 contributes to Notch signaling activity in SCLC <italic>in&#160;vivo</italic>.</p>
+      </sec>
+    </sec>
+    <sec id="sec3">
+      <title>Discussion</title>
+      <p id="p0120">Here we investigated the role of the atypical NOTCH ligand DLL3 in a mouse model of SCLC. In our three-pronged approach, we combined mathematical modeling, a new scFv molecule that binds DLL3, and a new allele to induce DLL3 expression in mouse cells. We found that DLL3 expression contributes to the generation of specific subpopulations of SCLC cells, supporting a role for DLL3 in Notch signaling and in the control of intratumoral heterogeneity in SCLC.</p>
+      <p id="p0125">The Notch pathway is a highly conserved signaling mechanism implicated in both normal development and the progression of various cancer types. In different tissues, Notch signaling provides a binary fate switch through a biochemical feedback mechanism known as lateral inhibition, which regulates differentiation into different cell types from an initially homogeneous field of cells (reviewed in<xref rid="bib46" ref-type="bibr"><sup>46</sup></xref><sup>,</sup><xref rid="bib47" ref-type="bibr"><sup>47</sup></xref>). Thus, the Notch signaling pathway promotes cell fate &#8220;bifurcation&#8221; rather than a specific cell fate. This contribution of Notch-mediated lateral inhibition to intratumoral heterogeneity has been investigated extensively in multiple settings, including breast cancer,<xref rid="bib48" ref-type="bibr"><sup>48</sup></xref> glioblastoma,<xref rid="bib49" ref-type="bibr"><sup>49</sup></xref> and bladder cancer.<xref rid="bib50" ref-type="bibr"><sup>50</sup></xref> To examine a potential role of the atypical NOTCH ligand DLL3 in SCLC in the classical Notch signaling circuit, we incorporated DLL3 in the lateral inhibition model with a mutual inactivation model. Our mathematical modeling predicts that DLL3 expression can affect Notch signaling in several ways. As expected, when the production rate of DLL3 exceeds that of DLL1 (&#946;<sub>D3</sub>&gt; &#946;<sub>D</sub>) heterogeneity sharply decreases, indicating that DLL3 effectively reduces lateral inhibition. Within the parameter regime of heterogeneity, DLL3 expression modulates the relative number of HES1<sup>pos</sup> cells, making them sparser with increased DLL3 expression. Of interest, although very high production rates of DLL3 (&#946;<sub>D3</sub>&#8811; &#946;<sub>D</sub>) lead to inhibition of Notch activation in the entire population, over a wide range of parameters DLL3 expression maintains an intermediate level of Notch activation, which peaks near &#946;<sub>D3</sub>&#160;= &#946;<sub>D</sub>. This observation reflects two seemingly opposing effects on Notch signaling. Low levels of DLL3 are sufficient to inhibit lateral inhibition, reducing or preventing the rise of HES1<sup>low</sup> cells. At very high levels, DLL3 inhibits Notch activation entirely through complete <italic>cis</italic>-inhibition. In between these two states, the <italic>trans</italic>-activation of Notch by DLL1 reinforces intermediate Notch activity, even within the parameter regime that leads to the homogeneous state. Thus, in the context of SCLC, our theoretical framework predicts that although high levels of DLL3 promote the HES1<sup>low</sup> phenotype (neuroendocrine), at lower levels they can lead to a hybrid phenotype that is neither HES1<sup>low</sup> nor HES1<sup>high</sup>. When we examined the role of DLL3 experimentally in these processes, we found that ectopic expression of DLL3 in HES1<sup>pos</sup> cells results in decreased HES1 expression, supportive of a <italic>cis</italic>-inhibitory function for DLL3. It is worth noting however, that the presence of DLL3 at the cell surface of SCLC cells could also in theory result in effects in trans on Notch signaling. This has not been described yet but should be the focus of future work, as it may affect our model and the interpretation of our experiments, as well as our general understanding of the Notch pathway.</p>
+      <p id="p0130">Intriguingly, induction of DLL3 in a mouse model of SCLC revealed that this ectopic expression decreases the relative number of cells in the non-neuroendocrine (NCAM<sup>low</sup> ICAM<sup>high</sup>) population and increases that of a NCAM<sup>low</sup> ICAM<sup>low</sup> population, without significantly altering the neuroendocrine (NCAM<sup>high</sup> ICAM<sup>low</sup>) population of cancer cells. This result suggests that DLL3 inhibits the bifurcation of SCLC cell fates. In future&#160;studies, it will be interesting to examine the exact nature of the NCAM<sup>low</sup> ICAM<sup>low</sup> population in <italic>RPR2;Rosa26</italic><sup><italic>Dll3</italic></sup> tumors, such as whether these cells represent a precursor cell similar to lung epithelial cells during early lung development before Notch signaling is activated or another population of non-NE cells that do not require Notch.<xref rid="bib51" ref-type="bibr"><sup>51</sup></xref> Our new mouse allele for DLL3 expression may also be useful in the future to investigate how DLL3 plays Notch-dependent and Notch-independent roles both in developmental processes and in cancer.</p>
+      <p id="p0135">The &#8220;fit-for-purpose&#8221; approach for biomarker assays is a useful way to think how such biomarkers assays should be tailored to the intended use of the data generated by these assays.<xref rid="bib52" ref-type="bibr"><sup>52</sup></xref><sup>,</sup><xref rid="bib53" ref-type="bibr"><sup>53</sup></xref> In the case of DLL3, because several therapeutic approaches currently in clinical development rely on the expression of DLL3 on SCLC cells, validating DLL3 expression at the surface of cancer cells before and during treatment could benefit patients with SCLC. Precise monitoring of DLL3 levels in SCLC cells could be used to track overall progression of SCLC and, as our data suggest, heterogeneity between SCLC cell subpopulations. PET imaging of DLL3 has been evaluated clinically using DLL3 targeting antibodies with promising results.<xref rid="bib54" ref-type="bibr"><sup>54</sup></xref> However, slow normal tissue clearance and requirement of radioisotopes with long half-lives hamper clinical application of antibodies as noninvasive imaging agents.<xref rid="bib55" ref-type="bibr"><sup>55</sup></xref> Here, we generated an anti-DLL3 scFv (&#8764;1/8<sup>th</sup> the size of an antibody) labeled with a fluorophore (aDLL3AF680) with tissue penetration, allowing noninvasive optical imaging. aDLL3AF680 successfully labeled SCLC tumors <italic>in&#160;vivo</italic> with good tumor-to-normal tissue contrast in a short time frame (2&#160;h post injection). Fast clearance may lead to a superior imaging agent for clinical application. Small size may allow better tissue penetration. Thus, scFv DLL3 binder may be a great alternative to full-length antibodies for <italic>in&#160;vivo</italic> detection and targeting of DLL3 in SCLC and other tumor types expressing this molecule on their surface.</p>
+      <p id="p0140">In conclusion, our modeling and experimental data point to a role for DLL3 in the regulation of Notch signaling in SCLC. One implication of our work relates to the outcome of patients treated with therapies targeting DLL3. It is very likely that SCLC tumors may evolve to stop expressing DLL3 as a mechanism of resistance to these therapies. Although we have not performed loss-of-function experiments in mice, loss of DLL3 may, similarly to its overexpression, alter the identity of populations of SCLC cells in tumors. This may in turn lead to a specific new round of therapy, with neuroendocrine and non-neuroendocrine cells responding differently to different therapies, including immunotherapies activating T&#160;cells.<xref rid="bib56" ref-type="bibr"><sup>56</sup></xref><sup>,</sup><xref rid="bib57" ref-type="bibr"><sup>57</sup></xref> DLL3 remains a promising target in SCLC and other small cell neuroendocrine tumors,<xref rid="bib28" ref-type="bibr"><sup>28</sup></xref><sup>,</sup><xref rid="bib58" ref-type="bibr"><sup>58</sup></xref><sup>,</sup><xref rid="bib59" ref-type="bibr"><sup>59</sup></xref><sup>,</sup><xref rid="bib60" ref-type="bibr"><sup>60</sup></xref><sup>,</sup><xref rid="bib61" ref-type="bibr"><sup>61</sup></xref><sup>,</sup><xref rid="bib62" ref-type="bibr"><sup>62</sup></xref> which warrants further studies of the biology of this molecule in normal and cancer cells.</p>
+      <sec id="sec3.1">
+        <title>Limitations of the study</title>
+        <p id="p0145">Our mathematical modeling of the role of DLL3 in SCLC heterogeneity is limited to two dimensions, and it will be important in the future to model and investigate DLL3 in three-dimensional models, where cell-cell interactions are more similar to a tumor context. Our analyses of mice with ectopic expression of DLL3 have been limited to one time point during the tumorigenic process, and it is possible that the role of DLL3 may be different at other time points or during/after therapy. Recent studies have identified multiple subtypes of SCLC driven by transcriptional regulators such as ASCL1, NEUROD1, POU2F3, and others. For a comprehensive examination of how the Notch signaling pathway regulates SCLC heterogeneity, further classification and characterization involving more subtypes will be required.</p>
+      </sec>
+    </sec>
+    <sec id="sec4">
+      <title>STAR&#9733;Methods</title>
+      <sec id="sec4.1">
+        <title>Key resources table</title>
+        <p id="p0150">
+<table-wrap position="float" id="undtbl1"><table frame="hsides" rules="groups"><thead><tr><th>REAGENT or RESOURCE</th><th>SOURCE</th><th>IDENTIFIER</th></tr></thead><tbody><tr><td colspan="3"><bold>Antibodies</bold></td></tr><tr><td colspan="3"><hr /></td></tr><tr><td>Anti-CD45-Pacific Blue</td><td>BioLegend</td><td>Cat#103126; RRID:<ext-link ext-link-type="uri" ns1:href="nif-antibody:AB_493535" id="interref50">AB_493535</ext-link></td></tr><tr><td>Anti-CD31-Pacific Blue</td><td>BioLegend</td><td>Cat#102422; RRID:<ext-link ext-link-type="uri" ns1:href="nif-antibody:AB_10612926" id="interref55">AB_10612926</ext-link></td></tr><tr><td>Anti-TER-119-Pacific Blue</td><td>BioLegend</td><td>Cat#116232; RRID:<ext-link ext-link-type="uri" ns1:href="nif-antibody:AB_2251160" id="interref60">AB_2251160</ext-link></td></tr><tr><td>Anti-CD24-APC</td><td>eBioscience</td><td>Cat#17-0242-82; RRID:<ext-link ext-link-type="uri" ns1:href="nif-antibody:AB_10870773" id="interref65">AB_10870773</ext-link></td></tr><tr><td>Anti-ICAM1-PE-CY7</td><td>BioLegend</td><td>Cat#116122; RRID:<ext-link ext-link-type="uri" ns1:href="nif-antibody:AB_2715950" id="interref70">AB_2715950</ext-link></td></tr><tr><td>Anti-NCAM-PE</td><td>R&amp;D Systems</td><td>Cat#FAB7820P; AB_2924964</td></tr><tr><td>Anti-DLL3</td><td>Invitrogen</td><td>Cat#PA5-23448; RRID:<ext-link ext-link-type="uri" ns1:href="nif-antibody:AB_2540948" id="interref75">AB_2540948</ext-link></td></tr><tr><td>Anti-HES1</td><td>Cell Signaling Technology</td><td>Cat#11988; RRID:<ext-link ext-link-type="uri" ns1:href="nif-antibody:AB_2728766" id="interref80">AB_2728766</ext-link></td></tr><tr><td>Anti-hexahistidine</td><td>Cell Signaling Technology</td><td>Cat#12698S; RRID:<ext-link ext-link-type="uri" ns1:href="nif-antibody:AB_2744546" id="interref85">AB_2744546</ext-link></td></tr><tr><td>Anti-Rabbit-AF488</td><td>Invitrogen</td><td>Cat#A11008; RRID:<ext-link ext-link-type="uri" ns1:href="nif-antibody:AB_143165" id="interref90">AB_143165</ext-link></td></tr><tr><td colspan="3"><hr /></td></tr><tr><td colspan="3"><bold>Bacterial and virus strains</bold></td></tr><tr><td colspan="3"><hr /></td></tr><tr><td>BL21 (DE3) electrocompetent cells</td><td>SigmaAldrich</td><td>CMC0016</td></tr><tr><td>Endura competent cells</td><td>Lucigen</td><td>60240-2</td></tr><tr><td colspan="3"><hr /></td></tr><tr><td colspan="3"><bold>Chemicals, peptides, and recombinant proteins</bold></td></tr><tr><td colspan="3"><hr /></td></tr><tr><td>RPMI-1640</td><td>Millipore Sigma</td><td>R0883</td></tr><tr><td>DMEM&#160;High-Glucose medium</td><td>Hyclone</td><td>SH30243.01</td></tr><tr><td>Bovine Growth Serum</td><td>Hyclone</td><td>SH3054103HI</td></tr><tr><td>Penicillin-streptomycin-glutamine</td><td>Gibco</td><td>10378016</td></tr><tr><td>Ampicillin sodium salt</td><td>SigmaAldrich</td><td>A0166</td></tr><tr><td>IPTG</td><td>Gold Biotechnology</td><td>I2481C5</td></tr><tr><td>B-PER</td><td>Thermo Fisher Scientific</td><td>90084</td></tr><tr><td>Lysozyme</td><td>SigmaAldrich</td><td>L4919</td></tr><tr><td>DNase I</td><td>Roche</td><td>10104159001</td></tr><tr><td>Ni-NTA agarose</td><td>Qiagen</td><td>30210</td></tr><tr><td>Centrifugal filters</td><td>Millipore</td><td>UFC801024</td></tr><tr><td>AF680 succinimidyl ester</td><td>Thermo Fisher Scientific</td><td>A20008</td></tr><tr><td>Albumin from bovine serum</td><td>SigmaAldrich</td><td>A9647-100G</td></tr><tr><td>Polyethylenimine</td><td>Polysciences</td><td>23966-1</td></tr><tr><td>Histo-Clear</td><td>National Diagnostics</td><td>HS-200</td></tr><tr><td>Antigen unmasking solution</td><td>Vector Laboratories</td><td>H-3300</td></tr><tr><td>Hematoxylin</td><td>SigmaAldrich</td><td>HHS32-1L</td></tr><tr><td>L-15 medium</td><td>Sigma</td><td>L1518</td></tr><tr><td>Collagenase I</td><td>Sigma</td><td>C0130</td></tr><tr><td>Collagenase II</td><td>Sigma</td><td>6885</td></tr><tr><td>Collagenase IV</td><td>Sigma</td><td>5138</td></tr><tr><td>Elastase</td><td>Worthington</td><td>LS002292</td></tr><tr><td>RBC lysis buffer</td><td>eBioscience</td><td>00-4333-57</td></tr><tr><td colspan="3"><hr /></td></tr><tr><td colspan="3"><bold>Critical commercial assays</bold></td></tr><tr><td colspan="3"><hr /></td></tr><tr><td>mmPRESS&#174;HRP Horse Anti-Rabbit IgG Polymer Detection Kit</td><td>Vector Laboratories</td><td>MP-7401</td></tr><tr><td>ImmPRESS&#174; Excel Amplified Polymer Staining Anti-Rabbit IgG Peroxidase Kit</td><td>Vector Laboratories</td><td>MP-7601</td></tr><tr><td>DAB substrate kit</td><td>Vector Laboratories</td><td>SK-4100</td></tr><tr><td>Mouse Direct PCR kit</td><td>Bimake</td><td>B40013</td></tr><tr><td colspan="3"><hr /></td></tr><tr><td colspan="3"><bold>Deposited data</bold></td></tr><tr><td colspan="3"><hr /></td></tr><tr><td>MATLAB code for modeling</td><td>GitHub</td><td><ext-link ext-link-type="uri" ns1:href="https://github.com/junwkim1/DLL3_lateral_inhibition_2022" id="intref0010">https://github.com/junwkim1/DLL3_lateral_inhibition_2022</ext-link></td></tr><tr><td colspan="3"><hr /></td></tr><tr><td colspan="3"><bold>Experimental models: Cell lines</bold></td></tr><tr><td colspan="3"><hr /></td></tr><tr><td>NCI-H82</td><td>ATCC</td><td>NCI-H82</td></tr><tr><td>NCI-H146</td><td>ATCC</td><td>NCI-H146</td></tr><tr><td>NCI-H524</td><td>ATCC</td><td>NCI-H524</td></tr><tr><td>HEK-293T</td><td>ATCC</td><td>293T</td></tr><tr><td>KP11B6</td><td>Julien Sage Laboratory</td><td>Park et&#160;al., 2011<xref rid="bib63" ref-type="bibr"><sup>63</sup></xref></td></tr><tr><td>HES1<sup>pos</sup>, HES1<sup>neg</sup> cells</td><td>Julien Sage Laboratory</td><td>Lim et&#160;al., 2017<xref rid="bib12" ref-type="bibr"><sup>12</sup></xref></td></tr><tr><td colspan="3"><hr /></td></tr><tr><td colspan="3"><bold>Experimental models: Organisms/strains</bold></td></tr><tr><td colspan="3"><hr /></td></tr><tr><td>Mouse:&#160;NOD.Cg-<italic>Prkdc</italic><sup><italic>scid</italic></sup><italic>Il2rg</italic><sup><italic>tm1Wjl</italic></sup>/SzJ</td><td>The Jackson Laboratory</td><td>Cat#005557</td></tr><tr><td><italic>RPR2</italic> model</td><td>Julien Sage Laboratory</td><td>Park et&#160;al., 2011<xref rid="bib63" ref-type="bibr"><sup>63</sup></xref></td></tr><tr><td><italic>Rosa26</italic><sup><italic>LSL-Dll3</italic></sup></td><td>GenOway</td><td>genOway/MNO/ABB55-Rosa26_Dll3</td></tr><tr><td><italic>Rosa26</italic><sup><italic>LSL-Luc</italic></sup></td><td>Julien Sage Laboratory</td><td>Jahchan et&#160;al., 2016<xref rid="bib45" ref-type="bibr"><sup>45</sup></xref></td></tr><tr><td colspan="3"><hr /></td></tr><tr><td colspan="3"><bold>Oligonucleotides</bold></td></tr><tr><td colspan="3"><hr /></td></tr><tr><td>See <xref rid="mmc1" ref-type="supplementary-material">Table&#160;S2</xref></td><td /><td /></tr><tr><td colspan="3"><hr /></td></tr><tr><td colspan="3"><bold>Recombinant DNA</bold></td></tr><tr><td colspan="3"><hr /></td></tr><tr><td>pCDH-CMV-MCS-EF1-puro</td><td>System Biosciences</td><td>CD510B-1</td></tr><tr><td colspan="3"><hr /></td></tr><tr><td colspan="3"><bold>Software and algorithms</bold></td></tr><tr><td colspan="3"><hr /></td></tr><tr><td>GraphPad Prism</td><td>GraphPad</td><td><ext-link ext-link-type="uri" ns1:href="https://www.graphpad.com/" id="intref0015">https://www.graphpad.com/</ext-link></td></tr><tr><td>FlowJo</td><td>FlowJo</td><td><ext-link ext-link-type="uri" ns1:href="https://www.flowjo.com/" id="intref0020">https://www.flowjo.com/</ext-link></td></tr><tr><td>MATLAB</td><td>MathWorks</td><td><ext-link ext-link-type="uri" ns1:href="https://www.mathworks.com/" id="intref0025">https://www.mathworks.com/</ext-link></td></tr><tr><td>BZ-X Viewer 1.3.1.1</td><td>Keyence</td><td><ext-link ext-link-type="uri" ns1:href="https://www.keyence.com/products/microscope/fluorescence-microscope/bz-x700/" id="intref0030">https://www.keyence.com/products/microscope/fluorescence-microscope/bz-x700/</ext-link></td></tr><tr><td>BZ-X Analyzer 1.4.0.1</td><td>Keyence</td><td><ext-link ext-link-type="uri" ns1:href="https://www.keyence.com/products/microscope/fluorescence-microscope/bz-x700/" id="intref0035">https://www.keyence.com/products/microscope/fluorescence-microscope/bz-x700/</ext-link></td></tr></tbody></table></table-wrap>
+</p>
+      </sec>
+      <sec id="sec4.2">
+        <title>Resource availability</title>
+        <sec id="sec4.2.1">
+          <title>Lead contact</title>
+          <p id="p0155">Further information and requests for resources and reagents should be directed to and will be fulfilled by the lead contact, Julien Sage (<ext-link ext-link-type="uri" ns1:href="mailto:julsage@stanford.edu" id="intref0040">julsage@stanford.edu</ext-link>).</p>
+        </sec>
+        <sec id="sec4.2.2">
+          <title>Materials availability</title>
+          <p id="p0160">Plasmids and other reagents generated in this study will be available upon request.</p>
+        </sec>
+        <sec sec-type="data-availability" id="sec4.2.3">
+          <title>Data and code availability</title>
+          <p id="p0165">No datasets that are composed of standardized datatypes were generated for this study.</p>
+          <p id="p0170">All MATLAB codes have been deposited at GitHub and is publicly available. The DOI is listed in the <xref rid="sec4.1" ref-type="sec">key resources table</xref>.</p>
+          <p id="p0175">Any additional information required to reanalyze the data reported in this paper is available from the <xref rid="sec4.2.1" ref-type="sec">lead contact</xref> upon request.</p>
+        </sec>
+      </sec>
+      <sec id="sec4.3">
+        <title>Experimental model and subject details</title>
+        <sec id="sec4.3.1">
+          <title>Mouse models</title>
+          <p id="p0180">The <italic>Rb1flox/flox;Trp53flox/flox;Rbl2flox/flox(RPR2,</italic> or <italic>TKO)</italic> mouse model and the <italic>Rosa26lox-stop-lox-luciferase(R26Luc)</italic> allele have been previously described.<xref rid="bib37" ref-type="bibr"><sup>37</sup></xref><sup>,</sup><xref rid="bib45" ref-type="bibr"><sup>45</sup></xref> Mice were maintained in a mixed C57BL/6;129SVJ background.</p>
+          <p id="p0185">Cre-inducible DLL3-overexpressing mice (<italic>R26Dll3</italic>) were generated by knocking in a <italic>Lox-Stop-Lox-Dll3-IRES-tdTomato</italic> cassette into the <italic>Rosa26</italic> allele. The mice were generated by GenOway via homologous recombination into the <italic>Rosa26</italic> allele in mouse embryonic stem cells, and clones were then injected into blastocysts to generate chimeric mice with germline transmission. The <italic>Dll3</italic> sequence in this allele is a cDNA/gDNA combo that retains intron 6 within the cDNA sequence to allow for expression of potential splice variants.</p>
+          <p id="p0190"><italic>R26LSL-Dll3</italic> mice were crossed to <italic>RPR2;R26LSL-Luc</italic> mice to generate <italic>RPR2;R26LSL-Dll3/LSL-Luc</italic> mice, which were then crossed to each other to generate <italic>RPR2;R26LSL-Dll3/LSL-Dll3</italic> mice and <italic>RPR2;R26LSL-Luc/LSL-Luc</italic> littermate controls. Tumors were initiated at 8&#8211;12&#160;weeks of age with intra-tracheal instillation of 4&#160;&#215;&#160;107 plaque-forming units of Adeno-CMV-Cre (Baylor College of Medicine, Houston, TX). Animals were euthanized and tumors were collected at &#8764;6.5&#160;months post-initiation, or earlier if they showed signs of respiratory distress. Mice were housed at 22&#176;C ambient temperature with 40% humidity and a light/dark cycle of 12&#160;h (7am&#160;&#8211; 7 pm). Mice of both sexes were used in the experiments in approximately equal numbers.</p>
+          <p id="p0195">Mice were maintained according to practices prescribed by the National Institute of Health at Stanford&#8217;s Research Animal Facility (APLAC protocol #13565) and by the Institutional Animal Care and Use Committee (IACUC) at Stanford. Additional accreditation of Stanford Research Animal Facility was provided by the Association for Assessment and Accreditation of Laboratory Animal Care.</p>
+        </sec>
+        <sec id="sec4.3.2">
+          <title>Cell culture</title>
+          <p id="p0200">Cell lines were cultured in RPMI-1640 (Millipore Sigma R0883) except for 293T cells and cell lines derived from <italic>RPR2;R26</italic><sup><italic>Luc</italic></sup> and <italic>RPR2;R26</italic><sup><italic>Dll3</italic></sup>, which were cultured in DMEM (Hyclone SH30243.01). RPMI and DMEM were supplemented with 10% bovine growth serum (Hyclone SH3054103HI) and penicillin-streptomycin-glutamine (Gibco 10378016). Cells were grown at 37&#176;C in standard cell culture incubators. All cells were routinely tested (MycoAlert Detection Kit, Lonza) and confirmed to be free of mycoplasma contamination.</p>
+          <p id="p0205">NCI-H524, NCI-H82, and NCI-H1694 cells were purchased from ATCC. Murine KP11B6 (a negative control for tdTomato expression in <xref rid="mmc1" ref-type="supplementary-material">Figure&#160;S3</xref>B) and HES1<sup>GFP/+</sup> SCLC cell lines were generated in the lab and have been described.<xref rid="bib63" ref-type="bibr"><sup>63</sup></xref></p>
+        </sec>
+      </sec>
+      <sec id="sec4.4">
+        <title>Method details</title>
+        <sec id="sec4.4.1">
+          <title>Plasmids/sequences</title>
+          <p id="p0210">For mammalian expression of DLL3, mouse DLL3 with a C-terminal FLAG tag was cloned into the pCDH lentiviral expression vector using Endura competent cells (Lucigen 60240-2).</p>
+        </sec>
+        <sec id="sec4.4.2">
+          <title>Synthesis of anti-DLL3 scFv</title>
+          <p id="p0215"><italic>Escherichia coli</italic> BL21 (DE3) cells were transformed with anti-DLL3 scFv<xref rid="bib46" ref-type="bibr"><sup>46</sup></xref> with C-terminal hexahistidine tag in pET vector by VectorBuilder. The transformed cells were grown overnight in LB agar plates with 100&#160;&#956;g/mL ampicillin. A single colony from each plate was inoculated in LB broth containing ampicillin and grown overnight. The primary culture was diluted 1:100 and grown at 37&#176;C. When OD600 reached 0.5, the cells were induced with IPTG 0.5mM at 37&#176;C for 6 h. The cells were then harvested by centrifugation at 3,500 g, and the cell pellet was resuspended with B-PER reagent (Thermo Fisher Scientific 90,084) with lysozyme (0.1&#160;mg/mL) and DNase I (50&#160;&#956;g/mL) and incubated for 30 min at 37&#176;C. Lysates were centrifuged at 15,000 <italic>g</italic> for 10&#160;min, and the supernatants were purified using a nickel-NTA affinity column (Qiagen 30,210). Centrifugal filters with molecular 10&#160;kDa molecular weight cutoffs (Millipore UFC801024) were used for further purification and buffer exchange into PBS. Protein purity was further analyzed using sodium dodecyl sulfatepolyacrylamide gel electrophoresis and quantified using a plate reader.</p>
+        </sec>
+        <sec id="sec4.4.3">
+          <title>AF680 dye conjugation</title>
+          <p id="p0220">Purified scFv was buffer-exchanged to 0.1&#160;M sodium bicarbonate buffer (pH 8.3) and concentrated to 3&#160;mg/mL. AF680 succinimidyl ester (Thermo Fisher Scientific A20008) was dissolved in DMSO at 10&#160;mg/mL and added to the protein solution to give a final concentration of 1&#160;mg/mL. The reaction was incubated for 1hat room temperature. Unreacted dye removal and buffer exchange to PBS was done using a 10&#160;kDa centrifugal filter.</p>
+        </sec>
+        <sec id="sec4.4.4">
+          <title>Cell binding assays</title>
+          <p id="p0225">5&#160;&#215;&#160;105 human and mouse cells were incubated with 50&#160;&#956;L of 30&#160;&#956;g/mL aDLL3AF680 for 1&#160;h in PBS with 0.1% BSA (PBSB) at 4&#176;C. The cells were then washed twice with PBSB and analyzed by flow cytometry. For testing unlabeled aDll3scFv, cells were incubated with 50&#160;&#956;L of 30&#160;&#956;g/mL aDll3scFv for 1&#160;h in PBSB at 4&#176;C. The cells were washed once with PBSB, and secondary binding was performed on ice for 30&#160;min using rabbit anti-hexahistidine antibody (Cell Signaling Technology 12698S) diluted 1:100 in PBSB. The cells were washed once with PBSB and incubated with goat anti-rabbit antibody labeled with Alexa Fluor 488 (Invitrogen A11008) diluted 1:100 in PBSB for 30&#160;min on ice. The cells were then washed twice with PBSB before being analyzed by flow cytometry.</p>
+        </sec>
+        <sec id="sec4.4.5">
+          <title><italic>In&#160;vivo</italic> tumor imaging</title>
+          <p id="p0230">1&#160;&#215;&#160;10<sup>6</sup> NCI-H82 SCLC cells in 100&#160;&#956;L 50% Matrigel/50% RPMI media supplemented with 2% bovine growth serum were implanted into the left flank of 7- to 8-week-old NSG mice. For imaging, mice were anesthetized with isofluorane and injected with 2&#160;nmol of aDLL3AF680 in 100&#160;&#956;L of PBS via the tail vein. Imaging was performed at 1, 2, 3, and 6&#160;h after protein injection, using a Lago-X system (Spectral Instruments). The near-infrared fluorescence of AF680 was detected using 615&#8211;665&#160;nm for excitation and 695&#8211;770&#160;nm for emission. For each imaging, a mouse treated with vehicle only was included to measure the background autofluorescence. For <italic>ex&#160;vivo</italic> imaging, mice were euthanized and organs were excised and imaged using the same excitation and emission as for the <italic>in&#160;vivo</italic> imaging.</p>
+        </sec>
+        <sec id="sec4.4.6">
+          <title>Lentiviral transduction</title>
+          <p id="p0235">5&#160;&#215;&#160;105 293T cells were seeded in each well of a 6-well plate and left to adhere overnight in antibiotics-free DMEM High-Glucose medium supplemented with 10% bovine growth serum. Lentiviral vectors were co-transfected with delta8.2 and VSV-G lentiviral packaging vectors using PEI. The supernatant was collected after 48&#160;h and added to the target cells. Cells were treated on day 5 with the selection agent according to the lentiviral vector used.</p>
+        </sec>
+        <sec id="sec4.4.7">
+          <title>Flow cytometry</title>
+          <p id="p0240">Flow cytometry was performed using a 100&#160;&#956;m nozzle on BD FACSAria II (Stanford Stem Cell Institute FACS Core) and analyzed with the FACSDiva software. For single cell analysis of lung tumors, a sequential gating strategy was used to analyze cancer cells by staining with the following FACS antibodies (<xref rid="mmc1" ref-type="supplementary-material">Figure&#160;S3</xref>F): CD45-Pacific Blue (BioLegend 103,126, 1:100), CD31-Pacific Blue (BioLegend 102,422, 1:100), TER-119-Pacific Blue (BioLegend 116232, 1:100), CD24-APC (eBioscience 17-0242-82, 1:200), ICAM1-PE-CY7 (BioLegend 116122, 1:100), and NCAM-PE (R&amp;D Systems FAB7820P, 1:100).<xref rid="bib13" ref-type="bibr"><sup>13</sup></xref> Data were analyzed using Flowjo software.</p>
+        </sec>
+        <sec id="sec4.4.8">
+          <title>Lateral inhibition with mutual inactivation (LIMI) model with DLL3</title>
+          <p id="p0245">Notch receptor (N<sub>i</sub>) in cell <italic>i</italic> interacts with DLL1 (D<sub>j</sub>) on the surface of a neighboring cell <italic>j</italic>. This <italic>trans</italic>-activation leads to cleavage of the Notch receptor, which frees the intracellular domain, NICD (S<sub><italic>i</italic></sub>) to induce expression of downstream genes such as Hes1 (H<sub>i</sub>), described by the class lateral inhibition model.<xref rid="bib34" ref-type="bibr"><sup>34</sup></xref> Notch receptor (N<sub>i</sub>) also interact with DLL1 (D<sub>i</sub>) on the same cell surface, which leads to <italic>cis</italic>-inhibition, described by the LIMI model.<xref rid="bib38" ref-type="bibr"><sup>38</sup></xref> In order to see the effect of <italic>cis</italic>-inhibition by DLL3 (D3<sub>i</sub>), Notch receptor (N<sub>i</sub>), and DLL1 (D<sub>i</sub>) on the same cell surface, we modified LIMI by considering the following system in two-dimensional array:</p>
+          <p id="p0250">N<sub>i</sub>&#160;+ D<sub>j</sub>&#8652; [N<sub>i</sub>D<sub>j</sub>] &#8594; S<sub>i</sub><italic>trans</italic>-activation.</p>
+          <p id="p0255">S<sub>i</sub> &#8594; H<sub>i</sub> Induction of Hes1 expression by Notch cleavage.</p>
+          <p id="p0260">H<sub>i</sub><inline-formula><ns2:math id="M1" altimg="si1.gif"><ns2:mrow><ns2:mo>&#8867;</ns2:mo></ns2:mrow></ns2:math></inline-formula> D<sub>i</sub> Repression of DLL1</p>
+          <p id="p0265">N<sub>i</sub>&#160;+ D<sub>i</sub>&#8652; [N<sub>i</sub>D<sub>i</sub>] &#8594; &#8709;<italic>cis</italic>-inhibition between Notch and DLL1.</p>
+          <p id="p0270">N<sub>i</sub>&#160;+ D3<sub>i</sub>&#8652; [N<sub>i</sub>D3<sub>i</sub>] &#8594; &#8709;<italic>cis</italic>-inhibition between DLL3 and Notch.</p>
+          <p id="p0275">The first four reactions that do not describe DLL3 are directly from LIMI.<xref rid="bib38" ref-type="bibr"><sup>38</sup></xref> This model can be described by the following set of equations applied to a two-dimensional hexagonal lattice of cells:<disp-formula id="fd1"><label>(1)</label><ns2:math id="M2" altimg="si2.gif"><ns2:mrow><ns2:msub><ns2:mover accent="true"><ns2:mi>N</ns2:mi><ns2:mo>&#729;</ns2:mo></ns2:mover><ns2:mi>i</ns2:mi></ns2:msub><ns2:mo linebreak="badbreak">=</ns2:mo><ns2:msub><ns2:mi>&#946;</ns2:mi><ns2:mi>N</ns2:mi></ns2:msub><ns2:mo linebreak="goodbreak">&#8722;</ns2:mo><ns2:msub><ns2:mi>&#947;</ns2:mi><ns2:mi>N</ns2:mi></ns2:msub><ns2:msub><ns2:mi>N</ns2:mi><ns2:mi>i</ns2:mi></ns2:msub><ns2:mo linebreak="goodbreak">&#8722;</ns2:mo><ns2:mfrac><ns2:mrow><ns2:msub><ns2:mi>N</ns2:mi><ns2:mi>i</ns2:mi></ns2:msub><ns2:msub><ns2:mi>D</ns2:mi><ns2:mi>j</ns2:mi></ns2:msub></ns2:mrow><ns2:msub><ns2:mi>k</ns2:mi><ns2:mi>t</ns2:mi></ns2:msub></ns2:mfrac><ns2:mo linebreak="goodbreak">&#8722;</ns2:mo><ns2:mfrac><ns2:mrow><ns2:msub><ns2:mi>N</ns2:mi><ns2:mi>i</ns2:mi></ns2:msub><ns2:msub><ns2:mi>D</ns2:mi><ns2:mi>i</ns2:mi></ns2:msub></ns2:mrow><ns2:msub><ns2:mi>k</ns2:mi><ns2:mi>c</ns2:mi></ns2:msub></ns2:mfrac><ns2:mo linebreak="goodbreak">&#8722;</ns2:mo><ns2:mfrac><ns2:mrow><ns2:msub><ns2:mi>N</ns2:mi><ns2:mi>i</ns2:mi></ns2:msub><ns2:msub><ns2:mrow><ns2:mi>D</ns2:mi><ns2:mn>3</ns2:mn></ns2:mrow><ns2:mi>i</ns2:mi></ns2:msub></ns2:mrow><ns2:msub><ns2:mi>k</ns2:mi><ns2:mi>e</ns2:mi></ns2:msub></ns2:mfrac></ns2:mrow></ns2:math></disp-formula><disp-formula id="fd2"><label>(2)</label><ns2:math id="M3" altimg="si3.gif"><ns2:mrow><ns2:msub><ns2:mover accent="true"><ns2:mi>D</ns2:mi><ns2:mo>&#729;</ns2:mo></ns2:mover><ns2:mi>i</ns2:mi></ns2:msub><ns2:mo linebreak="badbreak">=</ns2:mo><ns2:msub><ns2:mi>&#946;</ns2:mi><ns2:mi>D</ns2:mi></ns2:msub><ns2:mfrac><ns2:msub><ns2:mi>k</ns2:mi><ns2:mrow><ns2:mi>D</ns2:mi><ns2:mi>H</ns2:mi></ns2:mrow></ns2:msub><ns2:mrow><ns2:msub><ns2:mi>k</ns2:mi><ns2:mrow><ns2:mi>D</ns2:mi><ns2:mi>H</ns2:mi></ns2:mrow></ns2:msub><ns2:mo linebreak="badbreak">+</ns2:mo><ns2:msup><ns2:msub><ns2:mi>H</ns2:mi><ns2:mi>i</ns2:mi></ns2:msub><ns2:mi>m</ns2:mi></ns2:msup></ns2:mrow></ns2:mfrac><ns2:mo linebreak="goodbreak">&#8722;</ns2:mo><ns2:msub><ns2:mi>&#947;</ns2:mi><ns2:mi>D</ns2:mi></ns2:msub><ns2:msub><ns2:mi>D</ns2:mi><ns2:mi>i</ns2:mi></ns2:msub><ns2:mo linebreak="goodbreak">&#8722;</ns2:mo><ns2:mfrac><ns2:mrow><ns2:msub><ns2:mi>N</ns2:mi><ns2:mi>j</ns2:mi></ns2:msub><ns2:msub><ns2:mi>D</ns2:mi><ns2:mi>i</ns2:mi></ns2:msub></ns2:mrow><ns2:msub><ns2:mi>k</ns2:mi><ns2:mi>t</ns2:mi></ns2:msub></ns2:mfrac><ns2:mo linebreak="goodbreak">&#8722;</ns2:mo><ns2:mfrac><ns2:mrow><ns2:msub><ns2:mi>N</ns2:mi><ns2:mi>i</ns2:mi></ns2:msub><ns2:msub><ns2:mi>D</ns2:mi><ns2:mi>i</ns2:mi></ns2:msub></ns2:mrow><ns2:msub><ns2:mi>k</ns2:mi><ns2:mi>c</ns2:mi></ns2:msub></ns2:mfrac></ns2:mrow></ns2:math></disp-formula><disp-formula id="fd3"><label>(3)</label><ns2:math id="M4" altimg="si4.gif"><ns2:mrow><ns2:mover accent="true"><ns2:msub><ns2:mi>H</ns2:mi><ns2:mi>i</ns2:mi></ns2:msub><ns2:mo>&#729;</ns2:mo></ns2:mover><ns2:mo linebreak="badbreak">=</ns2:mo><ns2:msub><ns2:mi>&#946;</ns2:mi><ns2:mi>H</ns2:mi></ns2:msub><ns2:mfrac><ns2:msup><ns2:mrow><ns2:mo stretchy="true">(</ns2:mo><ns2:mfrac><ns2:mrow><ns2:msub><ns2:mi>N</ns2:mi><ns2:mi>i</ns2:mi></ns2:msub><ns2:msub><ns2:mi>D</ns2:mi><ns2:mi>j</ns2:mi></ns2:msub></ns2:mrow><ns2:mrow><ns2:msub><ns2:mi>k</ns2:mi><ns2:mi>t</ns2:mi></ns2:msub><ns2:msub><ns2:mi>&#947;</ns2:mi><ns2:mi>s</ns2:mi></ns2:msub></ns2:mrow></ns2:mfrac><ns2:mo stretchy="true">)</ns2:mo></ns2:mrow><ns2:mi>p</ns2:mi></ns2:msup><ns2:mrow><ns2:msub><ns2:mi>k</ns2:mi><ns2:mrow><ns2:mi>H</ns2:mi><ns2:mi>S</ns2:mi></ns2:mrow></ns2:msub><ns2:mo linebreak="badbreak">+</ns2:mo><ns2:msup><ns2:mrow><ns2:mo stretchy="true">(</ns2:mo><ns2:mfrac><ns2:mrow><ns2:msub><ns2:mi>N</ns2:mi><ns2:mi>i</ns2:mi></ns2:msub><ns2:msub><ns2:mi>D</ns2:mi><ns2:mi>j</ns2:mi></ns2:msub></ns2:mrow><ns2:mrow><ns2:msub><ns2:mi>k</ns2:mi><ns2:mi>t</ns2:mi></ns2:msub><ns2:msub><ns2:mi>&#947;</ns2:mi><ns2:mi>s</ns2:mi></ns2:msub></ns2:mrow></ns2:mfrac><ns2:mo stretchy="true">)</ns2:mo></ns2:mrow><ns2:mi>p</ns2:mi></ns2:msup></ns2:mrow></ns2:mfrac><ns2:mo linebreak="goodbreak">&#8722;</ns2:mo><ns2:msub><ns2:mi>&#947;</ns2:mi><ns2:mi>H</ns2:mi></ns2:msub><ns2:msub><ns2:mi>H</ns2:mi><ns2:mi>i</ns2:mi></ns2:msub></ns2:mrow></ns2:math></disp-formula><disp-formula id="fd4"><label>(4)</label><ns2:math id="M5" altimg="si5.gif"><ns2:mrow><ns2:msub><ns2:mover accent="true"><ns2:mrow><ns2:mi>D</ns2:mi><ns2:mn>3</ns2:mn></ns2:mrow><ns2:mo>&#729;</ns2:mo></ns2:mover><ns2:mi>i</ns2:mi></ns2:msub><ns2:mo linebreak="badbreak">=</ns2:mo><ns2:msub><ns2:mi>&#946;</ns2:mi><ns2:mrow><ns2:mi>D</ns2:mi><ns2:mn>3</ns2:mn></ns2:mrow></ns2:msub><ns2:mo linebreak="goodbreak">&#8722;</ns2:mo><ns2:msub><ns2:mi>&#947;</ns2:mi><ns2:mrow><ns2:mi>D</ns2:mi><ns2:mn>3</ns2:mn></ns2:mrow></ns2:msub><ns2:msub><ns2:mrow><ns2:mi>D</ns2:mi><ns2:mn>3</ns2:mn></ns2:mrow><ns2:mi>i</ns2:mi></ns2:msub><ns2:mo linebreak="goodbreak">&#8722;</ns2:mo><ns2:mfrac><ns2:mrow><ns2:msub><ns2:mi>N</ns2:mi><ns2:mi>i</ns2:mi></ns2:msub><ns2:msub><ns2:mrow><ns2:mi>D</ns2:mi><ns2:mn>3</ns2:mn></ns2:mrow><ns2:mi>i</ns2:mi></ns2:msub></ns2:mrow><ns2:msub><ns2:mi>k</ns2:mi><ns2:mi>e</ns2:mi></ns2:msub></ns2:mfrac></ns2:mrow></ns2:math></disp-formula></p>
+          <p id="p0280">Equations <xref rid="fd1" ref-type="disp-formula">(1)</xref>, <xref rid="fd2" ref-type="disp-formula">(2)</xref>, <xref rid="fd3" ref-type="disp-formula">(3)</xref> are from LIMI.<xref rid="bib41" ref-type="bibr"><sup>41</sup></xref> N<sub>i</sub> and D<sub>j</sub> interact at a rate k<sub>t</sub><sup>&#8722;1</sup>. N<sub>i</sub> and D<sub>i</sub> interact at a rate k<sub>c</sub><sup>&#8722;1</sup>. N<sub>i</sub>, D<sub>i</sub>, and H<sub>i</sub> are produced at a rate of &#946;<sub>N</sub>, &#946;<sub>D</sub>, and &#946;<sub>H</sub>, respectively. N<sub>i</sub>, D<sub>i</sub>, and H<sub>i</sub> are degraded at a rate of &#947;<sub>N</sub>, &#947;<sub>D</sub>, and &#947;<sub>H</sub>, respectively. Repression of D<sub>i</sub> by H<sub>i</sub> is represented with a decreasing Hill function as a function of k<sub>DH</sub> and m. Expression of H<sub>i</sub> by S<sub>i</sub> is represented with an increasing Hill function as a function of k<sub>HS</sub> and p. Equation&#160;<xref rid="fd4" ref-type="disp-formula">4</xref> describes D3<sub>i</sub>, where D3<sub>i</sub> is produced, degraded, and interact with N<sub>i</sub> at a rate &#946;<sub>D3</sub>, &#947;<sub>D3</sub>, and k<sub>e</sub>, respectively. These equations are used in <xref rid="fig1" ref-type="fig">Figures&#160;1</xref> and <xref rid="mmc1" ref-type="supplementary-material">S1</xref>. For <xref rid="mmc1" ref-type="supplementary-material">Figures&#160;S1</xref>B, S1D, and S1F, the mutual inactivation represented by <inline-formula><ns2:math id="M6" altimg="si6.gif"><ns2:mrow><ns2:mfrac><ns2:mrow><ns2:msub><ns2:mi>N</ns2:mi><ns2:mi>i</ns2:mi></ns2:msub><ns2:msub><ns2:mi>D</ns2:mi><ns2:mi>i</ns2:mi></ns2:msub></ns2:mrow><ns2:msub><ns2:mi>k</ns2:mi><ns2:mi>c</ns2:mi></ns2:msub></ns2:mfrac></ns2:mrow></ns2:math></inline-formula> was omitted.</p>
+          <p id="p0285">Numerical computations were performed using MATLAB&#8217;s ode15s solver (R2017b, MathWorks) using the scripts provided by Formosa-Jordan and Sprinzak.<xref rid="bib42" ref-type="bibr"><sup>42</sup></xref></p>
+        </sec>
+        <sec id="sec4.4.9">
+          <title>Genotyping</title>
+          <p id="p0290">Mice were genotyped by using the Mouse Direct PCR kit (Bimake) on DNA isolated from tails following the manufacturer&#8217;s protocol. See <xref rid="mmc1" ref-type="supplementary-material">Table&#160;S2</xref> for the primer sequences.</p>
+        </sec>
+        <sec id="sec4.4.10">
+          <title>Immunostaining</title>
+          <p id="p0295">Lung lobes were fixed overnight in 10% formalin in PBS before paraffin embedding. Paraffin sections were deparaffinized with Histo-Clear (National Diagnostics HS-200) and gradually rehydrated from ethanol to water. Antigen retrieval was carried out in citrate-based unmasking solution (Vector Laboratories H-3300) by microwaving at full power until boiling, then 30% power for 25&#160;min (DLL3) or 15&#160;min (HES1), then left to cool at room temperature for 10&#160;min before washing with water. Endogenous peroxidase was blocked by incubating slides in 3% hydrogen peroxide for 1 h. Sections were washed in PBST (PBS with 0.1% Tween20), blocked in 5% horse serum for 1 h, and incubated with anti-DLL3 (1:200 Invitrogen PA5-23448) or anti-HES1 (1:200 Cell Signaling Technology 11988) diluted in PBST overnight at 4&#176;C. DLL3 was developed using ImmPRESS&#174;HRP Horse Anti-Rabbit IgG Polymer Detection Kit (Vector Laboratories MP-7401) following the manufacturer&#8217;s protocol. HES1 was developed using ImmPRESS&#174; Excel Amplified Polymer Staining Anti-Rabbit IgG Peroxidase Kit (Vector Laboratories MP-7601) following the manufacturer&#8217;s protocol. All sections used DAB substrate kit (Vector Laboratories SK-4100) for color development. Sections were counterstained with hematoxylin (Sigma-Aldrich HHS32-1L), gradually dehydrated from water to ethanol to xylene, and mounted with Refrax mounting medium (Anatech Ltd711). Sections were imaged using Keyence BZ-X700 all-in-one fluorescence microscope with BZ-X Viewer program version 1.3.1.1 and BZ-X Analyzer 1.4.0.1.</p>
+        </sec>
+        <sec id="sec4.4.11">
+          <title>Single-cell suspension</title>
+          <p id="p0300">Tumors were dissected from lungs between 5 to 6.5&#160;months after tumor induction, finely chopped with a&#160;razor blade, and digested for 15 min at 37&#176;C in 10&#160;mL of L-15 medium (Sigma L1518) containing 4.25&#160;mg/mL Collagenase I (Sigma C0130), 1.4&#160;mg/mL Collagenase II (Sigma 6885), 4.25&#160;mg/mL Collagenase IV (Sigma 5138), 0.625&#160;mg/mL Elastase (Worthington LS002292), and 0.625&#160;mg/mL DNase I (Roche 10104159). The digested mixture was filtered through a 40&#160;&#956;m filter and centrifuged at 400&#160;g for 5 min at room temp, and the resulting pellet was resuspended in 1&#160;mL RBC lysis buffer (eBioscience 00-4333-57) for 30 s, diluted in 30&#160;mL PBS, and centrifuged at 400&#160;g for 5 min at room temp. The pelleted cells were then resuspended in 0.1% BSA/PBS for flow cytometry or in cell culture media to generate cell lines.</p>
+        </sec>
+      </sec>
+      <sec id="sec4.5">
+        <title>Quantification and statistical analysis</title>
+        <p id="p0305">Statistical significance was assayed with GraphPad Prism software. Data are represented as mean&#160;&#177; sd. &#8727;p&lt;0.05; &#8727;&#8727;p&lt;0.01; &#8727;&#8727;&#8727;p&lt;0.001; &#8727;&#8727;&#8727;&#8727;p&lt;0.0001; ns, not significant. The tests used are indicated in the figure legends.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ref-list id="cebib0010">
+      <title>References</title>
+      <ref id="bib1">
+        <label>1</label>
+        <element-citation publication-type="journal" id="sref1">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Black</surname>
+              <given-names>J.R.M.</given-names>
+            </name>
+            <name>
+              <surname>McGranahan</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genetic and non-genetic clonal diversity in cancer evolution</article-title>
+          <source>Nat. Rev. Cancer</source>
+          <volume>21</volume>
+          <year>2021</year>
+          <fpage>379</fpage>
+          <lpage>392</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41568-021-00336-2</pub-id>
+          <pub-id pub-id-type="pmid">33727690</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib2">
+        <label>2</label>
+        <element-citation publication-type="journal" id="sref2">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dagogo-Jack</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Shaw</surname>
+              <given-names>A.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Tumour heterogeneity and resistance to cancer therapies</article-title>
+          <source>Nat. Rev. Clin. Oncol.</source>
+          <volume>15</volume>
+          <year>2018</year>
+          <fpage>81</fpage>
+          <lpage>94</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrclinonc.2017.166</pub-id>
+          <pub-id pub-id-type="pmid">29115304</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib3">
+        <label>3</label>
+        <element-citation publication-type="journal" id="sref3">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jamal-Hanjani</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Quezada</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Larkin</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Swanton</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Translational implications of tumor heterogeneity</article-title>
+          <source>Clin. Cancer Res.</source>
+          <volume>21</volume>
+          <year>2015</year>
+          <fpage>1258</fpage>
+          <lpage>1266</lpage>
+          <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-14-1429</pub-id>
+          <pub-id pub-id-type="pmid">25770293</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib4">
+        <label>4</label>
+        <element-citation publication-type="journal" id="sref4">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tammela</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Sage</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Investigating tumor heterogeneity in mouse models</article-title>
+          <source>Annu. Rev. Cancer Biol.</source>
+          <volume>4</volume>
+          <year>2020</year>
+          <fpage>99</fpage>
+          <lpage>119</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev-cancerbio-030419-033413</pub-id>
+          <pub-id pub-id-type="pmid">34164589</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib5">
+        <label>5</label>
+        <element-citation publication-type="journal" id="sref5">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rudin</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Brambilla</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Faivre-Finn</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Sage</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Small-cell lung cancer</article-title>
+          <source>Nat. Rev. Dis. Primers</source>
+          <volume>7</volume>
+          <year>2021</year>
+          <fpage>3</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41572-020-00235-0</pub-id>
+          <pub-id pub-id-type="pmid">33446664</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib6">
+        <label>6</label>
+        <element-citation publication-type="journal" id="sref6">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barrows</surname>
+              <given-names>E.D.</given-names>
+            </name>
+            <name>
+              <surname>Blackburn</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>S.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evolving role of immunotherapy in small cell lung cancer</article-title>
+          <source>Semin. Cancer Biol.</source>
+          <volume>86</volume>
+          <year>2022</year>
+          <fpage>868</fpage>
+          <lpage>874</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.semcancer.2022.02.021</pub-id>
+          <pub-id pub-id-type="pmid">35192928</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib7">
+        <label>7</label>
+        <element-citation publication-type="journal" id="sref7">
+          <person-group person-group-type="author">
+            <name>
+              <surname>George</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lim</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Jang</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Cun</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Ozreti&#263;</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Kong</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Leenders</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Fern&#225;ndez-Cuesta</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Bosco</surname>
+              <given-names>G.</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Comprehensive genomic profiles of small cell lung cancer</article-title>
+          <source>Nature</source>
+          <volume>524</volume>
+          <year>2015</year>
+          <fpage>47</fpage>
+          <lpage>53</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature14664</pub-id>
+          <pub-id pub-id-type="pmid">26168399</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib8">
+        <label>8</label>
+        <element-citation publication-type="journal" id="sref8">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gay</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Stewart</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>E.M.</given-names>
+            </name>
+            <name>
+              <surname>Diao</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Groves</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Heeke</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Nabet</surname>
+              <given-names>B.Y.</given-names>
+            </name>
+            <name>
+              <surname>Fujimoto</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Solis</surname>
+              <given-names>L.M.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>W.</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Patterns of transcription factor programs and immune pathway activation define four major subtypes of SCLC with distinct therapeutic vulnerabilities</article-title>
+          <source>Cancer Cell</source>
+          <volume>39</volume>
+          <year>2021</year>
+          <fpage>346</fpage>
+          <lpage>360.e7</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ccell.2020.12.014</pub-id>
+          <pub-id pub-id-type="pmid">33482121</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib9">
+        <label>9</label>
+        <element-citation publication-type="journal" id="sref9">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baine</surname>
+              <given-names>M.K.</given-names>
+            </name>
+            <name>
+              <surname>Hsieh</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Lai</surname>
+              <given-names>W.V.</given-names>
+            </name>
+            <name>
+              <surname>Egger</surname>
+              <given-names>J.V.</given-names>
+            </name>
+            <name>
+              <surname>Jungbluth</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Daneshbod</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Beras</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Spencer</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Lopardo</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Bodd</surname>
+              <given-names>F.</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>SCLC subtypes defined by ASCL1, NEUROD1, POU2F3, and YAP1: acomprehensive immunohistochemical and histopathologic characterization</article-title>
+          <source>J.&#160;Thorac. Oncol.</source>
+          <volume>15</volume>
+          <year>2020</year>
+          <fpage>1823</fpage>
+          <lpage>1835</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jtho.2020.09.009</pub-id>
+          <pub-id pub-id-type="pmid">33011388</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib10">
+        <label>10</label>
+        <element-citation publication-type="journal" id="sref10">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rudin</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Poirier</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <name>
+              <surname>Byers</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Dive</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Dowlati</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>George</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Heymach</surname>
+              <given-names>J.V.</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Lehman</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>MacPherson</surname>
+              <given-names>D.</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Molecular subtypes of small cell lung cancer: a synthesis of human and mouse model data</article-title>
+          <source>Nat. Rev. Cancer</source>
+          <volume>19</volume>
+          <year>2019</year>
+          <fpage>289</fpage>
+          <lpage>297</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41568-019-0133-9</pub-id>
+          <pub-id pub-id-type="pmid">30926931</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib11">
+        <label>11</label>
+        <element-citation publication-type="journal" id="sref11">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Williamson</surname>
+              <given-names>S.C.</given-names>
+            </name>
+            <name>
+              <surname>Metcalf</surname>
+              <given-names>R.L.</given-names>
+            </name>
+            <name>
+              <surname>Trapani</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Mohan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Antonello</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Abbott</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Leong</surname>
+              <given-names>H.S.</given-names>
+            </name>
+            <name>
+              <surname>Chester</surname>
+              <given-names>C.P.E.</given-names>
+            </name>
+            <name>
+              <surname>Simms</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Polanski</surname>
+              <given-names>R.</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Vasculogenic mimicry in small cell lung cancer</article-title>
+          <source>Nat. Commun.</source>
+          <volume>7</volume>
+          <year>2016</year>
+          <fpage>13322</fpage>
+          <pub-id pub-id-type="doi">10.1038/ncomms13322</pub-id>
+          <pub-id pub-id-type="pmid">27827359</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib12">
+        <label>12</label>
+        <element-citation publication-type="journal" id="sref12">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lim</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Ibaseta</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Fischer</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Cancilla</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>O'Young</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Cristea</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Luca</surname>
+              <given-names>V.C.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Jahchan</surname>
+              <given-names>N.S.</given-names>
+            </name>
+            <name>
+              <surname>Hamard</surname>
+              <given-names>C.</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Intratumoural heterogeneity generated by Notch signalling promotes small-cell lung cancer</article-title>
+          <source>Nature</source>
+          <volume>545</volume>
+          <year>2017</year>
+          <fpage>360</fpage>
+          <lpage>364</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature22323</pub-id>
+          <pub-id pub-id-type="pmid">28489825</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib13">
+        <label>13</label>
+        <element-citation publication-type="journal" id="sref13">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Calbo</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>van Montfort</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Proost</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>van Drunen</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Beverloo</surname>
+              <given-names>H.B.</given-names>
+            </name>
+            <name>
+              <surname>Meuwissen</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Berns</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>A functional role for tumor cell heterogeneity in a mouse model of small cell lung cancer</article-title>
+          <source>Cancer Cell</source>
+          <volume>19</volume>
+          <year>2011</year>
+          <fpage>244</fpage>
+          <lpage>256</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ccr.2010.12.021</pub-id>
+          <pub-id pub-id-type="pmid">21316603</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib14">
+        <label>14</label>
+        <element-citation publication-type="journal" id="sref14">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Augert</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Eastwood</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Ibrahim</surname>
+              <given-names>A.H.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Grunblatt</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Basom</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Liggitt</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Eaton</surname>
+              <given-names>K.D.</given-names>
+            </name>
+            <name>
+              <surname>Martins</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Poirier</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Targeting NOTCH activation in small cell lung cancer through LSD1 inhibition</article-title>
+          <source>Sci. Signal.</source>
+          <volume>12</volume>
+          <year>2019</year>
+          <pub-id pub-id-type="doi">10.1126/scisignal.aau2922</pub-id>
+          <comment>eaau2922</comment>
+        </element-citation>
+      </ref>
+      <ref id="bib15">
+        <label>15</label>
+        <element-citation publication-type="journal" id="sref15">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kwon</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Proost</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>J.Y.</given-names>
+            </name>
+            <name>
+              <surname>Sutherland</surname>
+              <given-names>K.D.</given-names>
+            </name>
+            <name>
+              <surname>Zevenhoven</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Berns</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Paracrine signaling between tumor subclones of mouse SCLC: a critical role of ETS transcription factor Pea3 in facilitating metastasis</article-title>
+          <source>Genes Dev.</source>
+          <volume>29</volume>
+          <year>2015</year>
+          <fpage>1587</fpage>
+          <lpage>1592</lpage>
+          <pub-id pub-id-type="doi">10.1101/gad.262998.115</pub-id>
+          <pub-id pub-id-type="pmid">26215568</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib16">
+        <label>16</label>
+        <element-citation publication-type="journal" id="sref16">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shue</surname>
+              <given-names>Y.T.</given-names>
+            </name>
+            <name>
+              <surname>Drainas</surname>
+              <given-names>A.P.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>N.Y.</given-names>
+            </name>
+            <name>
+              <surname>Pearsall</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Morgan</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Sinnott-Armstrong</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Hipkins</surname>
+              <given-names>S.Q.</given-names>
+            </name>
+            <name>
+              <surname>Coles</surname>
+              <given-names>G.L.</given-names>
+            </name>
+            <name>
+              <surname>Lim</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Oro</surname>
+              <given-names>A.E.</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>A conserved YAP/Notch/REST network controls the neuroendocrine cell fate in the lungs</article-title>
+          <source>Nat. Commun.</source>
+          <volume>13</volume>
+          <year>2022</year>
+          <fpage>2690</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41467-022-30416-2</pub-id>
+          <pub-id pub-id-type="pmid">35577801</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib17">
+        <label>17</label>
+        <element-citation publication-type="journal" id="sref17">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ireland</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Micinski</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Kastner</surname>
+              <given-names>D.W.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Wait</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Spainhower</surname>
+              <given-names>K.B.</given-names>
+            </name>
+            <name>
+              <surname>Conley</surname>
+              <given-names>C.C.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>O.S.</given-names>
+            </name>
+            <name>
+              <surname>Guthrie</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Soltero</surname>
+              <given-names>D.</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>MYC drives temporal evolution of small cell lung cancer subtypes by reprogramming neuroendocrine fate</article-title>
+          <source>Cancer Cell</source>
+          <volume>38</volume>
+          <year>2020</year>
+          <fpage>60</fpage>
+          <lpage>78.e12</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ccell.2020.05.001</pub-id>
+          <pub-id pub-id-type="pmid">32473656</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib18">
+        <label>18</label>
+        <element-citation publication-type="journal" id="sref18">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sutherland</surname>
+              <given-names>K.D.</given-names>
+            </name>
+            <name>
+              <surname>Ireland</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Oliver</surname>
+              <given-names>T.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Killing SCLC: insights into how to target a shapeshifting tumor</article-title>
+          <source>Genes Dev.</source>
+          <volume>36</volume>
+          <year>2022</year>
+          <fpage>241</fpage>
+          <lpage>258</lpage>
+          <pub-id pub-id-type="doi">10.1101/gad.349359.122</pub-id>
+          <pub-id pub-id-type="pmid">35318269</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib19">
+        <label>19</label>
+        <element-citation publication-type="journal" id="sref19">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stewart</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Gay</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Xi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sivajothi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sivakamasundari</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Fujimoto</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Bolisetty</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hartsfield</surname>
+              <given-names>P.M.</given-names>
+            </name>
+            <name>
+              <surname>Balasubramaniyan</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Chalishazar</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Single-cell analyses reveal increased intratumoral heterogeneity after the onset of therapy resistance in small-cell lung cancer</article-title>
+          <source>Nat. Cancer</source>
+          <volume>1</volume>
+          <year>2020</year>
+          <fpage>423</fpage>
+          <lpage>436</lpage>
+          <pub-id pub-id-type="doi">10.1038/s43018-019-0020-z</pub-id>
+          <pub-id pub-id-type="pmid">33521652</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib20">
+        <label>20</label>
+        <element-citation publication-type="journal" id="sref20">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bulman</surname>
+              <given-names>M.P.</given-names>
+            </name>
+            <name>
+              <surname>Kusumi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Frayling</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>McKeown</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Garrett</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Lander</surname>
+              <given-names>E.S.</given-names>
+            </name>
+            <name>
+              <surname>Krumlauf</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Hattersley</surname>
+              <given-names>A.T.</given-names>
+            </name>
+            <name>
+              <surname>Ellard</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Turnpenny</surname>
+              <given-names>P.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mutations in the human delta homologue, DLL3, cause axial skeletal defects in spondylocostal dysostosis</article-title>
+          <source>Nat. Genet.</source>
+          <volume>24</volume>
+          <year>2000</year>
+          <fpage>438</fpage>
+          <lpage>441</lpage>
+          <pub-id pub-id-type="doi">10.1038/74307</pub-id>
+          <pub-id pub-id-type="pmid">10742114</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib21">
+        <label>21</label>
+        <element-citation publication-type="journal" id="sref21">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kusumi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>E.S.</given-names>
+            </name>
+            <name>
+              <surname>Kerrebrock</surname>
+              <given-names>A.W.</given-names>
+            </name>
+            <name>
+              <surname>Bronson</surname>
+              <given-names>R.T.</given-names>
+            </name>
+            <name>
+              <surname>Chi</surname>
+              <given-names>D.C.</given-names>
+            </name>
+            <name>
+              <surname>Bulotsky</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Spencer</surname>
+              <given-names>J.B.</given-names>
+            </name>
+            <name>
+              <surname>Birren</surname>
+              <given-names>B.W.</given-names>
+            </name>
+            <name>
+              <surname>Frankel</surname>
+              <given-names>W.N.</given-names>
+            </name>
+            <name>
+              <surname>Lander</surname>
+              <given-names>E.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>The mouse pudgy mutation disrupts Delta homologue Dll3 and initiation of early somite boundaries</article-title>
+          <source>Nat. Genet.</source>
+          <volume>19</volume>
+          <year>1998</year>
+          <fpage>274</fpage>
+          <lpage>278</lpage>
+          <pub-id pub-id-type="doi">10.1038/961</pub-id>
+          <pub-id pub-id-type="pmid">9662403</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib22">
+        <label>22</label>
+        <element-citation publication-type="journal" id="sref22">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dunwoodie</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Henrique</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Harrison</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Beddington</surname>
+              <given-names>R.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mouse Dll3: a novel divergent Delta gene which may complement the function of other Delta homologues during early pattern formation in the mouse embryo</article-title>
+          <source>Development</source>
+          <volume>124</volume>
+          <year>1997</year>
+          <fpage>3065</fpage>
+          <lpage>3076</lpage>
+          <pub-id pub-id-type="doi">10.1242/dev.124.16.3065</pub-id>
+          <pub-id pub-id-type="pmid">9272948</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib23">
+        <label>23</label>
+        <element-citation publication-type="journal" id="sref23">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ladi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Nichols</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <name>
+              <surname>Ge</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Miyamoto</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Yao</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>L.T.</given-names>
+            </name>
+            <name>
+              <surname>Boulter</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>Y.E.</given-names>
+            </name>
+            <name>
+              <surname>Kintner</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Weinmaster</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>The divergent DSL ligand Dll3 does not activate Notch signaling but cell autonomously attenuates signaling induced by other DSL ligands</article-title>
+          <source>J.&#160;Cell Biol.</source>
+          <volume>170</volume>
+          <year>2005</year>
+          <fpage>983</fpage>
+          <lpage>992</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.200503113</pub-id>
+          <pub-id pub-id-type="pmid">16144902</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib24">
+        <label>24</label>
+        <element-citation publication-type="journal" id="sref24">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Geffers</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Serth</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Chapman</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Jaekel</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Schuster-Gossler</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Cordes</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Sparrow</surname>
+              <given-names>D.B.</given-names>
+            </name>
+            <name>
+              <surname>Kremmer</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Dunwoodie</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Klein</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Gossler</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Divergent functions and distinct localization of the Notch ligands DLL1 and DLL3 in&#160;vivo</article-title>
+          <source>J.&#160;Cell Biol.</source>
+          <volume>178</volume>
+          <year>2007</year>
+          <fpage>465</fpage>
+          <lpage>476</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.200702009</pub-id>
+          <pub-id pub-id-type="pmid">17664336</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib25">
+        <label>25</label>
+        <element-citation publication-type="journal" id="sref25">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chapman</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Sparrow</surname>
+              <given-names>D.B.</given-names>
+            </name>
+            <name>
+              <surname>Kremmer</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Dunwoodie</surname>
+              <given-names>S.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Notch inhibition by the ligand DELTA-LIKE 3 defines the mechanism of abnormal vertebral segmentation in spondylocostal dysostosis</article-title>
+          <source>Hum. Mol. Genet.</source>
+          <volume>20</volume>
+          <year>2011</year>
+          <fpage>905</fpage>
+          <lpage>916</lpage>
+          <pub-id pub-id-type="doi">10.1093/hmg/ddq529</pub-id>
+          <pub-id pub-id-type="pmid">21147753</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib26">
+        <label>26</label>
+        <element-citation publication-type="journal" id="sref26">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Serth</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Schuster-Gossler</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kremmer</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Hansen</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Marohn-K&#246;hn</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Gossler</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>O-fucosylation of DLL3 is required for its function during somitogenesis</article-title>
+          <source>PLoS One</source>
+          <volume>10</volume>
+          <year>2015</year>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0123776</pub-id>
+          <comment>e0123776</comment>
+        </element-citation>
+      </ref>
+      <ref id="bib27">
+        <label>27</label>
+        <element-citation publication-type="journal" id="sref27">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nelson</surname>
+              <given-names>B.R.</given-names>
+            </name>
+            <name>
+              <surname>Hartman</surname>
+              <given-names>B.H.</given-names>
+            </name>
+            <name>
+              <surname>Ray</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Hayashi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Bermingham-McDonogh</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Reh</surname>
+              <given-names>T.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Acheate-scute like 1 (Ascl1) is required for normal delta-like (Dll) gene expression and notch signaling during retinal development</article-title>
+          <source>Dev. Dyn.</source>
+          <volume>238</volume>
+          <year>2009</year>
+          <fpage>2163</fpage>
+          <lpage>2178</lpage>
+          <pub-id pub-id-type="doi">10.1002/dvdy.21848</pub-id>
+          <pub-id pub-id-type="pmid">19191219</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib28">
+        <label>28</label>
+        <element-citation publication-type="journal" id="sref28">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saunders</surname>
+              <given-names>L.R.</given-names>
+            </name>
+            <name>
+              <surname>Bankovich</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Anderson</surname>
+              <given-names>W.C.</given-names>
+            </name>
+            <name>
+              <surname>Aujay</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Bheddah</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Black</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Desai</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Escarpe</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Hampl</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Laysang</surname>
+              <given-names>A.</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>A DLL3-targeted antibody-drug conjugate eradicates high-grade pulmonary neuroendocrine tumor-initiating cells in&#160;vivo</article-title>
+          <source>Sci. Transl. Med.</source>
+          <volume>7</volume>
+          <year>2015</year>
+          <pub-id pub-id-type="doi">10.1126/scitranslmed.aac9459</pub-id>
+          <comment>302ra136</comment>
+        </element-citation>
+      </ref>
+      <ref id="bib29">
+        <label>29</label>
+        <element-citation publication-type="journal" id="sref29">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Johnson</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Zvirbule</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Laktionov</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Helland</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Cho</surname>
+              <given-names>B.C.</given-names>
+            </name>
+            <name>
+              <surname>Gutierrez</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Colinet</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Lena</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wolf</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Gottfried</surname>
+              <given-names>M.</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Rovalpituzumab tesirine as a maintenance therapy after first-line platinum-based chemotherapy in patients with extensive-stage-SCLC: results from the phase 3 MERU study</article-title>
+          <source>J.&#160;Thorac. Oncol.</source>
+          <volume>16</volume>
+          <year>2021</year>
+          <fpage>1570</fpage>
+          <lpage>1581</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jtho.2021.03.012</pub-id>
+          <pub-id pub-id-type="pmid">33823285</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib30">
+        <label>30</label>
+        <element-citation publication-type="journal" id="sref30">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Malhotra</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Nikolinakos</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Leal</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Lehman</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Morgensztern</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Patel</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Wrangle</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Curigliano</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Greillier</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>A phase 1-2 study of rovalpituzumab tesirine in combination with nivolumab plus or minus ipilimumab in patients with previously treated extensive-stage SCLC</article-title>
+          <source>J.&#160;Thorac. Oncol.</source>
+          <volume>16</volume>
+          <year>2021</year>
+          <fpage>1559</fpage>
+          <lpage>1569</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jtho.2021.02.022</pub-id>
+          <pub-id pub-id-type="pmid">33652156</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib31">
+        <label>31</label>
+        <element-citation publication-type="journal" id="sref31">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Blackhall</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Jao</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Greillier</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Cho</surname>
+              <given-names>B.C.</given-names>
+            </name>
+            <name>
+              <surname>Penkov</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Reguart</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Majem</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Nackaerts</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Syrigos</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Hansen</surname>
+              <given-names>K.</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Efficacy and safety of rovalpituzumab tesirine compared with topotecan as second-line therapy in DLL3-high SCLC: results from the phase 3 TAHOE study</article-title>
+          <source>J.&#160;Thorac. Oncol.</source>
+          <volume>16</volume>
+          <year>2021</year>
+          <fpage>1547</fpage>
+          <lpage>1558</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jtho.2021.02.009</pub-id>
+          <pub-id pub-id-type="pmid">33607312</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib32">
+        <label>32</label>
+        <element-citation publication-type="journal" id="sref32">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hipp</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Voynov</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Drobits-Handl</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Giragossian</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Trapani</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Nixon</surname>
+              <given-names>A.E.</given-names>
+            </name>
+            <name>
+              <surname>Scheer</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Adam</surname>
+              <given-names>P.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>A bispecific DLL3/CD3 IgG-like T-cell engaging antibody induces antitumor responses in small cell lung cancer</article-title>
+          <source>Clin. Cancer Res.</source>
+          <volume>26</volume>
+          <year>2020</year>
+          <fpage>5258</fpage>
+          <lpage>5268</lpage>
+          <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-20-0926</pub-id>
+          <pub-id pub-id-type="pmid">32554516</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib33">
+        <label>33</label>
+        <element-citation publication-type="journal" id="sref33">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lakes</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <name>
+              <surname>An</surname>
+              <given-names>D.D.</given-names>
+            </name>
+            <name>
+              <surname>Gauny</surname>
+              <given-names>S.S.</given-names>
+            </name>
+            <name>
+              <surname>Ansoborlo</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Liang</surname>
+              <given-names>B.H.</given-names>
+            </name>
+            <name>
+              <surname>Rees</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>McKnight</surname>
+              <given-names>K.D.</given-names>
+            </name>
+            <name>
+              <surname>Karsunky</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Abergel</surname>
+              <given-names>R.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evaluating (225)Ac and (177)Lu radioimmunoconjugates against antibody-drug conjugates for small-cell lung cancer</article-title>
+          <source>Mol. Pharm.</source>
+          <volume>17</volume>
+          <year>2020</year>
+          <fpage>4270</fpage>
+          <lpage>4279</lpage>
+          <pub-id pub-id-type="doi">10.1021/acs.molpharmaceut.0c00703</pub-id>
+          <pub-id pub-id-type="pmid">33044830</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib34">
+        <label>34</label>
+        <element-citation publication-type="journal" id="sref34">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Giffin</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Cooke</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Lobenhofer</surname>
+              <given-names>E.K.</given-names>
+            </name>
+            <name>
+              <surname>Estrada</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Deegen</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Thomas</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Murawsky</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Werner</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>AMG 757, a half-life extended, DLL3-targeted bispecific T-cell engager, shows high potency and sensitivity in preclinical models of small-cell lung cancer</article-title>
+          <source>Clin. Cancer Res.</source>
+          <volume>27</volume>
+          <year>2021</year>
+          <fpage>1526</fpage>
+          <lpage>1537</lpage>
+          <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-20-2845</pub-id>
+          <pub-id pub-id-type="pmid">33203642</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib35">
+        <label>35</label>
+        <element-citation publication-type="journal" id="sref35">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tully</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <name>
+              <surname>Tendler</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Carter</surname>
+              <given-names>L.M.</given-names>
+            </name>
+            <name>
+              <surname>Sharma</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Samuels</surname>
+              <given-names>Z.V.</given-names>
+            </name>
+            <name>
+              <surname>Mandleywala</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Korsen</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Delos Reyes</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Piersigilli</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Travis</surname>
+              <given-names>W.D.</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Radioimmunotherapy targeting delta-like ligand 3 in small cell lung cancer exhibits antitumor efficacy with low toxicity</article-title>
+          <source>Clin. Cancer Res.</source>
+          <volume>28</volume>
+          <year>2022</year>
+          <fpage>1391</fpage>
+          <lpage>1401</lpage>
+          <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-21-1533</pub-id>
+          <pub-id pub-id-type="pmid">35046060</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib36">
+        <label>36</label>
+        <element-citation publication-type="journal" id="sref36">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ohsawa</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kageyama</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of retinal cell fate specification by multiple transcription factors</article-title>
+          <source>Brain Res.</source>
+          <volume>1192</volume>
+          <year>2008</year>
+          <fpage>90</fpage>
+          <lpage>98</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.brainres.2007.04.014</pub-id>
+          <pub-id pub-id-type="pmid">17488643</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib37">
+        <label>37</label>
+        <element-citation publication-type="journal" id="sref37">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Collier</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Monk</surname>
+              <given-names>N.A.</given-names>
+            </name>
+            <name>
+              <surname>Maini</surname>
+              <given-names>P.K.</given-names>
+            </name>
+            <name>
+              <surname>Lewis</surname>
+              <given-names>J.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pattern formation by lateral inhibition with feedback: a mathematical model of delta-notch intercellular signalling</article-title>
+          <source>J.&#160;Theor. Biol.</source>
+          <volume>183</volume>
+          <year>1996</year>
+          <fpage>429</fpage>
+          <lpage>446</lpage>
+          <pub-id pub-id-type="doi">10.1006/jtbi.1996.0233</pub-id>
+          <pub-id pub-id-type="pmid">9015458</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib38">
+        <label>38</label>
+        <element-citation publication-type="journal" id="sref38">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sprinzak</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Lakhanpal</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Lebon</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Santat</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Fontes</surname>
+              <given-names>M.E.</given-names>
+            </name>
+            <name>
+              <surname>Anderson</surname>
+              <given-names>G.A.</given-names>
+            </name>
+            <name>
+              <surname>Garcia-Ojalvo</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Elowitz</surname>
+              <given-names>M.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cis-interactions between Notch and Delta generate mutually exclusive signalling states</article-title>
+          <source>Nature</source>
+          <volume>465</volume>
+          <year>2010</year>
+          <fpage>86</fpage>
+          <lpage>90</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature08959</pub-id>
+          <pub-id pub-id-type="pmid">20418862</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib39">
+        <label>39</label>
+        <element-citation publication-type="journal" id="sref39">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bray</surname>
+              <given-names>S.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Notch signalling: a simple pathway becomes complex</article-title>
+          <source>Nat. Rev. Mol. Cell Biol.</source>
+          <volume>7</volume>
+          <year>2006</year>
+          <fpage>678</fpage>
+          <lpage>689</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrm2009</pub-id>
+          <pub-id pub-id-type="pmid">16921404</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib40">
+        <label>40</label>
+        <element-citation publication-type="journal" id="sref40">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miller</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Lyons</surname>
+              <given-names>E.L.</given-names>
+            </name>
+            <name>
+              <surname>Herman</surname>
+              <given-names>T.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>cis-Inhibition of Notch by endogenous Delta biases the outcome of lateral inhibition</article-title>
+          <source>Curr. Biol.</source>
+          <volume>19</volume>
+          <year>2009</year>
+          <fpage>1378</fpage>
+          <lpage>1383</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cub.2009.06.042</pub-id>
+          <pub-id pub-id-type="pmid">19631544</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib41">
+        <label>41</label>
+        <element-citation publication-type="journal" id="sref41">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sprinzak</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Lakhanpal</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>LeBon</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Garcia-Ojalvo</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Elowitz</surname>
+              <given-names>M.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mutual inactivation of Notch receptors and ligands facilitates developmental patterning</article-title>
+          <source>PLoS Comput. Biol.</source>
+          <volume>7</volume>
+          <year>2011</year>
+          <pub-id pub-id-type="doi">10.1371/journal.pcbi.1002069</pub-id>
+          <comment>e1002069</comment>
+        </element-citation>
+      </ref>
+      <ref id="bib42">
+        <label>42</label>
+        <element-citation publication-type="journal" id="sref42">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Formosa-Jordan</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Sprinzak</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Modeling Notch signaling: a practical tutorial</article-title>
+          <source>Methods Mol. Biol.</source>
+          <volume>1187</volume>
+          <year>2014</year>
+          <fpage>285</fpage>
+          <lpage>310</lpage>
+          <pub-id pub-id-type="doi">10.1007/978-1-4939-1139-4_22</pub-id>
+          <pub-id pub-id-type="pmid">25053498</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib43">
+        <label>43</label>
+        <element-citation publication-type="journal" id="sref43">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Weisser</surname>
+              <given-names>N.E.</given-names>
+            </name>
+            <name>
+              <surname>Hall</surname>
+              <given-names>J.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Applications of single-chain variable fragment antibodies in therapeutics and diagnostics</article-title>
+          <source>Biotechnol. Adv.</source>
+          <volume>27</volume>
+          <year>2009</year>
+          <fpage>502</fpage>
+          <lpage>520</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.biotechadv.2009.04.004</pub-id>
+          <pub-id pub-id-type="pmid">19374944</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib44">
+        <label>44</label>
+        <element-citation publication-type="journal" id="sref44">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Peltomaa</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Barderas</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Benito-Pe&#241;a</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Moreno-Bondi</surname>
+              <given-names>M.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Recombinant antibodies and their use for food immunoanalysis</article-title>
+          <source>Anal. Bioanal. Chem.</source>
+          <volume>414</volume>
+          <year>2022</year>
+          <fpage>193</fpage>
+          <lpage>217</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00216-021-03619-7</pub-id>
+          <pub-id pub-id-type="pmid">34417836</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib45">
+        <label>45</label>
+        <element-citation publication-type="journal" id="sref45">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jahchan</surname>
+              <given-names>N.S.</given-names>
+            </name>
+            <name>
+              <surname>Lim</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Bola</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Morris</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Seitz</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Tran</surname>
+              <given-names>K.Q.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Trapani</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Morrow</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Cristea</surname>
+              <given-names>S.</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Identification and targeting of long-term tumor-propagating cells in small cell lung cancer</article-title>
+          <source>Cell Rep.</source>
+          <volume>16</volume>
+          <year>2016</year>
+          <fpage>644</fpage>
+          <lpage>656</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.celrep.2016.06.021</pub-id>
+          <pub-id pub-id-type="pmid">27373157</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib46">
+        <label>46</label>
+        <element-citation publication-type="journal" id="sref46">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sj&#246;qvist</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Andersson</surname>
+              <given-names>E.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Do as I say, Not(ch) as I do: lateral control of cell fate</article-title>
+          <source>Dev. Biol.</source>
+          <volume>447</volume>
+          <year>2019</year>
+          <fpage>58</fpage>
+          <lpage>70</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ydbio.2017.09.032</pub-id>
+          <pub-id pub-id-type="pmid">28969930</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib47">
+        <label>47</label>
+        <element-citation publication-type="journal" id="sref47">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chitnis</surname>
+              <given-names>A.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of Notch in lateral inhibition and cell fate specification</article-title>
+          <source>Mol. Cell. Neurosci.</source>
+          <volume>6</volume>
+          <year>1995</year>
+          <fpage>311</fpage>
+          <lpage>321</lpage>
+        </element-citation>
+      </ref>
+      <ref id="bib48">
+        <label>48</label>
+        <element-citation publication-type="journal" id="sref48">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bocci</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Gearhart-Serna</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Boareto</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ribeiro</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ben-Jacob</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Devi</surname>
+              <given-names>G.R.</given-names>
+            </name>
+            <name>
+              <surname>Levine</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Onuchic</surname>
+              <given-names>J.N.</given-names>
+            </name>
+            <name>
+              <surname>Jolly</surname>
+              <given-names>M.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Toward understanding cancer stem cell heterogeneity in the tumor microenvironment</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <volume>116</volume>
+          <year>2019</year>
+          <fpage>148</fpage>
+          <lpage>157</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1815345116</pub-id>
+          <pub-id pub-id-type="pmid">30587589</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib49">
+        <label>49</label>
+        <element-citation publication-type="journal" id="sref49">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lim</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Brandt</surname>
+              <given-names>W.D.</given-names>
+            </name>
+            <name>
+              <surname>Heth</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Muraszko</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <name>
+              <surname>Fan</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Bar</surname>
+              <given-names>E.E.</given-names>
+            </name>
+            <name>
+              <surname>Eberhart</surname>
+              <given-names>C.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lateral inhibition of Notch signaling in neoplastic cells</article-title>
+          <source>Oncotarget</source>
+          <volume>6</volume>
+          <year>2015</year>
+          <fpage>1666</fpage>
+          <lpage>1677</lpage>
+          <pub-id pub-id-type="doi">10.18632/oncotarget.2762</pub-id>
+          <pub-id pub-id-type="pmid">25557173</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib50">
+        <label>50</label>
+        <element-citation publication-type="journal" id="sref50">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Torab</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Ahmed</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yamashita</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Warrick</surname>
+              <given-names>J.I.</given-names>
+            </name>
+            <name>
+              <surname>Raman</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>DeGraff</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>P.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intratumoral heterogeneity promotes collective cancer invasion through NOTCH1 variation</article-title>
+          <source>Cells</source>
+          <volume>10</volume>
+          <year>2021</year>
+          <fpage>3084</fpage>
+          <pub-id pub-id-type="doi">10.3390/cells10113084</pub-id>
+          <pub-id pub-id-type="pmid">34831307</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib51">
+        <label>51</label>
+        <element-citation publication-type="journal" id="sref51">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hong</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Knelson</surname>
+              <given-names>E.H.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Durmaz</surname>
+              <given-names>Y.T.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Walton</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Vajdi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Thai</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Sticco-Ivins</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sabet</surname>
+              <given-names>A.H.</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Plasticity in the absence of NOTCH uncovers a RUNX2-dependent pathway in small cell lung cancer</article-title>
+          <source>Cancer Res.</source>
+          <volume>82</volume>
+          <year>2022</year>
+          <fpage>248</fpage>
+          <lpage>263</lpage>
+          <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-21-1991</pub-id>
+          <pub-id pub-id-type="pmid">34810201</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib52">
+        <label>52</label>
+        <element-citation publication-type="journal" id="sref52">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Weiner</surname>
+              <given-names>R.S.</given-names>
+            </name>
+            <name>
+              <surname>Sailstad</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Bowsher</surname>
+              <given-names>R.R.</given-names>
+            </name>
+            <name>
+              <surname>Knuth</surname>
+              <given-names>D.W.</given-names>
+            </name>
+            <name>
+              <surname>O'Brien</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Fourcroy</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Dixit</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Pandite</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Pietrusko</surname>
+              <given-names>R.G.</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Method validation and measurement of biomarkers in nonclinical and clinical samples in drug development: a conference report</article-title>
+          <source>Pharm. Res.</source>
+          <volume>22</volume>
+          <year>2005</year>
+          <fpage>499</fpage>
+          <lpage>511</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11095-005-2495-9</pub-id>
+          <pub-id pub-id-type="pmid">15846456</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib53">
+        <label>53</label>
+        <element-citation publication-type="book" id="sref53">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mathews</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Amaravadi</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Eck</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Stevenson</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.-M.C.</given-names>
+            </name>
+            <name>
+              <surname>Devanarayan</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Allinson</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lundsten</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Gunsior</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ni</surname>
+              <given-names>Y.G.</given-names>
+            </name>
+          </person-group>
+          <part-title>Best Practices for the Development and Fit-For-Purpose Validation of Biomarker Methods: AConference Report</part-title>
+          <year>2022</year>
+          <publisher-name>Springer</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="bib54">
+        <label>54</label>
+        <element-citation publication-type="journal" id="sref54">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sharma</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Pourat</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Abdel-Atti</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Carlin</surname>
+              <given-names>S.D.</given-names>
+            </name>
+            <name>
+              <surname>Piersigilli</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bankovich</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Gardner</surname>
+              <given-names>E.E.</given-names>
+            </name>
+            <name>
+              <surname>Hamdy</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Isse</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Bheddah</surname>
+              <given-names>S.</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Noninvasive interrogation of DLL3 expression in metastatic small cell lung cancer</article-title>
+          <source>Cancer Res.</source>
+          <volume>77</volume>
+          <year>2017</year>
+          <fpage>3931</fpage>
+          <lpage>3941</lpage>
+          <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-17-0299</pub-id>
+          <pub-id pub-id-type="pmid">28487384</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib55">
+        <label>55</label>
+        <element-citation publication-type="journal" id="sref55">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wei</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Rosenkrans</surname>
+              <given-names>Z.T.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>Q.Y.</given-names>
+            </name>
+            <name>
+              <surname>Cai</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>ImmunoPET: concept, design, and applications</article-title>
+          <source>Chem. Rev.</source>
+          <volume>120</volume>
+          <year>2020</year>
+          <fpage>3787</fpage>
+          <lpage>3851</lpage>
+          <pub-id pub-id-type="doi">10.1021/acs.chemrev.9b00738</pub-id>
+          <pub-id pub-id-type="pmid">32202104</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib56">
+        <label>56</label>
+        <element-citation publication-type="journal" id="sref56">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hiatt</surname>
+              <given-names>J.B.</given-names>
+            </name>
+            <name>
+              <surname>Sandborg</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Garrison</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Arnold</surname>
+              <given-names>H.U.</given-names>
+            </name>
+            <name>
+              <surname>Liao</surname>
+              <given-names>S.Y.</given-names>
+            </name>
+            <name>
+              <surname>Norton</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Friesen</surname>
+              <given-names>T.J.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Sutherland</surname>
+              <given-names>K.D.</given-names>
+            </name>
+            <name>
+              <surname>Rienhoff</surname>
+              <given-names>H.Y.</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Inhibition of LSD1 with bomedemstat sensitizes small cell lung cancer to immune checkpoint blockade and T&#160;cell killing</article-title>
+          <source>Clin. Cancer Res.</source>
+          <volume>28</volume>
+          <year>2022</year>
+          <fpage>4551</fpage>
+          <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-22-4564</pub-id>
+          <pub-id pub-id-type="pmid">35920742</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib57">
+        <label>57</label>
+        <element-citation publication-type="journal" id="sref57">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>E.M.</given-names>
+            </name>
+            <name>
+              <surname>Taniguchi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Chan</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Zhan</surname>
+              <given-names>Y.A.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Qiu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>de Stanchina</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Allaj</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Shah</surname>
+              <given-names>N.S.</given-names>
+            </name>
+            <name>
+              <surname>Uddin</surname>
+              <given-names>F.</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Targeting lysine-specific demethylase 1 rescues major histocompatibility complex class I antigen presentation and overcomes programmed death-ligand 1 blockade resistance in SCLC</article-title>
+          <source>J.&#160;Thorac. Oncol.</source>
+          <volume>17</volume>
+          <year>2022</year>
+          <fpage>1014</fpage>
+          <lpage>1031</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jtho.2022.05.014</pub-id>
+          <pub-id pub-id-type="pmid">35691495</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib58">
+        <label>58</label>
+        <element-citation publication-type="journal" id="sref58">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Puca</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Gavyert</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Sailer</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Conteduca</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Dardenne</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Sigouros</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Isse</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kearney</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Vosoughi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Fernandez</surname>
+              <given-names>L.</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Delta-like protein 3 expression and therapeutic targeting in neuroendocrine prostate cancer</article-title>
+          <source>Sci. Transl. Med.</source>
+          <volume>11</volume>
+          <year>2019</year>
+          <pub-id pub-id-type="doi">10.1126/scitranslmed.aav0891</pub-id>
+          <comment>eaav0891</comment>
+        </element-citation>
+      </ref>
+      <ref id="bib59">
+        <label>59</label>
+        <element-citation publication-type="journal" id="sref59">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hermans</surname>
+              <given-names>B.C.M.</given-names>
+            </name>
+            <name>
+              <surname>Derks</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Thunnissen</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>van Suylen</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>den Bakker</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Groen</surname>
+              <given-names>H.J.M.</given-names>
+            </name>
+            <name>
+              <surname>Smit</surname>
+              <given-names>E.F.</given-names>
+            </name>
+            <name>
+              <surname>Damhuis</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>van den Broek</surname>
+              <given-names>E.C.</given-names>
+            </name>
+            <etal />
+            <collab>PALGA-Group</collab>
+          </person-group>
+          <article-title>DLL3 expression in large cell neuroendocrine carcinoma (LCNEC) and association with molecular subtypes and neuroendocrine profile</article-title>
+          <source>Lung Cancer</source>
+          <volume>138</volume>
+          <year>2019</year>
+          <fpage>102</fpage>
+          <lpage>108</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.lungcan.2019.10.010</pub-id>
+          <pub-id pub-id-type="pmid">31678831</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib60">
+        <label>60</label>
+        <element-citation publication-type="journal" id="sref60">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liverani</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Bongiovanni</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mercatali</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Pieri</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Spadazzi</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Miserocchi</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Di Menna</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Foca</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Ravaioli</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>De Vita</surname>
+              <given-names>A.</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>Diagnostic and predictive role of DLL3 expression in gastroenteropancreatic neuroendocrine neoplasms</article-title>
+          <source>Endocr. Pathol.</source>
+          <volume>32</volume>
+          <year>2021</year>
+          <fpage>309</fpage>
+          <lpage>317</lpage>
+          <pub-id pub-id-type="doi">10.1007/s12022-020-09657-8</pub-id>
+          <pub-id pub-id-type="pmid">33409812</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib61">
+        <label>61</label>
+        <element-citation publication-type="journal" id="sref61">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xie</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Kaye</surname>
+              <given-names>F.J.</given-names>
+            </name>
+            <name>
+              <surname>Isse</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Ramoth</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>French</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Flotte</surname>
+              <given-names>T.J.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Saunders</surname>
+              <given-names>L.R.</given-names>
+            </name>
+            <name>
+              <surname>Mansfield</surname>
+              <given-names>A.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Delta-like protein 3 expression and targeting in merkel cell carcinoma</article-title>
+          <source>Oncologist</source>
+          <volume>25</volume>
+          <year>2020</year>
+          <fpage>810</fpage>
+          <lpage>817</lpage>
+          <pub-id pub-id-type="doi">10.1634/theoncologist.2019-0877</pub-id>
+          <pub-id pub-id-type="pmid">32372416</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib62">
+        <label>62</label>
+        <element-citation publication-type="journal" id="sref62">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sano</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Krytska</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Tsang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Erickson</surname>
+              <given-names>S.W.</given-names>
+            </name>
+            <name>
+              <surname>Teicher</surname>
+              <given-names>B.A.</given-names>
+            </name>
+            <name>
+              <surname>Saunders</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Jones</surname>
+              <given-names>R.T.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Maris</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Mosse</surname>
+              <given-names>Y.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Abstract LB-136: pediatric Preclinical Testing Consortium evaluation of a DLL3-targeted antibody drug conjugate rovalpituzumab tesirine, in neuroblastoma</article-title>
+          <source>Cancer Res.</source>
+          <volume>78</volume>
+          <year>2018</year>
+          <pub-id pub-id-type="doi">10.1158/1538-7445.Am2018-lb-136</pub-id>
+          <comment>LB-136</comment>
+        </element-citation>
+      </ref>
+      <ref id="bib63">
+        <label>63</label>
+        <element-citation publication-type="journal" id="sref63">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Park</surname>
+              <given-names>K.S.</given-names>
+            </name>
+            <name>
+              <surname>Martelotto</surname>
+              <given-names>L.G.</given-names>
+            </name>
+            <name>
+              <surname>Peifer</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sos</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Karnezis</surname>
+              <given-names>A.N.</given-names>
+            </name>
+            <name>
+              <surname>Mahjoub</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Bernard</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Conklin</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Szczepny</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Yuan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <etal />
+          </person-group>
+          <article-title>A crucial requirement for Hedgehog signaling in small cell lung cancer</article-title>
+          <source>Nat. Med.</source>
+          <volume>17</volume>
+          <year>2011</year>
+          <fpage>1504</fpage>
+          <lpage>1508</lpage>
+          <pub-id pub-id-type="doi">10.1038/nm.2473</pub-id>
+          <pub-id pub-id-type="pmid">21983857</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec id="appsec2" sec-type="supplementary-material">
+      <title>Supplemental information</title>
+      <p id="p0335">
+<supplementary-material content-type="local-data" id="mmc1"><caption><title>Document S1. Figures&#160;S1&#8211;S3 and Tables&#160;S1 and S2</title></caption><media ns1:href="mmc1.pdf" /></supplementary-material>
+</p>
+    </sec>
+    <ack id="ack0010">
+      <title>Acknowledgments</title>
+      <p id="p0310">The authors thank Dr. Laura Saunders and Dr. Chen-Hua Chuang at Abbvie/StemCentrx for their help during the course of this study, including with the generation of the <italic>R26LSL-Dll3</italic> mice. We would like to also thank David S. Glass for discussions and advice, as well as Myung Chang Lee for his comments on the manuscript and Debadrita Bhattacharya for her help with single-cell isolation by flow cytometry. We also thank Pauline Chu from the Stanford Histology Service Center and all the members of the Sage lab for their help throughout this study. Research reported in this publication was supported by the <funding-source id="gs1"><institution-wrap><institution-id institution-id-type="doi">10.13039/100009729</institution-id><institution>Ludwig Institute for Cancer Research</institution></institution-wrap></funding-source> (J.S.), the <funding-source id="gs2"><institution-wrap><institution-id institution-id-type="doi">10.13039/100000002</institution-id><institution>NIH</institution></institution-wrap></funding-source> (grants CA217450, CA213273, and CA231997 to J.S., CA257169 to J.H.K.), and the <funding-source id="gs3"><institution-wrap><institution-id institution-id-type="doi">10.13039/100002112</institution-id><institution>A.P. Giannini Foundation</institution></institution-wrap></funding-source> (J.W.K.). The Stanford Stem Cell Institute FACS Core was supported by an <funding-source id="gs4">NIH S10 Shared Instrumentation</funding-source> Grant (1S10RR02933801).</p>
+      <sec id="sec5">
+        <title>Author contributions</title>
+        <p id="p0315">Conceptualization, J.W.K., J.H.K., and J.S.; Methodology, J.W.K. (including scFv molecules) and J.H.K. (including mouse crosses and tumor studies); Formal analysis: J.W.K. (including mathematical modeling) and J.H.K.; Investigation, J.W.K. and J.H.K.; Writing&#160;&#8211; Original Draft, J.W.K., J.H.K., and J.S.; Writing&#160;&#8211; Review and Editing, J.W.K., J.H.K, and J.S.; Funding Acquisition, J.W.K., J.H.K, and J.S.; Visualization: J.W.K. and J.H.K; Supervision: J.S.</p>
+      </sec>
+      <sec sec-type="COI-statement" id="sec6">
+        <title>Declaration of interests</title>
+        <p id="p0320">J.S. received research funding from StemCentrx/AbbVie for the development of the new <italic>Dll3</italic> allele. J.S. has equity in, and is an advisor for, DISCO Pharmaceuticals. The authors declare no other competing interests.</p>
+      </sec>
+      <sec sec-type="inclusion-and-diversity" id="sec7">
+        <title>Inclusion and diversity</title>
+        <p id="p0325">We support inclusive, diverse, and equitable conduct of research.</p>
+      </sec>
+    </ack>
+    <fn-group>
+      <fn id="appsec1" fn-type="supplementary-material">
+        <p id="p0330">Supplemental information can be found online at <ext-link ext-link-type="uri" ns1:href="https://doi.org/10.1016/j.isci.2022.105603" id="intref0045">https://doi.org/10.1016/j.isci.2022.105603</ext-link>.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>
+</pmc-articleset>
